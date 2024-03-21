@@ -1,5 +1,5 @@
 // tailwind.config.js
-const { withTV } = require('tailwind-variants/transformer');
+const { withTV } = require('tailwind-variants/transformer')
 
 /** @type {import('tailwindcss').Config} */
 module.exports = withTV({
@@ -37,8 +37,8 @@ module.exports = withTV({
           800: '#784007',
           900: '#5D3004',
         },
-      }
+      },
     },
-    },
-  plugins: []
+  },
+  plugins: [],
 })
