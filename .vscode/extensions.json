@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "humao.rest-client",
+    "graphql.vscode-graphql",
+    "pmneo.tsimporter",
+    "aaron-bond.better-comments",
+    "pkief.markdown-checkbox",
+  ]
+}

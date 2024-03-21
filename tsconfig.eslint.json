@@ -1,0 +1,8 @@
+{
+  "include": [
+    ".eslintrc.cjs",
+    "tailwind.config.ts",
+    "next.config.mjs"
+  ],
+  "exclude": []
+}
