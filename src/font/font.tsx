@@ -1,13 +1,13 @@
-import { Figtree, Mulish } from 'next/font/google'
+import { Epilogue, Hanken_Grotesk } from 'next/font/google'
 
-export const figtree = Figtree({
+export const hankenGrotesk = Hanken_Grotesk({
   subsets: ['latin'],
-  variable: '--font-figtree',
+  variable: '--font-hanken-grotesk',
   display: 'swap',
 })
 
-export const mulish = Mulish({
+export const epilogue = Epilogue({
   subsets: ['latin'],
-  variable: '--font-mulish',
+  variable: '--font-epilogue',
   display: 'swap',
 })

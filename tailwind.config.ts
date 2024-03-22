@@ -8,8 +8,8 @@ module.exports = withTV({
   theme: {
     extend: {
       fontFamily: {
-        sans: ['var(--font-figtree)'],
-        mono: ['var(--font-mulish)'],
+        sans: ['var(--font-hanken-grotesk)'],
+        'sans-alt': ['var(--font-epilogue)'],
       },
       colors: {
         gray: {
