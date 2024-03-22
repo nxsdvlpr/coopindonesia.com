@@ -1,13 +1,7 @@
-import { HomeFeaturedPrograms } from './featured-programs'
+import { HomeCareer } from './career'
 import { HomeHero } from './hero'
 import HomePublication from './publication'
-import { SponsorHome } from './sponsor'
-import TestimonialHome from './testimonial'
+import { HomeSponsor } from './sponsor'
+import HomeTestimonial from './testimonial'
 
-export {
-  HomeFeaturedPrograms as FeaturedProgramsHome,
-  HomeHero as HeroHome,
-  HomePublication as PublicationHome,
-  SponsorHome,
-  TestimonialHome,
-}
+export { HomeCareer, HomeHero, HomePublication, HomeSponsor, HomeTestimonial }

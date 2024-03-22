@@ -6,7 +6,7 @@ export function HomeHero() {
     <Section>
       <Flexbox>
         <Flexbox flow="col" gap="xl">
-          <Typo size="6xl" color="black">
+          <Typo size="6xl" fontWeight="extrabold" color="black">
             Welcome to LPK Coop Indonesia
           </Typo>
           <Typo size="lg">

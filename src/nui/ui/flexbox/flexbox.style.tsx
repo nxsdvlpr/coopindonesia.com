@@ -15,6 +15,8 @@ export const flexboxStyle = tv({
       lg: 'gap-6',
       xl: 'gap-8',
       '2xl': 'gap-12',
+      '3xl': 'gap-14',
+      '4xl': 'gap-24',
     },
     align: {
       normal: '',

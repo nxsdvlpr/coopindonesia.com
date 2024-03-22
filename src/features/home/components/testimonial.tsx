@@ -1,7 +1,7 @@
 import { Box, Flexbox, Section, SectionTitle, Typo } from '@/nui'
 import Image from 'next/image'
 
-export default function TestimonialHome() {
+export default function HomeTestimonial() {
   return (
     <Section>
       <Flexbox align="normal" justify="normal" flow="col" gap="2xl">
@@ -31,7 +31,9 @@ export default function TestimonialHome() {
                   />
                 </div>
               </Flexbox>
-              <Typo size="xl">Dr. Sugiharto</Typo>
+              <Typo size="xl" color="gray-900" fontWeight="bold">
+                Dr. Sugiharto
+              </Typo>
               <Typo size="md">Menteri BUMN (Periode 2004-2007)</Typo>
               <Typo size="md">
                 LPK COOP Indonesia sebagai salah satu Lembaga Penyelenggara
@@ -66,7 +68,9 @@ export default function TestimonialHome() {
                   />
                 </div>
               </Flexbox>
-              <Typo size="xl">Dr. Sugiharto</Typo>
+              <Typo size="xl" color="gray-900" fontWeight="bold">
+                Dr. Sugiharto
+              </Typo>
               <Typo size="md">Menteri BUMN (Periode 2004-2007)</Typo>
               <Typo size="md">
                 LPK COOP Indonesia sebagai salah satu Lembaga Penyelenggara
@@ -101,7 +105,9 @@ export default function TestimonialHome() {
                   />
                 </div>
               </Flexbox>
-              <Typo size="xl">Dr. Sugiharto</Typo>
+              <Typo size="xl" color="gray-900" fontWeight="bold">
+                Dr. Sugiharto
+              </Typo>
               <Typo size="md">Menteri BUMN (Periode 2004-2007)</Typo>
               <Typo size="md">
                 LPK COOP Indonesia sebagai salah satu Lembaga Penyelenggara

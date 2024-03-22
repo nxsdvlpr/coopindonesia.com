@@ -4,12 +4,16 @@ export const boxStyle = tv({
   base: 'bg-white',
   variants: {
     border: {
-      true: 'border border-gray-200 rounded-2xl',
+      true: 'border border-gray-200',
+    },
+    rounded: {
+      sm: 'rounded-lg',
+      md: 'rounded-2xl',
     },
     padding: {
       xs: '',
       sm: '',
-      md: '',
+      md: 'p-6',
       lg: 'p-8',
       xl: '',
     },

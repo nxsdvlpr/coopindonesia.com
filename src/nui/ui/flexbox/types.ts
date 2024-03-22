@@ -2,7 +2,16 @@ import { ReactNode } from 'react'
 
 export type FlexboxFlow = 'col' | 'row'
 
-export type FlexboxGap = '2xs' | 'xs' | 'sm' | 'md' | 'lg' | 'xl' | '2xl'
+export type FlexboxGap =
+  | '2xs'
+  | 'xs'
+  | 'sm'
+  | 'md'
+  | 'lg'
+  | 'xl'
+  | '2xl'
+  | '3xl'
+  | '4xl'
 
 export type FlexboxAlign = 'normal' | 'start' | 'center' | 'end'
 

@@ -5,5 +5,5 @@ export type SectionProps = {
 }
 
 export function Section({ children }: SectionProps) {
-  return <div className="pb-[120px]">{children}</div>
+  return <section className="pb-[120px]">{children}</section>
 }

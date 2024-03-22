@@ -1,19 +1,25 @@
+import AskedQuestion from '../shared/asked-question'
+import Banner from '../shared/banner'
+import FeaturedPrograms from '../shared/featured-programs'
 import {
-  FeaturedProgramsHome,
-  HeroHome,
-  PublicationHome,
-  SponsorHome,
-  TestimonialHome,
+  HomeCareer,
+  HomeHero,
+  HomePublication,
+  HomeSponsor,
+  HomeTestimonial,
 } from './components'
 
 export default function Home() {
   return (
     <>
-      <HeroHome />
-      <FeaturedProgramsHome />
-      <SponsorHome />
-      <PublicationHome />
-      <TestimonialHome />
+      <HomeHero />
+      <FeaturedPrograms />
+      <HomeSponsor />
+      <HomePublication />
+      <HomeTestimonial />
+      <AskedQuestion />
+      <HomeCareer />
+      <Banner />
     </>
   )
 }

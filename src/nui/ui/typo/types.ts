@@ -1,6 +1,13 @@
 import { ReactNode } from 'react'
 
-export type TypoSize = '6xl' | '5xl' | 'xl' | 'lg' | 'md' | 'sm'
+export type TypoSize = '6xl' | '5xl' | '3xl' | 'xl' | 'lg' | 'md' | 'sm' | 'xs'
+
+export type TypoFontWeight =
+  | 'normal'
+  | 'medium'
+  | 'semibold'
+  | 'bold'
+  | 'extrabold'
 
 export type TypoColor =
   | 'black'
@@ -8,9 +15,12 @@ export type TypoColor =
   | 'gray-700'
   | 'gray-500'
   | 'gray-400'
+  | 'primary-500'
+  | 'primary-700'
 
 export type TypoProps = {
   size?: TypoSize
+  fontWeight?: TypoFontWeight
   color?: TypoColor
   children?: ReactNode
 }
