@@ -1,5 +1,5 @@
 import { Flexbox, Section, SectionTitle } from '@/nui'
-import ListCareer from './list/list'
+import TableCareer from './table'
 
 export function HomeCareer() {
   return (
@@ -9,7 +9,7 @@ export function HomeCareer() {
           Comprehensive programs offering skill development in Japanese language
           and culture, alongside valuable real-world experience in Japan.
         </SectionTitle>
-        <ListCareer />
+        <TableCareer />
       </Flexbox>
     </Section>
   )

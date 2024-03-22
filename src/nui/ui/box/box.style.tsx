@@ -1,7 +1,7 @@
 import { tv } from 'tailwind-variants'
 
 export const boxStyle = tv({
-  base: 'bg-white',
+  base: 'bg-white h-full',
   variants: {
     border: {
       true: 'border border-gray-200',

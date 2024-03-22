@@ -11,7 +11,7 @@ export default function Layout({ children }: LayoutProps) {
       className={`${figtree.variable} ${mulish.variable} font-sans text-sm`}
     >
       <Header />
-      <div className="m-auto max-w-[1200px] overflow-hidden">{children}</div>
+      <div>{children}</div>
       <Footer />
     </body>
   )
