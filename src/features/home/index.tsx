@@ -1,8 +1,5 @@
-import AskedQuestion from '../shared/asked-question'
-import Banner from '../shared/banner'
-import FeaturedPrograms from '../shared/featured-programs'
+import { FeaturedPrograms, AskedQuestion, ThreeCareer, Banner } from '../shared'
 import {
-  HomeCareer,
   HomeHero,
   HomePublication,
   HomeSponsor,
@@ -18,7 +15,7 @@ export default function Home() {
       <HomePublication />
       <HomeTestimonial />
       <AskedQuestion />
-      <HomeCareer />
+      <ThreeCareer />
       <Banner />
     </>
   )

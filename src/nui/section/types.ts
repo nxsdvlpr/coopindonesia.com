@@ -1,6 +1,7 @@
-import { ReactNode } from "react"
+import { ReactNode } from 'react'
 
 export type SectionProps = {
   children?: ReactNode
-  variant?: 'white' | 'gray'
+  variant?: 'none' | 'gray'
+  maxWidth?: 'base' | 'content'
 }

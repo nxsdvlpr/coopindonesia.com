@@ -1,8 +1,6 @@
-import AskedQuestion from '@/features/shared/asked-question'
-import Banner from '@/features/shared/banner'
-import FeaturedPrograms from '@/features/shared/featured-programs'
 import { Flexbox, Markdown, Section, SectionTitle } from '@/nui'
 import Image from 'next/image'
+import { AskedQuestion, Banner, FeaturedPrograms } from '../shared'
 
 export default function AtaGlance() {
   const atAGlance = {

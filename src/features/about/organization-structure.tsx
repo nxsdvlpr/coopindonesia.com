@@ -1,7 +1,5 @@
 import { Flexbox, Section, SectionTitle } from '@/nui'
-import AskedQuestion from '../shared/asked-question'
-import Banner from '../shared/banner'
-import FeaturedPrograms from '../shared/featured-programs'
+import { AskedQuestion, Banner, FeaturedPrograms } from '../shared'
 import OrganizationStructureAgriculture from './organization-structure/agriculture'
 import OrganizationStructureContactInfo from './organization-structure/contact-info'
 import OrganizationStructureDevelopment from './organization-structure/development'

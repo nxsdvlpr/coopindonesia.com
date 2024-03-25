@@ -9,7 +9,7 @@ import {
   Typo,
 } from '@/nui'
 
-export default function TableCareer() {
+export default function ThreeCareerTable() {
   const costs = [
     {
       price: '27,5jt',

@@ -1,7 +1,7 @@
 import { tv } from 'tailwind-variants'
 
 export const markdownStyle = tv({
-  base: 'prose',
+  base: 'prose max-w-max text-base text-gray-700',
   variants: {
     size: {
       sm: 'text-sm',

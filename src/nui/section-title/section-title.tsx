@@ -10,7 +10,7 @@ export default function SectionTitle({
 }: SectionTitleProps) {
   return (
     <Flexbox flow="col" gap="sm">
-      <div className="flex flex-col gap-1 text-center">
+      <div className="flex flex-col gap-3 text-center">
         {info && (
           <Typo size="md" color="primary-500">
             {info}

@@ -1,10 +1,14 @@
-import { sectionStyle } from './section.style'
+import { sectionMainStyle, sectionStyle } from './section.style'
 import { SectionProps } from './types'
 
-export function Section({ variant = 'white', children }: SectionProps) {
+export function Section({
+  maxWidth = 'base',
+  variant = 'none',
+  children,
+}: SectionProps) {
   return (
     <section className={sectionStyle({ variant })}>
-      <div className="m-auto max-w-[75rem]">{children}</div>
+      <div className={sectionMainStyle({ maxWidth })}>{children}</div>
     </section>
   )
 }

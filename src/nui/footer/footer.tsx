@@ -7,7 +7,7 @@ import Partnership from './components/partnership'
 export function Footer() {
   return (
     <div className="border-t border-gray-200">
-      <div className="m-auto flex max-w-[1200px] flex-col gap-16 divide-y divide-gray-200 pb-12 pt-16">
+      <div className="m-auto flex max-w-[80rem] flex-col gap-16 divide-y divide-gray-200 px-10 pb-12 pt-16">
         <Flexbox justify="between">
           <ContactInfo />
           <Flexbox align="start" gap="xl">

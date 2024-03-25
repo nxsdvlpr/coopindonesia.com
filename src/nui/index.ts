@@ -4,6 +4,7 @@ import { Field, Fields } from './field'
 import { Flexbox } from './flexbox'
 import { Footer } from './footer'
 import { Header } from './header'
+import { Icon } from './icon/icon'
 import { Markdown } from './markdown'
 import { Section } from './section'
 import { SectionTitle } from './section-title'
@@ -18,6 +19,7 @@ export {
   Flexbox,
   Footer,
   Header,
+  Icon,
   Markdown,
   Section,
   SectionTitle,

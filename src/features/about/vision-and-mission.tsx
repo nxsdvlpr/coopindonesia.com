@@ -1,8 +1,6 @@
 import { Flexbox, Markdown, Section, SectionTitle, Typo } from '@/nui'
 import Image from 'next/image'
-import AskedQuestion from '../shared/asked-question'
-import Banner from '../shared/banner'
-import FeaturedPrograms from '../shared/featured-programs'
+import { AskedQuestion, Banner, FeaturedPrograms } from '../shared'
 
 export default function VisionMission() {
   const visionAndMission = {

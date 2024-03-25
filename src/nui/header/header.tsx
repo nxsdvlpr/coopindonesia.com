@@ -6,7 +6,7 @@ export function Header() {
   return (
     <>
       <div className="fixed left-0 right-0 top-0 z-30 h-[4.5rem] bg-white">
-        <div className="m-auto flex h-full max-w-6xl items-center justify-between">
+        <div className="m-auto flex h-full max-w-[80rem] items-center justify-between px-10">
           <Link href="/">
             <Image
               width={40}

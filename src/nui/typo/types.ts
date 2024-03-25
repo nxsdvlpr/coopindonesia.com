@@ -1,6 +1,15 @@
 import { ReactNode } from 'react'
 
-export type TypoSize = '6xl' | '5xl' | '3xl' | 'xl' | 'lg' | 'md' | 'sm' | 'xs'
+export type TypoSize =
+  | '6xl'
+  | '5xl'
+  | '3xl'
+  | '2xl'
+  | 'xl'
+  | 'lg'
+  | 'md'
+  | 'sm'
+  | 'xs'
 
 export type TypoFontWeight =
   | 'normal'

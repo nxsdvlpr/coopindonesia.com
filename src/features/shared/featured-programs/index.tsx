@@ -4,7 +4,7 @@ import Card from './components/card'
 type FeaturedProgramsProps = {
   title?: string
   subtitle?: string
-  variant?: 'white' | 'gray'
+  variant?: 'none' | 'gray'
 }
 
 export default function FeaturedPrograms({
