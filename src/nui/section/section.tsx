@@ -1,13 +1,10 @@
-import { ReactNode } from 'react'
+import { sectionStyle } from './section.style'
+import { SectionProps } from './types'
 
-export type SectionProps = {
-  children?: ReactNode
-}
-
-export function Section({ children }: SectionProps) {
+export function Section({ variant = 'white', children }: SectionProps) {
   return (
-    <section className="m-auto mb-[7.5rem] max-w-[75rem] overflow-hidden">
-      {children}
+    <section className={sectionStyle({ variant })}>
+      <div className="m-auto max-w-[75rem]">{children}</div>
     </section>
   )
 }

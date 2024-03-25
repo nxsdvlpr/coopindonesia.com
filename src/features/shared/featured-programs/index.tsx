@@ -1,13 +1,21 @@
 import { Flexbox, Section, SectionTitle } from '@/nui'
 import Card from './components/card'
 
-export default function FeaturedPrograms() {
+type FeaturedProgramsProps = {
+  title?: string
+  subtitle?: string
+  variant?: 'white' | 'gray'
+}
+
+export default function FeaturedPrograms({
+  title = 'COOP Indonesia Programs',
+  subtitle = 'Discover more about our premier programs',
+  variant,
+}: FeaturedProgramsProps) {
   return (
-    <Section>
+    <Section variant={variant}>
       <Flexbox flow="col" gap="2xl">
-        <SectionTitle title="Featured Programs">
-          LPK Coop Indonesia's top choice programs
-        </SectionTitle>
+        <SectionTitle title={title}>{subtitle}</SectionTitle>
 
         <Flexbox align="start" gap="xl">
           <Card
