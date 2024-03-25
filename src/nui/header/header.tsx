@@ -1,11 +1,11 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { Flexbox } from '../ui'
+import { Flexbox } from '../flexbox'
 
 export function Header() {
   return (
     <>
-      <div className="fixed left-0 right-0 top-0 h-[4.5rem] bg-white">
+      <div className="fixed left-0 right-0 top-0 z-30 h-[4.5rem] bg-white">
         <div className="m-auto flex h-full max-w-6xl items-center justify-between">
           <Link href="/">
             <Image

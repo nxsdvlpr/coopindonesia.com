@@ -2,23 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-.markdown-nui > div > ul,
-.markdown-nui > ul {
+.markdown-nui-theme-table > div > ul,
+.markdown-nui-theme-table > ul {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 14px;
   list-style-image: url('/check.svg');
 }
 
-.markdown-nui > p,
-.markdown-nui > div > p {
+.markdown-nui-theme-table > p,
+.markdown-nui-theme-table > div > p {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.markdown-nui > div > ul > li > ul,
-.markdown-nui > ul > li > ul {
+.markdown-nui-theme-table > div > ul > li > ul,
+.markdown-nui-theme-table > ul > li > ul {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 14px;
+}
+
+.markdown-nui-theme > div > ul,
+.markdown-nui-theme > ul {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.markdown-nui-theme > p,
+.markdown-nui-theme > div > p {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.markdown-nui-theme > div > ul > li > ul,
+.markdown-nui-theme > ul > li > ul {
+  margin-top: 12px;
+  margin-bottom: 12px;
 }

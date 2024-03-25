@@ -11,11 +11,11 @@ export const boxStyle = tv({
       md: 'rounded-2xl',
     },
     padding: {
-      xs: '',
-      sm: '',
+      xs: 'p-3',
+      sm: 'p-4',
       md: 'p-6',
       lg: 'p-8',
-      xl: '',
+      xl: 'p-12',
     },
   },
 })

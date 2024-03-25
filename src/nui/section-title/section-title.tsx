@@ -1,20 +1,22 @@
-import { Flexbox, Typo } from '../ui'
+import { Flexbox } from '../flexbox'
+import { Typo } from '../typo'
 import { SectionTitleProps } from './types'
 
 export default function SectionTitle({
   info,
   title,
+  sizeTitle = '5xl',
   children,
 }: SectionTitleProps) {
   return (
     <Flexbox flow="col" gap="sm">
-      <div className="text-center">
+      <div className="flex flex-col gap-1 text-center">
         {info && (
           <Typo size="md" color="primary-500">
             {info}
           </Typo>
         )}
-        <Typo size="6xl" fontWeight="bold" color="black">
+        <Typo size={sizeTitle} fontWeight="bold" color="black">
           {title}
         </Typo>
       </div>

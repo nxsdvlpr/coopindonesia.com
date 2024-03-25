@@ -3,6 +3,7 @@ import { ReactNode } from 'react'
 export type FlexboxFlow = 'col' | 'row'
 
 export type FlexboxGap =
+  | 'none'
   | '2xs'
   | 'xs'
   | 'sm'

@@ -1,4 +1,4 @@
-import { Flexbox } from '../ui'
+import { Flexbox } from '../flexbox'
 import ContactInfo from './components/contact-info'
 import Copyright from './components/copyright'
 import FollowUs from './components/follow-us'

@@ -8,6 +8,7 @@ export const flexboxStyle = tv({
       row: 'flex-row',
     },
     gap: {
+      none: 'gap-0',
       '2xs': 'gap-2',
       xs: 'gap-3',
       sm: 'gap-4',

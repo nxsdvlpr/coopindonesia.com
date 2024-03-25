@@ -1,13 +1,13 @@
 import {
   Button,
   Flexbox,
+  Markdown,
   Table,
   TableBodyCell,
   TableHead,
   TableHeadCell,
   Typo,
 } from '@/nui'
-import Markdown from 'markdown-to-jsx'
 
 export default function TableCareer() {
   const costs = [
@@ -129,9 +129,7 @@ export default function TableCareer() {
                   <span className="text-sm font-normal">Rp</span> {item.price}
                 </Typo>
                 <Button>Daftar</Button>
-                <div className="prose markdown-nui max-w-6xl">
-                  <Markdown>{item.desc}</Markdown>
-                </div>
+                <Markdown variant="table">{item.desc}</Markdown>
               </Flexbox>
             </TableBodyCell>
           ))}
@@ -144,9 +142,7 @@ export default function TableCareer() {
           </TableBodyCell>
           {requirements.map((item, index) => (
             <TableBodyCell background={index === 1} key={index}>
-              <div className="prose markdown-nui max-w-6xl">
-                <Markdown>{item}</Markdown>
-              </div>
+              <Markdown variant="table">{item}</Markdown>
             </TableBodyCell>
           ))}
         </tr>
@@ -158,9 +154,7 @@ export default function TableCareer() {
           </TableBodyCell>
           {periodic.map((item, index) => (
             <TableBodyCell background={index === 1} key={index}>
-              <div className="prose markdown-nui max-w-6xl">
-                <Markdown>{item}</Markdown>
-              </div>
+              <Markdown variant="table">{item}</Markdown>
             </TableBodyCell>
           ))}
         </tr>
@@ -172,9 +166,7 @@ export default function TableCareer() {
           </TableBodyCell>
           {advantages.map((item, index) => (
             <TableBodyCell background={index === 1} key={index}>
-              <div className="prose markdown-nui max-w-6xl">
-                <Markdown>{item}</Markdown>
-              </div>
+              <Markdown variant="table">{item}</Markdown>
             </TableBodyCell>
           ))}
         </tr>
@@ -186,9 +178,7 @@ export default function TableCareer() {
           </TableBodyCell>
           {weakness.map((item, index) => (
             <TableBodyCell background={index === 1} key={index}>
-              <div className="prose markdown-nui max-w-6xl">
-                <Markdown>{item}</Markdown>
-              </div>
+              <Markdown variant="table">{item}</Markdown>
             </TableBodyCell>
           ))}
         </tr>
