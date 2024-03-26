@@ -7,32 +7,20 @@ import 'react-alice-carousel/lib/alice-carousel.css'
 export default function InternshipSelection() {
   const images = [
     {
-      src: '/pre-selection/pre-selection-image-1.png',
-      alt: 'pre-selection-image-1-coop-indonesia',
+      src: '/selection/selection-image-1.png',
+      alt: 'selection-image-1-coop-indonesia',
     },
     {
-      src: '/pre-selection/pre-selection-image-2.png',
-      alt: 'pre-selection-image-2-coop-indonesia',
+      src: '/selection/selection-image-2.png',
+      alt: 'selection-image-2-coop-indonesia',
     },
     {
-      src: '/pre-selection/pre-selection-image-3.png',
-      alt: 'pre-selection-image-3-coop-indonesia',
+      src: '/selection/selection-image-3.png',
+      alt: 'selection-image-3-coop-indonesia',
     },
     {
-      src: '/pre-selection/pre-selection-image-4.png',
-      alt: 'pre-selection-image-4-coop-indonesia',
-    },
-    {
-      src: '/pre-selection/pre-selection-image-5.png',
-      alt: 'pre-selection-image-5-coop-indonesia',
-    },
-    {
-      src: '/pre-selection/pre-selection-image-6.png',
-      alt: 'pre-selection-image-6-coop-indonesia',
-    },
-    {
-      src: '/pre-selection/pre-selection-image-7.png',
-      alt: 'pre-selection-image-7-coop-indonesia',
+      src: '/selection/selection-image-4.png',
+      alt: 'selection-image-4-coop-indonesia',
     },
   ]
 

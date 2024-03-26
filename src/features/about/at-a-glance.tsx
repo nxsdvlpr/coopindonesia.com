@@ -31,7 +31,7 @@ LPK COOP Indonesia meyakini bahwa **Program Pengembangan Usaha Mandiri** melalui
     <>
       <Section>
         <SectionTitle sizeTitle="6xl" info="ABOUT US" title={atAGlance.title}>
-          <Markdown>{atAGlance.subtitle}</Markdown>
+          <Markdown size="lg">{atAGlance.subtitle}</Markdown>
         </SectionTitle>
       </Section>
       <Section>
@@ -42,7 +42,7 @@ LPK COOP Indonesia meyakini bahwa **Program Pengembangan Usaha Mandiri** melalui
                 key={item.alt}
                 className={index === 1 ? 'flex flex-row-reverse' : 'flex '}
               >
-                <Markdown>{item.content}</Markdown>
+                <Markdown size="lg">{item.content}</Markdown>
                 <div className="w-[30rem] shrink-0">
                   <Image
                     width="0"

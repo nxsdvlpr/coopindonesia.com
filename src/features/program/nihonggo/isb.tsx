@@ -6,8 +6,24 @@ import Image from 'next/image'
 export default function NihonggoIsb() {
   const images = [
     {
-      src: '/pre-selection/pre-selection-image-1.png',
-      alt: 'pre-selection-image-1-coop-indonesia',
+      src: '/training/training-image-1.png',
+      alt: 'training-image-1-coop-indonesia',
+    },
+    {
+      src: '/training/training-image-2.png',
+      alt: 'training-image-2-coop-indonesia',
+    },
+    {
+      src: '/training/training-image-3.png',
+      alt: 'training-image-3-coop-indonesia',
+    },
+    {
+      src: '/training/training-image-4.png',
+      alt: 'training-image-4-coop-indonesia',
+    },
+    {
+      src: '/training/training-image-5.png',
+      alt: 'training-image-5-coop-indonesia',
     },
   ]
 
@@ -32,7 +48,7 @@ export default function NihonggoIsb() {
         />
       </Section>
       <Section maxWidth="content">
-        <Flexbox flow="col" gap="md" align="normal">
+        <Flexbox flow="col" gap="lg" align="normal">
           <Typo size="2xl" fontWeight="bold" color="gray-900">
             International School of Business
           </Typo>

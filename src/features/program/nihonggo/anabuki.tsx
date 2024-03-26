@@ -6,8 +6,24 @@ import Image from 'next/image'
 export default function NihonggoAnabuki() {
   const images = [
     {
-      src: '/pre-selection/pre-selection-image-1.png',
-      alt: 'pre-selection-image-1-coop-indonesia',
+      src: '/training/training-image-1.png',
+      alt: 'training-image-1-coop-indonesia',
+    },
+    {
+      src: '/training/training-image-2.png',
+      alt: 'training-image-2-coop-indonesia',
+    },
+    {
+      src: '/training/training-image-3.png',
+      alt: 'training-image-3-coop-indonesia',
+    },
+    {
+      src: '/training/training-image-4.png',
+      alt: 'training-image-4-coop-indonesia',
+    },
+    {
+      src: '/training/training-image-5.png',
+      alt: 'training-image-5-coop-indonesia',
     },
   ]
 
@@ -33,12 +49,12 @@ export default function NihonggoAnabuki() {
         />
       </Section>
       <Section maxWidth="content">
-        <Flexbox flow="col" gap="md" align="normal">
+        <Flexbox flow="col" gap="lg" align="normal">
           <Typo size="2xl" fontWeight="bold" color="gray-900">
             Sekolah Anabuki
           </Typo>
           <Flexbox align="start" gap="md">
-            <div className="mx-auto w-[37.51px]">
+            <div className="mx-auto w-[2.3444rem]">
               <Image
                 width="0"
                 height="0"
@@ -50,7 +66,7 @@ export default function NihonggoAnabuki() {
             </div>
             <Markdown>
               {`**Anabuki College Group** is a vocational school group with 14
-            vocational schools in the Chugoku-Shikoku area. Berikut foto-foto
+            vocational schools in the Chugoku-Shikoku area.<br/><br/> Berikut foto-foto
             kegiatan di sekolah Anabuki`}
             </Markdown>
           </Flexbox>

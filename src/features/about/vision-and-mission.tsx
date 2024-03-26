@@ -34,10 +34,12 @@ export default function VisionMission() {
         <div className="m-auto flex max-w-[50rem] flex-col justify-between gap-12 px-10">
           <Flexbox justify="between" gap="xl">
             <Flexbox align="normal" flow="col" gap="xs">
-              <Typo size="xl" fontWeight="bold" color="gray-900">
+              <Typo size="2xl" fontWeight="bold" color="gray-900">
                 {visionAndMission.vision.title}
               </Typo>
-              <Markdown>{visionAndMission.vision.description}</Markdown>
+              <Markdown size="lg">
+                {visionAndMission.vision.description}
+              </Markdown>
             </Flexbox>
             <div className="w-[300px] shrink-0">
               <Image
@@ -51,10 +53,12 @@ export default function VisionMission() {
             </div>
           </Flexbox>
           <Flexbox align="normal" flow="col" gap="xs">
-            <Typo size="xl" fontWeight="bold" color="gray-900">
+            <Typo size="2xl" fontWeight="bold" color="gray-900">
               {visionAndMission.mission.title}
             </Typo>
-            <Markdown>{visionAndMission.mission.description}</Markdown>
+            <Markdown size="lg">
+              {visionAndMission.mission.description}
+            </Markdown>
           </Flexbox>
         </div>
       </Section>

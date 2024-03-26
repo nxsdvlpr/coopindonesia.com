@@ -6,8 +6,24 @@ import ExploreMoreGalleries from './explore-more-galleries'
 export default function WorkVisit() {
   const images = [
     {
-      src: '/pre-selection/pre-selection-image-1.png',
-      alt: 'pre-selection-image-1-coop-indonesia',
+      src: '/training/training-image-3.png',
+      alt: 'training-image-3-coop-indonesia',
+    },
+    {
+      src: '/training/training-image-1.png',
+      alt: 'training-image-1-coop-indonesia',
+    },
+    {
+      src: '/training/training-image-2.png',
+      alt: 'training-image-2-coop-indonesia',
+    },
+    {
+      src: '/training/training-image-4.png',
+      alt: 'training-image-4-coop-indonesia',
+    },
+    {
+      src: '/training/training-image-5.png',
+      alt: 'training-image-5-coop-indonesia',
     },
   ]
 
