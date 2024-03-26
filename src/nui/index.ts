@@ -6,6 +6,7 @@ import { Footer } from './footer'
 import { Header } from './header'
 import { Icon } from './icon/icon'
 import { Markdown } from './markdown'
+import { MenuButton } from './menu-button'
 import { Section } from './section'
 import { SectionTitle } from './section-title'
 import { Table, TableBodyCell, TableHead, TableHeadCell } from './table'
@@ -21,6 +22,7 @@ export {
   Header,
   Icon,
   Markdown,
+  MenuButton,
   Section,
   SectionTitle,
   Table,
