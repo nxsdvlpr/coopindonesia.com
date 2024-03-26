@@ -2,23 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-.markdown-nui > div > ul,
-.markdown-nui > ul {
+.markdown-nui-theme-table > div > ul,
+.markdown-nui-theme-table > ul {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 14px;
   list-style-image: url('/check.svg');
 }
 
-.markdown-nui > p,
-.markdown-nui > div > p {
+.markdown-nui-theme-table > p,
+.markdown-nui-theme-table > div > p {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.markdown-nui > div > ul > li > ul,
-.markdown-nui > ul > li > ul {
+.markdown-nui-theme-table > div > ul > li > ul,
+.markdown-nui-theme-table > ul > li > ul {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 14px;
+}
+
+.prose :where(p):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.prose :where(ol):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+  list-style-type: decimal;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding-left: 1.625em;
 }

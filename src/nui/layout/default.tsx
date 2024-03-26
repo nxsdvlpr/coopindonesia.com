@@ -1,4 +1,4 @@
-import { figtree, mulish } from '@/font/font'
+import { epilogue, hankenGrotesk } from '@/font/font'
 import { Footer, Header } from '@/nui'
 import { ReactNode } from 'react'
 
@@ -8,7 +8,7 @@ export type LayoutProps = {
 export default function Layout({ children }: LayoutProps) {
   return (
     <body
-      className={`${figtree.variable} ${mulish.variable} font-sans text-sm`}
+      className={`${hankenGrotesk.variable} ${epilogue.variable} font-sans text-sm`}
     >
       <Header />
       <div>{children}</div>
