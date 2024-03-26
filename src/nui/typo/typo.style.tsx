@@ -27,6 +27,7 @@ export const typoStyle = tv({
       'gray-500': 'text-gray-500',
       'gray-400': 'text-gray-400',
       'primary-500': 'text-primary-500',
+      'primary-600': 'text-primary-600',
       'primary-700': 'text-primary-700',
     },
   },

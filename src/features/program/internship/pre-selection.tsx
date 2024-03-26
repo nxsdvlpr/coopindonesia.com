@@ -1,143 +1,55 @@
-'use client'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
-import { Flexbox, Icon, Section, SectionTitle, Typo } from '@/nui'
+import { Flexbox, Section, SectionTitle, Typo } from '@/nui'
+import Carousel from '@/nui/carousel/carousel'
 import Image from 'next/image'
-import { useState } from 'react'
-import AliceCarousel from 'react-alice-carousel'
 import 'react-alice-carousel/lib/alice-carousel.css'
-import '../../../styles/slick-theme.css'
 
-const items = [
-  <Image
-    width="0"
-    height="0"
-    sizes="100vw"
-    className="h-auto w-full"
-    src="/from-our-youtube-channel/from-our-youtube-channel-image-1.png"
-    alt="placement-progress-image-1-coop-indonesia"
-  />,
-  <Image
-    width="0"
-    height="0"
-    sizes="100vw"
-    className="h-auto w-full"
-    src="/from-our-youtube-channel/from-our-youtube-channel-image-2.png"
-    alt="placement-progress-image-1-coop-indonesia"
-  />,
-  <Image
-    width="0"
-    height="0"
-    sizes="100vw"
-    className="h-auto w-full"
-    src="/from-our-youtube-channel/from-our-youtube-channel-image-3.png"
-    alt="placement-progress-image-1-coop-indonesia"
-  />,
-  <Image
-    width="0"
-    height="0"
-    sizes="100vw"
-    className="h-auto w-full"
-    src="/from-our-youtube-channel/from-our-youtube-channel-image-3.png"
-    alt="placement-progress-image-1-coop-indonesia"
-  />,
-  <Image
-    width="0"
-    height="0"
-    sizes="100vw"
-    className="h-auto w-full"
-    src="/from-our-youtube-channel/from-our-youtube-channel-image-3.png"
-    alt="placement-progress-image-1-coop-indonesia"
-  />,
-  <Image
-    width="0"
-    height="0"
-    sizes="100vw"
-    className="h-auto w-full"
-    src="/from-our-youtube-channel/from-our-youtube-channel-image-3.png"
-    alt="placement-progress-image-1-coop-indonesia"
-  />,
-  <Image
-    width="0"
-    height="0"
-    sizes="100vw"
-    className="h-auto w-full"
-    src="/from-our-youtube-channel/from-our-youtube-channel-image-3.png"
-    alt="placement-progress-image-1-coop-indonesia"
-  />,
-  <Image
-    width="0"
-    height="0"
-    sizes="100vw"
-    className="h-auto w-full"
-    src="/from-our-youtube-channel/from-our-youtube-channel-image-3.png"
-    alt="placement-progress-image-1-coop-indonesia"
-  />,
-  <Image
-    width="0"
-    height="0"
-    sizes="100vw"
-    className="h-auto w-full"
-    src="/from-our-youtube-channel/from-our-youtube-channel-image-3.png"
-    alt="placement-progress-image-1-coop-indonesia"
-  />,
-]
+export default function InternshipPreSelection() {
+  const images = [
+    {
+      src: '/pre-selection/pre-selection-image-1.png',
+      alt: 'pre-selection-image-1-coop-indonesia',
+    },
+    {
+      src: '/pre-selection/pre-selection-image-2.png',
+      alt: 'pre-selection-image-2-coop-indonesia',
+    },
+    {
+      src: '/pre-selection/pre-selection-image-3.png',
+      alt: 'pre-selection-image-3-coop-indonesia',
+    },
+    {
+      src: '/pre-selection/pre-selection-image-4.png',
+      alt: 'pre-selection-image-4-coop-indonesia',
+    },
+    {
+      src: '/pre-selection/pre-selection-image-5.png',
+      alt: 'pre-selection-image-5-coop-indonesia',
+    },
+    {
+      src: '/pre-selection/pre-selection-image-6.png',
+      alt: 'pre-selection-image-6-coop-indonesia',
+    },
+    {
+      src: '/pre-selection/pre-selection-image-7.png',
+      alt: 'pre-selection-image-7-coop-indonesia',
+    },
+  ]
 
-const thumbItems = (items: any, [setThumbIndex, setThumbAnimation]: any) => {
-  return items.map((item: any, i: any) => (
-    <div
-      className="pr-4 w-fit"
-      onClick={() => (setThumbIndex(i), setThumbAnimation(true))}
-    >
-      <div className="w-[120px] overflow-hidden rounded-lg">{item}</div>
+  const items = images.map((image, i) => (
+    <div className="h-[450px] w-full overflow-hidden">
+      <Image
+        key={i}
+        width="0"
+        height="0"
+        sizes="100vw"
+        className="h-auto w-full overflow-hidden rounded-lg"
+        src={image.src}
+        alt={image.alt}
+      />
     </div>
   ))
-}
-export default function InternshipPreSelection() {
-  const [mainIndex, setMainIndex] = useState(0)
-  const [mainAnimation, setMainAnimation] = useState(false)
-  const [thumbIndex, setThumbIndex] = useState(0)
-  const [thumbAnimation, setThumbAnimation] = useState(false)
-  const [thumbs] = useState(
-    thumbItems(items, [setThumbIndex, setThumbAnimation])
-  )
 
-  const slideNext = () => {
-    if (!thumbAnimation && thumbIndex < thumbs.length - 1) {
-      setThumbAnimation(true)
-      setThumbIndex(thumbIndex + 1)
-    }
-  }
-
-  const slidePrev = () => {
-    if (!thumbAnimation && thumbIndex > 0) {
-      setThumbAnimation(true)
-      setThumbIndex(thumbIndex - 1)
-    }
-  }
-
-  const syncMainBeforeChange = (e: any) => {
-    setMainAnimation(true)
-  }
-
-  const syncMainAfterChange = (e: any) => {
-    setMainAnimation(false)
-
-    if (e.type === 'action') {
-      setThumbIndex(e.item)
-      setThumbAnimation(false)
-    } else {
-      setMainIndex(thumbIndex)
-    }
-  }
-
-  const syncThumbs = (e: any) => {
-    setThumbIndex(e.item)
-    setThumbAnimation(false)
-
-    if (!mainAnimation) {
-      setMainIndex(e.item)
-    }
-  }
   return (
     <>
       <Section>
@@ -162,49 +74,7 @@ export default function InternshipPreSelection() {
           </Typo>
         </Flexbox>
         <div className="h-6" />
-
-        <div className="relative">
-          <AliceCarousel
-            activeIndex={mainIndex}
-            animationType="fadeout"
-            animationDuration={800}
-            disableDotsControls
-            disableButtonsControls
-            items={items}
-            infinite
-            mouseTracking={!thumbAnimation}
-            onSlideChange={syncMainBeforeChange}
-            onSlideChanged={syncMainAfterChange}
-            touchTracking={!thumbAnimation}
-          />
-          <button
-            type="button"
-            className="absolute left-4 top-1/2 flex items-center justify-center rounded-full bg-black p-1 text-white"
-            onClick={slidePrev}
-          >
-            <Icon icon="lucide:chevron-left" />
-          </button>
-          <button
-            type="button"
-            className="absolute right-4 top-1/2 flex items-center justify-center rounded-full bg-black p-1 text-white"
-            onClick={slideNext}
-          >
-            <Icon icon="lucide:chevron-right" />
-          </button>
-        </div>
-        <div className="h-10">
-          <AliceCarousel
-            activeIndex={thumbIndex}
-            autoWidth
-            disableDotsControls
-            infinite
-            disableButtonsControls
-            items={thumbs}
-            mouseTracking={false}
-            onSlideChanged={syncThumbs}
-            touchTracking={!mainAnimation}
-          />
-        </div>
+        <Carousel items={items} />
       </Section>
       <FeaturedPrograms variant="gray" />
       <AskedQuestion />

@@ -25,6 +25,7 @@ export type TypoColor =
   | 'gray-500'
   | 'gray-400'
   | 'primary-500'
+  | 'primary-600'
   | 'primary-700'
 
 export type TypoProps = {
