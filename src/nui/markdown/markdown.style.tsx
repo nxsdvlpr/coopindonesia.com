@@ -6,6 +6,7 @@ export const markdownStyle = tv({
     size: {
       sm: 'text-sm',
       md: 'text-base',
+      lg: 'text-lg',
     },
     variant: {
       table: 'markdown-nui-theme-table',

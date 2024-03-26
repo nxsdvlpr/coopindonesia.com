@@ -8,16 +8,25 @@ export default function Partnership() {
         Partnership
       </Typo>
       <Flexbox align="start" flow="col" gap="xs">
-        <FooterLink href="/" src="/partnership/4me.svg">
+        <FooterLink
+          href="https://gakken-nihongo4me.jp/"
+          src="/partnership/4me.svg"
+        >
           Gakken Nihongo 4Me E-learning
         </FooterLink>
-        <FooterLink href="/" src="/partnership/re-net.svg">
+        <FooterLink href="https://corp.renet.jp/" src="/partnership/re-net.svg">
           Re Net
         </FooterLink>
-        <FooterLink href="/" src="/partnership/ntt-docomo.svg">
+        <FooterLink
+          href="https://www.ntt.com/business/lp/topgun.html?rdl=1"
+          src="/partnership/ntt-docomo.svg"
+        >
           NTT Docomo
         </FooterLink>
-        <FooterLink href="/" src="/partnership/balittas-malang.svg">
+        <FooterLink
+          href="http://balittas.litbang.pertanian.go.id/index.php"
+          src="/partnership/balittas-malang.svg"
+        >
           BALITTAS Malang
         </FooterLink>
       </Flexbox>

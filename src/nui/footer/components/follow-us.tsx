@@ -3,22 +3,34 @@ import FooterLink from './link'
 
 export default function FollowUs() {
   return (
-    <div className="w-[155px]">
+    <div className="w-[9.6875rem]">
       <Flexbox align="start" flow="col" gap="sm">
         <Typo size="sm" fontWeight="semibold" color="gray-900">
           Follow Us
         </Typo>
         <Flexbox align="start" flow="col" gap="xs">
-          <FooterLink href="/" src="/follow-us/facebook.svg">
+          <FooterLink
+            href="https://www.facebook.com/lpkcoopindonesia/"
+            src="/follow-us/facebook.svg"
+          >
             Facebook
           </FooterLink>
-          <FooterLink href="/" src="/follow-us/twitter.svg">
+          <FooterLink
+            href="https://twitter.com/coop_indonesia"
+            src="/follow-us/twitter.svg"
+          >
             Twitter
           </FooterLink>
-          <FooterLink href="/" src="/follow-us/youtube.svg">
+          <FooterLink
+            href="https://www.youtube.com/@coopindonesia"
+            src="/follow-us/youtube.svg"
+          >
             Youtube
           </FooterLink>
-          <FooterLink href="/" src="/follow-us/instagram.svg">
+          <FooterLink
+            href="https://www.instagram.com/coopindonesia/"
+            src="/follow-us/instagram.svg"
+          >
             Instagram
           </FooterLink>
         </Flexbox>

@@ -6,13 +6,15 @@ import { Flexbox } from '..'
 import NextArrow from './components/next-arrow'
 import PrevArrow from './components/prev-arrow'
 
+import 'react-alice-carousel/lib/alice-carousel.css'
+
 const thumbItems = (items: any, [setThumbIndex, setThumbAnimation]: any) => {
   return items.map((item: any, i: any) => (
     <div
       className="w-fit pr-4"
       onClick={() => (setThumbIndex(i), setThumbAnimation(true))}
     >
-      <div className="h-[90px] w-[7.5rem] overflow-hidden rounded-lg">
+      <div className="h-[90px] w-[120px] overflow-hidden rounded-lg">
         {item}
       </div>
     </div>
@@ -72,7 +74,7 @@ export default function Carousel({ items }: CarouselProps) {
 
   return (
     <Flexbox flow="col" gap="md" align="normal">
-      <div className="relative">
+      <div className="relative h-[28.125rem] overflow-hidden rounded-lg">
         <AliceCarousel
           activeIndex={mainIndex}
           animationType="fadeout"

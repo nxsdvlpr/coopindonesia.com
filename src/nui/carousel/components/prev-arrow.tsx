@@ -11,7 +11,7 @@ export default function PrevArrow({ onClick }: PrevArrowProps) {
       className="absolute left-4 top-1/2 flex items-center justify-center rounded-full bg-white p-1 text-gray-700"
       onClick={onClick}
     >
-      <Icon size="sm" icon="lucide:chevron-right" />
+      <Icon size="sm" icon="lucide:chevron-left" />
     </button>
   )
 }

@@ -23,11 +23,6 @@
   font-size: 14px;
 }
 
-.prose :where(p):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
-  margin-top: 12px;
-  margin-bottom: 12px;
-}
-
 .prose :where(ol):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
   list-style-type: decimal;
   margin-top: 12px;
