@@ -25,13 +25,13 @@ export default function MenuGallery() {
       id: 3,
       label: 'Kegiatan Magang',
       description: 'Foto-foto peserta dalam kegiatan magang',
-      link: 'gallery/internship-activities',
+      link: '/gallery/internship-activities',
     },
     {
       id: 4,
       label: 'Pusdiklat Magang',
       description: 'Foto-foto kegiatan di pusdiklat magang',
-      link: 'gallery/training-center',
+      link: '/gallery/training-center',
     },
   ]
 

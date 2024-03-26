@@ -8,7 +8,7 @@ export default function MenuProgramSchool({ onclose }: MenuProgramSchoolProps) {
   return (
     <div className="w-[43rem] border-l border-primary-50 p-8">
       <Link
-        href="/"
+        href="/program/nihonggo"
         onClick={onclose}
         className="flex flex-col gap-y-3 rounded-lg p-4 hover:bg-primary-25"
       >
@@ -22,7 +22,7 @@ export default function MenuProgramSchool({ onclose }: MenuProgramSchoolProps) {
       </Link>
       <Flexbox align="normal" justify="between">
         <Link
-          href="/"
+          href="/program/nihonggo/anabuki"
           onClick={onclose}
           className="flex w-1/2 flex-col gap-y-3 rounded-lg p-4 hover:bg-primary-25"
         >
@@ -35,7 +35,7 @@ export default function MenuProgramSchool({ onclose }: MenuProgramSchoolProps) {
           </Typo>
         </Link>
         <Link
-          href="/"
+          href="/program/nihonggo/isb"
           onClick={onclose}
           className="flex w-1/2 flex-col gap-y-3 rounded-lg p-4 hover:bg-primary-25"
         >

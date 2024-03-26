@@ -8,16 +8,16 @@ export default function MenuProgramBusiness({
   onclose,
 }: MenuProgramBusinessProps) {
   const menuItems = [
-    { href: '/', label: 'Pendahuluan' },
+    { href: '/program/post-internship', label: 'Pendahuluan' },
     {
-      href: '/',
+      href: '/program/post-internship/furusato-agribisnis',
       label: 'Furusato Agribisnis',
     },
     {
-      href: '/',
+      href: '/program/post-internship/palm-sugar',
       label: 'Gula Aren',
     },
-    { href: '/', label: 'Roselindo Tea' },
+    { href: '/program/post-internship/roselindo-tea', label: 'Roselindo Tea' },
   ]
 
   return (

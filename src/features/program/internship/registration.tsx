@@ -20,10 +20,10 @@ export default function InternshipRegistration() {
       <Section maxWidth="content">
         <Flexbox flow="col" gap="2xl">
           <Requirement />
-          <div className="h-1 border-b border-gray-200" />
+          <div className="h-1 w-full border-b border-gray-200" />
           <HowToRegistration />
           <Info />
-          <div className="h-1 border-b border-gray-200" />
+          <div className="h-1 w-full border-b border-gray-200" />
           <Address />
         </Flexbox>
       </Section>

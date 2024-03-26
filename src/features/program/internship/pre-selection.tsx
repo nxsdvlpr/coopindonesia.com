@@ -2,7 +2,6 @@ import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
 import { Flexbox, Section, SectionTitle, Typo } from '@/nui'
 import Carousel from '@/nui/carousel/carousel'
 import Image from 'next/image'
-import 'react-alice-carousel/lib/alice-carousel.css'
 
 export default function InternshipPreSelection() {
   const images = [
@@ -37,17 +36,15 @@ export default function InternshipPreSelection() {
   ]
 
   const items = images.map((image, i) => (
-    <div className="h-[450px] w-full overflow-hidden">
-      <Image
-        key={i}
-        width="0"
-        height="0"
-        sizes="100vw"
-        className="h-auto w-full overflow-hidden rounded-lg"
-        src={image.src}
-        alt={image.alt}
-      />
-    </div>
+    <Image
+      key={i}
+      width="0"
+      height="0"
+      sizes="100vw"
+      className="h-full w-full rounded-lg object-cover"
+      src={image.src}
+      alt={image.alt}
+    />
   ))
 
   return (

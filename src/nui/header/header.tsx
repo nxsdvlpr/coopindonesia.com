@@ -4,7 +4,7 @@ import { Flexbox } from '../flexbox'
 import MenuAbout from './components/about'
 import MenuGallery from './components/gallery'
 import { MenuProgram } from './components/program'
-import MenuPublications from './components/publications'
+import MenuPublication from './components/publication'
 
 export function Header() {
   return (
@@ -26,7 +26,7 @@ export function Header() {
               Home
             </Link>
             <MenuProgram />
-            <MenuPublications />
+            <MenuPublication />
             <MenuGallery />
             <MenuAbout />
             <Link

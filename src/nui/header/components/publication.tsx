@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 import { Item } from 'react-stately'
 
-export default function MenuPublications() {
+export default function MenuPublication() {
   const [isOpen, setIsOpen] = useState(false)
 
   const menuItems = [
@@ -13,21 +13,21 @@ export default function MenuPublications() {
       id: 1,
       label: 'Vlog',
       description: 'Watch our latest video log on YouTube',
-      link: '/publications/vlog',
+      link: '/publication/vlog',
       icon: 'lucide:play',
     },
     {
       id: 2,
       label: 'From Our Social Media Account',
       description: 'Updates from our Instagram',
-      link: '/publications/vlog',
+      link: '/publication/instagram',
       icon: 'lucide:newspaper',
     },
   ]
 
   return (
     <MenuButton
-      label="Publications"
+      label="Publication"
       placement="bottom right"
       items={menuItems}
       isOpen={isOpen}
