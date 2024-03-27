@@ -50,10 +50,10 @@ export default function Vlog() {
             src="/from-our-youtube-channel/from-our-youtube-channel-image-1.png"
             alt="from-our-youtube-channel-image-1-coop-indonesia"
           />
-          <div className="grid grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 gap-6 lg:grid-cols-4 lg:gap-8">
             {vlogs.map((item, index) => (
               <div key={index} className="flex h-fit flex-col gap-4">
-                <div className="h-[155px]">
+                <div className="h-[5.625rem] lg:h-[9.6875rem]">
                   <Image
                     width="0"
                     height="0"

@@ -1,7 +1,5 @@
-import { Flexbox, Typo } from '@/nui'
+import { Flexbox, Icon, Typo } from '@/nui'
 import Image from 'next/image'
-import MailIcon from '../../../../public/icon/mail'
-import PhoneIcon from '../../../../public/icon/phone'
 
 export default function ContactInfo() {
   return (
@@ -21,7 +19,7 @@ export default function ContactInfo() {
           <Flexbox gap="2xs" align="start" flow="col">
             <Flexbox align="center" gap="xs">
               <div className="h-4 w-4 text-gray-500">
-                <PhoneIcon />
+                <Icon size="sm" icon="lucide:phone" />
               </div>
               <Typo size="sm" fontWeight="medium" color="gray-900">
                 +62 21 29501010
@@ -29,7 +27,7 @@ export default function ContactInfo() {
             </Flexbox>
             <Flexbox align="center" gap="xs">
               <div className="h-4 w-4 text-gray-500">
-                <MailIcon />
+                <Icon size="sm" icon="lucide:mail" />
               </div>
               <Typo size="sm" fontWeight="medium" color="gray-900">
                 mail@coopindonesia.com

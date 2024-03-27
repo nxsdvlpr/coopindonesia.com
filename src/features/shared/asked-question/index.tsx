@@ -8,86 +8,79 @@ import Card from './components/card'
 export default function AskedQuestion() {
   const [isOpen, setIsOpen] = useState('cardOne')
 
+  const askedQuestion = {
+    title: 'Frequently Asked Question',
+    subtitle: 'Answers to your common questions.',
+    questions: [
+      {
+        title: 'Apa itu COOP Indonesia?',
+        id: 'cardOne',
+        content:
+          'LPK COOP Indonesia sebagai salah satu Lembaga Penyelenggara Pemagangan ke Luar Negeri atau Sending Organization (SO) memberi peluang bagi pemuda(i) Indonesia untuk ditempatkan pada perusahaan-perusahaan di Jepang untuk mengikuti program pemagangan dalam rangka meningkatkan kualitas dan kompetensi diri.',
+      },
+      {
+        title: 'Apa saja program COOP Indonesia?',
+        id: 'cardTwo',
+        content:
+          'LPK COOP Indonesia sebagai salah satu Lembaga Penyelenggara Pemagangan ke Luar Negeri atau Sending Organization (SO) memberi peluang bagi pemuda(i) Indonesia untuk ditempatkan pada perusahaan-perusahaan di Jepang untuk mengikuti program pemagangan dalam rangka meningkatkan kualitas dan kompetensi diri.',
+      },
+      {
+        title: 'Bagaimana cara mendaftar programnya?',
+        id: 'cardThree',
+        content:
+          'LPK COOP Indonesia sebagai salah satu Lembaga Penyelenggara Pemagangan ke Luar Negeri atau Sending Organization (SO) memberi peluang bagi pemuda(i) Indonesia untuk ditempatkan pada perusahaan-perusahaan di Jepang untuk mengikuti program pemagangan dalam rangka meningkatkan kualitas dan kompetensi diri.',
+      },
+      {
+        title: 'Apa saja syarat-syarat yang harus dilengkapi?',
+        id: 'cardFour',
+        content:
+          'LPK COOP Indonesia sebagai salah satu Lembaga Penyelenggara Pemagangan ke Luar Negeri atau Sending Organization (SO) memberi peluang bagi pemuda(i) Indonesia untuk ditempatkan pada perusahaan-perusahaan di Jepang untuk mengikuti program pemagangan dalam rangka meningkatkan kualitas dan kompetensi diri.',
+      },
+      {
+        title:
+          'Berapa biaya yang harus dikeluarkan untuk mengikuti program ini?',
+        id: 'cardFive',
+        content:
+          'LPK COOP Indonesia sebagai salah satu Lembaga Penyelenggara Pemagangan ke Luar Negeri atau Sending Organization (SO) memberi peluang bagi pemuda(i) Indonesia untuk ditempatkan pada perusahaan-perusahaan di Jepang untuk mengikuti program pemagangan dalam rangka meningkatkan kualitas dan kompetensi diri.',
+      },
+    ],
+    image: {
+      src: '/asked-question-image.svg',
+      alt: 'asked-question-image-coop-indonesia',
+    },
+  }
+
+  const { title, subtitle, questions, image } = askedQuestion
+
   return (
     <Section>
       <Flexbox align="normal" flow="col" gap="2xl">
-        <SectionTitle title="Frequently Asked Question">
-          Answers to your common questions.
-        </SectionTitle>
-        <Flexbox align="normal" justify="between" gap="lg">
+        <SectionTitle title={title}>{subtitle}</SectionTitle>
+        <div className="flex flex-col gap-8 lg:flex-row">
           <div className="flex w-full flex-col gap-6">
-            <Card
-              title="Apa itu COOP Indonesia?"
-              id="cardOne"
-              isOpen={isOpen}
-              setIsOpen={setIsOpen}
-            >
-              LPK COOP Indonesia sebagai salah satu Lembaga Penyelenggara
-              Pemagangan ke Luar Negeri atau Sending Organization (SO) memberi
-              peluang bagi pemuda(i) Indonesia untuk ditempatkan pada
-              perusahaan-perusahaan di Jepang untuk mengikuti program pemagangan
-              dalam rangka meningkatkan kualitas dan kompetensi diri.
-            </Card>
-            <Card
-              title="Apa saja program COOP Indonesia?"
-              id="cardTwo"
-              isOpen={isOpen}
-              setIsOpen={setIsOpen}
-            >
-              LPK COOP Indonesia sebagai salah satu Lembaga Penyelenggara
-              Pemagangan ke Luar Negeri atau Sending Organization (SO) memberi
-              peluang bagi pemuda(i) Indonesia untuk ditempatkan pada
-              perusahaan-perusahaan di Jepang untuk mengikuti program pemagangan
-              dalam rangka meningkatkan kualitas dan kompetensi diri.
-            </Card>
-            <Card
-              title="Bagaimana cara mendaftar programnya?"
-              id="cardThree"
-              isOpen={isOpen}
-              setIsOpen={setIsOpen}
-            >
-              LPK COOP Indonesia sebagai salah satu Lembaga Penyelenggara
-              Pemagangan ke Luar Negeri atau Sending Organization (SO) memberi
-              peluang bagi pemuda(i) Indonesia untuk ditempatkan pada
-              perusahaan-perusahaan di Jepang untuk mengikuti program pemagangan
-              dalam rangka meningkatkan kualitas dan kompetensi diri.
-            </Card>
-            <Card
-              title="Apa saja syarat-syarat yang harus dilengkapi?"
-              id="cardFour"
-              isOpen={isOpen}
-              setIsOpen={setIsOpen}
-            >
-              LPK COOP Indonesia sebagai salah satu Lembaga Penyelenggara
-              Pemagangan ke Luar Negeri atau Sending Organization (SO) memberi
-              peluang bagi pemuda(i) Indonesia untuk ditempatkan pada
-              perusahaan-perusahaan di Jepang untuk mengikuti program pemagangan
-              dalam rangka meningkatkan kualitas dan kompetensi diri.
-            </Card>
-            <Card
-              title="Berapa biaya yang harus dikeluarkan untuk mengikuti program ini?"
-              id="cardFive"
-              isOpen={isOpen}
-              setIsOpen={setIsOpen}
-            >
-              LPK COOP Indonesia sebagai salah satu Lembaga Penyelenggara
-              Pemagangan ke Luar Negeri atau Sending Organization (SO) memberi
-              peluang bagi pemuda(i) Indonesia untuk ditempatkan pada
-              perusahaan-perusahaan di Jepang untuk mengikuti program pemagangan
-              dalam rangka meningkatkan kualitas dan kompetensi diri.
-            </Card>
+            {questions.map((question, index) => (
+              <Card
+                key={index}
+                id={question.id}
+                title={question.title}
+                isOpen={isOpen}
+                setIsOpen={setIsOpen}
+              >
+                {question.content}
+              </Card>
+            ))}
           </div>
-          <div className="h-[21.875rem] w-[25rem] shrink-0 overflow-hidden">
+          <div className="shrink-0 overflow-hidden lg:h-[21.875rem] lg:w-[25rem]">
             <Image
               width="0"
               height="0"
               sizes="100vw"
               className="h-full w-full"
-              src="/asked-question-image.svg"
-              alt="asked-question-image-coop-indonesia"
+              src={image.src}
+              alt={image.alt}
             />
           </div>
-        </Flexbox>
+        </div>
       </Flexbox>
     </Section>
   )

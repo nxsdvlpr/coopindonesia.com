@@ -1,28 +1,33 @@
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
-import { Flexbox, Section, SectionTitle, Typo } from '@/nui'
+import { Flexbox, Markdown, Section, SectionTitle, Typo } from '@/nui'
 import Carousel from '@/nui/carousel/carousel'
 import Image from 'next/image'
-import 'react-alice-carousel/lib/alice-carousel.css'
 
 export default function InternshipSelection() {
-  const images = [
-    {
-      src: '/selection/selection-image-1.png',
-      alt: 'selection-image-1-coop-indonesia',
+  const internshipSelection = {
+    info: 'PROGRAM PEMAGANGAN KE JEPANG',
+    title: 'Seleksi',
+    images: [
+      {
+        src: '/selection/selection-image-2.png',
+        alt: 'selection-image-2-coop-indonesia',
+      },
+      {
+        src: '/selection/selection-image-3.png',
+        alt: 'selection-image-3-coop-indonesia',
+      },
+      {
+        src: '/selection/selection-image-4.png',
+        alt: 'selection-image-4-coop-indonesia',
+      },
+    ],
+    content: {
+      title: 'Kegiatan Seleksi',
+      body: 'Merupakan kegiatan seleksi yang diadakan langsung oleh Perusahaan Penerima dari Jepang untuk mencari Calon Peserta yang telah melewati tahap **Pra Seleksi COOP Indonesia**.\n\nBerikut foto-foto kegiatan seleksi di LPK Coop Indonesia',
     },
-    {
-      src: '/selection/selection-image-2.png',
-      alt: 'selection-image-2-coop-indonesia',
-    },
-    {
-      src: '/selection/selection-image-3.png',
-      alt: 'selection-image-3-coop-indonesia',
-    },
-    {
-      src: '/selection/selection-image-4.png',
-      alt: 'selection-image-4-coop-indonesia',
-    },
-  ]
+  }
+
+  const { info, title, images, content } = internshipSelection
 
   const items = images.map((image, i) => (
     <Image
@@ -39,24 +44,14 @@ export default function InternshipSelection() {
   return (
     <>
       <Section>
-        <SectionTitle
-          sizeTitle="6xl"
-          info="PROGRAM PEMAGANGAN KE JEPANG"
-          title="Seleksi"
-        />
+        <SectionTitle sizeTitle="6xl" info={info} title={title} />
       </Section>
       <Section maxWidth="content">
-        <Flexbox flow="col" gap="xs" align="normal">
+        <Flexbox flow="col" gap="none" align="normal">
           <Typo size="2xl" fontWeight="bold" color="gray-900">
-            Kegiatan Seleksi
+            {content.title}
           </Typo>
-          <Typo size="lg">
-            Merupakan kegiatan seleksi yang diadakan langsung oleh Perusahaan
-            Penerima dari Jepang untuk mencari Calon Peserta yang telah melewati
-            tahap <strong>Pra Seleksi COOP Indonesia</strong>.
-            <br />
-            <br /> Berikut foto-foto kegiatan seleksi di LPK Coop Indonesia
-          </Typo>
+          <Markdown size="lg">{content.body}</Markdown>
         </Flexbox>
         <div className="h-6" />
         <Carousel items={items} />

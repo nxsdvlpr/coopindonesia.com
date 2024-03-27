@@ -1,5 +1,5 @@
-import { Flexbox } from '../flexbox'
 import { Typo } from '../typo'
+import { sectionTitleStyle } from './section-title.style'
 import { SectionTitleProps } from './types'
 
 export default function SectionTitle({
@@ -8,9 +8,11 @@ export default function SectionTitle({
   sizeTitle = '5xl',
   children,
 }: SectionTitleProps) {
+  const { wrapper, container, main } = sectionTitleStyle()
+
   return (
-    <Flexbox flow="col" gap="sm">
-      <div className="flex flex-col gap-2 text-center">
+    <div className={wrapper()}>
+      <div className={container()}>
         {info && (
           <Typo size="md" color="primary-500">
             {info}
@@ -21,12 +23,12 @@ export default function SectionTitle({
         </Typo>
       </div>
       {children && (
-        <div className="max-w-[50rem] text-center">
+        <div className={main()}>
           <Typo size="lg" color="gray-500">
             {children}
           </Typo>
         </div>
       )}
-    </Flexbox>
+    </div>
   )
 }

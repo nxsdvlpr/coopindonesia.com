@@ -16,14 +16,6 @@ export default function PostInternshipPalmSugar() {
     },
     images: [
       {
-        src: '/training/training-image-6.png',
-        alt: 'training-image-6-coop-indonesia',
-      },
-      {
-        src: '/training/training-image-1.png',
-        alt: 'training-image-1-coop-indonesia',
-      },
-      {
         src: '/training/training-image-2.png',
         alt: 'training-image-2-coop-indonesia',
       },
@@ -71,10 +63,10 @@ export default function PostInternshipPalmSugar() {
         makdown={content.body}
       >
         <Flexbox flow="col" gap="none" align="normal">
-          <Typo size="lg" fontWeight="bold" color="gray-900">
+          <Typo size="2xl" fontWeight="bold" color="gray-900">
             {benefits.title}
           </Typo>
-          <Markdown>{benefits.body}</Markdown>
+          <Markdown size="lg">{benefits.body}</Markdown>
         </Flexbox>
       </PostInternshipContent>
       <FeaturedPrograms variant="gray" />

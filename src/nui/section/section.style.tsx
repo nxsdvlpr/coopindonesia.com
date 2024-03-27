@@ -1,7 +1,7 @@
 import { tv } from 'tailwind-variants'
 
 export const sectionStyle = tv({
-  base: 'mb-[7.5rem]',
+  base: 'mb-16 lg:mb-[7.5rem]',
   variants: {
     variant: {
       none: 'bg-none',
@@ -11,11 +11,11 @@ export const sectionStyle = tv({
 })
 
 export const sectionMainStyle = tv({
-  base: 'm-auto px-10',
+  base: 'm-auto px-4 lg:px-10',
   variants: {
     maxWidth: {
-      base: 'max-w-[80rem]',
-      content: 'max-w-[50rem]',
+      base: 'max-w-2xl lg:max-w-[80rem]',
+      content: 'max-w-2xl lg:max-w-[50rem]',
     },
   },
 })

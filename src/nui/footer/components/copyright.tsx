@@ -1,10 +1,13 @@
 import { Flexbox, Typo } from '@/nui'
 import Link from 'next/link'
+import { copyrightStyle } from './copyright.style'
 
 export default function Copyright() {
+  const { wrapper, main } = copyrightStyle()
+
   return (
-    <div className="pt-8">
-      <Flexbox justify="between">
+    <div className={wrapper()}>
+      <div className={main()}>
         <Typo size="sm" color="gray-400">
           Copyright © 2010 - 2023 LPK Coop Indonesia All Rights Reserved
         </Typo>
@@ -28,7 +31,7 @@ export default function Copyright() {
             Cookies
           </Link>
         </Flexbox>
-      </Flexbox>
+      </div>
     </div>
   )
 }

@@ -3,18 +3,21 @@ import ContactInfo from './components/contact-info'
 import Copyright from './components/copyright'
 import FollowUs from './components/follow-us'
 import Partnership from './components/partnership'
+import { footerStyle } from './footer.style'
 
 export function Footer() {
+  const { wrapper, container, main } = footerStyle()
+
   return (
-    <div className="border-t border-gray-200">
-      <div className="m-auto flex max-w-[80rem] flex-col gap-16 divide-y divide-gray-200 px-10 pb-12 pt-16">
-        <Flexbox justify="between">
+    <div className={wrapper()}>
+      <div className={container()}>
+        <div className={main()}>
           <ContactInfo />
           <Flexbox align="start" gap="xl">
             <FollowUs />
             <Partnership />
           </Flexbox>
-        </Flexbox>
+        </div>
         <Copyright />
       </div>
     </div>

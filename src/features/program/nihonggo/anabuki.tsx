@@ -4,28 +4,38 @@ import Carousel from '@/nui/carousel/carousel'
 import Image from 'next/image'
 
 export default function NihonggoAnabuki() {
-  const images = [
-    {
-      src: '/training/training-image-1.png',
-      alt: 'training-image-1-coop-indonesia',
+  const nihonggoAnabuki = {
+    info: 'PROGRAM PEMAGANGAN KE JEPANG',
+    title: 'Sekolah Anabuki',
+    content: {
+      title: 'Sekolah Anabuki',
+      image: {
+        src: '/nihonggo/logo-anabuki.png',
+        alt: 'logo-anabuki-coop-indonesia',
+      },
+      body: '   **Anabuki College Group** is a vocational school group with 14 vocational schools in the Chugoku-Shikoku area. Berikut foto-foto kegiatan di sekolah Anabuki',
     },
-    {
-      src: '/training/training-image-2.png',
-      alt: 'training-image-2-coop-indonesia',
-    },
-    {
-      src: '/training/training-image-3.png',
-      alt: 'training-image-3-coop-indonesia',
-    },
-    {
-      src: '/training/training-image-4.png',
-      alt: 'training-image-4-coop-indonesia',
-    },
-    {
-      src: '/training/training-image-5.png',
-      alt: 'training-image-5-coop-indonesia',
-    },
-  ]
+    images: [
+      {
+        src: '/training/training-image-2.png',
+        alt: 'training-image-2-coop-indonesia',
+      },
+      {
+        src: '/training/training-image-3.png',
+        alt: 'training-image-3-coop-indonesia',
+      },
+      {
+        src: '/training/training-image-4.png',
+        alt: 'training-image-4-coop-indonesia',
+      },
+      {
+        src: '/training/training-image-5.png',
+        alt: 'training-image-5-coop-indonesia',
+      },
+    ],
+  }
+
+  const { info, title, images, content } = nihonggoAnabuki
 
   const items = images.map((image, i) => (
     <Image
@@ -42,33 +52,25 @@ export default function NihonggoAnabuki() {
   return (
     <>
       <Section>
-        <SectionTitle
-          sizeTitle="6xl"
-          info="PROGRAM PEMAGANGAN KE JEPANG"
-          title="Sekolah Anabuki"
-        />
+        <SectionTitle sizeTitle="6xl" info={info} title={title} />
       </Section>
       <Section maxWidth="content">
-        <Flexbox flow="col" gap="lg" align="normal">
+        <Flexbox flow="col" gap="none" align="normal">
           <Typo size="2xl" fontWeight="bold" color="gray-900">
-            Sekolah Anabuki
+            {content.title}
           </Typo>
           <Flexbox align="start" gap="md">
-            <div className="mx-auto w-[2.3444rem]">
+            <div className="mx-auto w-[2.3444rem] pt-6">
               <Image
                 width="0"
                 height="0"
                 sizes="100vw"
                 className="h-auto w-full"
-                src="/nihonggo/logo-anabuki.png"
-                alt="logo-anabuki-coop-indonesia"
+                src={content.image.src}
+                alt={content.image.alt}
               />
             </div>
-            <Markdown>
-              {`**Anabuki College Group** is a vocational school group with 14
-            vocational schools in the Chugoku-Shikoku area.<br/><br/> Berikut foto-foto
-            kegiatan di sekolah Anabuki`}
-            </Markdown>
+            <Markdown size="lg">{content.body}</Markdown>
           </Flexbox>
           <Carousel items={items} />
         </Flexbox>

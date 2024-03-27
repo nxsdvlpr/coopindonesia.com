@@ -1,50 +1,58 @@
 import { Flexbox, Icon, Typo } from '@/nui'
 
 export default function HowToRegistration() {
+  const howToRegistration = {
+    title: 'Cara Pendaftaran',
+    titleStep: 'Peserta dapat mengajukan pendaftaran melalui:',
+    steps: [
+      {
+        label: 'E-mail:',
+        content: 'mail@coopindonesia.com',
+        icon: 'lucide:mail',
+      },
+      {
+        label: 'Subject:',
+        content: 'Daftar Program Pemagangan ke Jepang',
+        icon: 'lucide:edit',
+      },
+      {
+        label: 'Tujukan Kepada:',
+        content:
+          'Divisi Program Pengembangan Sumber Daya Manusia LPK COOP Indonesia Di Jakarta',
+        icon: 'lucide:building-2',
+      },
+    ],
+  }
+
+  const { title, titleStep, steps } = howToRegistration
+
   return (
     <Flexbox flow="col" align="normal" gap="xs">
-      <Typo color="gray-900" size="xl" fontWeight="bold">
-        Cara Pendaftaran
+      <Typo color="gray-900" size="2xl" fontWeight="bold">
+        {title}
       </Typo>
       <div className="flex flex-col gap-3 px-4">
-        <Typo size="md" color="gray-700">
-          Peserta dapat mengajukan pendaftaran melalui:
+        <Typo size="lg" color="gray-700">
+          {titleStep}
         </Typo>
         <Flexbox flow="col" gap="2xs" align="normal">
-          <Flexbox align="start" gap="2xs">
-            <div className="pt-1 text-gray-700">
-              <Icon size="sm" icon="lucide:mail" />
-            </div>
-            <div>
-              <Typo size="md">E-mail: </Typo>
-              <Typo size="md" color="primary-700" fontWeight="semibold">
-                mail@coopindonesia.com
-              </Typo>
-            </div>
-          </Flexbox>
-          <Flexbox align="start" gap="2xs">
-            <div className="pt-1 text-gray-700">
-              <Icon size="sm" icon="lucide:edit" />
-            </div>
-            <div>
-              <Typo size="md">Subject: </Typo>
-              <Typo size="md" color="gray-900" fontWeight="semibold">
-                Daftar Program Pemagangan ke Jepang
-              </Typo>
-            </div>
-          </Flexbox>
-          <Flexbox align="start" gap="2xs">
-            <div className="pt-1 text-gray-700">
-              <Icon size="sm" icon="lucide:building-2" />
-            </div>
-            <div>
-              <Typo size="md">Tujukan Kepada:</Typo>
-              <Typo size="md" color="gray-900" fontWeight="semibold">
-                Divisi Program Pengembangan Sumber Daya Manusia LPK COOP
-                Indonesia Di Jakarta
-              </Typo>
-            </div>
-          </Flexbox>
+          {steps.map((step, index) => (
+            <Flexbox key={index} align="start" gap="2xs">
+              <div className="pt-1 text-gray-700">
+                <Icon size="sm" icon={step.icon} />
+              </div>
+              <div className="flex flex-wrap gap-x-1">
+                <Typo size="lg">{step.label}</Typo>
+                <Typo
+                  size="lg"
+                  color={step.label === 'E-mail:' ? 'primary-700' : 'gray-900'}
+                  fontWeight="semibold"
+                >
+                  {step.content}
+                </Typo>
+              </div>
+            </Flexbox>
+          ))}
         </Flexbox>
       </div>
     </Flexbox>

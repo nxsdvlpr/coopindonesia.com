@@ -30,37 +30,31 @@ export default function VisionMission() {
           title={visionAndMission.title}
         />
       </Section>
-      <Section>
-        <div className="m-auto flex max-w-[50rem] flex-col justify-between gap-12 px-10">
-          <Flexbox justify="between" gap="xl">
-            <Flexbox align="normal" flow="col" gap="xs">
-              <Typo size="2xl" fontWeight="bold" color="gray-900">
-                {visionAndMission.vision.title}
-              </Typo>
-              <Markdown size="lg">
-                {visionAndMission.vision.description}
-              </Markdown>
-            </Flexbox>
-            <div className="w-[300px] shrink-0">
-              <Image
-                width="0"
-                height="0"
-                sizes="100vw"
-                className="h-auto w-full"
-                src={visionAndMission.vision.image.src}
-                alt={visionAndMission.vision.image.alt}
-              />
-            </div>
-          </Flexbox>
+      <Section maxWidth="content">
+        <div className="flex flex-col gap-8 lg:flex-row">
           <Flexbox align="normal" flow="col" gap="xs">
             <Typo size="2xl" fontWeight="bold" color="gray-900">
-              {visionAndMission.mission.title}
+              {visionAndMission.vision.title}
             </Typo>
-            <Markdown size="lg">
-              {visionAndMission.mission.description}
-            </Markdown>
+            <Markdown size="lg">{visionAndMission.vision.description}</Markdown>
           </Flexbox>
+          <div className="mx-auto max-w-[18.75rem] shrink-0">
+            <Image
+              width="0"
+              height="0"
+              sizes="100vw"
+              className="h-auto w-full"
+              src={visionAndMission.vision.image.src}
+              alt={visionAndMission.vision.image.alt}
+            />
+          </div>
         </div>
+        <Flexbox align="normal" flow="col" gap="xs">
+          <Typo size="2xl" fontWeight="bold" color="gray-900">
+            {visionAndMission.mission.title}
+          </Typo>
+          <Markdown size="lg">{visionAndMission.mission.description}</Markdown>
+        </Flexbox>
       </Section>
       <FeaturedPrograms variant="gray" />
       <AskedQuestion />
