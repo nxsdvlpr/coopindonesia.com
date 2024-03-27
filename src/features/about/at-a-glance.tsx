@@ -34,7 +34,7 @@ LPK COOP Indonesia meyakini bahwa **Program Pengembangan Usaha Mandiri** melalui
           <Markdown size="lg">{atAGlance.subtitle}</Markdown>
         </SectionTitle>
       </Section>
-      <Section maxWidth="content">
+      <Section>
         <Flexbox flow="col" gap="4xl">
           {atAGlance.contents.map((item, index) => (
             <div
