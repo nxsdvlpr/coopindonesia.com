@@ -9,4 +9,6 @@ export type ButtonPropsWithoutRef = PropsWithoutRef<
 
 export type ButtonProps = {
   children?: ReactNode
+  size?: 'sm' | 'md'
+  wider?: 'sm' | 'none'
 } & ButtonPropsWithoutRef

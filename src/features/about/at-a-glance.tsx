@@ -34,29 +34,31 @@ LPK COOP Indonesia meyakini bahwa **Program Pengembangan Usaha Mandiri** melalui
           <Markdown size="lg">{atAGlance.subtitle}</Markdown>
         </SectionTitle>
       </Section>
-      <Section>
-        <div className="px-10">
-          <Flexbox flow="col" gap="4xl">
-            {atAGlance.contents.map((item, index) => (
-              <div
-                key={item.alt}
-                className={index === 1 ? 'flex flex-row-reverse' : 'flex '}
-              >
-                <Markdown size="lg">{item.content}</Markdown>
-                <div className="w-[30rem] shrink-0">
-                  <Image
-                    width="0"
-                    height="0"
-                    sizes="100vw"
-                    className="h-auto w-full"
-                    src={item.image}
-                    alt={item.alt}
-                  />
-                </div>
+      <Section maxWidth="content">
+        <Flexbox flow="col" gap="4xl">
+          {atAGlance.contents.map((item, index) => (
+            <div
+              key={item.alt}
+              className={
+                index === 1
+                  ? 'flex flex-col-reverse lg:flex-row-reverse'
+                  : 'flex flex-col lg:flex-row '
+              }
+            >
+              <Markdown size="lg">{item.content}</Markdown>
+              <div className="max-w-[30rem] shrink-0">
+                <Image
+                  width="0"
+                  height="0"
+                  sizes="100vw"
+                  className="h-auto w-full"
+                  src={item.image}
+                  alt={item.alt}
+                />
               </div>
-            ))}
-          </Flexbox>
-        </div>
+            </div>
+          ))}
+        </Flexbox>
       </Section>
       <FeaturedPrograms variant="gray" />
       <AskedQuestion />

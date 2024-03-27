@@ -51,16 +51,14 @@ export default function Organization() {
           <Markdown>{organization.subtitle}</Markdown>
         </SectionTitle>
       </Section>
-      <Section>
+      <Section maxWidth="content">
         <Flexbox flow="col" gap="4xl">
           <Flexbox flow="col" gap="2xl">
             {organization.addresses.map((address, index) => (
               <iframe
                 key={index}
-                className="overflow-hidden rounded-lg"
+                className="w-full overflow-hidden rounded-lg lg:w-[40rem]"
                 src={address.link}
-                width="640"
-                height="252"
                 loading="lazy"
               ></iframe>
             ))}
@@ -69,7 +67,7 @@ export default function Organization() {
             <Typo size="xl" fontWeight="bold" color="gray-900">
               Kantor Perwakilan Jepang
             </Typo>
-            <div className="grid grid-cols-3 gap-12">
+            <div className="grid gap-8 lg:grid-cols-3 lg:gap-12">
               {organization.officeLocations.map((officeLocation, index) => (
                 <Box key={index} withBorder>
                   <Flexbox flow="col" gap="md" align="normal">

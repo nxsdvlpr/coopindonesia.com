@@ -18,7 +18,7 @@ export default function PostInternshipContent({
   return (
     <Section maxWidth="content">
       <Flexbox align="normal" flow="col" gap="2xl">
-        <Flexbox flow="col" gap="xs" align="normal">
+        <Flexbox flow="col" gap="none" align="normal">
           <Typo size="2xl" fontWeight="bold" color="gray-900">
             {title}
           </Typo>

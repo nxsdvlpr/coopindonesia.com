@@ -47,9 +47,9 @@ export default function Instagram() {
         />
       </Section>
       <Section>
-        <div className="grid grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 gap-6 lg:grid-cols-4 lg:gap-8">
           {instagramImages.map((item, index) => (
-            <div key={index} className="h-[16.5rem]">
+            <div key={index} className="h-[10rem] lg:h-[16.5rem]">
               <Image
                 width="0"
                 height="0"

@@ -4,11 +4,16 @@ import Image from 'next/image'
 export function HomeHero() {
   return (
     <Section>
-      <Flexbox>
+      <div className="flex flex-col justify-between gap-6 lg:flex-row">
         <Flexbox flow="col" gap="xl">
-          <Typo size="6xl" fontWeight="extrabold" color="black">
-            Welcome to LPK Coop Indonesia
-          </Typo>
+          <Flexbox align="start" flow="col" gap="xs">
+            <Typo size="md" fontWeight="extrabold" color="primary-500">
+              HOME
+            </Typo>
+            <Typo size="6xl" fontWeight="extrabold" color="gray-900">
+              Welcome to LPK Coop Indonesia
+            </Typo>
+          </Flexbox>
           <Typo size="lg">
             LPK Coop Indonesia is one of{' '}
             <strong>Sending Organization (SO)</strong> that assists Indonesian
@@ -22,7 +27,7 @@ export function HomeHero() {
           src="/hero-image.svg"
           alt="hero-image-coop-indonesia"
         />
-      </Flexbox>
+      </div>
     </Section>
   )
 }

@@ -1,7 +1,8 @@
 import { StaticImport } from 'next/dist/shared/lib/get-img-props'
 import Image from 'next/image'
-import NextLink from 'next/link'
+import Link from 'next/link'
 import { ReactNode } from 'react'
+import { footerLinkStyle } from './link.style'
 
 export type LinkProps = {
   href: string
@@ -10,24 +11,21 @@ export type LinkProps = {
 }
 
 export default function FooterLink({ href, src, children }: LinkProps) {
+  const { wrapper, box, image } = footerLinkStyle()
+
   return (
-    <NextLink
-      className="group flex items-center gap-2 text-xs font-semibold text-gray-500 hover:text-gray-700"
-      href={href}
-      target="_blank"
-      rel="no follow"
-    >
-      <div className="w-4 overflow-hidden">
+    <Link className={wrapper()} href={href} target="_blank" rel="no follow">
+      <div className={box()}>
         <Image
-          className="h-auto w-full grayscale group-hover:grayscale-0"
           src={src}
           alt="follow-us"
           width="0"
           height="0"
           sizes="100vw"
+          className={image()}
         />
       </div>
       {children}
-    </NextLink>
+    </Link>
   )
 }

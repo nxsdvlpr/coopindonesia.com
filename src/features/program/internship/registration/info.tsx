@@ -1,30 +1,43 @@
 import { Flexbox, Icon, Typo } from '@/nui'
+import { infoStyle } from './info.style'
 
 export default function Info() {
+  const info = {
+    title:
+      'Pertanyaan lebih lanjut seputar program magang di LPK COOP Indonesia, silahkan menghubungi:',
+    contacts: [
+      {
+        admin: 'Admin #1',
+        phone: '0821-4081-3864',
+        icon: 'mdi:whatsapp',
+      },
+      {
+        admin: 'Admin #2',
+        phone: '0822-3238-8961',
+        icon: 'mdi:whatsapp',
+      },
+    ],
+  }
+
+  const { wrapper, main, icon } = infoStyle()
+
+  const { title, contacts } = info
+
   return (
-    <div className="flex flex-col gap-3 rounded-lg border border-dashed border-primary-500 bg-primary-25 p-6">
-      <Typo size="md">
-        Pertanyaan lebih lanjut seputar program magang di LPK COOP Indonesia,
-        silahkan menghubungi:
-      </Typo>
-      <Flexbox gap="xl">
-        <Flexbox gap="2xs">
-          <div className="h-fit w-fit rounded-full bg-green-500 p-1 text-white">
-            <Icon size="xs" icon="mdi:whatsapp" />
-          </div>
-          <Typo size="md">
-            Admin #1 : <strong>0821-4081-3864</strong>
-          </Typo>
-        </Flexbox>
-        <Flexbox gap="2xs">
-          <div className="h-fit w-fit rounded-full bg-green-500 p-1 text-white">
-            <Icon size="xs" icon="mdi:whatsapp" />
-          </div>
-          <Typo size="md">
-            Admin #2 : <strong>0822-3238-8961</strong>
-          </Typo>
-        </Flexbox>
-      </Flexbox>
+    <div className={wrapper()}>
+      <Typo size="lg">{title}</Typo>
+      <div className={main()}>
+        {contacts.map((contact, index) => (
+          <Flexbox gap="2xs" key={index}>
+            <div className={icon()}>
+              <Icon size="xs" icon={contact.icon} />
+            </div>
+            <Typo size="lg">
+              {contact.admin} : <strong>{contact.phone}</strong>
+            </Typo>
+          </Flexbox>
+        ))}
+      </div>
     </div>
   )
 }

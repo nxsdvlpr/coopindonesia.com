@@ -3,7 +3,7 @@ import FooterLink from './link'
 
 export default function FollowUs() {
   return (
-    <div className="w-[9.6875rem]">
+    <div className="lg:w-[9.6875rem]">
       <Flexbox align="start" flow="col" gap="sm">
         <Typo size="sm" fontWeight="semibold" color="gray-900">
           Follow Us

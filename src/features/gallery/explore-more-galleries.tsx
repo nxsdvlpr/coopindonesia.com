@@ -51,14 +51,14 @@ export default function ExploreMoreGalleries({
         <Typo size="5xl" color="gray-900" fontWeight="semibold">
           Explore More Galleries
         </Typo>
-        <Flexbox gap="xl">
+        <div className="flex flex-col gap-8 lg:flex-row">
           {galleries.map(
             (gallery, index) =>
               !gallery.hide && (
                 <Link key={index} href={gallery.href}>
-                  <Box>
+                  <Box withBorder>
                     <Flexbox flow="col" gap="sm">
-                      <div className="h-[13.125rem] w-[19.6875rem]">
+                      <div className="lg:h-[13.125rem] lg:w-[19.6875rem]">
                         <Image
                           width="0"
                           height="0"
@@ -76,7 +76,7 @@ export default function ExploreMoreGalleries({
                 </Link>
               )
           )}
-        </Flexbox>
+        </div>
       </Flexbox>
     </Section>
   )

@@ -93,7 +93,7 @@ export default function PostInternshiProselindoTea() {
         makdown={contents.body}
       >
         {postContents.map((item, index) => (
-          <Flexbox key={index} flow="col" gap="xs" align="normal">
+          <Flexbox key={index} flow="col" gap="none" align="normal">
             <Typo size="2xl" fontWeight="bold" color="gray-900">
               {item.title}
             </Typo>

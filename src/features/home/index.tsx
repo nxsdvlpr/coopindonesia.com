@@ -1,4 +1,4 @@
-import { FeaturedPrograms, AskedQuestion, ThreeCareer, Banner } from '../shared'
+import { AskedQuestion, Banner, FeaturedPrograms, ThreeCareer } from '../shared'
 import {
   HomeHero,
   HomePublication,
@@ -10,7 +10,10 @@ export default function Home() {
   return (
     <>
       <HomeHero />
-      <FeaturedPrograms />
+      <FeaturedPrograms
+        title="Featured Programs"
+        subtitle={`LPK Coop Indonesia's top choice programs`}
+      />
       <HomeSponsor />
       <HomePublication />
       <HomeTestimonial />

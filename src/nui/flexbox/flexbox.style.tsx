@@ -15,9 +15,9 @@ export const flexboxStyle = tv({
       md: 'gap-5',
       lg: 'gap-6',
       xl: 'gap-8',
-      '2xl': 'gap-12',
-      '3xl': 'gap-14',
-      '4xl': 'gap-24',
+      '2xl': 'gap-6 lg:gap-12',
+      '3xl': 'gap-7 lg:gap-14',
+      '4xl': 'gap-10 lg:gap-24',
     },
     align: {
       normal: '',

@@ -20,7 +20,7 @@ export default function Card({
   return (
     <Box withBorder>
       <Flexbox align="start" flow="col" gap="md">
-        <div className="h-[11.5rem] w-[19.375rem] overflow-hidden">
+        <div className="w-full overflow-hidden lg:h-[11.5rem] lg:w-[19.375rem]">
           <Image
             width="0"
             height="0"
@@ -36,7 +36,9 @@ export default function Card({
           </Typo>
           <Typo size="md">{children}</Typo>
         </Flexbox>
-        <Button>{titleButton}</Button>
+        <Button wider="sm" size="sm">
+          {titleButton}
+        </Button>
       </Flexbox>
     </Box>
   )
