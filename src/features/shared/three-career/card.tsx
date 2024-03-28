@@ -19,7 +19,7 @@ export default function ThreeCareerCard({
           <CardTitle title={item.title} subtitle={item.subtitle} />
           <CardItem
             title={item.cost.title}
-            price={item.cost.price}
+            // price={item.cost.price}
             body={item.cost.desc}
           />
           <CardItem

@@ -1,5 +1,4 @@
 import {
-  Button,
   Flexbox,
   Markdown,
   Table,
@@ -78,10 +77,10 @@ export default function ThreeCareerTable({
             {costs.map((item, index) => (
               <TableBodyCell background={index === 1} key={index}>
                 <Flexbox flow="col" gap="xs">
-                  <Typo size="3xl" fontWeight="bold" color="black">
+                  {/* <Typo size="3xl" fontWeight="bold" color="black">
                     <span className="text-sm font-normal">Rp</span> {item.price}
                   </Typo>
-                  <Button size="sm">Daftar</Button>
+                  <Button size="sm">Daftar</Button> */}
                   <Markdown size="lg" variant="table">
                     {item.desc}
                   </Markdown>
