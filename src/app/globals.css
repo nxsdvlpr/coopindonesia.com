@@ -19,12 +19,28 @@
 .markdown-nui-theme-table > ul > li > ul {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 14px;
 }
 
 .prose :where(ol):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
   list-style-type: decimal;
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin-top: 0px;
+  margin-bottom: 8px;
   padding-left: 1.625em;
+}
+
+.prose :where(li):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.prose :where(ul):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.prose
+  :where(ul > li):not(
+    :where([class~='not-prose'], [class~='not-prose'] *)
+  )::marker {
+  color: #344054;
 }

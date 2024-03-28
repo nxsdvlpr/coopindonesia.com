@@ -17,7 +17,7 @@ export default function InternshipRegistration() {
           title="Pendaftaran"
         />
       </Section>
-      <Section maxWidth="content">
+      <Section maxWidth="sm">
         <Flexbox flow="col" gap="2xl">
           <Requirement />
           <div className="h-1 w-full border-b border-gray-200" />

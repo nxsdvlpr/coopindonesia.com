@@ -1,6 +1,6 @@
 import { Flexbox, Markdown, Section, SectionTitle, Typo } from '@/nui'
 import Image from 'next/image'
-import { AskedQuestion, Banner, FeaturedPrograms } from '../shared'
+import { AskedQuestion, Banner, Testimonial } from '../shared'
 
 export default function VisionMission() {
   const visionAndMission = {
@@ -30,7 +30,7 @@ export default function VisionMission() {
           title={visionAndMission.title}
         />
       </Section>
-      <Section maxWidth="content">
+      <Section maxWidth="sm">
         <div className="flex flex-col gap-8 lg:flex-row">
           <Flexbox align="normal" flow="col" gap="xs">
             <Typo size="2xl" fontWeight="bold" color="gray-900">
@@ -56,7 +56,7 @@ export default function VisionMission() {
           <Markdown size="lg">{visionAndMission.mission.description}</Markdown>
         </Flexbox>
       </Section>
-      <FeaturedPrograms variant="gray" />
+      <Testimonial />
       <AskedQuestion />
       <Banner />
     </>

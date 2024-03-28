@@ -44,7 +44,7 @@ export default function TrainingCenter() {
       <Section>
         <SectionTitle sizeTitle="6xl" info="GALLERY" title="Pusdiklat Magang" />
       </Section>
-      <Section maxWidth="content">
+      <Section maxWidth="sm">
         <Carousel items={items} />
       </Section>
       <ExploreMoreGalleries hideTrainingCenter />

@@ -2,8 +2,8 @@ import { Box, Flexbox, Icon, Section, SectionTitle, Typo } from '@/nui'
 import Image from 'next/image'
 import { testimonialStyle } from './testimonial.style'
 
-export default function HomeTestimonial() {
-  const homeTestimonial = {
+export default function Testimonial() {
+  const testimonial = {
     title: 'What People are Saying',
     subtitle:
       'Discover what others have to say about their experiences with us.',
@@ -34,7 +34,7 @@ export default function HomeTestimonial() {
 
   const { wrapper, main, boxImage, background } = testimonialStyle()
 
-  const { title, subtitle, items } = homeTestimonial
+  const { title, subtitle, items } = testimonial
 
   return (
     <Section>

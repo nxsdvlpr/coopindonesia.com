@@ -9,8 +9,8 @@ export default function OrganizationStructureEducation() {
           Departemen Pendidikan dan Pelatihan
         </Typo>
       </div>
-      <Flexbox flow="col" gap="xl">
-        <Flexbox justify="between" align="start">
+      <Flexbox align="normal" flow="col" gap="xl">
+        <div className="grid lg:grid-cols-2">
           <OrganizationStructureContactInfo
             name="Irwan Ardiyanto"
             position="Direktur"
@@ -23,8 +23,8 @@ export default function OrganizationStructureEducation() {
           >
             Sarjana (S1) Sastra Jepang Universitas Gajah Mada, JLPT N2
           </OrganizationStructureContactInfo>
-        </Flexbox>
-        <div className="grid grid-cols-2 content-between">
+        </div>
+        <div className="grid gap-y-6 lg:grid-cols-2">
           <Flexbox align="start" justify="between" flow="col" gap="xl">
             <Fields label="Hubungan Masyarakat:">
               <Field>Yusron Ahmadi</Field>

@@ -2,7 +2,7 @@ import { sectionMainStyle, sectionStyle } from './section.style'
 import { SectionProps } from './types'
 
 export function Section({
-  maxWidth = 'base',
+  maxWidth = 'md',
   variant = 'none',
   children,
 }: SectionProps) {

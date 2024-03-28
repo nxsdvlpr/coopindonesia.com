@@ -3,7 +3,7 @@ import OrganizationStructureContactInfo from './contact-info'
 
 export default function OrganizationStructureDevelopment() {
   return (
-    <>
+    <div className="flex flex-col gap-12">
       <div className="text-center">
         <Typo size="xl" color="gray-900" fontWeight="bold">
           Departemen Pengembangan Usaha
@@ -34,6 +34,6 @@ export default function OrganizationStructureDevelopment() {
           </Fields>
         </div>
       </Flexbox>
-    </>
+    </div>
   )
 }

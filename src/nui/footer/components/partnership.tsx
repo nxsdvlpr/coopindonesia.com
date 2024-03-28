@@ -27,7 +27,7 @@ export default function Partnership() {
 
   return (
     <Flexbox align="start" flow="col" gap="sm">
-      <Typo size="sm" fontWeight="semibold" color="gray-900">
+      <Typo size="md" fontWeight="semibold" color="gray-900">
         Partnership
       </Typo>
       <Flexbox align="start" flow="col" gap="xs">

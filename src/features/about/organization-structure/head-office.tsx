@@ -5,11 +5,11 @@ export default function OrganizationStructureHeadOffice() {
   return (
     <>
       <div className="text-center">
-        <Typo size="xl" color="gray-900" fontWeight="bold">
+        <Typo size="2xl" color="gray-900" fontWeight="bold">
           Kantor Pusat
         </Typo>
       </div>
-      <Flexbox gap="none" justify="between">
+      <div className="flex flex-col lg:flex-row">
         <OrganizationStructureContactInfo
           name="Leila Djawas"
           position="Advisor"
@@ -22,8 +22,8 @@ export default function OrganizationStructureHeadOffice() {
           name="Sandy B.Y Bangapadang, S.H.,"
           position="Legal Advisor"
         />
-      </Flexbox>
-      <Flexbox gap="none" align="start" justify="between">
+      </div>
+      <div className="grid gap-y-8 lg:grid-cols-2">
         <Flexbox align="normal" flow="col" gap="2xl">
           <Fields label=" Finance and Accounting:">
             <Field>Nensi Audika B., SE.</Field>
@@ -51,7 +51,7 @@ export default function OrganizationStructureHeadOffice() {
           <Field>Winairoh, S.Tr.Ds.</Field>
           <Field>Nurul Zia Aida, S.Pd (JLPT N4)</Field>
         </Fields>
-      </Flexbox>
+      </div>
     </>
   )
 }

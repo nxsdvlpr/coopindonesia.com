@@ -44,7 +44,7 @@ export default function InternshipActivities() {
       <Section>
         <SectionTitle sizeTitle="6xl" info="GALLERY" title="Kegiatan Magang" />
       </Section>
-      <Section maxWidth="content">
+      <Section maxWidth="sm">
         <Carousel items={items} />
       </Section>
       <ExploreMoreGalleries hideInternshipActivities />

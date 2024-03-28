@@ -118,7 +118,7 @@ export default function ThreeCareerTable() {
       <tbody>
         <tr>
           <TableBodyCell>
-            <Typo size="sm" fontWeight="bold" color="gray-900">
+            <Typo size="lg" fontWeight="bold" color="gray-900">
               Biaya-biaya
             </Typo>
           </TableBodyCell>
@@ -129,56 +129,66 @@ export default function ThreeCareerTable() {
                   <span className="text-sm font-normal">Rp</span> {item.price}
                 </Typo>
                 <Button>Daftar</Button>
-                <Markdown variant="table">{item.desc}</Markdown>
+                <Markdown size="lg" variant="table">
+                  {item.desc}
+                </Markdown>
               </Flexbox>
             </TableBodyCell>
           ))}
         </tr>
         <tr>
           <TableBodyCell>
-            <Typo size="sm" fontWeight="bold" color="gray-900">
+            <Typo size="lg" fontWeight="bold" color="gray-900">
               Persyaratan Calon Kandidat
             </Typo>
           </TableBodyCell>
           {requirements.map((item, index) => (
             <TableBodyCell background={index === 1} key={index}>
-              <Markdown variant="table">{item}</Markdown>
+              <Markdown size="lg" variant="table">
+                {item}
+              </Markdown>
             </TableBodyCell>
           ))}
         </tr>
         <tr>
           <TableBodyCell>
-            <Typo size="sm" fontWeight="bold" color="gray-900">
+            <Typo size="lg" fontWeight="bold" color="gray-900">
               Jangka Waktu Penempatan
             </Typo>
           </TableBodyCell>
           {periodic.map((item, index) => (
             <TableBodyCell background={index === 1} key={index}>
-              <Markdown variant="table">{item}</Markdown>
+              <Markdown size="lg" variant="table">
+                {item}
+              </Markdown>
             </TableBodyCell>
           ))}
         </tr>
         <tr>
           <TableBodyCell>
-            <Typo size="sm" fontWeight="bold" color="gray-900">
+            <Typo size="lg" fontWeight="bold" color="gray-900">
               Kelebihan
             </Typo>
           </TableBodyCell>
           {advantages.map((item, index) => (
             <TableBodyCell background={index === 1} key={index}>
-              <Markdown variant="table">{item}</Markdown>
+              <Markdown size="lg" variant="table">
+                {item}
+              </Markdown>
             </TableBodyCell>
           ))}
         </tr>
         <tr>
           <TableBodyCell>
-            <Typo size="sm" fontWeight="bold" color="gray-900">
+            <Typo size="lg" fontWeight="bold" color="gray-900">
               Kelebihan
             </Typo>
           </TableBodyCell>
           {weakness.map((item, index) => (
             <TableBodyCell background={index === 1} key={index}>
-              <Markdown variant="table">{item}</Markdown>
+              <Markdown size="lg" variant="table">
+                {item}
+              </Markdown>
             </TableBodyCell>
           ))}
         </tr>

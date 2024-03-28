@@ -44,7 +44,7 @@ export default function Collaboration() {
       <Section>
         <SectionTitle sizeTitle="6xl" info="GALLERY" title="Kerjasama" />
       </Section>
-      <Section maxWidth="content">
+      <Section maxWidth="sm">
         <Carousel items={items} />
       </Section>
       <ExploreMoreGalleries hideCollaboration />

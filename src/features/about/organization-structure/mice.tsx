@@ -1,4 +1,4 @@
-import { Field, Fields, Flexbox, Typo } from '@/nui'
+import { Field, Fields, Typo } from '@/nui'
 import OrganizationStructureContactInfo from './contact-info'
 
 export default function OrganizationStructureMICE() {
@@ -12,7 +12,7 @@ export default function OrganizationStructureMICE() {
           (Meeting, Incentive, Convention, and Exhibition)
         </Typo>
       </div>
-      <Flexbox flow="col" gap="xl">
+      <div className="flex flex-col gap-8 lg:items-center">
         <OrganizationStructureContactInfo
           name="Amboro Alfianto"
           position="Direktur"
@@ -22,7 +22,7 @@ export default function OrganizationStructureMICE() {
           <Field>Hafid Nur Wahyudin</Field>
           <Field>Rifqi Solahudin Arsyad</Field>
         </Fields>
-      </Flexbox>
+      </div>
     </>
   )
 }

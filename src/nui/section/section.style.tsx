@@ -14,8 +14,8 @@ export const sectionMainStyle = tv({
   base: 'm-auto px-4 lg:px-10',
   variants: {
     maxWidth: {
-      base: 'max-w-2xl lg:max-w-[80rem]',
-      content: 'max-w-2xl lg:max-w-[50rem]',
+      md: 'max-w-2xl lg:max-w-[80rem]',
+      sm: 'max-w-2xl lg:max-w-[50rem]',
     },
   },
 })
