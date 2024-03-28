@@ -1,4 +1,4 @@
-import { As, forwardRef } from '../utils'
+import { As, forwardRef } from '../../utils'
 import { TypoProps, TypoSize } from './types'
 import { typoStyle } from './typo.style'
 

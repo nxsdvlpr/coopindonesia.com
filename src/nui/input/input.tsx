@@ -1,4 +1,4 @@
-import { forwardRef } from '../utils'
+import { forwardRef } from '../../utils'
 import { inputStyle } from './input.style'
 import { InputProps } from './types'
 

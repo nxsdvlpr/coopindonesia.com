@@ -1,3 +1,3 @@
-import { HTMLNUIProps } from '../utils'
+import { HTMLNUIProps } from '../../utils'
 
 export type InputProps = HTMLNUIProps<'input'>

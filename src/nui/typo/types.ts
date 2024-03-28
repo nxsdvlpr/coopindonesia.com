@@ -1,5 +1,5 @@
 import { ReactNode } from 'react'
-import { HTMLNUIProps } from '../utils/types'
+import { HTMLNUIProps } from '../../utils/types'
 
 export type TypoSize =
   | '6xl'

@@ -1,55 +1,53 @@
+import { aboutDataStatic } from '@/app/api/about'
 import { Field, Fields, Flexbox, Typo } from '@/nui'
-import OrganizationStructureContactInfo from './contact-info'
+import ContactInfo from './contact-info'
 
-export default function OrganizationStructureHeadOffice() {
+export default function HeadOffice() {
+  const {
+    title,
+    members,
+    financeAccounting,
+    generalAffair,
+    corporateSecretary,
+  } = aboutDataStatic.organizationStructure.headOffice
+
   return (
     <>
+      <div className="h-1 w-full border-b border-gray-200" />
       <div className="text-center">
         <Typo size="2xl" color="gray-900" fontWeight="bold">
-          Kantor Pusat
+          {title}
         </Typo>
       </div>
       <div className="flex flex-col lg:flex-row">
-        <OrganizationStructureContactInfo
-          name="Leila Djawas"
-          position="Advisor"
-        />
-        <OrganizationStructureContactInfo
-          name="Selvy Rahmika, A.Ma S.Kom"
-          position="Personalia(HRD)"
-        />
-        <OrganizationStructureContactInfo
-          name="Sandy B.Y Bangapadang, S.H.,"
-          position="Legal Advisor"
-        />
+        {members.map((member, index) => (
+          <ContactInfo
+            key={index}
+            name={member.name}
+            position={member.position}
+          />
+        ))}
       </div>
       <div className="grid gap-y-8 lg:grid-cols-2">
         <Flexbox align="normal" flow="col" gap="2xl">
-          <Fields label=" Finance and Accounting:">
-            <Field>Nensi Audika B., SE.</Field>
-            <Field>Sholikin, SE., MMSi.</Field>
+          <Fields label={financeAccounting.label}>
+            {financeAccounting.members.map((item, index) => (
+              <Field key={index}>{item}</Field>
+            ))}
           </Fields>
-          <Fields label="General Affair:">
-            <Field>Misiran</Field>
-            <Field>Muhammad Nur</Field>
+          <Fields label={generalAffair.label}>
+            {generalAffair.members.map((item, index) => (
+              <Field key={index}>{item}</Field>
+            ))}
           </Fields>
         </Flexbox>
-        <Fields label="Corporate Secretary:">
-          <Field>
-            Liska Maharani
-            <p className="leading-6 text-gray-500">
-              (Alumni Peserta Pemagangan Jepang)
-            </p>
-          </Field>
-          <Field>
-            Yunita Wahyu Aryani, A.Ma
-            <p className="leading-6 text-gray-500">
-              (Alumni LPK COOP Indonesia Angk 13, JLPT N3)
-            </p>
-          </Field>
-          <Field>Ragilia Farda Karima, A.Md</Field>
-          <Field>Winairoh, S.Tr.Ds.</Field>
-          <Field>Nurul Zia Aida, S.Pd (JLPT N4)</Field>
+        <Fields label={corporateSecretary.label}>
+          {corporateSecretary.members.map((item, index) => (
+            <Field key={index}>
+              {item.name}
+              <p className=" text-gray-500">{item.additionalInfo}</p>
+            </Field>
+          ))}
         </Fields>
       </div>
     </>

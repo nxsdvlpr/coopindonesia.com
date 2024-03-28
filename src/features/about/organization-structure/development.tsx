@@ -1,39 +1,31 @@
+import { aboutDataStatic } from '@/app/api/about'
 import { Field, Fields, Flexbox, Typo } from '@/nui'
-import OrganizationStructureContactInfo from './contact-info'
+import ContactInfo from './contact-info'
 
-export default function OrganizationStructureDevelopment() {
+export default function Development() {
+  const { title, members } = aboutDataStatic.organizationStructure.development
+
   return (
-    <div className="flex flex-col gap-12">
+    <>
+      <div className="h-1 w-full border-b border-gray-200" />
       <div className="text-center">
         <Typo size="xl" color="gray-900" fontWeight="bold">
-          Departemen Pengembangan Usaha
+          {title}
         </Typo>
       </div>
       <Flexbox flow="col" gap="xl">
-        <OrganizationStructureContactInfo
-          name="Cristian Ade Candra., S.T,. M.T"
-          position="Direktur"
-        />
+        <ContactInfo name={members[0].name} position={members[0].position} />
         <div className="m-auto max-w-md">
           <Fields>
-            <Field>
-              <strong>Naldy Kostiyandi, S.Pd.</strong>
-              <p className="leading-6 text-gray-500">
-                (Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan
-                Indonesia, Alumni Tokyo Gakugei University - Japan, JLPT N2)
-              </p>
-            </Field>
-            <div className="h-2" />
-            <Field>
-              <strong>Ristiawan Hidayat, S.Pd.</strong>
-              <p className="leading-6 text-gray-500">
-                (Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan
-                Indonesia, Alumni Osaka Gaigo Gakuin, JLPT N2)
-              </p>
-            </Field>
+            {members.slice(1).map((member, index) => (
+              <Field key={index}>
+                <strong>{member.name}</strong>
+                <p className="pb-2 text-gray-500">{member.additionalInfo}</p>
+              </Field>
+            ))}
           </Fields>
         </div>
       </Flexbox>
-    </div>
+    </>
   )
 }

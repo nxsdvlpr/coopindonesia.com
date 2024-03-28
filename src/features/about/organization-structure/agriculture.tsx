@@ -1,34 +1,45 @@
+import { aboutDataStatic } from '@/app/api/about'
 import { Field, Fields, Flexbox, Typo } from '@/nui'
-import OrganizationStructureContactInfo from './contact-info'
+import ContactInfo from './contact-info'
 
-export default function OrganizationStructureAgriculture() {
+export default function Agriculture() {
+  const { title, members, supervisor, administrator } =
+    aboutDataStatic.organizationStructure.agriculture
+
   return (
     <>
+      <div className="h-1 w-full border-b border-gray-200" />
       <div className="text-center">
         <Typo size="xl" color="gray-900" fontWeight="bold">
-          Departemen Pertanian
+          {title}
         </Typo>
       </div>
       <Flexbox flow="col" gap="xl">
-        <OrganizationStructureContactInfo name="Suyitno" position="Direktur">
-          Alumni LPK COOP Indonesia Angk 6
-        </OrganizationStructureContactInfo>
+        {members.map((member, index) => (
+          <ContactInfo
+            key={index}
+            name={member.name}
+            position={member.position}
+          >
+            {member.additionalInfo}
+          </ContactInfo>
+        ))}
         <Flexbox flow="col" gap="sm" align="start">
-          <Fields label="Supervisi Pertanian:">
-            <Field>
-              Mokhamad Said
-              <p className="leading-6 text-gray-500">
-                (Alumni LPK COOP Indonesia Angkatan 1)
-              </p>
-            </Field>
+          <Fields label={supervisor.title}>
+            {supervisor.members.map((supervisor, index) => (
+              <Field key={index}>
+                {supervisor.name}
+                <p className="text-gray-500">{supervisor.additionalInfo}</p>
+              </Field>
+            ))}
           </Fields>
-          <Fields label="Administrasi Pertanian:">
-            <Field>
-              Yunanta Trisutrisno
-              <p className="leading-6 text-gray-500">
-                (Alumni peserta magang LPK COOP Indonesia Angk 25)
-              </p>
-            </Field>
+          <Fields label={administrator.title}>
+            {administrator.members.map((administrator, index) => (
+              <Field key={index}>
+                {administrator.name}
+                <p className="text-gray-500">{administrator.additionalInfo}</p>
+              </Field>
+            ))}
           </Fields>
         </Flexbox>
       </Flexbox>

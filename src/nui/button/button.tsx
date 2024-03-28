@@ -1,20 +1,30 @@
-import { forwardRef } from 'react'
+import { forwardRef } from '../../utils'
 import { buttonStyle } from './button.style'
 import { ButtonProps } from './types'
 
-export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
-  function Button(
-    { size = 'md', wider = 'none', rounded = 'full', children, ...otherProps },
-    forwardRef
-  ) {
+export const Button = forwardRef<'button', ButtonProps>(
+  (
+    {
+      as,
+      size = 'md',
+      wider = 'none',
+      rounded = 'full',
+      children,
+      ...otherProps
+    },
+    ref
+  ) => {
+    const Component = as ?? 'button'
     return (
-      <button
-        ref={forwardRef}
+      <Component
+        ref={ref}
         className={buttonStyle({ size, wider, rounded })}
         {...otherProps}
       >
         {children}
-      </button>
+      </Component>
     )
   }
 )
+
+Button.displayName = 'Button'
