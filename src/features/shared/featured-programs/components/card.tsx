@@ -31,7 +31,7 @@ export default function Card({
           />
         </div>
         <Flexbox align="start" flow="col" gap="xs">
-          <Typo size="xl" fontWeight="bold" color="gray-900">
+          <Typo as="h2" size="xl" fontWeight="bold" color="gray-900">
             {title}
           </Typo>
           <Typo size="md">{children}</Typo>

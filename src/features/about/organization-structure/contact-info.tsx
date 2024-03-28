@@ -20,10 +20,10 @@ export default function OrganizationStructureContactInfo({
   if (!name) return null
 
   return (
-    <div className="mx-auto min-w-[15rem] shrink-0">
+    <div className="mx-auto shrink-0 py-3 lg:min-w-[15rem]">
       <Box padding="xs">
         <Flexbox flow="col" gap="xs">
-          <div className="h-auto w-[72px] shrink-0 rounded-full border border-gray-200 bg-gray-50 p-4 text-gray-500">
+          <div className="h-auto w-[4.5rem] shrink-0 rounded-full border border-gray-200 bg-gray-50 p-4 text-gray-500">
             {src ? (
               <Image
                 height="0"
@@ -49,13 +49,15 @@ export default function OrganizationStructureContactInfo({
             )}
           </div>
           <div className="text-center">
-            <Typo size="md" fontWeight="semibold" color="gray-900">
+            <Typo size="lg" fontWeight="semibold" color="gray-900">
               {name}
             </Typo>
             <Typo color="gray-400">{position}</Typo>
             {children && (
-              <div className="max-w-[300px]">
-                <Typo color="gray-500">{children}</Typo>
+              <div className="max-w-[18.75rem]">
+                <Typo size="md" color="gray-500">
+                  {children}
+                </Typo>
               </div>
             )}
           </div>

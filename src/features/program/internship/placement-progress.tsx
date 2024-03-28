@@ -19,7 +19,7 @@ export default function InternshipPlacementProgress() {
       <Section>
         <SectionTitle sizeTitle="6xl" info={info} title={title} />
       </Section>
-      <Section maxWidth="content">
+      <Section maxWidth="sm">
         <Flexbox flow="col" gap="xs" align="normal">
           <Typo size="2xl" fontWeight="bold" color="gray-900">
             {title}

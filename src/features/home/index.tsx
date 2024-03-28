@@ -1,10 +1,11 @@
-import { AskedQuestion, Banner, FeaturedPrograms, ThreeCareer } from '../shared'
 import {
-  HomeHero,
-  HomePublication,
-  HomeSponsor,
-  HomeTestimonial,
-} from './components'
+  AskedQuestion,
+  Banner,
+  FeaturedPrograms,
+  Testimonial,
+  ThreeCareer,
+} from '../shared'
+import { HomeHero, HomePublication, HomeSponsor } from './components'
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
       />
       <HomeSponsor />
       <HomePublication />
-      <HomeTestimonial />
+      <Testimonial />
       <AskedQuestion />
       <ThreeCareer />
       <Banner />

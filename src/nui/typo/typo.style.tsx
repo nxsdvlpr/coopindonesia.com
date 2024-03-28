@@ -3,7 +3,8 @@ import { tv } from 'tailwind-variants'
 export const typoStyle = tv({
   variants: {
     size: {
-      '6xl': 'text-5xl lg:text-6xl font-sans-alt tracking-tight',
+      '6xl':
+        'text-5xl lg:text-6xl font-sans-alt !font-semibold lg:!font-bold tracking-tight',
       '5xl': 'text-4xl lg:text-5xl font-sans-alt tracking-tight',
       '3xl': 'text-2xl lg:text-3xl tracking-tight',
       '2xl': 'text-xl lg:text-2xl tracking-tight',

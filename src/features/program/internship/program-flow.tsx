@@ -32,7 +32,7 @@ export default function InternshipProgramFlow() {
       <Section>
         <SectionTitle sizeTitle="6xl" info={info} title={title} />
       </Section>
-      <Section maxWidth="content">
+      <Section maxWidth="sm">
         <Flexbox flow="col" gap="4xl">
           {steps.map((step, index) => (
             <Flexbox key={index} flow="col" gap="2xs" align="normal">

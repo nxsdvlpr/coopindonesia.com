@@ -1,4 +1,4 @@
-import { Flexbox, Typo } from '@/nui'
+import { Typo } from '@/nui'
 import OrganizationStructureContactInfo from './contact-info'
 
 export default function OrganizationStructureRepresentativeOffice() {
@@ -13,7 +13,7 @@ export default function OrganizationStructureRepresentativeOffice() {
           position="Kepala Perwakilan"
         />
       </div>
-      <Flexbox gap="none" justify="between">
+      <div className="grid grid-cols-2 lg:grid-cols-4">
         <OrganizationStructureContactInfo
           name="Tomoko Yamamoto"
           position="Perwakilan Area Tokyo"
@@ -30,7 +30,7 @@ export default function OrganizationStructureRepresentativeOffice() {
           name="Devi Riswanto"
           position="Perwakilan Area Aichi"
         />
-      </Flexbox>
+      </div>
       <OrganizationStructureContactInfo
         name="Arief Rivani Nugraha, S.Pd."
         position="Corporate Secretary Area Tokyo"

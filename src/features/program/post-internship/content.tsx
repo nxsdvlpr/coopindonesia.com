@@ -16,7 +16,7 @@ export default function PostInternshipContent({
   children,
 }: PostInternshipContentProps) {
   return (
-    <Section maxWidth="content">
+    <Section maxWidth="sm">
       <Flexbox align="normal" flow="col" gap="2xl">
         <Flexbox flow="col" gap="none" align="normal">
           <Typo size="2xl" fontWeight="bold" color="gray-900">

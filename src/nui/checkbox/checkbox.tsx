@@ -1,27 +1,47 @@
-import { Icon } from '..'
+import { Icon } from '../icon'
+import { HTMLNUIProps, forwardRef } from '../utils'
+import { checkboxStyle } from './checkbox.style'
 
-export default function Checkbox() {
-  return (
-    <div className="inline-flex items-center">
-      <label
-        className="relative flex cursor-pointer items-center rounded-full p-3"
-        htmlFor="check"
-      >
-        <input
-          type="checkbox"
-          className="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-md border border-gray-200 transition-all before:absolute before:left-2/4 before:top-2/4 before:bg-primary-500 checked:border-primary-500 checked:bg-primary-500  checked:before:bg-primary-500 "
-          id="check"
-        />
-        <span className="pointer-events-none absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 text-white opacity-0 transition-opacity peer-checked:opacity-100">
-          <Icon size="xs" icon="lucide:check" />
-        </span>
-      </label>
-      <label
-        className="mt-px cursor-pointer select-none font-medium text-gray-700"
-        htmlFor="check"
-      >
-        You agree to our friendly
-      </label>
-    </div>
-  )
-}
+export type CheckboxProps = {
+  label?: string
+} & HTMLNUIProps<'input'>
+
+export const Checkbox = forwardRef<'input', CheckboxProps>(
+  ({ label: labelInput, id = 'check' }, ref) => {
+    const { wrapper, main, checkbox, icon, label } = checkboxStyle()
+
+    return (
+      <div className={wrapper()}>
+        <label className={main()} htmlFor={id}>
+          <input ref={ref} type="checkbox" className={checkbox()} id={id} />
+          <span className={icon()}>
+            <Icon size="xs" icon="lucide:check" />
+          </span>
+        </label>
+        <label className={label()} htmlFor={id}>
+          {labelInput}
+        </label>
+      </div>
+    )
+  }
+)
+
+// export function Checkbox() {
+//   const { wrapper, main, checkbox, icon, label } = checkboxStyle()
+
+//   const checkboxId = 'check'
+
+//   return (
+//     <div className={wrapper()}>
+//       <label className={main()} htmlFor={checkboxId}>
+//         <input type="checkbox" className={checkbox()} id={checkboxId} />
+//         <span className={icon()}>
+//           <Icon size="xs" icon="lucide:check" />
+//         </span>
+//       </label>
+//       <label className={label()} htmlFor={checkboxId}>
+//         You agree to our friendly
+//       </label>
+//     </div>
+//   )
+// }

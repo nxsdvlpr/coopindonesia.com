@@ -5,7 +5,7 @@ export default function FollowUs() {
   return (
     <div className="lg:w-[9.6875rem]">
       <Flexbox align="start" flow="col" gap="sm">
-        <Typo size="sm" fontWeight="semibold" color="gray-900">
+        <Typo size="md" fontWeight="semibold" color="gray-900">
           Follow Us
         </Typo>
         <Flexbox align="start" flow="col" gap="xs">

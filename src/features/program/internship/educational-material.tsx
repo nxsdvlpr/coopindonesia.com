@@ -37,7 +37,7 @@ export default function InternshipEducationalMaterial() {
       <Section>
         <SectionTitle sizeTitle="6xl" info={info} title={title} />
       </Section>
-      <Section maxWidth="content">
+      <Section maxWidth="sm">
         <Flexbox flow="col" gap="2xl" align="normal">
           <Typo size="2xl" fontWeight="bold" color="gray-900">
             {title}

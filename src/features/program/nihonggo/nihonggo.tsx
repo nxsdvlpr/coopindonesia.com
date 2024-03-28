@@ -39,7 +39,7 @@ export default function Nihonggo() {
       <Section>
         <SectionTitle sizeTitle="6xl" info={info} title={title} />
       </Section>
-      <Section maxWidth="content">
+      <Section maxWidth="sm">
         <Flexbox align="normal" flow="col" gap="xl">
           <div className="mx-auto max-w-[28.75rem]">
             <Image

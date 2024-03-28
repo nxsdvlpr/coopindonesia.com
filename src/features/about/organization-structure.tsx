@@ -1,5 +1,5 @@
-import { Flexbox, Section, SectionTitle } from '@/nui'
-import { AskedQuestion, Banner, FeaturedPrograms } from '../shared'
+import { Section, SectionTitle } from '@/nui'
+import { AskedQuestion, Banner, Testimonial } from '../shared'
 import OrganizationStructureAgriculture from './organization-structure/agriculture'
 import OrganizationStructureContactInfo from './organization-structure/contact-info'
 import OrganizationStructureDevelopment from './organization-structure/development'
@@ -22,8 +22,8 @@ export default function OrganizationStructure() {
         </SectionTitle>
       </Section>
       <Section>
-        <div className="m-auto flex max-w-[960px] flex-col gap-12">
-          <Flexbox gap="none" justify="between">
+        <div className="m-auto flex max-w-[60rem] flex-col gap-12">
+          <div className="flex flex-col lg:flex-row">
             <OrganizationStructureContactInfo
               name="Prof. Dr. Ir. Ginandjar Kartasasmita"
               position="Dewan Penasehat"
@@ -36,7 +36,7 @@ export default function OrganizationStructure() {
               name="Herson Tendean, S.Kom"
               position="Ketua"
             />
-          </Flexbox>
+          </div>
           <div className="h-1 w-full border-b border-gray-200" />
           <OrganizationStructureRepresentativeOffice />
           <div className="h-1 w-full border-b border-gray-200" />
@@ -51,7 +51,7 @@ export default function OrganizationStructure() {
           <OrganizationStructureMICE />
         </div>
       </Section>
-      <FeaturedPrograms variant="gray" />
+      <Testimonial />
       <AskedQuestion />
       <Banner />
     </>

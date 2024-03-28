@@ -43,7 +43,7 @@ export default function InternshipRightsObligations() {
       <Section>
         <SectionTitle sizeTitle="6xl" info={info} title={title} />
       </Section>
-      <Section maxWidth="content">
+      <Section maxWidth="sm">
         <Flexbox flow="col" gap="2xl">
           <div className="mx-auto shrink-0 lg:w-[28.75rem]">
             <Image

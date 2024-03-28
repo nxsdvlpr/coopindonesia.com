@@ -1,4 +1,5 @@
 import { ReactNode } from 'react'
+import { HTMLNUIProps } from '../utils/types'
 
 export type TypoSize =
   | '6xl'
@@ -33,4 +34,4 @@ export type TypoProps = {
   fontWeight?: TypoFontWeight
   color?: TypoColor
   children?: ReactNode
-}
+} & HTMLNUIProps<'div'>

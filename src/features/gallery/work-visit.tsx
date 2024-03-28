@@ -44,7 +44,7 @@ export default function WorkVisit() {
       <Section>
         <SectionTitle sizeTitle="6xl" info="GALLERY" title="Kunjungan Kerja" />
       </Section>
-      <Section maxWidth="content">
+      <Section maxWidth="sm">
         <Carousel items={items} />
       </Section>
       <ExploreMoreGalleries hideWorkVisit />

@@ -1,6 +1,6 @@
 import { Flexbox, Markdown, Section, SectionTitle } from '@/nui'
 import Image from 'next/image'
-import { AskedQuestion, Banner, FeaturedPrograms } from '../shared'
+import { AskedQuestion, Banner, Testimonial } from '../shared'
 
 export default function AtaGlance() {
   const atAGlance = {
@@ -60,7 +60,7 @@ LPK COOP Indonesia meyakini bahwa **Program Pengembangan Usaha Mandiri** melalui
           ))}
         </Flexbox>
       </Section>
-      <FeaturedPrograms variant="gray" />
+      <Testimonial />
       <AskedQuestion />
       <Banner />
     </>
