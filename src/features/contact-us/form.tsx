@@ -1,4 +1,4 @@
-import { Checkbox, Input, Textarea } from '@/nui'
+import { Button, Checkbox, Input, Textarea } from '@/nui'
 import { contactUsFormStyle } from './form.style'
 
 export default function ContactUsForm() {
@@ -18,9 +18,9 @@ export default function ContactUsForm() {
           privacy policy.
         </span>
       </div>
-      <button className="mt-2 max-w-[17rem] rounded-lg bg-primary-600 px-7 py-2.5 text-sm font-semibold text-white hover:bg-primary-700">
+      <Button rounded="lg" size="sm" wider="md">
         Send message
-      </button>
+      </Button>
     </div>
   )
 }
