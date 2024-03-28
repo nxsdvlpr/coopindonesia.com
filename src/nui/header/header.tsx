@@ -12,13 +12,13 @@ export function Header() {
     <>
       <div className="fixed left-0 right-0 top-0 z-30 h-[4.5rem] bg-white">
         <div className="relative m-auto flex h-full max-w-[80rem] items-center justify-between px-4 lg:px-10">
-          <Link href="/" className="w-[5rem]">
+          <Link href="/" className="w-[3.125rem]">
             <Image
               width="0"
               height="0"
               sizes="100vw"
               className="h-auto w-full"
-              src="/logo-text.png"
+              src="/logo.png"
               alt="logo-coop-indonesia"
             />
           </Link>

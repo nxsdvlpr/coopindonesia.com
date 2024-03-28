@@ -2,7 +2,13 @@ import AskedQuestion from '@/features/shared/asked-question'
 import Banner from '@/features/shared/banner'
 import FeaturedPrograms from '@/features/shared/featured-programs'
 import { Flexbox, Markdown, Section, SectionTitle } from '@/nui'
+import { Metadata } from 'next'
 import Image from 'next/image'
+
+export const metadata: Metadata = {
+  title: 'LPK Coop Indonesia - Program',
+  description: 'LPK Coop Indonesia - Program',
+}
 
 export default function InternshipPage() {
   const internship1 = `Program penempatan peserta magang ke Jepang merupakan salah satu program dari Kementerian Ketenagakerjaan RI dibawah Direktorat Bina Lattas (Pembinaan, Pelatihan dan Produktivitas) bekerja sama dengan Pemerintah Jepang, yaitu dibawah JITCO (Japan International Training Cooperation Organization). Progam magang (techinal intern training program) yang dilakukan berupa pelatihan teknis, teknologi, dan pengetahuan.
