@@ -1,4 +1,4 @@
-import { aboutDataStatic } from '@/app/api/about'
+import { aboutOrganizationStructure } from '@/app/api/about'
 import { Field, Fields, Flexbox, Typo } from '@/nui'
 import ContactInfo from './contact-info'
 
@@ -11,7 +11,7 @@ export default function Education() {
     disciplinInstructors,
     generalAffairs,
     languageInstructors,
-  } = aboutDataStatic.organizationStructure.education
+  } = aboutOrganizationStructure.education
 
   return (
     <>

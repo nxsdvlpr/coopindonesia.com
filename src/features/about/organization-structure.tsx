@@ -1,4 +1,4 @@
-import { aboutDataStatic } from '@/app/api/about'
+import { aboutOrganizationStructure } from '@/app/api/about'
 import { Section, SectionTitle } from '@/nui'
 import { AskedQuestion, Banner, Testimonial } from '../shared'
 import Agriculture from './organization-structure/agriculture'
@@ -10,8 +10,7 @@ import Mice from './organization-structure/mice'
 import RepresentativeOffice from './organization-structure/representative-office'
 
 export default function OrganizationStructure() {
-  const { info, title, subtitle, members } =
-    aboutDataStatic.organizationStructure
+  const { info, title, subtitle, members } = aboutOrganizationStructure
 
   return (
     <>

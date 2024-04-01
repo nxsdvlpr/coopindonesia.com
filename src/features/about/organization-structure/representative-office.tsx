@@ -1,10 +1,9 @@
-import { aboutDataStatic } from '@/app/api/about'
+import { aboutOrganizationStructure } from '@/app/api/about'
 import { Typo } from '@/nui'
 import ContactInfo from './contact-info'
 
 export default function RepresentativeOffice() {
-  const { title, members } =
-    aboutDataStatic.organizationStructure.representativeOffice
+  const { title, members } = aboutOrganizationStructure.representativeOffice
 
   return (
     <>

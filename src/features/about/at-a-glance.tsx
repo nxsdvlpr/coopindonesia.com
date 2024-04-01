@@ -1,10 +1,10 @@
-import { aboutDataStatic } from '@/app/api/about'
+import { aboutAtAGlanceDataStatic } from '@/app/api/about'
 import { Flexbox, Markdown, Section, SectionTitle } from '@/nui'
 import Image from 'next/image'
 import { AskedQuestion, Banner, Testimonial } from '../shared'
 
 export default function AtaGlance() {
-  const { title, subtitle, contents } = aboutDataStatic.atAGlance
+  const { title, subtitle, contents } = aboutAtAGlanceDataStatic
 
   return (
     <>
@@ -17,7 +17,7 @@ export default function AtaGlance() {
         <Flexbox flow="col" gap="4xl">
           {contents.map((item, index) => (
             <div
-              key={item.alt}
+              key={index}
               className={
                 index === 1
                   ? 'flex flex-col-reverse lg:flex-row-reverse'
@@ -31,8 +31,8 @@ export default function AtaGlance() {
                   height="0"
                   sizes="100vw"
                   className="h-auto w-full"
-                  src={item.image}
-                  alt={item.alt}
+                  src={item.image.src}
+                  alt={item.image.alt}
                 />
               </div>
             </div>

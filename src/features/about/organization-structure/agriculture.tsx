@@ -1,10 +1,10 @@
-import { aboutDataStatic } from '@/app/api/about'
+import { aboutOrganizationStructure } from '@/app/api/about'
 import { Field, Fields, Flexbox, Typo } from '@/nui'
 import ContactInfo from './contact-info'
 
 export default function Agriculture() {
   const { title, members, supervisor, administrator } =
-    aboutDataStatic.organizationStructure.agriculture
+    aboutOrganizationStructure.agriculture
 
   return (
     <>

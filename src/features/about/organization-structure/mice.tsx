@@ -1,10 +1,10 @@
-import { aboutDataStatic } from '@/app/api/about'
+import { aboutOrganizationStructure } from '@/app/api/about'
 import { Field, Fields, Typo } from '@/nui'
 import ContactInfo from './contact-info'
 
 export default function Mice() {
   const { title, subtitle, name, position, staffProduct } =
-    aboutDataStatic.organizationStructure.MICE
+    aboutOrganizationStructure.MICE
 
   return (
     <>

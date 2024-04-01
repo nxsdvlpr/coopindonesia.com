@@ -1,9 +1,9 @@
-import { aboutDataStatic } from '@/app/api/about'
+import { aboutOrganizationStructure } from '@/app/api/about'
 import { Field, Fields, Flexbox, Typo } from '@/nui'
 import ContactInfo from './contact-info'
 
 export default function Development() {
-  const { title, members } = aboutDataStatic.organizationStructure.development
+  const { title, members } = aboutOrganizationStructure.development
 
   return (
     <>
