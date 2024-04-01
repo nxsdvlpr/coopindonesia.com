@@ -28,6 +28,7 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint'],
   rules: {
+    'react/jsx-no-undef': 'off',
     'linebreak-style': ['error', 'unix'],
     quotes: ['error', 'single'],
     // indent: ['error', 2, { ignoreNodes: ['ConditionalExpression'] }],
