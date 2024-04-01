@@ -1,30 +1,9 @@
+import { intershipRegistrationDataStatic } from '@/app/api/internship'
 import { Flexbox, Icon, Typo } from '@/nui'
 
 export default function HowToRegistration() {
-  const howToRegistration = {
-    title: 'Cara Pendaftaran',
-    titleStep: 'Peserta dapat mengajukan pendaftaran melalui:',
-    steps: [
-      {
-        label: 'E-mail:',
-        content: 'mail@coopindonesia.com',
-        icon: 'lucide:mail',
-      },
-      {
-        label: 'Subject:',
-        content: 'Daftar Program Pemagangan ke Jepang',
-        icon: 'lucide:edit',
-      },
-      {
-        label: 'Tujukan Kepada:',
-        content:
-          'Divisi Program Pengembangan Sumber Daya Manusia LPK COOP Indonesia Di Jakarta',
-        icon: 'lucide:building-2',
-      },
-    ],
-  }
-
-  const { title, titleStep, steps } = howToRegistration
+  const { title, titleStep, steps } =
+    intershipRegistrationDataStatic.howToRegistration
 
   return (
     <Flexbox flow="col" align="normal" gap="xs">

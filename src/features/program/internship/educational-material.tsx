@@ -1,36 +1,11 @@
+import { internshipEducationalMaterialDataStatic } from '@/app/api/internship'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
 import { Flexbox, Section, SectionTitle, Typo } from '@/nui'
 import Image from 'next/image'
 
 export default function InternshipEducationalMaterial() {
-  const internshipEducationalMaterial = {
-    info: 'PROGRAM PEMAGANGAN KE JEPANG',
-    title: 'Materi Pendidikan & Pelatihan',
-    image: {
-      src: '/program/educational-material-image-1.svg',
-      alt: 'educational-material-image-1-coop-indonesia',
-    },
-    contents: [
-      {
-        title: 'A. Bahasa Jepang (60%):',
-        body: "Tata Bahasa, Percakapan, Pendengaran. Modul Pembelajaran LPK COOP Indonesia disadur dari Minna No Nihongo 1 & 2, dan Pembelajaran secara Visual, menggunakan Aplikasi 'Gakken Nihongo 4me' untuk mencapai target Kemampuan Bahasa Jepang Level setara N4.",
-      },
-      {
-        title: 'B. Fisik, Mental dan Disiplin (20%):',
-        body: 'Fisik (Lari, push up, pull up, sit up, shuttle run), pendidikan cinta tanah air, keselamatan kerja/bencana, pembentukan karekter, kerohanian, mentoring, keterampilan kerja.',
-      },
-      {
-        title: 'C. Budaya (10%):',
-        body: 'Sikap, budaya, tata aturan kehidupan masyarakat Jepang.',
-      },
-      {
-        title: 'D. Kewirausahaan (10%):',
-        body: 'Perencanaan Usaha Mandiri, Pengenalan Koperasi, Pengelolaan keuangan sederhana.',
-      },
-    ],
-  }
-
-  const { info, title, image, contents } = internshipEducationalMaterial
+  const { info, title, image, contents } =
+    internshipEducationalMaterialDataStatic
 
   return (
     <>

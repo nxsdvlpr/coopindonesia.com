@@ -1,18 +1,10 @@
+import { internshipPlacementProgressDataStatic } from '@/app/api/internship'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
 import { Flexbox, Section, SectionTitle, Typo } from '@/nui'
 import Image from 'next/image'
 
 export default function InternshipPlacementProgress() {
-  const internshipPlacementProgress = {
-    info: 'PROGRAM PEMAGANGAN KE JEPANG',
-    title: 'Progress Penempatan',
-    image: {
-      src: '/program/placement-progress-image-1.svg',
-      alt: 'placement-progress-image-1-coop-indonesia',
-    },
-  }
-
-  const { info, title, image } = internshipPlacementProgress
+  const { info, title, image } = internshipPlacementProgressDataStatic
 
   return (
     <>

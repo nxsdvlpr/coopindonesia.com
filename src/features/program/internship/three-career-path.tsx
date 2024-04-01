@@ -1,3 +1,4 @@
+import { intershipRegistrationDataStatic } from '@/app/api/internship'
 import {
   AskedQuestion,
   Banner,
@@ -6,9 +7,10 @@ import {
 } from '@/features/shared'
 
 export default function InternshipThreeCareerPath() {
+  const { infoThreeCareer } = intershipRegistrationDataStatic
   return (
     <>
-      <ThreeCareer sizeTitle="6xl" info="PROGRAM PEMAGANGAN KE JEPANG" />
+      <ThreeCareer sizeTitle="6xl" info={infoThreeCareer} />
       <FeaturedPrograms variant="gray" />
       <AskedQuestion />
       <Banner />
