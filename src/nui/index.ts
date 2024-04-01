@@ -14,7 +14,6 @@ import { SectionTitle } from './section-title'
 import { Table, TableBodyCell, TableHead, TableHeadCell } from './table'
 import { Textarea } from './textarea/textarea'
 import { Typo } from './typo'
-import { As, HTMLNUIProps, forwardRef } from './utils'
 
 export {
   Box,
@@ -37,7 +36,4 @@ export {
   TableHeadCell,
   Textarea,
   Typo,
-  forwardRef,
 }
-
-export type { As, HTMLNUIProps }

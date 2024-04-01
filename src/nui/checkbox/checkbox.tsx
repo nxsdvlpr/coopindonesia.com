@@ -1,5 +1,5 @@
+import { HTMLNUIProps, forwardRef } from '../../utils'
 import { Icon } from '../icon'
-import { HTMLNUIProps, forwardRef } from '../utils'
 import { checkboxStyle } from './checkbox.style'
 
 export type CheckboxProps = {

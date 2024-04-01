@@ -1,4 +1,4 @@
-import { forwardRef } from '../utils'
+import { forwardRef } from '../../utils'
 import { textareaStyle } from './textarea.style'
 import { TextareaProps } from './types'
 

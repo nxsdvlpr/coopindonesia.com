@@ -1,33 +1,12 @@
+import { homeDataStatic } from '@/app/api/home'
 import { Section, Typo } from '@/nui'
 import Image from 'next/image'
 import { homeSponsorStyle } from './sponsor.style'
 
 export function HomeSponsor() {
-  const homeSponsor = {
-    title: 'Kami berkolaborasi untuk mencapai dampak terbesar bagi komunitas.',
-    assets: [
-      {
-        src: '/sponsor/fursato-logo.png',
-        alt: 'fursato-logo-coop-indonesia',
-      },
-      {
-        src: '/sponsor/coop-japan-logo.png',
-        alt: 'coop-japan-logo-coop-indonesia',
-      },
-      {
-        src: '/sponsor/other-sponsor-logo.png',
-        alt: 'other-sponsor-logo-coop-indonesia',
-      },
-      {
-        src: '/sponsor/igs-logo.png',
-        alt: 'igs-logo-coop-indonesia',
-      },
-    ],
-  }
-
   const { wrapper, main } = homeSponsorStyle()
 
-  const { title, assets } = homeSponsor
+  const { title, assets } = homeDataStatic.sponsor
 
   return (
     <Section>

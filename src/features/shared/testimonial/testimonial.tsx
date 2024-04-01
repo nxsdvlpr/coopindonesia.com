@@ -1,40 +1,14 @@
+import { testimonialDataStatic } from '@/app/api/testimonial'
 import { Box, Flexbox, Icon, Section, SectionTitle, Typo } from '@/nui'
 import Image from 'next/image'
 import { testimonialStyle } from './testimonial.style'
 
 export default function Testimonial() {
-  const testimonial = {
-    title: 'What People are Saying',
-    subtitle:
-      'Discover what others have to say about their experiences with us.',
-    items: [
-      {
-        name: 'Dr. Sugiharto',
-        position: 'Menteri BUMN (Periode 2004-2007)',
-        description:
-          'LPK COOP Indonesia sebagai salah satu Lembaga Penyelenggara Pemagangan ke Luar Negeri atau Sending Organization (SO) memberi peluang bagi pemuda(i) Indonesia untuk ditempatkan pada perusahaan-perusahaan di Jepang untuk mengikuti program pemagangan dalam rangka meningkatkan kualitas dan kompetensi diri.',
-        imageSrc: '',
-      },
-      {
-        name: 'Dra. Hj. Dewanti Rumpoko',
-        position: 'Walikota Batu',
-        description:
-          'Sistem industri pertanian organik dan ramah lingkungan yang ada di kebun Furusato, diharapkan bisa dikembangkan di tempat lainnya yang ada di Kota Batu. Karena terbukti telah dapat bersaing dengan produk luar di pasar domestik.',
-        imageSrc: '',
-      },
-      {
-        name: 'Dra. Hj. Dewanti Rumpokoo',
-        position: 'Menteri BUMN (Periode 2004-2007)',
-        description:
-          'LPK COOP Indonesia sebagai salah satu Lembaga Penyelenggara Pemagangan ke Luar Negeri atau Sending Organization (SO) memberi peluang bagi pemuda(i) Indonesia untuk ditempatkan pada perusahaan-perusahaan di Jepang untuk mengikuti program pemagangan dalam rangka meningkatkan kualitas dan kompetensi diri.',
-        imageSrc: '',
-      },
-    ],
-  }
-
   const { wrapper, main, boxImage, background } = testimonialStyle()
 
-  const { title, subtitle, items } = testimonial
+  const { title, subtitle, items } = testimonialDataStatic
+
+  if (testimonialDataStatic) return null
 
   return (
     <Section>
@@ -75,7 +49,7 @@ export default function Testimonial() {
                   <Typo size="lg" color="gray-500">
                     {item.position}
                   </Typo>
-                  <Typo size="lg">{item.description}</Typo>
+                  <Typo size="lg">{item.desc}</Typo>
                 </Flexbox>
               </Box>
               <div className={background()} />

@@ -1,31 +1,10 @@
+import { internshipProgramFlowDataStatic } from '@/app/api/internship'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
 import { Flexbox, Section, SectionTitle, Typo } from '@/nui'
 import Image from 'next/image'
 
 export default function InternshipProgramFlow() {
-  const internshipProgramFlow = {
-    info: 'PROGRAM PEMAGANGAN KE JEPANG',
-    title: 'Alur Program',
-    steps: [
-      {
-        titleStep: 'Alur Program',
-        title: 'Skema Program Reguler',
-        image: {
-          src: '/program/program-flow-image-1.svg',
-          alt: 'program-flow-image-1-coop-indonesia',
-        },
-      },
-      {
-        title: 'Skema Program Perawat',
-        image: {
-          src: '/program/program-flow-image-2.svg',
-          alt: 'program-flow-image-2-coop-indonesia',
-        },
-      },
-    ],
-  }
-
-  const { info, title, steps } = internshipProgramFlow
+  const { info, title, steps } = internshipProgramFlowDataStatic
 
   return (
     <>

@@ -1,3 +1,4 @@
+import { intershipRegistrationDataStatic } from '@/app/api/internship'
 import AskedQuestion from '@/features/shared/asked-question'
 import Banner from '@/features/shared/banner'
 import FeaturedPrograms from '@/features/shared/featured-programs'
@@ -8,14 +9,12 @@ import Info from './registration/info'
 import Requirement from './registration/requirement'
 
 export default function InternshipRegistration() {
+  const { info, title } = intershipRegistrationDataStatic
+
   return (
     <>
       <Section>
-        <SectionTitle
-          sizeTitle="6xl"
-          info="PROGRAM PEMAGANGAN KE JEPANG"
-          title="Pendaftaran"
-        />
+        <SectionTitle sizeTitle="6xl" info={info} title={title} />
       </Section>
       <Section maxWidth="sm">
         <Flexbox flow="col" gap="2xl">

@@ -5,13 +5,13 @@ export default function ContactInfo() {
   return (
     <div className="max-w-xs">
       <Flexbox align="start" flow="col" gap="lg">
-        <div className="h-10 w-20">
+        <div className="w-[3.75rem]">
           <Image
             width="0"
             height="0"
             sizes="100vw"
             className="h-auto w-full"
-            src="/logo-text.png"
+            src="/logo.png"
             alt="hero-image-coop-indonesia"
           />
         </div>

@@ -1,53 +1,11 @@
+import { homeDataStatic } from '@/app/api/home'
+import { instagramData, youtubeData } from '@/app/api/publication'
 import { Flexbox, Section, SectionTitle, Typo } from '@/nui'
+import { Video } from '@/nui/video'
 import Image from 'next/image'
 import { homePublicationStyle } from './publication.style'
 
-export default function HomePublication() {
-  const homePublication = {
-    title: 'Publication',
-    subtitle: 'Updates from our social media platform',
-    image: {
-      src: '/from-our-youtube-channel/from-our-youtube-channel-image-1.png',
-      alt: 'from-our-youtube-channel-image-1-coop-indonesia',
-    },
-    instagramAssets: [
-      {
-        src: '/from-our-instagram/from-our-instagram-image-1.png',
-        alt: 'from-our-instagram-image-1-coop-indonesia',
-      },
-      {
-        src: '/from-our-instagram/from-our-instagram-image-2.png',
-        alt: 'from-our-instagram-image-2-coop-indonesia',
-      },
-      {
-        src: '/from-our-instagram/from-our-instagram-image-3.png',
-        alt: 'from-our-instagram-image-3-coop-indonesia',
-      },
-      {
-        src: '/from-our-instagram/from-our-instagram-image-4.png',
-        alt: 'from-our-instagram-image-4-coop-indonesia',
-      },
-    ],
-    youtubeAssets: [
-      {
-        src: '/from-our-youtube-channel/from-our-youtube-channel-image-1.png',
-        alt: 'from-our-youtube-channel-image-1-coop-indonesia',
-      },
-      {
-        src: '/from-our-youtube-channel/from-our-youtube-channel-image-2.png',
-        alt: 'from-our-youtube-channel-image-2-coop-indonesia',
-      },
-      {
-        src: '/from-our-youtube-channel/from-our-youtube-channel-image-3.png',
-        alt: 'from-our-youtube-channel-image-3-coop-indonesia',
-      },
-      {
-        src: '/from-our-youtube-channel/from-our-youtube-channel-image-4.png',
-        alt: 'from-our-youtube-channel-image-4-coop-indonesia',
-      },
-    ],
-  }
-
+export default async function HomePublication() {
   const {
     imageBox,
     main,
@@ -57,8 +15,13 @@ export default function HomePublication() {
     boxYoutubeImage,
   } = homePublicationStyle()
 
-  const { title, subtitle, image, instagramAssets, youtubeAssets } =
-    homePublication
+  const { title, subtitle } = homeDataStatic.publication
+
+  const youtube = await youtubeData()
+
+  const instagram = await instagramData()
+
+  const videoId = youtube?.items?.[0]?.snippet?.resourceId?.videoId ?? ''
 
   return (
     <Section>
@@ -66,14 +29,7 @@ export default function HomePublication() {
         <SectionTitle title={title}>{subtitle}</SectionTitle>
         <Flexbox align="normal" flow="col" gap="2xl">
           <div className={imageBox()}>
-            <Image
-              width="0"
-              height="0"
-              sizes="100vw"
-              className="h-full w-full"
-              src={image.src}
-              alt={image.alt}
-            />
+            <Video youtubeId={videoId} />
           </div>
           <div className={main()}>
             <Flexbox align="start" flow="col" gap="xs">
@@ -81,15 +37,15 @@ export default function HomePublication() {
                 From Our Instagram
               </Typo>
               <div className={boxInstagram()}>
-                {instagramAssets.map((instagramAsset, index) => (
+                {instagram.slice(0, 4).map((item: any, index: number) => (
                   <div key={index} className={boxInstagramImage()}>
                     <Image
                       width="0"
                       height="0"
                       sizes="100vw"
                       className="h-full w-full"
-                      src={instagramAsset.src}
-                      alt={instagramAsset.alt}
+                      src={item.url.large ?? item.url.medium}
+                      alt={item.alt}
                     />
                   </div>
                 ))}
@@ -100,15 +56,18 @@ export default function HomePublication() {
                 From Our YouTube Channel
               </Typo>
               <div className={boxYoutube()}>
-                {youtubeAssets.map((youtubeAsset, index) => (
+                {youtube.items.slice(1, 5).map((item: any, index: number) => (
                   <div key={index} className={boxYoutubeImage()}>
                     <Image
                       width="0"
                       height="0"
                       sizes="100vw"
                       className="h-full w-full"
-                      src={youtubeAsset.src}
-                      alt={youtubeAsset.alt}
+                      src={
+                        item?.snippet?.thumbnails?.maxres?.url ??
+                        item?.snippet?.thumbnails?.default?.url
+                      }
+                      alt={item?.snippet?.videoOwnerChannelTitle}
                     />
                   </div>
                 ))}

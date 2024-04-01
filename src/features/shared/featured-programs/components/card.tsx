@@ -5,6 +5,7 @@ import { ReactNode } from 'react'
 export type CardProps = {
   src: string | StaticImageData
   alt: string
+  href?: string
   title: string
   titleButton?: string
   children?: ReactNode
@@ -13,6 +14,7 @@ export type CardProps = {
 export default function Card({
   src,
   alt,
+  href,
   title,
   titleButton = 'Pelajari',
   children,
@@ -31,12 +33,12 @@ export default function Card({
           />
         </div>
         <Flexbox align="start" flow="col" gap="xs">
-          <Typo as="h2" size="xl" fontWeight="bold" color="gray-900">
+          <Typo size="xl" fontWeight="bold" color="gray-900">
             {title}
           </Typo>
           <Typo size="md">{children}</Typo>
         </Flexbox>
-        <Button wider="sm" size="sm">
+        <Button as="a" href={href} wider="sm" size="sm">
           {titleButton}
         </Button>
       </Flexbox>

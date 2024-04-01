@@ -11,7 +11,7 @@ export function TableHeadCell({
     <th className={tableHeadCellStyle({ background })}>
       {title && (
         <>
-          <Typo size="lg" fontWeight="bold" color="primary-700">
+          <Typo size="lg" fontWeight="bold" color="primary-500">
             {title}
           </Typo>
           <Typo size="lg" fontWeight="semibold" color="gray-900">

@@ -2,7 +2,7 @@ import { Box, Flexbox, Typo } from '@/nui'
 import Image, { StaticImageData } from 'next/image'
 import { ReactNode } from 'react'
 
-type ContactInfoAboutProps = {
+type ContactInfoProps = {
   src?: string | StaticImageData
   alt?: string
   name?: string
@@ -10,13 +10,13 @@ type ContactInfoAboutProps = {
   children?: ReactNode
 }
 
-export default function OrganizationStructureContactInfo({
+export default function ContactInfo({
   src,
   alt = 'image-default',
   name,
   position,
   children,
-}: ContactInfoAboutProps) {
+}: ContactInfoProps) {
   if (!name) return null
 
   return (
