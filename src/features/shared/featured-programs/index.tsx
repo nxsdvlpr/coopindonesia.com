@@ -21,7 +21,7 @@ export default function FeaturedPrograms({
         <SectionTitle title={programTitle ?? title}>
           {programSubtitle ?? subtitle}
         </SectionTitle>
-        <div className="flex flex-col gap-8 lg:flex-row">
+        <div className="grid gap-8 lg:grid-cols-3">
           {programs.map((program, index) => (
             <Card
               key={index}

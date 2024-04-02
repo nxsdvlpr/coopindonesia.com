@@ -1,6 +1,7 @@
 import { aboutOrganizationDataStatic } from '@/app/api/about'
 import { Box, Flexbox, Markdown, Section, SectionTitle, Typo } from '@/nui'
 import { AskedQuestion, Banner, Testimonial } from '../shared'
+import { Menu } from '../shared/menu'
 
 export default function Organization() {
   const { info, title, subtitle, links, office } = aboutOrganizationDataStatic
@@ -57,6 +58,7 @@ export default function Organization() {
           </Flexbox>
         </Flexbox>
       </Section>
+      <Menu showMenuAbout borderBottom />
       <Testimonial />
       <AskedQuestion />
       <Banner />

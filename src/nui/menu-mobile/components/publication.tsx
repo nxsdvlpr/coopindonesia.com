@@ -1,3 +1,4 @@
+import { menuDataStatic } from '@/app/api/menu'
 import Card from './card'
 import Link from './link'
 type MenuPublicationProps = {
@@ -5,20 +6,19 @@ type MenuPublicationProps = {
 }
 
 export default function MenuPublication({ onClose }: MenuPublicationProps) {
+  const { publication } = menuDataStatic
+
   return (
     <Card title="PUBLICATION">
-      <Link
-        icon="lucide:play"
-        title="Vlog"
-        href="/publication/vlog"
-        onClick={onClose}
-      />
-      <Link
-        icon="lucide:newspaper"
-        title="From Our Social Media Account"
-        href="/publication/instagram"
-        onClick={onClose}
-      />
+      {publication.map((item) => (
+        <Link
+          key={item.id}
+          icon={item.icon}
+          title={item.label}
+          href={item.href}
+          onClick={onClose}
+        />
+      ))}
     </Card>
   )
 }

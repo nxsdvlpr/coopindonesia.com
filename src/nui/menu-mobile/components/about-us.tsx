@@ -1,3 +1,4 @@
+import { menuDataStatic } from '@/app/api/menu'
 import Card from './card'
 import Link from './link'
 
@@ -6,32 +7,19 @@ type MenuAboutUsProps = {
 }
 
 export default function MenuAboutUs({ onClose }: MenuAboutUsProps) {
+  const { about } = menuDataStatic
+
   return (
     <Card title="ABOUT US">
-      <Link
-        icon="lucide:image"
-        title="At a Glance"
-        href="/about/at-a-glance"
-        onClick={onClose}
-      />
-      <Link
-        icon="lucide:image"
-        title="Mission and Vision"
-        href="/about/vision-and-mission"
-        onClick={onClose}
-      />
-      <Link
-        icon="lucide:image"
-        title="Organization"
-        href="/about/organization"
-        onClick={onClose}
-      />
-      <Link
-        icon="lucide:image"
-        title="Organization Structure"
-        href="/about/organization-structure"
-        onClick={onClose}
-      />
+      {about.map((item) => (
+        <Link
+          key={item.id}
+          icon={item.icon}
+          title={item.label}
+          href={item.href}
+          onClick={onClose}
+        />
+      ))}
     </Card>
   )
 }

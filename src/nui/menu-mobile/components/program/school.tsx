@@ -1,3 +1,5 @@
+import { menuDataStatic } from '@/app/api/menu'
+import { Listbox } from '@/nui/listbox'
 import Link from 'next/link'
 import { useState } from 'react'
 import Button from './button'
@@ -9,23 +11,23 @@ type MenuProgramSchoolProps = {
 export default function MenuProgramSchool({ onclose }: MenuProgramSchoolProps) {
   const [isOpen, setIsOpen] = useState(false)
 
-  const menuItems = [
-    { href: '/program/nihonggo', label: ' Persyaratan Calon Siswa & Dokumen' },
-    { href: '/program/nihonggo/anabuki', label: 'Sekolah Anabuki' },
-    { href: '/program/nihonggo/isb', label: 'Sekolah ISB' },
-  ]
+  const { schools } = menuDataStatic.program
 
   return (
     <>
-      <Button
-        isActive={isOpen}
-        onClick={() => setIsOpen((e) => !e)}
-        icon="lucide:languages"
-        label="Sekolah Bahasa"
-      />
-      {isOpen && (
+      <Listbox
+        label={
+          <Button
+            isActive={isOpen}
+            onClick={() => setIsOpen((e) => !e)}
+            icon="lucide:languages"
+            label="Sekolah Bahasa"
+          />
+        }
+        isOpen={isOpen}
+      >
         <div className="flex flex-col pl-9">
-          {menuItems.map((item) => (
+          {schools.map((item) => (
             <Link
               key={item.label}
               href={item.href}
@@ -36,7 +38,7 @@ export default function MenuProgramSchool({ onclose }: MenuProgramSchoolProps) {
             </Link>
           ))}
         </div>
-      )}
+      </Listbox>
     </>
   )
 }

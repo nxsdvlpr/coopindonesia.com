@@ -25,7 +25,7 @@ export default function VideoVlog({ data }: VideoVlogProps) {
               onClick={() => setVideoId(item?.snippet?.resourceId?.videoId)}
               className="group flex h-fit flex-col gap-4 text-start text-base font-semibold text-gray-900 hover:text-primary-600 focus:outline-none"
             >
-              <div className="h-[5.625rem] lg:h-[9.6875rem]">
+              <div className="aspect-video max-h-[9.6875rem] w-full">
                 <Image
                   width="0"
                   height="0"

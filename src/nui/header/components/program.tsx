@@ -1,5 +1,6 @@
 'use client'
 
+import { menuDataStatic } from '@/app/api/menu'
 import { Flexbox, MenuButton } from '@/nui'
 import { useState } from 'react'
 import { Item } from 'react-stately'
@@ -13,27 +14,7 @@ export function MenuProgram() {
 
   const [state, setState] = useState('internship')
 
-  const programItems = [
-    {
-      icon: 'lucide:graduation-cap',
-      label: 'Pemagangan ke Jepang',
-      description: 'LPK COOP Indonesia melakukan proses rekrutmen',
-      state: 'internship',
-    },
-    {
-      icon: 'lucide:languages',
-      label: 'Sekolah Bahasa',
-      description:
-        'Nihonggo Gakko untuk mempelajari secara langsung budaya dan bahasa Jepang',
-      state: 'school',
-    },
-    {
-      icon: 'lucide:award',
-      label: 'Program Usaha Mandiri',
-      description: 'Kegiatan usai magang di Jepang & kembali ke Tanah Air',
-      state: 'business',
-    },
-  ]
+  const { menu } = menuDataStatic.program
 
   return (
     <>
@@ -47,7 +28,7 @@ export function MenuProgram() {
         <Item>
           <div className="flex">
             <Flexbox flow="col" gap="none" align="normal">
-              {programItems.map((item) => (
+              {menu.map((item) => (
                 <Menu
                   key={item.label}
                   label={item.label}

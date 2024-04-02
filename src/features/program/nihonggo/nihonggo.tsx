@@ -1,5 +1,6 @@
 import { nihonggoDataStatic } from '@/app/api/nihonggo'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
+import { Menu } from '@/features/shared/menu'
 import { Flexbox, Markdown, Section, SectionTitle, Typo } from '@/nui'
 import Image from 'next/image'
 
@@ -36,6 +37,7 @@ export default function Nihonggo() {
           ))}
         </Flexbox>
       </Section>
+      <Menu showMenuNihonggo />
       <FeaturedPrograms variant="gray" />
       <AskedQuestion />
       <Banner />

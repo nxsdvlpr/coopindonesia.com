@@ -1,9 +1,35 @@
-import Home from '@/features/home'
+import {
+  HomeHero,
+  HomePublication,
+  HomeSponsor,
+} from '@/features/home/components'
+import {
+  AskedQuestion,
+  Banner,
+  FeaturedPrograms,
+  Testimonial,
+  ThreeCareer,
+} from '@/features/shared'
+import { instagramData, youtubeData } from './api/publication'
 
-export default function HomePage() {
+export default async function HomePage() {
+  const youtube = await youtubeData()
+
+  const instagram = await instagramData()
+
   return (
-    <div>
-      <Home />
-    </div>
+    <>
+      <HomeHero />
+      <FeaturedPrograms
+        title="Featured Programs"
+        subtitle={`LPK Coop Indonesia's top choice programs`}
+      />
+      <HomeSponsor />
+      <HomePublication youtube={youtube} instagram={instagram} />
+      <Testimonial />
+      <AskedQuestion />
+      <ThreeCareer />
+      <Banner />
+    </>
   )
 }

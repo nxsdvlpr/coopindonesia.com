@@ -1,5 +1,6 @@
 'use client'
 
+import { menuDataStatic } from '@/app/api/menu'
 import { Icon, MenuButton, Typo } from '@/nui'
 import Link from 'next/link'
 import { useState } from 'react'
@@ -8,38 +9,13 @@ import { Item } from 'react-stately'
 export default function MenuGallery() {
   const [isOpen, setIsOpen] = useState(false)
 
-  const menuItems = [
-    {
-      id: 1,
-      label: 'Kunjungan Kerja',
-      description: 'Foto-foto kunjungan kerja',
-      link: '/gallery/work-visit',
-    },
-    {
-      id: 2,
-      label: 'Kerjasama',
-      description: 'Foto-foto kerjasama COOP Indonesia',
-      link: '/gallery/collaboration',
-    },
-    {
-      id: 3,
-      label: 'Kegiatan Magang',
-      description: 'Foto-foto peserta dalam kegiatan magang',
-      link: '/gallery/internship-activities',
-    },
-    {
-      id: 4,
-      label: 'Pusdiklat Magang',
-      description: 'Foto-foto kegiatan di pusdiklat magang',
-      link: '/gallery/training-center',
-    },
-  ]
+  const { galleries } = menuDataStatic
 
   return (
     <MenuButton
       label="Gallery"
       placement="bottom right"
-      items={menuItems}
+      items={galleries}
       isOpen={isOpen}
       closeOnSelect={false}
       onOpenChange={() => setIsOpen((e) => !e)}
@@ -47,7 +23,7 @@ export default function MenuGallery() {
       {(item) => (
         <Item textValue={item.label}>
           <Link
-            href={item.link}
+            href={item.href}
             onClick={() => setIsOpen(false)}
             className="flex w-[30rem] items-center gap-6 rounded-lg p-6 font-semibold text-gray-900 outline-none hover:bg-primary-25"
           >

@@ -2,6 +2,7 @@ import { aboutAtAGlanceDataStatic } from '@/app/api/about'
 import { Flexbox, Markdown, Section, SectionTitle } from '@/nui'
 import Image from 'next/image'
 import { AskedQuestion, Banner, Testimonial } from '../shared'
+import { Menu } from '../shared/menu'
 
 export default function AtaGlance() {
   const { title, subtitle, contents } = aboutAtAGlanceDataStatic
@@ -39,6 +40,7 @@ export default function AtaGlance() {
           ))}
         </Flexbox>
       </Section>
+      <Menu showMenuAbout borderBottom />
       <Testimonial />
       <AskedQuestion />
       <Banner />

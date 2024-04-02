@@ -1,5 +1,6 @@
 import { intershipDataStatic } from '@/app/api/internship'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
+import { Menu } from '@/features/shared/menu'
 import { Markdown, Section, SectionTitle } from '@/nui'
 import Image from 'next/image'
 import { Fragment } from 'react'
@@ -51,6 +52,7 @@ export default function Internship() {
           ))}
         </div>
       </Section>
+      <Menu showMenuInternship />
       <FeaturedPrograms variant="gray" />
       <AskedQuestion />
       <Banner />

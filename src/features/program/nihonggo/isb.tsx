@@ -1,5 +1,6 @@
 import { nihonggoIsbDataStatic } from '@/app/api/nihonggo'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
+import { Menu } from '@/features/shared/menu'
 import { Flexbox, Markdown, Section, SectionTitle, Typo } from '@/nui'
 import Carousel from '@/nui/carousel/carousel'
 import Image from 'next/image'
@@ -46,6 +47,7 @@ export default function NihonggoIsb() {
         <Markdown size="lg">{content.body}</Markdown>
         <Carousel items={items} />
       </Section>
+      <Menu showMenuNihonggo />
       <FeaturedPrograms variant="gray" />
       <AskedQuestion />
       <Banner />

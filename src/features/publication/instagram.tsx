@@ -19,7 +19,7 @@ export default async function Instagram() {
       <Section>
         <div className="grid grid-cols-2 gap-6 lg:grid-cols-4 lg:gap-8">
           {instagrams.map((item: any, index: number) => (
-            <div key={index} className="h-[10rem] lg:h-[16.5rem]">
+            <div key={index} className="h-[10rem] w-full lg:h-[16.5rem]">
               <Image
                 width="0"
                 height="0"

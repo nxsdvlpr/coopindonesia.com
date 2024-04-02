@@ -1,5 +1,6 @@
 import { internshipPlacementDataStatic } from '@/app/api/internship'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
+import { Menu } from '@/features/shared/menu'
 import { Flexbox, Markdown, Section, SectionTitle, Typo } from '@/nui'
 import Carousel from '@/nui/carousel/carousel'
 import Image from 'next/image'
@@ -36,6 +37,7 @@ export default function InternshipPlacement() {
         <div className="h-6" />
         <Carousel items={items} />
       </Section>
+      <Menu showMenuInternship />
       <FeaturedPrograms variant="gray" />
       <AskedQuestion />
       <Banner />

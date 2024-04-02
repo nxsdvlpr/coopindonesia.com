@@ -1,5 +1,6 @@
 import { internshipProgramFlowDataStatic } from '@/app/api/internship'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
+import { Menu } from '@/features/shared/menu'
 import { Flexbox, Section, SectionTitle, Typo } from '@/nui'
 import Image from 'next/image'
 
@@ -35,6 +36,7 @@ export default function InternshipProgramFlow() {
           ))}
         </Flexbox>
       </Section>
+      <Menu showMenuInternship />
       <FeaturedPrograms variant="gray" />
       <AskedQuestion />
       <Banner />

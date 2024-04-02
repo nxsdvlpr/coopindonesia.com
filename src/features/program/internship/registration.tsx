@@ -2,6 +2,7 @@ import { intershipRegistrationDataStatic } from '@/app/api/internship'
 import AskedQuestion from '@/features/shared/asked-question'
 import Banner from '@/features/shared/banner'
 import FeaturedPrograms from '@/features/shared/featured-programs'
+import { Menu } from '@/features/shared/menu'
 import { Flexbox, Section, SectionTitle } from '@/nui'
 import Address from './registration/address'
 import HowToRegistration from './registration/how-to-registration'
@@ -26,6 +27,7 @@ export default function InternshipRegistration() {
           <Address />
         </Flexbox>
       </Section>
+      <Menu showMenuInternship />
       <FeaturedPrograms variant="gray" />
       <AskedQuestion />
       <Banner />

@@ -1,5 +1,6 @@
 'use client'
 
+import { menuDataStatic } from '@/app/api/menu'
 import { Icon, MenuButton, Typo } from '@/nui'
 import Link from 'next/link'
 import { useState } from 'react'
@@ -8,28 +9,13 @@ import { Item } from 'react-stately'
 export default function MenuPublication() {
   const [isOpen, setIsOpen] = useState(false)
 
-  const menuItems = [
-    {
-      id: 1,
-      label: 'Vlog',
-      description: 'Watch our latest video log on YouTube',
-      link: '/publication/vlog',
-      icon: 'lucide:play',
-    },
-    {
-      id: 2,
-      label: 'From Our Social Media Account',
-      description: 'Updates from our Instagram',
-      link: '/publication/instagram',
-      icon: 'lucide:newspaper',
-    },
-  ]
+  const { publication } = menuDataStatic
 
   return (
     <MenuButton
       label="Publication"
       placement="bottom right"
-      items={menuItems}
+      items={publication}
       isOpen={isOpen}
       closeOnSelect={false}
       onOpenChange={() => setIsOpen((e) => !e)}
@@ -37,7 +23,7 @@ export default function MenuPublication() {
       {(item) => (
         <Item textValue={item.label}>
           <Link
-            href={item.link}
+            href={item.href}
             onClick={() => setIsOpen(false)}
             className="flex w-[30rem] items-center gap-6 rounded-lg p-6 font-semibold text-gray-900 outline-none hover:bg-primary-25"
           >

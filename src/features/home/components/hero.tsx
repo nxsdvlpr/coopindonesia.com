@@ -24,6 +24,7 @@ export function HomeHero() {
             width="0"
             height="0"
             sizes="100vw"
+            priority
             className="h-auto w-full"
             src={image.src}
             alt={image.alt}

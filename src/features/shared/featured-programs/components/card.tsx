@@ -22,7 +22,7 @@ export default function Card({
   return (
     <Box withBorder>
       <Flexbox align="start" flow="col" gap="md">
-        <div className="w-full overflow-hidden lg:h-[11.5rem] lg:w-[19.375rem]">
+        <div className="aspect-video w-full overflow-hidden">
           <Image
             width="0"
             height="0"

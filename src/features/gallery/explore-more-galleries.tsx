@@ -58,7 +58,7 @@ export default function ExploreMoreGalleries({
                 <Link key={index} href={gallery.href}>
                   <Box withBorder>
                     <Flexbox flow="col" gap="sm">
-                      <div className="lg:h-[13.125rem] lg:w-[19.6875rem]">
+                      <div className="aspect-video w-full lg:max-w-[19.6875rem]">
                         <Image
                           width="0"
                           height="0"
