@@ -14,12 +14,12 @@ export function HomeSponsor() {
         <Typo size="lg">{title}</Typo>
         <div className={main()}>
           {assets.map((asset, index) => (
-            <div className="h-16" key={index}>
+            <div className="h-12" key={index}>
               <Image
                 width="0"
                 height="0"
                 sizes="100vw"
-                className="h-full w-full"
+                className="h-full w-full grayscale hover:grayscale-0"
                 src={asset.src}
                 alt={asset.alt}
               />
