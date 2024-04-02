@@ -13,9 +13,16 @@ export const cardStyle = tv({
   slots: {
     wrapper: 'h-fit w-full',
     button:
-      'flex items-center justify-between gap-3 text-start hover:text-primary-500',
-    icon: 'h-fit w-fit text-gray-900 duration-200 ease-in-out',
-    iconActive: 'h-fit w-fit rotate-180 text-gray-900 duration-200 ease-in-out',
-    iconBox: 'flex h-6 w-6 items-center justify-center',
+      'flex items-center justify-between w-full gap-3 text-start hover:text-primary-500',
+  },
+})
+
+export const cardIconStyle = tv({
+  base: 'ease-in-out duration-200',
+  variants: {
+    isOpen: {
+      true: 'text-primary-500 rotate-180',
+      false: 'text-gray-900 rotate-0',
+    },
   },
 })

@@ -1,3 +1,5 @@
+import { menuDataStatic } from '@/app/api/menu'
+import { Listbox } from '@/nui/listbox'
 import Link from 'next/link'
 import { useState } from 'react'
 import Button from './button'
@@ -11,41 +13,32 @@ export default function MenuProgramBusiness({
 }: MenuProgramBusinessProps) {
   const [isOpen, setIsOpen] = useState(false)
 
-  const menuItems = [
-    { href: '/program/post-internship', label: 'Pendahuluan' },
-    {
-      href: '/program/post-internship/furusato-agribisnis',
-      label: 'Furusato Agribisnis',
-    },
-    {
-      href: '/program/post-internship/palm-sugar',
-      label: 'Gula Aren',
-    },
-    { href: '/program/post-internship/roselindo-tea', label: 'Roselindo Tea' },
-  ]
+  const { business } = menuDataStatic.program
 
   return (
-    <>
-      <Button
-        isActive={isOpen}
-        onClick={() => setIsOpen((e) => !e)}
-        icon="lucide:award"
-        label="Program Usaha Mandiri"
-      />
-      {isOpen && (
-        <div className="flex flex-col pl-9">
-          {menuItems.map((item) => (
-            <Link
-              key={item.label}
-              href={item.href}
-              onClick={onclose}
-              className="px-4 py-1.5 text-base text-gray-500 hover:text-gray-600"
-            >
-              {item.label}
-            </Link>
-          ))}
-        </div>
-      )}
-    </>
+    <Listbox
+      label={
+        <Button
+          isActive={isOpen}
+          onClick={() => setIsOpen((e) => !e)}
+          icon="lucide:award"
+          label="Program Usaha Mandiri"
+        />
+      }
+      isOpen={isOpen}
+    >
+      <div className="flex flex-col pl-9">
+        {business.map((item) => (
+          <Link
+            key={item.label}
+            href={item.href}
+            onClick={onclose}
+            className="px-4 py-1.5 text-base text-gray-500 last:mb-2 hover:text-gray-600"
+          >
+            {item.label}
+          </Link>
+        ))}
+      </div>
+    </Listbox>
   )
 }

@@ -14,10 +14,10 @@ export function Video({ src, youtubeId }: VideoProps) {
   if (!data) return null
 
   return (
-    <div className="h-auto w-full overflow-hidden rounded-lg">
+    <div className="aspect-video w-full  overflow-hidden rounded-lg">
       <ReactPlayer
         width="100%"
-        height={600}
+        height="100%"
         controls
         url={src ? src : `https://www.youtube.com/watch?v=${youtubeId}`}
       />

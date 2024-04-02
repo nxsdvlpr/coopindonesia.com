@@ -1,3 +1,4 @@
+import { menuDataStatic } from '@/app/api/menu'
 import Link from 'next/link'
 
 type MenuProgramBusinessProps = {
@@ -7,22 +8,11 @@ type MenuProgramBusinessProps = {
 export default function MenuProgramBusiness({
   onclose,
 }: MenuProgramBusinessProps) {
-  const menuItems = [
-    { href: '/program/post-internship', label: 'Pendahuluan' },
-    {
-      href: '/program/post-internship/furusato-agribisnis',
-      label: 'Furusato Agribisnis',
-    },
-    {
-      href: '/program/post-internship/palm-sugar',
-      label: 'Gula Aren',
-    },
-    { href: '/program/post-internship/roselindo-tea', label: 'Roselindo Tea' },
-  ]
+  const { business } = menuDataStatic.program
 
   return (
-    <div className="grid w-[43rem] shrink-0 grid-cols-2 content-start border-l border-primary-50 p-8">
-      {menuItems.map((item) => (
+    <div className="grid shrink-0 grid-cols-2 content-start border-l border-primary-50 p-8 lg:w-[43rem]">
+      {business.map((item) => (
         <Link
           key={item.label}
           href={item.href}

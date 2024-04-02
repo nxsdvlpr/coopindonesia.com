@@ -14,7 +14,7 @@ export const boxStyle = tv({
       xs: 'p-3',
       sm: 'p-4',
       md: 'p-6',
-      lg: 'p-8',
+      lg: 'p-6 lg:p-8',
       xl: 'p-12',
     },
   },

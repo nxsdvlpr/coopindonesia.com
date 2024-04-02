@@ -13,10 +13,10 @@ export const Typo = forwardRef<'div', TypoProps>(
       '3xl': 'h3',
       '2xl': 'h4',
       xl: 'h5',
-      lg: 'p',
-      md: 'p',
-      sm: 'p',
-      xs: 'p',
+      lg: 'div',
+      md: 'div',
+      sm: 'div',
+      xs: 'div',
     }
 
     const Component = !as ? headingMap[size] : as

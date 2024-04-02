@@ -45,7 +45,7 @@ export default async function HomePublication() {
                       sizes="100vw"
                       className="h-full w-full"
                       src={item.url.large ?? item.url.medium}
-                      alt={item.alt}
+                      alt={item.alt ?? 'coop-indonesia'}
                     />
                   </div>
                 ))}

@@ -1,5 +1,6 @@
 'use client'
 
+import { menuDataStatic } from '@/app/api/menu'
 import { Icon, MenuButton, Typo } from '@/nui'
 import Link from 'next/link'
 import { useState } from 'react'
@@ -8,42 +9,13 @@ import { Item } from 'react-stately'
 export default function MenuAbout() {
   const [isOpen, setIsOpen] = useState(false)
 
-  const menuItems = [
-    {
-      id: 1,
-      label: 'At a Glance',
-      description: 'Overview about LPK COOP Indonesia',
-      link: '/about/at-a-glance',
-      icon: 'lucide:building-2',
-    },
-    {
-      id: 2,
-      label: 'Mission and Vision',
-      description: 'More about our core views',
-      link: '/about/vision-and-mission',
-      icon: 'lucide:scan-eye',
-    },
-    {
-      id: 3,
-      label: 'Organization',
-      description: 'Leadership, board, and staff',
-      link: '/about/organization',
-      icon: 'lucide:scan-eye',
-    },
-    {
-      id: 4,
-      label: 'Organization Structure',
-      description: 'Leadership, board, and staff',
-      link: '/about/organization-structure',
-      icon: 'lucide:scan-eye',
-    },
-  ]
+  const { about } = menuDataStatic
 
   return (
     <MenuButton
       label="About Us"
       placement="bottom right"
-      items={menuItems}
+      items={about}
       isOpen={isOpen}
       closeOnSelect={false}
       onOpenChange={() => setIsOpen((e) => !e)}

@@ -1,6 +1,7 @@
-import { Box, Flexbox, Icon, Typo } from '@/nui'
+import { Box, Icon, Typo } from '@/nui'
+import { Listbox } from '@/nui/listbox'
 import { Dispatch, ReactNode, SetStateAction } from 'react'
-import { cardStyle } from './card.style'
+import { cardIconStyle, cardStyle } from './card.style'
 
 export type CardProps = {
   id: string
@@ -17,28 +18,32 @@ export default function Card({
   title,
   children,
 }: CardProps) {
-  const { wrapper, button, icon, iconActive, iconBox } = cardStyle()
+  const { wrapper, button } = cardStyle()
 
   return (
     <div className={wrapper()}>
       <Box withBorder rounded="sm" padding="md">
-        <Flexbox align="normal" justify="between" flow="col" gap="sm">
-          <button onClick={() => setIsOpen(id)} className={button()}>
-            <Typo
-              size="xl"
-              fontWeight="bold"
-              color={isOpen === id ? 'primary-500' : 'gray-900'}
-            >
-              {title}
-            </Typo>
-            <div className={isOpen === id ? iconActive() : icon()}>
-              <div className={iconBox()}>
+        <Listbox
+          isOpen={isOpen === id}
+          label={
+            <button onClick={() => setIsOpen(id)} className={button()}>
+              <Typo
+                size="xl"
+                fontWeight="bold"
+                color={isOpen === id ? 'primary-500' : 'gray-900'}
+              >
+                {title}
+              </Typo>
+              <div className={cardIconStyle({ isOpen: isOpen === id })}>
                 <Icon icon="lucide:chevron-down" />
               </div>
-            </div>
-          </button>
-          {isOpen === id && <Typo size="lg">{children}</Typo>}
-        </Flexbox>
+            </button>
+          }
+        >
+          <div className="pt-4">
+            <Typo size="lg">{children}</Typo>
+          </div>
+        </Listbox>
       </Box>
     </div>
   )
