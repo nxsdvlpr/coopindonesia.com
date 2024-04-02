@@ -1,11 +1,18 @@
 import { homeDataStatic } from '@/app/api/home'
-import { instagramData, youtubeData } from '@/app/api/publication'
 import { Flexbox, Section, SectionTitle, Typo } from '@/nui'
 import { Video } from '@/nui/video'
 import Image from 'next/image'
 import { homePublicationStyle } from './publication.style'
 
-export default async function HomePublication() {
+type HomePublicationProps = {
+  youtube: any
+  instagram: any
+}
+
+export default function HomePublication({
+  youtube,
+  instagram,
+}: HomePublicationProps) {
   const {
     imageBox,
     main,
@@ -16,10 +23,6 @@ export default async function HomePublication() {
   } = homePublicationStyle()
 
   const { title, subtitle } = homeDataStatic.publication
-
-  const youtube = await youtubeData()
-
-  const instagram = await instagramData()
 
   const videoId = youtube?.items?.[0]?.snippet?.resourceId?.videoId ?? ''
 
