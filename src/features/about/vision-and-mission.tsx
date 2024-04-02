@@ -2,6 +2,7 @@ import { aboutVisionAndMissionDataStatic } from '@/app/api/about'
 import { Flexbox, Markdown, Section, SectionTitle, Typo } from '@/nui'
 import Image from 'next/image'
 import { AskedQuestion, Banner, Testimonial } from '../shared'
+import { Menu } from '../shared/menu'
 
 export default function VisionMission() {
   const { info, title, vision, mission } = aboutVisionAndMissionDataStatic
@@ -37,6 +38,7 @@ export default function VisionMission() {
           <Markdown size="lg">{mission.description}</Markdown>
         </Flexbox>
       </Section>
+      <Menu showMenuAbout borderBottom />
       <Testimonial />
       <AskedQuestion />
       <Banner />

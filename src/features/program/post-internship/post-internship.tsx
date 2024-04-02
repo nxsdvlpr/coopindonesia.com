@@ -1,5 +1,6 @@
 import { postInternshipDataStatic } from '@/app/api/post-internship'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
+import { Menu } from '@/features/shared/menu'
 import { Section, SectionTitle } from '@/nui'
 import Image from 'next/image'
 import PostInternshipContent from './content'
@@ -29,6 +30,7 @@ export default function PostInternship() {
         items={items}
         makdown={contents.body}
       />
+      <Menu showMenuPostInternship />
       <FeaturedPrograms variant="gray" />
       <AskedQuestion />
       <Banner />

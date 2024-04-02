@@ -23,7 +23,7 @@ export default function MenuPublication() {
       {(item) => (
         <Item textValue={item.label}>
           <Link
-            href={item.link}
+            href={item.href}
             onClick={() => setIsOpen(false)}
             className="flex w-[30rem] items-center gap-6 rounded-lg p-6 font-semibold text-gray-900 outline-none hover:bg-primary-25"
           >

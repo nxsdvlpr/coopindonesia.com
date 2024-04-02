@@ -16,7 +16,7 @@ export default function MenuGallery({ onClose }: MenuGalleryProps) {
           key={item.id}
           icon={item.icon}
           title={item.label}
-          href={item.link}
+          href={item.href}
           onClick={onClose}
         />
       ))}

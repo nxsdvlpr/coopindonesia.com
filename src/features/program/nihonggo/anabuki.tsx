@@ -1,5 +1,6 @@
 import { nihonggoAnabukiDataStatic } from '@/app/api/nihonggo'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
+import { Menu } from '@/features/shared/menu'
 import { Flexbox, Markdown, Section, SectionTitle, Typo } from '@/nui'
 import Carousel from '@/nui/carousel/carousel'
 import Image from 'next/image'
@@ -45,6 +46,7 @@ export default function NihonggoAnabuki() {
           <Carousel items={items} />
         </Flexbox>
       </Section>
+      <Menu showMenuNihonggo />
       <FeaturedPrograms variant="gray" />
       <AskedQuestion />
       <Banner />

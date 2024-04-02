@@ -1,5 +1,6 @@
 import { postInternshipPalmSugarDataStatic } from '@/app/api/post-internship'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
+import { Menu } from '@/features/shared/menu'
 import { Flexbox, Markdown, Section, SectionTitle, Typo } from '@/nui'
 import Image from 'next/image'
 import PostInternshipContent from './content'
@@ -37,6 +38,7 @@ export default function PostInternshipPalmSugar() {
           <Markdown size="lg">{benefits.body}</Markdown>
         </Flexbox>
       </PostInternshipContent>
+      <Menu showMenuPostInternship />
       <FeaturedPrograms variant="gray" />
       <AskedQuestion />
       <Banner />

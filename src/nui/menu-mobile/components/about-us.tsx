@@ -16,7 +16,7 @@ export default function MenuAboutUs({ onClose }: MenuAboutUsProps) {
           key={item.id}
           icon={item.icon}
           title={item.label}
-          href={item.link}
+          href={item.href}
           onClick={onClose}
         />
       ))}

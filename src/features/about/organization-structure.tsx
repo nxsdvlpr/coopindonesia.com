@@ -1,6 +1,7 @@
 import { aboutOrganizationStructure } from '@/app/api/about'
 import { Section, SectionTitle } from '@/nui'
 import { AskedQuestion, Banner, Testimonial } from '../shared'
+import { Menu } from '../shared/menu'
 import Agriculture from './organization-structure/agriculture'
 import ContactInfo from './organization-structure/contact-info'
 import Development from './organization-structure/development'
@@ -38,6 +39,7 @@ export default function OrganizationStructure() {
           <Mice />
         </div>
       </Section>
+      <Menu showMenuAbout borderBottom />
       <Testimonial />
       <AskedQuestion />
       <Banner />

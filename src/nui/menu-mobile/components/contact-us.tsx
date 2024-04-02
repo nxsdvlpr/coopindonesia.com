@@ -10,7 +10,7 @@ export default function MenuContactUs({ onClose }: MenuContactUsProps) {
 
   return (
     <Link
-      href={contact.link}
+      href={contact.href}
       className="w-full rounded-lg border border-gray-200 p-4 text-base font-semibold text-gray-900 hover:bg-gray-25"
       onClick={onClose}
     >
