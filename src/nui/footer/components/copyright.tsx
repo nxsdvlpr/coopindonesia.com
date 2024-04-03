@@ -14,19 +14,19 @@ export default function Copyright() {
         <Flexbox>
           <Link
             className="font-semibold text-primary-600 hover:text-primary-700"
-            href="/"
+            href="/term"
           >
             Terms
           </Link>
           <Link
             className="font-semibold text-primary-600 hover:text-primary-700"
-            href="/"
+            href="/privacy"
           >
             Privacy
           </Link>
           <Link
             className="font-semibold text-primary-600 hover:text-primary-700"
-            href="/"
+            href="/cookies"
           >
             Cookies
           </Link>

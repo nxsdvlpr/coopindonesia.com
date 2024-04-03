@@ -2,8 +2,8 @@ import PostInternshiProselindoTea from '@/features/program/post-internship/rosel
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'LPK Coop Indonesia - Program Usaha Mandiri',
-  description: 'LPK Coop Indonesia - Program Usaha Mandiri',
+  title: 'Roselindo Tea / Post Internship / Program / LPK Coop Indonesia',
+  description: 'Roselindo Tea / Post Internship / Program / LPK Coop Indonesia',
 }
 
 export default function RoselindoTeaPage() {

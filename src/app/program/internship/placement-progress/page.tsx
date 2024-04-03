@@ -2,8 +2,8 @@ import InternshipPlacementProgress from '@/features/program/internship/placement
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'LPK Coop Indonesia - Program',
-  description: 'LPK Coop Indonesia - Program',
+  title: 'Placement Progress / Internship / Program / LPK Coop Indonesia',
+  description: 'Placement Progress / Internship / Program / LPK Coop Indonesia',
 }
 
 export default function PlacementProgressPage() {

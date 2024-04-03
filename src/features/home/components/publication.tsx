@@ -1,7 +1,12 @@
+'use client'
+
 import { homeDataStatic } from '@/app/api/home'
 import { Flexbox, Section, SectionTitle, Typo } from '@/nui'
 import { Video } from '@/nui/video'
+import { useParam } from '@/utils/use-params'
 import Image from 'next/image'
+import { PhotoProvider, PhotoView } from 'react-photo-view'
+
 import { homePublicationStyle } from './publication.style'
 
 type HomePublicationProps = {
@@ -26,6 +31,8 @@ export default function HomePublication({
 
   const videoId = youtube?.items?.[0]?.snippet?.resourceId?.videoId ?? ''
 
+  const { onClickParam } = useParam()
+
   return (
     <Section>
       <Flexbox flow="col" gap="2xl">
@@ -40,18 +47,25 @@ export default function HomePublication({
                 From Our Instagram
               </Typo>
               <div className={boxInstagram()}>
-                {instagram.slice(0, 4).map((item: any, index: number) => (
-                  <div key={index} className={boxInstagramImage()}>
-                    <Image
-                      width="0"
-                      height="0"
-                      sizes="100vw"
-                      className="h-full w-full"
+                <PhotoProvider maskOpacity={0.7}>
+                  {instagram.slice(0, 4).map((item: any, index: number) => (
+                    <PhotoView
+                      key={index}
                       src={item.url.large ?? item.url.medium}
-                      alt={item.alt ?? 'coop-indonesia'}
-                    />
-                  </div>
-                ))}
+                    >
+                      <div className={boxInstagramImage()}>
+                        <Image
+                          width="0"
+                          height="0"
+                          sizes="100vw"
+                          className="h-full w-full duration-200 ease-in-out hover:brightness-90 group-hover:scale-105"
+                          src={item.url.large ?? item.url.medium}
+                          alt={item.alt ?? 'coop-indonesia'}
+                        />
+                      </div>
+                    </PhotoView>
+                  ))}
+                </PhotoProvider>
               </div>
             </Flexbox>
             <Flexbox align="start" flow="col" gap="xs">
@@ -60,19 +74,28 @@ export default function HomePublication({
               </Typo>
               <div className={boxYoutube()}>
                 {youtube.items.slice(1, 5).map((item: any, index: number) => (
-                  <div key={index} className={boxYoutubeImage()}>
+                  <button
+                    key={index}
+                    className={boxYoutubeImage()}
+                    onClick={() =>
+                      onClickParam(
+                        'publication/vlog/?',
+                        item?.snippet?.resourceId?.videoId
+                      )
+                    }
+                  >
                     <Image
                       width="0"
                       height="0"
                       sizes="100vw"
-                      className="h-full w-full"
+                      className="h-full w-full duration-200 ease-in-out hover:brightness-90 group-hover:scale-105"
                       src={
                         item?.snippet?.thumbnails?.maxres?.url ??
                         item?.snippet?.thumbnails?.default?.url
                       }
                       alt={item?.snippet?.videoOwnerChannelTitle}
                     />
-                  </div>
+                  </button>
                 ))}
               </div>
             </Flexbox>

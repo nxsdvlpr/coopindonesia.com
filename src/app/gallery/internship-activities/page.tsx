@@ -2,8 +2,8 @@ import InternshipActivities from '@/features/gallery/internship-activities'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'LPK Coop Indonesia - Gallery',
-  description: 'LPK Coop Indonesia - Gallery',
+  title: 'Internship Activities / Gallery / LPK Coop Indonesia',
+  description: 'Internship Activities / Gallery / LPK Coop Indonesia',
 }
 
 export default function InternshipActivitiesPage() {

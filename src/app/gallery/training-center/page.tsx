@@ -2,8 +2,8 @@ import TrainingCenter from '@/features/gallery/training-center'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'LPK Coop Indonesia - Gallery',
-  description: 'LPK Coop Indonesia - Gallery',
+  title: 'Training Center / Gallery / LPK Coop Indonesia',
+  description: 'Training Center / Gallery / LPK Coop Indonesia',
 }
 
 export default function TrainingCenterPage() {

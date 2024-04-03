@@ -2,8 +2,9 @@ import InternshipEducationalMaterial from '@/features/program/internship/educati
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'LPK Coop Indonesia - Program',
-  description: 'LPK Coop Indonesia - Program',
+  title: 'Educational Material / Internship / Program / LPK Coop Indonesia',
+  description:
+    'Educational Material / Internship / Program / LPK Coop Indonesia',
 }
 
 export default function EducationalMaterialPage() {

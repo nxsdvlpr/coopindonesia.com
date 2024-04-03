@@ -2,8 +2,8 @@ import InternshipRightsObligations from '@/features/program/internship/rights-ob
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'LPK Coop Indonesia - Program',
-  description: 'LPK Coop Indonesia - Program',
+  title: 'Rights Obligations / Internship / Program / LPK Coop Indonesia',
+  description: 'Rights Obligations / Internship / Program / LPK Coop Indonesia',
 }
 
 export default function RightsObligationsPage() {

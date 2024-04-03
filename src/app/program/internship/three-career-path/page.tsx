@@ -2,8 +2,8 @@ import InternshipThreeCareerPath from '@/features/program/internship/three-caree
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'LPK Coop Indonesia - Program',
-  description: 'LPK Coop Indonesia - Program',
+  title: 'Three Career Path / Internship / Program / LPK Coop Indonesia',
+  description: 'Three Career Path / Internship / Program / LPK Coop Indonesia',
 }
 
 export default function ThreeCareerPathPage() {
