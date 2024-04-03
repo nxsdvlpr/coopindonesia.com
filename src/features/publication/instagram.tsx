@@ -36,10 +36,7 @@ export default function Instagram() {
           <PhotoProvider maskOpacity={0.7}>
             {instagrams.map((item: any, index: number) => (
               <PhotoView key={index} src={item.url.large ?? item.url.medium}>
-                <div
-                  key={index}
-                  className="group h-[10rem] w-full cursor-pointer overflow-hidden rounded-lg lg:h-[16.5rem]"
-                >
+                <div className="group h-[10rem] w-full cursor-pointer overflow-hidden rounded-lg lg:h-[16.5rem]">
                   <Image
                     width="0"
                     height="0"
