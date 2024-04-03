@@ -1,11 +1,26 @@
+'use client'
+
 import { instagramData } from '@/app/api/publication'
 import { Section, SectionTitle } from '@/nui'
 import Image from 'next/image'
+import { useEffect, useState } from 'react'
+import { PhotoProvider, PhotoView } from 'react-photo-view'
 
-export default async function Instagram() {
-  const data = await instagramData()
+export default function Instagram() {
+  const [instagrams, setInstagrams] = useState([])
 
-  const instagrams = data ?? []
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const data = await instagramData()
+        setInstagrams(data ?? [])
+      } catch (error) {
+        console.error('Error fetching Instagram data:', error)
+      }
+    }
+
+    fetchData()
+  }, [])
 
   return (
     <>
@@ -18,18 +33,25 @@ export default async function Instagram() {
       </Section>
       <Section>
         <div className="grid grid-cols-2 gap-6 lg:grid-cols-4 lg:gap-8">
-          {instagrams.map((item: any, index: number) => (
-            <div key={index} className="h-[10rem] w-full lg:h-[16.5rem]">
-              <Image
-                width="0"
-                height="0"
-                sizes="100vw"
-                className="h-full w-full rounded-lg object-cover"
-                src={item.url.large ?? item.url.medium}
-                alt={item.alt}
-              />
-            </div>
-          ))}
+          <PhotoProvider maskOpacity={0.7}>
+            {instagrams.map((item: any, index: number) => (
+              <PhotoView key={index} src={item.url.large ?? item.url.medium}>
+                <div
+                  key={index}
+                  className="group h-[10rem] w-full cursor-pointer overflow-hidden rounded-lg lg:h-[16.5rem]"
+                >
+                  <Image
+                    width="0"
+                    height="0"
+                    sizes="100vw"
+                    className="h-full w-full duration-200 ease-in-out hover:brightness-90 group-hover:scale-105"
+                    src={item.url.large ?? item.url.medium}
+                    alt={item.alt ?? 'coop-indonesia'}
+                  />
+                </div>
+              </PhotoView>
+            ))}
+          </PhotoProvider>
         </div>
       </Section>
     </>

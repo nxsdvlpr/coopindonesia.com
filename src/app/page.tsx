@@ -10,6 +10,7 @@ import {
   Testimonial,
   ThreeCareer,
 } from '@/features/shared'
+import { Suspense } from 'react'
 import { instagramData, youtubeData } from './api/publication'
 
 export default async function HomePage() {
@@ -25,7 +26,9 @@ export default async function HomePage() {
         subtitle={`LPK Coop Indonesia's top choice programs`}
       />
       <HomeSponsor />
-      <HomePublication youtube={youtube} instagram={instagram} />
+      <Suspense>
+        <HomePublication youtube={youtube} instagram={instagram} />
+      </Suspense>
       <Testimonial />
       <AskedQuestion />
       <ThreeCareer />

@@ -1,22 +1,11 @@
-import { youtubeData } from '@/app/api/publication'
-import VideoVlog from '@/features/publication/video'
-import { Section, SectionTitle } from '@/nui'
+import Vlog from '@/features/publication/vlog'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'LPK Coop Indonesia - Vlog',
-  description: 'LPK Coop Indonesia - Vlog',
+  title: 'Vlog / Publication / LPK Coop Indonesia',
+  description: 'Vlog / Publication / LPK Coop Indonesia',
 }
 
-export default async function VlogPage() {
-  const data = await youtubeData()
-
-  return (
-    <>
-      <Section>
-        <SectionTitle sizeTitle="6xl" info="PUBLICATION" title="Vlog" />
-      </Section>
-      <VideoVlog data={data} />
-    </>
-  )
+export default function VlogPage() {
+  return <Vlog />
 }

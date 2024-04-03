@@ -2,8 +2,8 @@ import Collaboration from '@/features/gallery/collaboration'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'LPK Coop Indonesia - Gallery',
-  description: 'LPK Coop Indonesia - Gallery',
+  title: 'Collaboration / Gallery / LPK Coop Indonesia',
+  description: 'Collaboration / Gallery / LPK Coop Indonesia',
 }
 
 export default function CollaborationPage() {

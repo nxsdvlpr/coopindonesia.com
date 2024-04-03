@@ -2,8 +2,8 @@ import InternshipRegistration from '@/features/program/internship/registration'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'LPK Coop Indonesia - Program',
-  description: 'LPK Coop Indonesia - Program',
+  title: 'Registration / Internship / Program / LPK Coop Indonesia',
+  description: 'Registration / Internship / Program / LPK Coop Indonesia',
 }
 
 export default function InternshipRegistrationPage() {

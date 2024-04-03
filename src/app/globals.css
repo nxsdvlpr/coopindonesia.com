@@ -44,3 +44,28 @@
   )::marker {
   color: #344054;
 }
+
+.PhotoView-Slider__BannerWrap {
+  background: transparent !important;
+}
+.PhotoView-Slider__Counter {
+  color: white;
+  margin-top: 20px;
+  margin-right: 12px;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.PhotoView-Slider__toolbarIcon {
+  color: white;
+  margin-top: 20px;
+  margin-right: 12px;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.PhotoView-Slider__ArrowLeft svg,
+.PhotoView-Slider__ArrowRight svg {
+  border-radius: 0.5rem;
+}
+.PhotoView__Photo {
+  border-radius: 0.5rem;
+}
