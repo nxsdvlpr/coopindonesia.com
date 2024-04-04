@@ -9,7 +9,7 @@ export function Footer() {
   const { wrapper, container, main } = footerStyle()
 
   return (
-    <div className={wrapper()}>
+    <footer className={wrapper()}>
       <div className={container()}>
         <div className={main()}>
           <ContactInfo />
@@ -20,6 +20,6 @@ export function Footer() {
         </div>
         <Copyright />
       </div>
-    </div>
+    </footer>
   )
 }

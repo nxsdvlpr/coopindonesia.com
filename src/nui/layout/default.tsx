@@ -10,10 +10,11 @@ export default function Layout({ children }: LayoutProps) {
   return (
     <body
       className={`${hankenGrotesk.variable} ${epilogue.variable} font-sans text-sm`}
+      suppressHydrationWarning
     >
       <link rel="icon" href="/logo.png" sizes="any" />
       <Header />
-      <div>{children}</div>
+      <main>{children}</main>
       <Footer />
     </body>
   )
