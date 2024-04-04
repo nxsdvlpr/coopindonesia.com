@@ -35,7 +35,7 @@ export default function VideoVlog() {
           {data?.items?.slice(1)?.map((item: any, index: number) => (
             <button
               key={index}
-              className="group flex h-fit flex-col gap-4 text-start text-base font-semibold text-gray-900 hover:text-primary-600 focus:outline-none"
+              className="group flex h-fit flex-col gap-4 text-start text-base font-semibold text-gray-900 hover:text-primary-500 focus:outline-none"
               onClick={() =>
                 onClickParam('?', item?.snippet?.resourceId?.videoId)
               }

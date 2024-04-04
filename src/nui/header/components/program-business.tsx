@@ -17,7 +17,7 @@ export default function MenuProgramBusiness({
           key={item.label}
           href={item.href}
           onClick={onclose}
-          className="px-4 py-2.5 text-lg font-bold text-primary-600 hover:text-primary-700"
+          className="px-4 py-2.5 text-lg font-bold text-primary-500 hover:text-primary-700"
         >
           {item.label}
         </Link>

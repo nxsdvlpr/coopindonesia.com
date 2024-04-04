@@ -17,8 +17,8 @@ export function ThreeCareer({ info, sizeTitle }: ThreeCareerProps) {
           info={info}
           title="Three Career Paths in Japan"
         >
-          Comprehensive programs offering skill development in Japanese language
-          and culture, alongside valuable real-world experience in Japan.
+          Program komprehensif untuk pengembangan keterampilan bahasa dan budaya
+          Jepang, serta pengalaman berharga di Jepang.
         </SectionTitle>
         <ThreeCareerCard />
         <ThreeCareerTable />

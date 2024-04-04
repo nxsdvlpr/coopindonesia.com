@@ -14,7 +14,7 @@ export default function ContactUsForm() {
       <Textarea placeholder="Enter a description..." />
       <div className="flex items-center">
         <Checkbox label="You agree to our friendly" />
-        <span className="ml-1 mt-0.5 font-semibold text-primary-600">
+        <span className="ml-1 mt-0.5 font-semibold text-primary-500">
           privacy policy.
         </span>
       </div>

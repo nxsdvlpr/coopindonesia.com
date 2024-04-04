@@ -22,33 +22,34 @@ export const menuDataStatic = {
       },
     ],
     internship: [
-      { href: '/program/internship/registration', label: 'Pendaftaran' },
-      {
-        href: '/program/internship/three-career-path',
-        label: 'Cara Berkarir di Jepang',
-      },
-      {
-        href: '/program/internship/terms-conditions',
-        label: 'Syarat & Ketentuan',
-      },
-      { href: '/program/internship/documents', label: 'Kelengkapan Dokumen' },
-      {
-        href: '/program/internship/rights-obligations',
-        label: 'Hak & Kewajiban',
-      },
-      { href: '/program/internship/program-flow', label: 'Alur Program' },
+      { href: '/program/internship', label: 'Tentang Magang' },
       {
         href: '/program/internship/educational-material',
         label: 'Materi Program',
       },
+      { href: '/program/internship/registration', label: 'Pendaftaran' },
       {
         href: '/program/internship/placement-progress',
         label: 'Proses Penempatan',
       },
+      {
+        href: '/program/internship/three-career-path',
+        label: 'Cara Berkarir di Jepang',
+      },
       { href: '/program/internship/pre-selection', label: 'Pra Seleksi' },
+      {
+        href: '/program/internship/terms-conditions',
+        label: 'Syarat & Ketentuan',
+      },
       { href: '/program/internship/selection', label: 'Seleksi' },
+      { href: '/program/internship/documents', label: 'Kelengkapan Dokumen' },
       { href: '/program/internship/training', label: 'Pelatihan' },
+      {
+        href: '/program/internship/rights-obligations',
+        label: 'Hak & Kewajiban',
+      },
       { href: '/program/internship/placement', label: 'Penempatan' },
+      { href: '/program/internship/program-flow', label: 'Alur Program' },
     ],
     business: [
       { href: '/program/post-internship', label: 'Pendahuluan' },

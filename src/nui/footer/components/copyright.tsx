@@ -13,19 +13,19 @@ export default function Copyright() {
         </Typo>
         <Flexbox>
           <Link
-            className="font-semibold text-primary-600 hover:text-primary-700"
+            className="font-semibold text-primary-500 hover:text-primary-700"
             href="/term"
           >
             Terms
           </Link>
           <Link
-            className="font-semibold text-primary-600 hover:text-primary-700"
+            className="font-semibold text-primary-500 hover:text-primary-700"
             href="/privacy"
           >
             Privacy
           </Link>
           <Link
-            className="font-semibold text-primary-600 hover:text-primary-700"
+            className="font-semibold text-primary-500 hover:text-primary-700"
             href="/cookies"
           >
             Cookies
