@@ -14,7 +14,7 @@ export function HomeSponsor() {
         <Typo size="lg">{title}</Typo>
         <div className={main()}>
           {assets.map((asset, index) => (
-            <div className="h-12" key={index}>
+            <div className="h-12 max-w-[7.5rem]" key={index}>
               <Image
                 width="0"
                 height="0"
