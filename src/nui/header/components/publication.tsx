@@ -27,11 +27,11 @@ export default function MenuPublication() {
             onClick={() => setIsOpen(false)}
             className="flex w-[30rem] items-center gap-6 rounded-lg p-6 font-semibold text-gray-900 outline-none hover:bg-primary-25"
           >
-            <div className="rounded-lg bg-primary-50 p-2.5 text-primary-600">
+            <div className="rounded-lg bg-primary-50 p-2.5 text-primary-500">
               <Icon icon={item.icon} />
             </div>
             <div className="text-start">
-              <Typo size="lg" fontWeight="bold" color="primary-600">
+              <Typo size="lg" fontWeight="bold" color="primary-500">
                 {item.label}
               </Typo>
               <Typo>{item.description}</Typo>

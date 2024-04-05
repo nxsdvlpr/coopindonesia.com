@@ -17,7 +17,7 @@ export default function MenuProgramSchool({ onclose }: MenuProgramSchoolProps) {
         onClick={onclose}
         className="flex flex-col gap-y-3 rounded-lg p-4 hover:bg-primary-25"
       >
-        <Typo size="lg" color="primary-600" fontWeight="bold">
+        <Typo size="lg" color="primary-500" fontWeight="bold">
           {schools[0].label}
         </Typo>
         <Typo>{schools[0].body}</Typo>
@@ -43,7 +43,7 @@ export default function MenuProgramSchool({ onclose }: MenuProgramSchoolProps) {
                   />
                 </div>
               )}
-              <Typo size="lg" color="primary-600" fontWeight="bold">
+              <Typo size="lg" color="primary-500" fontWeight="bold">
                 {item.label}
               </Typo>
             </Flexbox>

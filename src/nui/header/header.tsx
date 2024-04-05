@@ -15,16 +15,16 @@ export function Header() {
 
   return (
     <>
-      <div className="fixed left-0 right-0 top-0 z-30 h-[4.5rem] bg-white">
-        <div className=" m-auto flex h-full max-w-[80rem] items-center justify-between px-4 lg:px-10">
-          <Link href="/" className="w-[3.125rem]">
+      <header className="fixed left-0 right-0 top-0 z-30 h-[4.5rem] bg-white">
+        <nav className=" m-auto flex h-full max-w-[80rem] items-center justify-between px-4 lg:px-10">
+          <Link href="/" className="w-[12.5rem]">
             <Image
               width="0"
               height="0"
               sizes="100vw"
               className="h-auto w-full"
-              src="/logo.png"
-              alt="logo-coop-indonesia"
+              src="/logo-text.png"
+              alt="logo-text-coop-indonesia"
             />
           </Link>
           <MenuMobile />
@@ -45,8 +45,8 @@ export function Header() {
               </Link>
             </Flexbox>
           )}
-        </div>
-      </div>
+        </nav>
+      </header>
       <div className="mb-6 h-[4.5rem] lg:mb-[7.5rem]" />
     </>
   )
