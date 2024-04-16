@@ -1,8 +1,7 @@
 import { internshipProgramFlowDataStatic } from '@/app/api/internship'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
 import { Menu } from '@/features/shared/menu'
-import { Flexbox, Section, SectionTitle, Typo } from '@/nui'
-import Image from 'next/image'
+import { Flexbox, ImageNui, Section, SectionTitle, Typo } from '@/nui'
 
 export default function InternshipProgramFlow() {
   const { info, title, steps } = internshipProgramFlowDataStatic
@@ -24,14 +23,7 @@ export default function InternshipProgramFlow() {
               <Typo size="lg" fontWeight="bold" color="gray-900">
                 {step.title}
               </Typo>
-              <Image
-                width="0"
-                height="0"
-                sizes="100vw"
-                className="h-auto w-full"
-                src={step.image.src}
-                alt={step.image.alt}
-              />
+              <ImageNui src={step.image.src} alt={step.image.alt} />
             </Flexbox>
           ))}
         </Flexbox>

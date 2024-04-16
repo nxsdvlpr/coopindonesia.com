@@ -1,10 +1,9 @@
 'use client'
 
 import { homeDataStatic } from '@/app/api/home'
-import { Flexbox, Section, SectionTitle, Typo } from '@/nui'
+import { Flexbox, ImageNui, Section, SectionTitle, Typo } from '@/nui'
 import { Video } from '@/nui/video'
 import { useParam } from '@/utils/use-params'
-import Image from 'next/image'
 import { PhotoProvider, PhotoView } from 'react-photo-view'
 
 import { homePublicationStyle } from './publication.style'
@@ -54,10 +53,7 @@ export default function HomePublication({
                       src={item.url.large ?? item.url.medium}
                     >
                       <div className={boxInstagramImage()}>
-                        <Image
-                          width="0"
-                          height="0"
-                          sizes="100vw"
+                        <ImageNui
                           className="h-full w-full duration-200 ease-in-out hover:brightness-90 group-hover:scale-105"
                           src={item.url.large ?? item.url.medium}
                           alt={item.alt ?? 'coop-indonesia'}
@@ -84,10 +80,7 @@ export default function HomePublication({
                       )
                     }
                   >
-                    <Image
-                      width="0"
-                      height="0"
-                      sizes="100vw"
+                    <ImageNui
                       className="h-full w-full duration-200 ease-in-out hover:brightness-90 group-hover:scale-105"
                       src={
                         item?.snippet?.thumbnails?.maxres?.url ??

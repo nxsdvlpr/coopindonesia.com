@@ -1,5 +1,4 @@
-import { Box, Flexbox, Section, Typo } from '@/nui'
-import Image from 'next/image'
+import { Box, Flexbox, ImageNui, Section, Typo } from '@/nui'
 import Link from 'next/link'
 
 type ExploreMoreGalleriesProps = {
@@ -8,6 +7,7 @@ type ExploreMoreGalleriesProps = {
   hideInternshipActivities?: boolean
   hideTrainingCenter?: boolean
 }
+
 export default function ExploreMoreGalleries({
   hideWorkVisit,
   hideCollaboration,
@@ -59,14 +59,7 @@ export default function ExploreMoreGalleries({
                   <Box withBorder>
                     <Flexbox flow="col" gap="sm">
                       <div className="aspect-video w-full lg:max-w-[19.6875rem]">
-                        <Image
-                          width="0"
-                          height="0"
-                          sizes="100vw"
-                          className="h-auto w-full"
-                          src={gallery.src}
-                          alt={gallery.alt}
-                        />
+                        <ImageNui src={gallery.src} alt={gallery.alt} />
                       </div>
                       <Typo size="2xl" color="gray-900" fontWeight="bold">
                         {gallery.title}

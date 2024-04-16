@@ -1,5 +1,5 @@
-import { Box, Flexbox, Typo } from '@/nui'
-import Image, { StaticImageData } from 'next/image'
+import { Box, Flexbox, ImageNui, Typo } from '@/nui'
+import { StaticImageData } from 'next/image'
 import { ReactNode } from 'react'
 
 type ContactInfoProps = {
@@ -25,14 +25,7 @@ export default function ContactInfo({
         <Flexbox flow="col" gap="xs">
           <div className="h-auto w-[4.5rem] shrink-0 rounded-full border border-gray-200 bg-gray-50 p-4 text-gray-500">
             {src ? (
-              <Image
-                height="0"
-                width="0"
-                sizes="100vw"
-                className="h-auto w-full"
-                src={src}
-                alt={alt}
-              />
+              <ImageNui src={src} alt={alt} />
             ) : (
               <svg
                 xmlns="http://www.w3.org/2000/svg"

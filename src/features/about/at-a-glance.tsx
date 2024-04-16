@@ -1,6 +1,5 @@
 import { aboutAtAGlanceDataStatic } from '@/app/api/about'
-import { Flexbox, Markdown, Section, SectionTitle } from '@/nui'
-import Image from 'next/image'
+import { Flexbox, ImageNui, Markdown, Section, SectionTitle } from '@/nui'
 import { AskedQuestion, Banner, Testimonial } from '../shared'
 import { Menu } from '../shared/menu'
 
@@ -26,15 +25,8 @@ export default function AtaGlance() {
               }
             >
               <Markdown size="lg">{item.content}</Markdown>
-              <div className="max-w-[30rem] shrink-0">
-                <Image
-                  width="0"
-                  height="0"
-                  sizes="100vw"
-                  className="h-auto w-full"
-                  src={item.image.src}
-                  alt={item.image.alt}
-                />
+              <div className="h-full max-w-[30rem] shrink-0">
+                <ImageNui src={item.image.src} alt={item.image.alt} />
               </div>
             </div>
           ))}

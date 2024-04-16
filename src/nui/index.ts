@@ -6,6 +6,7 @@ import { Flexbox } from './flexbox'
 import { Footer } from './footer'
 import { Header } from './header'
 import { Icon } from './icon/icon'
+import { ImageNui } from './image'
 import { Input } from './input/input'
 import { Markdown } from './markdown'
 import { MenuButton } from './menu-button'
@@ -25,6 +26,7 @@ export {
   Footer,
   Header,
   Icon,
+  ImageNui,
   Input,
   Markdown,
   MenuButton,

@@ -1,5 +1,5 @@
-import { Box, Button, Flexbox, Typo } from '@/nui'
-import Image, { StaticImageData } from 'next/image'
+import { Box, Button, Flexbox, ImageNui, Typo } from '@/nui'
+import { StaticImageData } from 'next/image'
 import { ReactNode } from 'react'
 
 export type CardProps = {
@@ -23,14 +23,7 @@ export default function Card({
     <Box withBorder>
       <Flexbox align="start" flow="col" gap="md">
         <div className="aspect-video w-full overflow-hidden">
-          <Image
-            width="0"
-            height="0"
-            sizes="100vw"
-            className="h-full w-full"
-            src={src}
-            alt={alt}
-          />
+          <ImageNui src={src} alt={alt} />
         </div>
         <Flexbox align="start" flow="col" gap="xs">
           <Typo size="xl" fontWeight="bold" color="gray-900">

@@ -1,6 +1,5 @@
 import { homeDataStatic } from '@/app/api/home'
-import { Flexbox, Markdown, Section, Typo } from '@/nui'
-import Image from 'next/image'
+import { Flexbox, ImageNui, Markdown, Section, Typo } from '@/nui'
 
 export function HomeHero() {
   const { info, title, desc, image } = homeDataStatic.hero
@@ -20,15 +19,7 @@ export function HomeHero() {
           <Markdown size="lg">{desc}</Markdown>
         </Flexbox>
         <div className="w-full shrink-0 lg:w-[33.6875rem]">
-          <Image
-            width="0"
-            height="0"
-            sizes="100vw"
-            priority
-            className="h-auto w-full"
-            src={image.src}
-            alt={image.alt}
-          />
+          <ImageNui src={image.src} alt={image.alt} />
         </div>
       </div>
     </Section>

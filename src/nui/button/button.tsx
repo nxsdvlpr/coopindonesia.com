@@ -1,4 +1,4 @@
-import { forwardRef } from '../../utils'
+import { clsx, forwardRef } from '../../utils'
 import { buttonStyle } from './button.style'
 import { ButtonProps } from './types'
 
@@ -10,15 +10,17 @@ export const Button = forwardRef<'button', ButtonProps>(
       wider = 'none',
       rounded = 'full',
       children,
+      className,
       ...otherProps
     },
     ref
   ) => {
     const Component = as ?? 'button'
+
     return (
       <Component
         ref={ref}
-        className={buttonStyle({ size, wider, rounded })}
+        className={clsx(className, buttonStyle({ size, wider, rounded }))}
         {...otherProps}
       >
         {children}

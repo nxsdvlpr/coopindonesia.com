@@ -1,8 +1,7 @@
 import { internshipEducationalMaterialDataStatic } from '@/app/api/internship'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
 import { Menu } from '@/features/shared/menu'
-import { Flexbox, Section, SectionTitle, Typo } from '@/nui'
-import Image from 'next/image'
+import { Flexbox, ImageNui, Section, SectionTitle, Typo } from '@/nui'
 
 export default function InternshipEducationalMaterial() {
   const { info, title, image, contents } =
@@ -19,15 +18,8 @@ export default function InternshipEducationalMaterial() {
             {title}
           </Typo>
           <div className="flex flex-col gap-12 lg:flex-row">
-            <div className="mx-auto max-w-[17.5rem] shrink-0">
-              <Image
-                width="0"
-                height="0"
-                sizes="100vw"
-                className="h-auto w-full"
-                src={image.src}
-                alt={image.alt}
-              />
+            <div className="mx-auto h-full max-w-[17.5rem] shrink-0">
+              <ImageNui src={image.src} alt={image.alt} />
             </div>
             <Flexbox flow="col" gap="lg">
               {contents.map((content, index) => (

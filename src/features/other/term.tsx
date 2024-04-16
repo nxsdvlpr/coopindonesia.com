@@ -1,5 +1,4 @@
-import { Flexbox, Markdown, Section, SectionTitle, Typo } from '@/nui'
-import Image from 'next/image'
+import { Flexbox, ImageNui, Markdown, Section, SectionTitle, Typo } from '@/nui'
 
 export default function Term() {
   return (
@@ -9,14 +8,7 @@ export default function Term() {
       </Section>
       <Section maxWidth="sm">
         <Flexbox flow="col" align="normal" gap="2xl">
-          <Image
-            width="0"
-            height="0"
-            sizes="100vw"
-            className="h-full w-full"
-            src="term-image.svg"
-            alt="term"
-          />
+          <ImageNui src="term-image.svg" alt="term" />
           <Markdown size="lg">
             Selamat datang di situs kami. Dengan mengakses atau menggunakan
             situs ini, Anda setuju untuk terikat dengan ketentuan dan syarat

@@ -1,6 +1,5 @@
 import { menuDataStatic } from '@/app/api/menu'
-import { Flexbox, Typo } from '@/nui'
-import Image from 'next/image'
+import { Flexbox, ImageNui, Typo } from '@/nui'
 import Link from 'next/link'
 
 type MenuProgramSchoolProps = {
@@ -33,11 +32,7 @@ export default function MenuProgramSchool({ onclose }: MenuProgramSchoolProps) {
             <Flexbox gap="xs">
               {item.image?.src && (
                 <div className="h-8 w-4">
-                  <Image
-                    width="0"
-                    height="0"
-                    sizes="100vw"
-                    className="h-auto w-full"
+                  <ImageNui
                     src={item.image?.src}
                     alt={item.image?.alt ?? 'logo'}
                   />
