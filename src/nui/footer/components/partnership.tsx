@@ -8,11 +8,11 @@ export default function Partnership() {
       href: 'https://gakken-nihongo4me.jp/',
       src: '/partnership/4me.svg',
     },
-    // {
-    //   name: 'Trilogi',
-    //   href: 'https://corp.renet.jp/',
-    //   src: '/partnership/trilogi.svg',
-    // },
+    {
+      name: 'Trilogi Berkarya',
+      href: 'https://www.trilogiberkarya.com/',
+      src: '/partnership/trilogi.svg',
+    },
     {
       name: 'NTT Docomo',
       href: 'https://www.ntt.com/business/lp/topgun.html?rdl=1',
