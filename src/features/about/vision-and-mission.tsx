@@ -1,6 +1,5 @@
 import { aboutVisionAndMissionDataStatic } from '@/app/api/about'
-import { Flexbox, Markdown, Section, SectionTitle, Typo } from '@/nui'
-import Image from 'next/image'
+import { Flexbox, ImageNui, Markdown, Section, SectionTitle, Typo } from '@/nui'
 import { AskedQuestion, Banner, Testimonial } from '../shared'
 import { Menu } from '../shared/menu'
 
@@ -20,15 +19,8 @@ export default function VisionMission() {
             </Typo>
             <Markdown size="lg">{vision.description}</Markdown>
           </Flexbox>
-          <div className="mx-auto max-w-[18.75rem] shrink-0">
-            <Image
-              width="0"
-              height="0"
-              sizes="100vw"
-              className="h-auto w-full"
-              src={vision.image.src}
-              alt={vision.image.alt}
-            />
+          <div className="mx-auto h-full max-w-[18.75rem] shrink-0">
+            <ImageNui src={vision.image.src} alt={vision.image.alt} />
           </div>
         </div>
         <Flexbox align="normal" flow="col" gap="xs">

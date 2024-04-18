@@ -1,6 +1,5 @@
-import { Section, SectionTitle } from '@/nui'
+import { ImageNui, Section, SectionTitle } from '@/nui'
 import Carousel from '@/nui/carousel/carousel'
-import Image from 'next/image'
 import ExploreMoreGalleries from './explore-more-galleries'
 
 export default function WorkVisit() {
@@ -28,15 +27,7 @@ export default function WorkVisit() {
   ]
 
   const items = images.map((image, i) => (
-    <Image
-      key={i}
-      width="0"
-      height="0"
-      sizes="100vw"
-      className="h-full w-full rounded-lg object-cover"
-      src={image.src}
-      alt={image.alt}
-    />
+    <ImageNui key={i} src={image.src} alt={image.alt} />
   ))
 
   return (

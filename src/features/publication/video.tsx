@@ -1,10 +1,9 @@
 'use client'
 
 import { youtubeData } from '@/app/api/publication'
-import { Flexbox, Section } from '@/nui'
+import { Flexbox, ImageNui, Section } from '@/nui'
 import { Video } from '@/nui/video'
 import { useParam } from '@/utils/use-params'
-import Image from 'next/image'
 import { useEffect, useState } from 'react'
 
 export default function VideoVlog() {
@@ -41,10 +40,7 @@ export default function VideoVlog() {
               }
             >
               <div className="aspect-video max-h-[9.6875rem] w-full">
-                <Image
-                  width="0"
-                  height="0"
-                  sizes="100vw"
+                <ImageNui
                   className="h-full w-full rounded-lg object-cover group-hover:brightness-75"
                   src={
                     item?.snippet?.thumbnails?.maxres?.url ??

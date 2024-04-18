@@ -1,10 +1,18 @@
-import { As, forwardRef } from '../../utils'
+import { As, clsx, forwardRef } from '../../utils'
 import { TypoProps, TypoSize } from './types'
 import { typoStyle } from './typo.style'
 
 export const Typo = forwardRef<'div', TypoProps>(
   (
-    { as, size = 'sm', fontWeight = 'normal', color = 'gray-700', children },
+    {
+      as,
+      size = 'sm',
+      fontWeight = 'normal',
+      color = 'gray-700',
+      children,
+      className,
+      ...otherProps
+    },
     ref
   ) => {
     const headingMap: Record<TypoSize, As> = {
@@ -22,7 +30,11 @@ export const Typo = forwardRef<'div', TypoProps>(
     const Component = !as ? headingMap[size] : as
 
     return (
-      <Component ref={ref} className={typoStyle({ size, fontWeight, color })}>
+      <Component
+        ref={ref}
+        className={clsx(className, typoStyle({ size, fontWeight, color }))}
+        {...otherProps}
+      >
         {children}
       </Component>
     )

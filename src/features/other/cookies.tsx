@@ -1,5 +1,4 @@
-import { Flexbox, Markdown, Section, SectionTitle, Typo } from '@/nui'
-import Image from 'next/image'
+import { Flexbox, ImageNui, Markdown, Section, SectionTitle, Typo } from '@/nui'
 
 export default function Cookies() {
   return (
@@ -9,14 +8,7 @@ export default function Cookies() {
       </Section>
       <Section maxWidth="sm">
         <Flexbox flow="col" align="normal" gap="2xl">
-          <Image
-            width="0"
-            height="0"
-            sizes="100vw"
-            className="h-full w-full"
-            src="cookies-image.svg"
-            alt="cookies"
-          />
+          <ImageNui src="cookies-image.svg" alt="cookies" />
           <Markdown size="lg">
             Selamat datang di halaman Kebijakan Cookie kami. Di bawah ini, kami
             menjelaskan tentang penggunaan cookie di situs kami.

@@ -1,6 +1,5 @@
 import { homeDataStatic } from '@/app/api/home'
-import { Section, Typo } from '@/nui'
-import Image from 'next/image'
+import { ImageNui, Section, Typo } from '@/nui'
 import { homeSponsorStyle } from './sponsor.style'
 
 export function HomeSponsor() {
@@ -15,10 +14,7 @@ export function HomeSponsor() {
         <div className={main()}>
           {assets.map((asset, index) => (
             <div className="h-12 max-w-[7.5rem]" key={index}>
-              <Image
-                width="0"
-                height="0"
-                sizes="100vw"
+              <ImageNui
                 className="h-full w-full grayscale hover:grayscale-0"
                 src={asset.src}
                 alt={asset.alt}

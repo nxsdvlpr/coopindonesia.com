@@ -1,5 +1,4 @@
-import { Flexbox, Markdown, Section, SectionTitle, Typo } from '@/nui'
-import Image from 'next/image'
+import { Flexbox, ImageNui, Markdown, Section, SectionTitle, Typo } from '@/nui'
 
 export default function Privacy() {
   return (
@@ -9,14 +8,7 @@ export default function Privacy() {
       </Section>
       <Section maxWidth="sm">
         <Flexbox flow="col" align="normal" gap="2xl">
-          <Image
-            width="0"
-            height="0"
-            sizes="100vw"
-            className="h-full w-full"
-            src="privacy-image.svg"
-            alt="privacy"
-          />
+          <ImageNui src="privacy-image.svg" alt="privacy" />
           <Markdown size="lg">
             Kami menghormati privasi pengguna kami dan berkomitmen untuk
             melindungi informasi pribadi yang Anda berikan kepada kami.

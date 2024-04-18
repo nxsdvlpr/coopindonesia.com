@@ -1,6 +1,5 @@
 import { bannerDataStatic } from '@/app/api/banner'
-import { Button, Flexbox, Section, Typo } from '@/nui'
-import Image from 'next/image'
+import { Button, Flexbox, ImageNui, Section, Typo } from '@/nui'
 import { bannerStyle } from './index.style'
 
 export default function Banner() {
@@ -13,10 +12,7 @@ export default function Banner() {
       <div className={wrapper()}>
         <div className={container()}>
           <div className={box()}>
-            <Image
-              width="0"
-              height="0"
-              sizes="100vw"
+            <ImageNui
               className={imageStyle()}
               src={image.src}
               alt={image.alt}
@@ -31,7 +27,9 @@ export default function Banner() {
                 {desc}
               </Typo>
             </Flexbox>
-            <Button>{buttonName}</Button>
+            <Button as="a" href="/contact-us">
+              {buttonName}
+            </Button>
           </Flexbox>
         </div>
       </div>

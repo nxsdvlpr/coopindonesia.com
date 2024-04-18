@@ -1,23 +1,14 @@
 import { nihonggoAnabukiDataStatic } from '@/app/api/nihonggo'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
 import { Menu } from '@/features/shared/menu'
-import { Flexbox, Markdown, Section, SectionTitle, Typo } from '@/nui'
+import { Flexbox, ImageNui, Markdown, Section, SectionTitle, Typo } from '@/nui'
 import Carousel from '@/nui/carousel/carousel'
-import Image from 'next/image'
 
 export default function NihonggoAnabuki() {
   const { info, title, images, content } = nihonggoAnabukiDataStatic
 
   const items = images.map((image, i) => (
-    <Image
-      key={i}
-      width="0"
-      height="0"
-      sizes="100vw"
-      className="h-full w-full rounded-lg object-cover"
-      src={image.src}
-      alt={image.alt}
-    />
+    <ImageNui key={i} src={image.src} alt={image.alt} />
   ))
 
   return (
@@ -32,14 +23,7 @@ export default function NihonggoAnabuki() {
           </Typo>
           <Flexbox align="start" gap="md">
             <div className="mx-auto w-[2.3444rem] pt-6">
-              <Image
-                width="0"
-                height="0"
-                sizes="100vw"
-                className="h-auto w-full"
-                src={content.image.src}
-                alt={content.image.alt}
-              />
+              <ImageNui src={content.image.src} alt={content.image.alt} />
             </div>
             <Markdown size="lg">{content.body}</Markdown>
           </Flexbox>

@@ -22,7 +22,7 @@ export const nihonggoDataStatic = {
       body: '1. Softcopy KTP, Kartu Keluarga, Akte Lahir\n2. Softcopy Passfoto (latar belakang Putih)\n3. Softcopy Ijazah : SD, SMP, SMA/SMK Sederajat, (S1 Optional)\n4. Sertifikasi lembaga kursus Bahasa Jepang atau Sertifikat N-5 (asli dan softcopy)\n5. Surat pernyataan bermaterai kesediaan orang tua/wali sebagai penjamin calon siswa(i)\n6. Surat Keterangan Kesehatan (Medical Check Up)\n\nSoftcopy dikirim via email ke email: **coopindonesia@gmail.com** dengan subjek: **Program Sekolah Bahasa Jepang**.',
     },
     {
-      body: 'Rep Office:\nLPK COOP Indonesia<br/>Wisma 46 Kota BNI, Lantai 50, Jl. Jend Sudirman Kav. 1, Jakarta 10220<br/>Tel. +62 21 5748879, 5748845<br/>Fax. +62 21 5748888<br/>Email: tokyotaiseigakuin@gmail.com',
+      body: `Rep Office:\nKantor LPK COOP Indonesia, Jl Ciragil II No. 6, RT/RW 001/001 Kel. Rawa Barat, Kec. Kebayoran Baru, Jakarta Selatan 12180 <br/>Tel. +62 21 29501010<br/>Email: mail@coopindonesia.com`,
     },
   ],
 }

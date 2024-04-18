@@ -38,7 +38,7 @@ export const threeCareersDataStatic = [
     },
     periodic: {
       title: 'Jangka Waktu Penempatan',
-      desc: '**5 - 10 tahun**\n* Tokutei Ginou No.1 : 5 tahun\n* Tokutei Ginou No.2: 5 tahun',
+      desc: '**5 - 10 tahun**\n* Tokutei Ginou No. 2: 5 Tahun atau lebih',
     },
     advantages: {
       title: 'Kelebihan',
@@ -46,7 +46,7 @@ export const threeCareersDataStatic = [
     },
     weakness: {
       title: 'Kelemahan',
-      desc: '* Masa kontrak wajib diselesaikan selama 5 tahun.\n* Wajib memiliki kemampuan level bahasa jepang bersertifikat minimal n4 atau memiliki sertifikat technical intern training 2b.\n* Wajib mengikuti proses seleksi perusahaan.',
+      desc: '* Wajib memiliki kemampuan level bahasa jepang bersertifikat minimal n4 atau memiliki sertifikat technical intern training 2b.\n* Wajib mengikuti proses seleksi perusahaan.',
     },
   },
   {

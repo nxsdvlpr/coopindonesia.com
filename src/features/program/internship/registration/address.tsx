@@ -1,6 +1,5 @@
 import { intershipRegistrationDataStatic } from '@/app/api/internship'
-import { Flexbox, Typo } from '@/nui'
-import Image from 'next/image'
+import { Flexbox, ImageNui, Typo } from '@/nui'
 
 export default function Address() {
   const { title, subtitle, image, locations } =
@@ -15,14 +14,7 @@ export default function Address() {
         <Typo size="lg">{subtitle}</Typo>
       </Flexbox>
       <div className="mx-auto max-w-[37.5rem]">
-        <Image
-          width="0"
-          height="0"
-          sizes="100vw"
-          className="h-auto w-full"
-          src={image.src}
-          alt={image.alt}
-        />
+        <ImageNui src={image.src} alt={image.alt} />
       </div>
       <Flexbox flow="col" gap="2xl" align="normal">
         {locations.map((location, index) => (

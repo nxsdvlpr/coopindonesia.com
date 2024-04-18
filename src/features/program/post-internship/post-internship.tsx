@@ -1,23 +1,14 @@
 import { postInternshipDataStatic } from '@/app/api/post-internship'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
 import { Menu } from '@/features/shared/menu'
-import { Section, SectionTitle } from '@/nui'
-import Image from 'next/image'
+import { ImageNui, Section, SectionTitle } from '@/nui'
 import PostInternshipContent from './content'
 
 export default function PostInternship() {
   const { info, title, images, contents } = postInternshipDataStatic
 
   const items = images.map((image, i) => (
-    <Image
-      key={i}
-      width="0"
-      height="0"
-      sizes="100vw"
-      className="h-full w-full rounded-lg object-cover"
-      src={image.src}
-      alt={image.alt}
-    />
+    <ImageNui key={i} src={image.src} alt={image.alt} />
   ))
 
   return (

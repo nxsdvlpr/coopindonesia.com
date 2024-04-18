@@ -1,5 +1,4 @@
-import { Flexbox, Icon, Typo } from '@/nui'
-import Image from 'next/image'
+import { Flexbox, Icon, ImageNui, Typo } from '@/nui'
 
 export default function ContactUsAddress() {
   return (
@@ -34,15 +33,8 @@ export default function ContactUsAddress() {
             </Flexbox>
           </div>
         </div>
-        <div className="-mr-14 w-[20.3125rem]">
-          <Image
-            width="0"
-            height="0"
-            sizes="100vw"
-            className="h-full w-full rounded-lg object-cover"
-            src="/contact-us-image.svg"
-            alt="contact-us-image"
-          />
+        <div className="-mr-14 w-[20.3125rem] overflow-hidden rounded-lg">
+          <ImageNui src="/contact-us-image.svg" alt="contact-us-image" />
         </div>
       </Flexbox>
     </div>

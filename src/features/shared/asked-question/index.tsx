@@ -1,8 +1,7 @@
 'use client'
 
 import { askedQuestionDataStatic } from '@/app/api/asked-question'
-import { Flexbox, Section, SectionTitle } from '@/nui'
-import Image from 'next/image'
+import { Flexbox, ImageNui, Section, SectionTitle } from '@/nui'
 import { useState } from 'react'
 import Card from './components/card'
 
@@ -30,14 +29,7 @@ export default function AskedQuestion() {
             ))}
           </div>
           <div className="shrink-0 overflow-hidden lg:h-[21.875rem] lg:w-[25rem]">
-            <Image
-              width="0"
-              height="0"
-              sizes="100vw"
-              className="h-full w-full"
-              src={image.src}
-              alt={image.alt}
-            />
+            <ImageNui src={image.src} alt={image.alt} />
           </div>
         </div>
       </Flexbox>

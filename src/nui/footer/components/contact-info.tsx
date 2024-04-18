@@ -1,19 +1,11 @@
-import { Flexbox, Icon, Typo } from '@/nui'
-import Image from 'next/image'
+import { Flexbox, Icon, ImageNui, Typo } from '@/nui'
 
 export default function ContactInfo() {
   return (
-    <div className="max-w-xs">
-      <Flexbox align="start" flow="col" gap="lg">
-        <div className="w-[3.75rem]">
-          <Image
-            width="0"
-            height="0"
-            sizes="100vw"
-            className="h-auto w-full"
-            src="/logo.png"
-            alt="hero-image-coop-indonesia"
-          />
+    <div className="max-w-sm">
+      <div className="flex flex-col gap-x-8 gap-y-6 lg:flex-row">
+        <div className="h-[3.75rem] w-[3.75rem] shrink-0">
+          <ImageNui src="/logo.png" alt="hero-image-coop-indonesia" />
         </div>
 
         <Flexbox gap="lg" align="start" flow="col">
@@ -40,7 +32,7 @@ export default function ContactInfo() {
             </Flexbox>
           </Flexbox>
         </Flexbox>
-      </Flexbox>
+      </div>
     </div>
   )
 }
