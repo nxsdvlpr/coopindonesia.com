@@ -4,7 +4,8 @@ import { AskedQuestion, Banner, Testimonial } from '../shared'
 import { Menu } from '../shared/menu'
 
 export default function Organization() {
-  const { info, title, subtitle, links, office } = aboutOrganizationDataStatic
+  const { info, title, subtitle, addresses, office } =
+    aboutOrganizationDataStatic
 
   return (
     <>
@@ -16,13 +17,17 @@ export default function Organization() {
       <Section>
         <Flexbox flow="col" gap="4xl">
           <Flexbox flow="col" gap="2xl">
-            {links.map((address, index) => (
-              <iframe
-                key={index}
-                className="h-[15.25rem] w-full overflow-hidden rounded-lg focus:outline-none lg:h-[18.75rem] lg:w-[40rem]"
-                src={address.link}
-                loading="lazy"
-              ></iframe>
+            {addresses.map((address, index) => (
+              <Flexbox flow="col" gap="lg" key={index}>
+                <Typo size="xl" fontWeight="bold" color="gray-900">
+                  {address.title}
+                </Typo>
+                <iframe
+                  className="h-[15.25rem] w-full overflow-hidden rounded-lg focus:outline-none lg:h-[18.75rem] lg:w-[40rem]"
+                  src={address.link}
+                  loading="lazy"
+                ></iframe>
+              </Flexbox>
             ))}
           </Flexbox>
           <Flexbox flow="col" gap="lg">
