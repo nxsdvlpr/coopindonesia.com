@@ -265,11 +265,13 @@ export const aboutOrganizationDataStatic = {
   title: 'Organization',
   subtitle: `LPK COOP Indonesia memiliki jaringan organisasi di Indonesia dan juga
   kantor perwakilan di Jepang.`,
-  links: [
+  addresses: [
     {
+      title: 'Head Office',
       link: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1901050107867!2d106.80672617574834!3d-6.238656761092927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1c36e387eb9%3A0x4aaca7ad92e87fa8!2sLPK%20COOP%20Indonesia!5e0!3m2!1sid!2sid!4v1711291791793!5m2!1sid!2sid',
     },
     {
+      title: 'Training Center',
       link: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.56788665455534!2d107.6931285386306!3d-6.880277923929221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68dda1c136853d%3A0x7c666014f3309cea!2sGriya%20Krida%20Sekesalam%20(GPIB)!5e0!3m2!1sid!2sid!4v1713420334867!5m2!1sid!2sid',
     },
   ],
@@ -278,25 +280,24 @@ export const aboutOrganizationDataStatic = {
     addresses: [
       {
         city: 'TOKYO',
-        address: '1-47-5, Hachigasaki Matsudo-shi, Chiba 270-0023 Japan',
-        tel: '+8147-710-5622',
-        fax: '+813-6369-4183',
-        hp: '+8190-5516-6743',
-        email: 'yamamoto@midas-japan.com',
+        address:
+          'Sanhaitsu Ikebukuro 204, 2-Chome 47-7 Minami Ikebukuro, Toshima City, Tokyo 171-0022, Japan',
+        hp: '+8190-2481-0613',
+        email: 'arief@coopindonesia.com',
       },
       {
         city: 'OSAKA',
         address: '1735-9 Shindachi Ichiba Sennan Shi Osaka Fu JAPAN 590-0504',
-        tel: '+81 72-4476-976',
-        fax: '+81 72-4476-976',
-        hp: '+81 80-4844-7883',
-        email: 'herizal@haifarabbani.com',
+        tel: '+8172-4476-976',
+        fax: '+8172-4476-976',
+        hp: '+8180-4844-7883',
+        email: 'herizal@coopindonesia.com',
       },
       {
         city: 'AICHI',
         address: '4-11-16, Imure Minami, Toyohashi, Aichi-ken, JAPAN 440-0835',
-        hp: '+81 80-4224-1668',
-        email: 'devi@ej-support.net',
+        hp: '+8180-4224-1668',
+        email: 'devi@coopindonesia.com',
       },
     ],
   },
