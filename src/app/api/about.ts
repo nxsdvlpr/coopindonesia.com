@@ -270,7 +270,7 @@ export const aboutOrganizationDataStatic = {
       link: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1901050107867!2d106.80672617574834!3d-6.238656761092927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1c36e387eb9%3A0x4aaca7ad92e87fa8!2sLPK%20COOP%20Indonesia!5e0!3m2!1sid!2sid!4v1711291791793!5m2!1sid!2sid',
     },
     {
-      link: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.632996718117!2d107.77067157499658!3d-6.93439249306553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68c4a504ebf075%3A0x9d04b44207437717!2sPusdiklat%20Gerkopin!5e0!3m2!1sid!2sid!4v1711598791078!5m2!1sid!2sid',
+      link: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.56788665455534!2d107.6931285386306!3d-6.880277923929221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68dda1c136853d%3A0x7c666014f3309cea!2sGriya%20Krida%20Sekesalam%20(GPIB)!5e0!3m2!1sid!2sid!4v1713420334867!5m2!1sid!2sid',
     },
   ],
   office: {
