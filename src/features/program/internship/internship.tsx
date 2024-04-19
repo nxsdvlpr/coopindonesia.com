@@ -15,7 +15,7 @@ export default function Internship() {
         </SectionTitle>
       </Section>
       <Section maxWidth="sm">
-        <div className="flex flex-col gap-12">
+        <div className="flex flex-col gap-8">
           <div className="mx-auto w-full lg:w-[30rem]">
             <ImageNui src={image.src} alt={image.alt} />
           </div>
