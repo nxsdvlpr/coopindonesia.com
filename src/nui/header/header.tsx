@@ -17,7 +17,7 @@ export function Header() {
     <>
       <header className="fixed left-0 right-0 top-0 z-30 h-[4.5rem] bg-white">
         <nav className=" m-auto flex h-full max-w-[80rem] items-center justify-between px-4 lg:px-10">
-          <Link href="/" className="w-[12.5rem]">
+          <Link href="/" className="w-[16.625rem]">
             <ImageNui src="/logo-text.png" alt="logo-text-coop-indonesia" />
           </Link>
           <MenuMobile />
