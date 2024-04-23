@@ -247,8 +247,8 @@ export const aboutOrganizationStructure = {
   MICE: {
     title: 'Departemen MICE',
     subtitle: '(Meeting, Incentive, Convention, and Exhibition)',
-    name: '',
-    position: '',
+    name: 'Amboro Alfianto',
+    position: 'Direktur',
     staffProduct: {
       title: 'Tim Produksi dan Media:',
       staffs: [
