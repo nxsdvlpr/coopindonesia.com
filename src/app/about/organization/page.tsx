@@ -2,8 +2,8 @@ import Organization from '@/features/about/organization'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'LPK Coop Indonesia - Organization',
-  description: 'LPK Coop Indonesia - Organization',
+  title: 'LPK COOP Indonesia - Organization',
+  description: 'LPK COOP Indonesia - Organization',
 }
 
 export default function OrganizationPage() {

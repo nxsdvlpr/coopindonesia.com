@@ -22,8 +22,8 @@ export default async function HomePage() {
     <>
       <HomeHero />
       <FeaturedPrograms
-        title="Featured Programs"
-        subtitle={`LPK Coop Indonesia's top choice programs`}
+        title="Program LPK COOP Indonesia"
+        subtitle={`LPK COOP Indonesia's Berikut program utama dari LPK COOP Indonesia`}
       />
       <HomeSponsor />
       <Suspense>

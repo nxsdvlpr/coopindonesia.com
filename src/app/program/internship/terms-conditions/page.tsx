@@ -2,8 +2,8 @@ import InternshipTermsConditions from '@/features/program/internship/terms-condi
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Terms Conditions / Internship / Program / LPK Coop Indonesia',
-  description: 'Terms Conditions / Internship / Program / LPK Coop Indonesia',
+  title: 'Terms Conditions / Internship / Program / LPK COOP Indonesia',
+  description: 'Terms Conditions / Internship / Program / LPK COOP Indonesia',
 }
 
 export default function TermsConditionPage() {

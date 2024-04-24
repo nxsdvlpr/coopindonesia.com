@@ -2,9 +2,9 @@ import PostInternshipFurusatoAgribisnis from '@/features/program/post-internship
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Furusato Agribisnis / Post Internship / Program / LPK Coop Indonesia',
+  title: 'Furusato Agribisnis / Post Internship / Program / LPK COOP Indonesia',
   description:
-    'Furusato Agribisnis / Post Internship / Program / LPK Coop Indonesia',
+    'Furusato Agribisnis / Post Internship / Program / LPK COOP Indonesia',
 }
 
 export default function FurusatoAgribisnisPage() {

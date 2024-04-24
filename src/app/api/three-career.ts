@@ -5,7 +5,7 @@ export const threeCareersDataStatic = [
     cost: {
       title: 'Biaya-biaya',
       price: '27,5jt',
-      desc: '* Untuk technical intern training 1A & 2B untuk biaya pelatihan pra keberangkatan di Pusdiklat LPK Coop Indonesia\n* Technical intern training 3B: **Free**',
+      desc: '* Untuk technical intern training 1A & 2B untuk biaya pelatihan pra keberangkatan di Pusdiklat LPK COOP Indonesia\n* Technical intern training 3B: **Free**',
     },
     requirement: {
       title: 'Persyaratan Calon Kandidat',
@@ -30,7 +30,7 @@ export const threeCareersDataStatic = [
     cost: {
       title: 'Biaya-biaya',
       price: '10jt*',
-      desc: '* Untuk alumni peserta magang dari sending organization (SO) lain dan kandidat non alumni\n* Alumni peserta magang LPK Coop Indonesia: **Free**',
+      desc: '* Untuk alumni peserta magang dari sending organization (SO) lain dan kandidat non alumni\n* Alumni peserta magang LPK COOP Indonesia: **Free**',
     },
     requirement: {
       title: 'Persyaratan Calon Kandidat',

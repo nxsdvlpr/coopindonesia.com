@@ -2,8 +2,8 @@ import PostInternshipPalmSugar from '@/features/program/post-internship/palm-sug
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Palm Sugar / Post Internship / Program / LPK Coop Indonesia',
-  description: 'Palm Sugar / Post Internship / Program / LPK Coop Indonesia',
+  title: 'Palm Sugar / Post Internship / Program / LPK COOP Indonesia',
+  description: 'Palm Sugar / Post Internship / Program / LPK COOP Indonesia',
 }
 
 export default function PalmSugarPage() {

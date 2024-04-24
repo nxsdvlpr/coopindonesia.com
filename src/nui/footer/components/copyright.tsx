@@ -9,7 +9,7 @@ export default function Copyright() {
     <div className={wrapper()}>
       <div className={main()}>
         <Typo size="sm" color="gray-400">
-          Copyright © 2010 - 2023 LPK Coop Indonesia All Rights Reserved
+          Copyright © 2010 - 2023 LPK COOP Indonesia All Rights Reserved
         </Typo>
         <Flexbox>
           <Link
