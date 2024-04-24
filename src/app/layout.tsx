@@ -3,8 +3,8 @@ import type { Metadata } from 'next'
 import 'react-photo-view/dist/react-photo-view.css'
 import './globals.css'
 export const metadata: Metadata = {
-  title: 'Home / LPK Coop Indonesia',
-  description: 'Home / LPK Coop Indonesia',
+  title: 'Home / LPK COOP Indonesia',
+  description: 'Home / LPK COOP Indonesia',
 }
 
 export default function RootLayout({

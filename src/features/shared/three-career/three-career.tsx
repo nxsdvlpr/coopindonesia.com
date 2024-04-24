@@ -15,7 +15,7 @@ export function ThreeCareer({ info, sizeTitle }: ThreeCareerProps) {
         <SectionTitle
           sizeTitle={sizeTitle}
           info={info}
-          title="Three Career Paths in Japan"
+          title="3 Jalur Untuk Berkarir di Jepang"
         >
           Program komprehensif untuk pengembangan keterampilan bahasa dan budaya
           Jepang, serta pengalaman berharga di Jepang.
