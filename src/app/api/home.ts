@@ -1,7 +1,7 @@
 export const homeDataStatic = {
   hero: {
     info: 'HOME',
-    title: 'Welcome to LPK Coop Indonesia',
+    title: 'Selamat Datang di LPK Coop Indonesia',
     desc: `LPK COOP Indonesia merupakan salah satu Lembaga Penyelenggara Pemagangan Luar Negeri **(Sending Organization - SO)** yang berdiri sejak tahun 2012, dan telah menempatkan lebih dari 2,800 peserta di berbagai Perusahaan di Jepang.`,
     image: {
       src: '/hero-image.svg',
