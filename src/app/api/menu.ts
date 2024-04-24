@@ -30,7 +30,7 @@ export const menuDataStatic = {
       { href: '/program/internship/registration', label: 'Pendaftaran' },
       {
         href: '/program/internship/placement-progress',
-        label: 'Proses Penempatan',
+        label: 'Progress Penempatan',
       },
       {
         href: '/program/internship/three-career-path',

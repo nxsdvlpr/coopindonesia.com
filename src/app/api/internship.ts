@@ -214,7 +214,7 @@ export const internshipPlacementDataStatic = {
   ],
   content: {
     title: 'Penempatan di Jepang',
-    body: 'Setelah mengikuti serangkaian kegiatan seleksi dan pelatihan maka peserta akan segera di tempatkan di perusahaan masing-masing di Jepang.\n\nBerikut foto-foto penempatan peserta **LPK COOP Indonesia** di Jepang',
+    body: `Setelah calon peserta selesai mengikuti kegiatan Pendidikan dan Pelatihan di Pusdiklat dan Kelengkapan dokumen keberangkatan dinyatakan lengkap, maka Peserta akan ditempatkan ke Jepang sesuai dengan Kontrak Kerja yang telah disepakati.\n\nMasa Penempatan Peserta Pemagangan di Jepang terdiri dari 1 tahun, 3 tahun dan dapat diperpanjang lagi selama 2 tahun. Sehingga total program pemagangan adalah selama 7 tahun.\n\nSetelah itu Peserta jika masih berminat bekerja di Jepang dapat melanjutkan ke Program Spesific Skill Workers (SSW) di Jepang yang merupakan program lanjutan dari Pemagangan ke Jepang ini.\n\nNamun syarat dan ketentuan Program SSW berbeda dengan Program pemagangan karena visa yang diterima juga berbeda.`,
   },
 }
 
@@ -248,8 +248,8 @@ export const internshipPreSelectionDataStatic = {
     },
   ],
   content: {
-    title: 'Kegiatan Pra Seleksi',
-    body: 'Merupakan kegiatan pra-seleksi yang dilakukan oleh **Divisi Pengembangan SDM COOP Indonesia** dalam rangka mencari calon peserta yang memenuhi kriteria peserta magang.\n\n Berikut foto-foto kegiatan pra - seleksi di LPK Coop Indonesia',
+    title: 'Kegiatan Pra Seleksi Calon Peserta Pemagangan',
+    body: `Kegiatan Pra Seleksi diselenggarakan oleh Tim Recruitmen LPK COOP Indonesia dalam rangka menyeleksi Calon Peserta yang berminat untuk mengikuti program penempatan peserta pemagangan ke Jepang.\n\nPra Seleksi dapat diselenggarakan di Pusdiklat LPK COOP Indonesia di Bandung maupun di Lokasi-Lokasi LPK Penyangga yang merupakan Mitra Kerja LPK COOP Indonesia.\n\nAdapun Materi Pra Seleksi yang diberikan kepada Calon Peserta antara lain:\n\n 1. Tes Fisik: Lari, Sit up, Push up, Pull up, Shuttle Run\n 2. Tes Tertulis: Bahasa Jepang dasar, Matematika, Akademis dan Psykotes\n 3. Pengisian Form CV Calon Peserta dan Pengecekan Kelengkapan Dokumen dan Hasil MCU CV Calon Peserta\n 4. Mengecek Ketentuan Fisik Calon Peserta, antara lain: (TIDAK) cacat, bertato atau bekas tato, tindik/bekas tindik, patah tulang, tuli, hernia, penyakit kulit, buta warna, bekas operasi tertentu.\n 5. Wawancara tentang wawasan, pengetahuan umum, pengertian program, performance dll. \n\nKegiatan pra seleksi ini juga merupakan Penyaringan Tahap 1 calon peserta sebelum Proses Wawancara dengan Pihak Perusahaan Jepang.`,
   },
 }
 
@@ -302,7 +302,7 @@ export const internshipRightsObligationsDataStatic = {
 
 export const internshipSelectionDataStatic = {
   info: 'PROGRAM PEMAGANGAN KE JEPANG',
-  title: 'Seleksi',
+  title: 'Seleksi Calon Peserta',
   images: [
     {
       src: '/selection/selection-image-2.png',
@@ -318,8 +318,8 @@ export const internshipSelectionDataStatic = {
     },
   ],
   content: {
-    title: 'Kegiatan Seleksi',
-    body: 'Merupakan kegiatan seleksi yang diadakan langsung oleh Perusahaan Penerima dari Jepang untuk mencari Calon Peserta yang telah melewati tahap **Pra Seleksi COOP Indonesia**.\n\nBerikut foto-foto kegiatan seleksi di LPK Coop Indonesia',
+    title: 'Kegiatan Seleksi/Wawancara Perusahaan',
+    body: `Merupakan Kegiatan Seleksi yang diadakan langsung oleh Pihak Perusahaan Penerima atau diwakili oleh Lembaga Penerima (Accepting Organization/AO) di Jepang.\n\nSyarat bagi calon peserta untuk mengikuti Wawancara adalah telah **LULUS Pra Seleksi LPK COOP Indonesia.**\n\n Peserta yang terpilih pada Kegiatan Seleksi ini selanjutnya akan mempersiapkan diri untuk mengikuti Pendidikan dan Pelatihan di Pusdiklat LPK COOP Indonesia selama kurang lebih 90 hari. Selain itu Para Peserta juga Wajib melengkapi dokumen yang diperlukan untuk proses penempatan ke Jepang.`,
   },
 }
 
@@ -354,7 +354,7 @@ export const internshipTrainingDataStatic = {
     },
   ],
   content: {
-    title: 'Masa Pelatihan',
-    body: 'Merupakan persiapan bagi para Calon Peserta Magang selama 90 hari di Pusat Pendidikan dan Pelatihan sebelum penempatan di Perusahaan Jepang yang meliputi:\n\n 1. Pendidikan Bahasa Jepang\n\n2. Pengenalan Budaya Jepang\n\n3. Pelatihan Fisik, Mental dan Disiplin\n\n4. Keterampilan Kerja sesuai bidang penempatan\n\n\n\nBerikut foto-foto kegiatan pelatihan di LPK Coop Indonesia:',
+    title: 'Masa Pendidikan & Pelatihan',
+    body: `Merupakan persiapan bagi para Calon Peserta Pemagangan selama 90 hari di Pusat Pendidikan dan Pelatihan LPK COOP Indonesia sebelum penempatan di Perusahaan Jepang yang meliputi:\n\n1. Pendidikan Bahasa Jepang\n2. Pengenalan Budaya Jepang\n3. Pelatihan Fisik, Mental dan Disiplin\n4. Keterampilan Kerja sesuai bidang penempatan\n\nCalon Peserta selama di PUSDIKLAT akan di karantina dan tidak dapat berinteraksi dengan pihak luar. Para Peserta wajib mengikuti setiap Aturan yang berlaku dan Pihak LPK COOP Indonesia dapat memulangkan atau membatalkan keberangkatan Calon Peserta yang melakukan Pelanggaran.\n\nKarena itu, Para Peserta yang akan mengikuti masa Pendidikan dan Pelatihan harus benar-benar sudah siap Mental dan Fisik untuk dipersiapkan oleh TIM PELATIH dan Guru (Sensei) LPK COOP Indonesia.`,
   },
 }
