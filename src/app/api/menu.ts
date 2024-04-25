@@ -158,14 +158,14 @@ export const menuDataStatic = {
       label: 'Organization',
       description: 'Leadership, board, and staff',
       href: '/about/organization',
-      icon: 'lucide:scan-eye',
+      icon: 'lucide:users',
     },
     {
       id: 4,
       label: 'Organization Structure',
       description: 'Leadership, board, and staff',
       href: '/about/organization-structure',
-      icon: 'lucide:scan-eye',
+      icon: 'lucide:scroll-text',
     },
   ],
   contact: {
