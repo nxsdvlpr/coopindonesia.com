@@ -29,14 +29,6 @@ export const aboutOrganizationStructure = {
     'LPK COOP Indonesia memiliki jaringan organisasi di Indonesia dan juga kantor perwakilan di Jepang.',
   members: [
     {
-      name: 'Prof. Dr. Ir. Ginandjar Kartasasmita',
-      position: 'Dewan Penasehat',
-    },
-    {
-      name: 'H. Rahmat',
-      position: 'Dewan Penasehat',
-    },
-    {
       name: 'Herson Tendean, S.Kom',
       position: 'Ketua',
     },
@@ -85,7 +77,7 @@ export const aboutOrganizationStructure = {
     },
     generalAffair: {
       label: 'General Affair:',
-      members: ['Misiran', 'Muhammad Nur'],
+      members: ['Slamet Raharjo', 'Sugeng Riyadi', 'Chafid'],
     },
     corporateSecretary: {
       label: 'Corporate Secretary:',
@@ -156,7 +148,7 @@ export const aboutOrganizationStructure = {
       label: 'Instruktur Fisik, Mental dan Kedisplinan:',
       members: [
         {
-          name: 'Serma (Retired) Kasiyanto, S.Pd',
+          name: 'Serma (PURN) Kasiyanto, S.Pd',
         },
         {
           name: 'Bambang Heryawan',
@@ -189,24 +181,9 @@ export const aboutOrganizationStructure = {
             'Sarjana (S1) Sekolah Tinggi Bahasa Asing Yapari - ABA Bandung, JLPT N3',
         },
         {
-          name: 'Yasmin Tamara, S. Pd',
-          additionalInfo:
-            'Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, JLPT N3',
-        },
-        {
-          name: 'Tissa Putri Djayadipura, S.Pd',
-          additionalInfo:
-            'Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, JLPT N3',
-        },
-        {
           name: 'Rifa Aulia Husni Fadilla, S. Pd',
           additionalInfo:
             'Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, JLPT N4',
-        },
-        {
-          name: 'Dewi Kiany, S.Pd',
-          additionalInfo:
-            'Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, JLPT N3',
         },
         {
           name: 'Omar Hafiz Shirazi, S.pd',
