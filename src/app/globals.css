@@ -45,6 +45,12 @@
   color: #344054;
 }
 
+.prose :where(a):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+  color: #b26110;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
 .PhotoView-Slider__BannerWrap {
   background: transparent !important;
 }
