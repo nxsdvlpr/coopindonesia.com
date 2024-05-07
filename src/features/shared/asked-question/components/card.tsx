@@ -1,4 +1,4 @@
-import { Box, Icon, Typo } from '@/nui'
+import { Box, Icon, Markdown, Typo } from '@/nui'
 import { Listbox } from '@/nui/listbox'
 import { Dispatch, ReactNode, SetStateAction } from 'react'
 import { cardIconStyle, cardStyle } from './card.style'
@@ -19,6 +19,8 @@ export default function Card({
   children,
 }: CardProps) {
   const { wrapper, button } = cardStyle()
+
+  const child = typeof children === 'string'
 
   return (
     <div className={wrapper()}>
@@ -41,7 +43,7 @@ export default function Card({
           }
         >
           <div className="pt-4">
-            <Typo size="lg">{children}</Typo>
+            {child ? <Markdown size="lg">{children}</Markdown> : children}
           </div>
         </Listbox>
       </Box>

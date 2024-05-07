@@ -154,6 +154,10 @@ export const aboutOrganizationStructure = {
           name: 'Bambang Heryawan',
           additionalInfo: '(Alumni of LPK COOP Indonesia Class 15, JLPT N3)',
         },
+        {
+          name: 'Gun gun Gunawan',
+          additionalInfo: '(Alumni LPK COOP Indonesia Angk 15)',
+        },
       ],
     },
     generalAffairs: { label: 'General Affair:', members: ['Muhamad Taufik'] },
@@ -228,11 +232,7 @@ export const aboutOrganizationStructure = {
     position: 'Direktur',
     staffProduct: {
       title: 'Tim Produksi dan Media:',
-      staffs: [
-        'Muhammad Hisyam Rabbani',
-        'Hafid Nur Wahyudin',
-        'Rifqi Solahudin Arsyad',
-      ],
+      staffs: ['Muhammad Hisyam Rabbani', 'Hafid Nur Wahyudin'],
     },
   },
 }
