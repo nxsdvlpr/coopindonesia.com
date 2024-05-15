@@ -31,6 +31,7 @@ export const aboutOrganizationStructure = {
     {
       name: 'Herson Tendean, S.Kom',
       position: 'Ketua',
+      src: '/profile/herson-tendean.png',
     },
   ],
   representativeOffice: {
@@ -39,10 +40,12 @@ export const aboutOrganizationStructure = {
       {
         name: 'Toshiyuki Sahara',
         position: 'Kepala Perwakilan',
+        src: '/profile/toshiyuki-sahara.png',
       },
       {
         name: 'Tomoko Yamamoto',
         position: 'Perwakilan Area Tokyo',
+        src: '/profile/tomoko-yamamoto.png',
       },
       {
         name: 'Kosei Sahara',
@@ -51,6 +54,7 @@ export const aboutOrganizationStructure = {
       {
         name: 'Herizal Adhardi',
         position: 'Perwakilan Area Osaka',
+        src: '/profile/herizal-adhardi.png',
       },
       {
         name: 'Devi Riswanto',
@@ -61,15 +65,28 @@ export const aboutOrganizationStructure = {
         position: 'Corporate Secretary Area Tokyo',
         additionalInfo:
           'Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, Alumni Shizouka University - Japan, JLPT N2',
+        src: '/profile/arief-rivani-nugraha.png',
       },
     ],
   },
   headOffice: {
     title: 'Kantor Pusat',
     members: [
-      { name: 'Leila Djawas', position: 'Advisor' },
-      { name: 'Selvy Rahmika, A.Ma S.Kom', position: 'Personalia(HRD)' },
-      { name: 'Sandy B.Y Bangapadang, S.H.,', position: 'Legal Advisor' },
+      {
+        name: 'Leila Djawas',
+        position: 'Advisor',
+        src: '/profile/leila-djawas.png',
+      },
+      {
+        name: 'Selvy Rahmika, A.Ma S.Kom',
+        position: 'Personalia(HRD)',
+        src: '/profile/selvy-rahmika.png',
+      },
+      {
+        name: 'Sandy B.Y Bangapadang, S.H.,',
+        position: 'Legal Advisor',
+        src: '/profile/sandy-b.png',
+      },
     ],
     financeAccounting: {
       label: 'Finance and Accounting:',
@@ -108,6 +125,7 @@ export const aboutOrganizationStructure = {
       {
         name: 'Cristian Ade Candra., S.T,. M.T',
         position: 'Direktur',
+        src: '/profile/cristian-ade-candra.png',
       },
       {
         name: 'Naldy Kostiyandi, S.Pd.',
@@ -126,12 +144,14 @@ export const aboutOrganizationStructure = {
     members: [
       {
         name: 'Irwan Ardiyanto',
+        src: '/profile/irwan-ardiyanto.png',
         position: 'Direktur',
         additionalInfo: 'Alumni IM Japan Angk 37',
       },
       {
         name: 'Pupung Masitoh, S.S',
         position: 'Kepala Pusat Pendidikan dan Pelatihan',
+        src: '/profile/pupung-masitoh.png',
         additionalInfo:
           'Sarjana (S1) Sastra Jepang Universitas Gajah Mada, JLPT N2',
       },
@@ -203,6 +223,7 @@ export const aboutOrganizationStructure = {
       {
         name: 'Suyitno',
         position: 'Direktur',
+        src: '/profile/suyitno.png',
         additionalInfo: 'Alumni LPK COOP Indonesia Angk 6',
       },
     ],
@@ -229,6 +250,7 @@ export const aboutOrganizationStructure = {
     title: 'Departemen MICE',
     subtitle: '(Meeting, Incentive, Convention, and Exhibition)',
     name: 'Amboro Alfianto',
+    src: '/profile/amboro-alfianto.png',
     position: 'Direktur',
     staffProduct: {
       title: 'Tim Produksi dan Media:',

@@ -28,6 +28,7 @@ export default function OrganizationStructure() {
                 key={index}
                 name={member.name}
                 position={member.position}
+                src={member.src}
               />
             ))}
           </div>

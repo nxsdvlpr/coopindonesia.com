@@ -12,7 +12,11 @@ export default function RepresentativeOffice() {
         <Typo size="xl" color="gray-900" fontWeight="bold">
           {title}
         </Typo>
-        <ContactInfo name={members[0].name} position={members[0].position} />
+        <ContactInfo
+          src={members[0].src}
+          name={members[0].name}
+          position={members[0].position}
+        />
       </div>
       <div className="grid grid-cols-2 lg:grid-cols-4">
         {members.slice(1, 5).map((member, index) => (
@@ -20,10 +24,15 @@ export default function RepresentativeOffice() {
             key={index}
             name={member.name}
             position={member.position}
+            src={member.src}
           />
         ))}
       </div>
-      <ContactInfo name={members[5].name} position={members[5].position}>
+      <ContactInfo
+        src={members[5].src}
+        name={members[5].name}
+        position={members[5].position}
+      >
         {members[5].additionalInfo}
       </ContactInfo>
     </>

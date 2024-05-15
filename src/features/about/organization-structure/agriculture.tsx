@@ -20,6 +20,7 @@ export default function Agriculture() {
             key={index}
             name={member.name}
             position={member.position}
+            src={member.src}
           >
             {member.additionalInfo}
           </ContactInfo>

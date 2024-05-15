@@ -14,7 +14,11 @@ export default function Development() {
         </Typo>
       </div>
       <Flexbox flow="col" gap="xl">
-        <ContactInfo name={members[0].name} position={members[0].position} />
+        <ContactInfo
+          src={members[0].src}
+          name={members[0].name}
+          position={members[0].position}
+        />
         <div className="m-auto max-w-md">
           <Fields>
             {members.slice(1).map((member, index) => (
