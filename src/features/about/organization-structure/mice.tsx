@@ -3,7 +3,7 @@ import { Field, Fields, Typo } from '@/nui'
 import ContactInfo from './contact-info'
 
 export default function Mice() {
-  const { title, subtitle, name, position, staffProduct } =
+  const { title, subtitle, name, src, position, staffProduct } =
     aboutOrganizationStructure.MICE
 
   return (
@@ -18,7 +18,7 @@ export default function Mice() {
         </Typo>
       </div>
       <div className="flex flex-col gap-8 lg:items-center">
-        <ContactInfo name={name} position={position} />
+        <ContactInfo src={src} name={name} position={position} />
         <Fields label={staffProduct.title}>
           {staffProduct.staffs.map((item, index) => (
             <Field key={index}>{item}</Field>

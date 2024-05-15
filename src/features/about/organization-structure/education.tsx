@@ -28,6 +28,7 @@ export default function Education() {
               key={index}
               name={member.name}
               position={member.position}
+              src={member.src}
             >
               {member.additionalInfo}
             </ContactInfo>

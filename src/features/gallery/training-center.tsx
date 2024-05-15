@@ -3,28 +3,15 @@ import Carousel from '@/nui/carousel/carousel'
 import ExploreMoreGalleries from './explore-more-galleries'
 
 export default function TrainingCenter() {
-  const images = [
-    {
-      src: '/training/training-image-3.png',
-      alt: 'training-image-3-coop-indonesia',
-    },
-    {
-      src: '/training/training-image-1.png',
-      alt: 'training-image-1-coop-indonesia',
-    },
-    {
-      src: '/training/training-image-2.png',
-      alt: 'training-image-2-coop-indonesia',
-    },
-    {
-      src: '/training/training-image-4.png',
-      alt: 'training-image-4-coop-indonesia',
-    },
-    {
-      src: '/training/training-image-5.png',
-      alt: 'training-image-5-coop-indonesia',
-    },
-  ]
+  let images = []
+  const totalImages = 13
+
+  for (let i = 1; i <= totalImages; i++) {
+    images.push({
+      src: `/training/training-image-${i}.jpg`,
+      alt: `training-image-${i}-coop-indonesia`,
+    })
+  }
 
   const items = images.map((image, i) => (
     <ImageNui key={i} src={image.src} alt={image.alt} />
