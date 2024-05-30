@@ -9,10 +9,11 @@ export const menuDataStatic = {
       },
       {
         icon: 'lucide:languages',
-        label: 'Sekolah Bahasa',
+        label: 'Program Internship',
         description:
-          'Nihonggo Gakko untuk mempelajari secara langsung budaya dan bahasa Jepang',
-        state: 'school',
+          'Penempatan Mahasiswa(i) Indonesia ke berbagai perusahaan di Jepang.',
+        state: '',
+        href: '/program/student-internship',
       },
       {
         icon: 'lucide:award',

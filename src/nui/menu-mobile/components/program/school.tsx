@@ -21,7 +21,7 @@ export default function MenuProgramSchool({ onclose }: MenuProgramSchoolProps) {
             isActive={isOpen}
             onClick={() => setIsOpen((e) => !e)}
             icon="lucide:languages"
-            label="Sekolah Bahasa"
+            label="Program Internship"
           />
         }
         isOpen={isOpen}

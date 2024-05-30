@@ -7,7 +7,6 @@ import { Item } from 'react-stately'
 import Menu from './menu'
 import MenuProgramBusiness from './program-business'
 import MenuProgramInternship from './program-internship'
-import MenuProgramSchool from './program-school'
 
 export function MenuProgram() {
   const [isOpen, setIsOpen] = useState(false)
@@ -34,16 +33,19 @@ export function MenuProgram() {
                   label={item.label}
                   description={item.description}
                   icon={item.icon}
-                  onClick={() => setState(item.state)}
+                  link={item.href}
+                  onClick={() =>
+                    item.state ? setState(item.state) : setIsOpen(false)
+                  }
                 />
               ))}
             </Flexbox>
             {state === 'internship' && (
               <MenuProgramInternship onclose={() => setIsOpen(false)} />
             )}
-            {state === 'school' && (
+            {/* {state === 'school' && (
               <MenuProgramSchool onclose={() => setIsOpen(false)} />
-            )}
+            )} */}
             {state === 'business' && (
               <MenuProgramBusiness onclose={() => setIsOpen(false)} />
             )}

@@ -7,23 +7,23 @@ export const postInternshipDataStatic = {
   },
   images: [
     {
-      src: '/training/training-image-1.png',
+      src: '/training/training-image-1.jpg',
       alt: 'training-image-1-coop-indonesia',
     },
     {
-      src: '/training/training-image-2.png',
+      src: '/training/training-image-2.jpg',
       alt: 'training-image-2-coop-indonesia',
     },
     {
-      src: '/training/training-image-3.png',
+      src: '/training/training-image-3.jpg',
       alt: 'training-image-3-coop-indonesia',
     },
     {
-      src: '/training/training-image-4.png',
+      src: '/training/training-image-4.jpg',
       alt: 'training-image-4-coop-indonesia',
     },
     {
-      src: '/training/training-image-5.png',
+      src: '/training/training-image-5.jpg',
       alt: 'training-image-5-coop-indonesia',
     },
   ],
@@ -42,19 +42,23 @@ export const postInternshipPalmSugarDataStatic = {
   },
   images: [
     {
-      src: '/training/training-image-2.png',
+      src: '/training/training-image-1.jpg',
+      alt: 'training-image-1-coop-indonesia',
+    },
+    {
+      src: '/training/training-image-2.jpg',
       alt: 'training-image-2-coop-indonesia',
     },
     {
-      src: '/training/training-image-3.png',
+      src: '/training/training-image-3.jpg',
       alt: 'training-image-3-coop-indonesia',
     },
     {
-      src: '/training/training-image-4.png',
+      src: '/training/training-image-4.jpg',
       alt: 'training-image-4-coop-indonesia',
     },
     {
-      src: '/training/training-image-5.png',
+      src: '/training/training-image-5.jpg',
       alt: 'training-image-5-coop-indonesia',
     },
   ],
@@ -69,23 +73,23 @@ export const postInternshipFurusatoAgribisnisDataStatic = {
   },
   images: [
     {
-      src: '/training/training-image-1.png',
+      src: '/training/training-image-1.jpg',
       alt: 'training-image-1-coop-indonesia',
     },
     {
-      src: '/training/training-image-2.png',
+      src: '/training/training-image-2.jpg',
       alt: 'training-image-2-coop-indonesia',
     },
     {
-      src: '/training/training-image-3.png',
+      src: '/training/training-image-3.jpg',
       alt: 'training-image-3-coop-indonesia',
     },
     {
-      src: '/training/training-image-4.png',
+      src: '/training/training-image-4.jpg',
       alt: 'training-image-4-coop-indonesia',
     },
     {
-      src: '/training/training-image-5.png',
+      src: '/training/training-image-5.jpg',
       alt: 'training-image-5-coop-indonesia',
     },
   ],
@@ -99,23 +103,23 @@ export const postInternshiProselindoTeaDataStatic = {
     body: 'ROSELINDO TEA adalah jenis lain dari minuman herbal yg terbuat dari ekstrak calyx varietas unggul Rosela Herbal Indonesia.<br/><br/> LPK COOP Indonesia bekerjasama dengan Balai Penelitian Tanaman Pemanis dan Serat (BALITTAS) di Malang dalam memproduksi ROSELINDO TEA. Penggunaan varietas unggul Roselindo merupakan jaminan konsistensi mutu produk ROSELINDO TEA.<br/><br/> Proses budidaya Rosela Herbal varietas ROSELINDO dilakukan secara ramah lingkungan tanpa menggunakan pestisida di Nganjuk, Jawa Timur oleh Kelompok Alumni peserta pemagangan dari Jepang.ROSELINDO TEA selain di pasarkan dalam negeri, juga telah dipasarkan di Jepang, dan telah mendapat pengakuan sebagai salah satu Produk Herbal Organic yang baik untuk Kesehatan.',
     images: [
       {
-        src: '/training/training-image-1.png',
+        src: '/training/training-image-1.jpg',
         alt: 'training-image-1-coop-indonesia',
       },
       {
-        src: '/training/training-image-2.png',
+        src: '/training/training-image-2.jpg',
         alt: 'training-image-2-coop-indonesia',
       },
       {
-        src: '/training/training-image-3.png',
+        src: '/training/training-image-3.jpg',
         alt: 'training-image-3-coop-indonesia',
       },
       {
-        src: '/training/training-image-4.png',
+        src: '/training/training-image-4.jpg',
         alt: 'training-image-4-coop-indonesia',
       },
       {
-        src: '/training/training-image-5.png',
+        src: '/training/training-image-5.jpg',
         alt: 'training-image-5-coop-indonesia',
       },
     ],
