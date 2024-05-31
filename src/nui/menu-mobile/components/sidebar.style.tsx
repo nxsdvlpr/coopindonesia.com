@@ -7,8 +7,10 @@ export const sidebar: Variants = {
     width: `${width}%`,
     transition: {
       type: 'spring',
-      stiffness: 50,
-      restDelta: 1,
+      ease: 'linear',
+      delay: 0,
+      duration: 0,
+      stiffness: 80,
     },
   }),
   closed: {

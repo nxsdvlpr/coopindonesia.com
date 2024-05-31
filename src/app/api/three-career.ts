@@ -50,7 +50,7 @@ export const threeCareersDataStatic = [
     },
   },
   {
-    title: 'Program INTERNSIP',
+    title: 'Program Internsip',
     subtitle: 'Daigakusei Intanshippu',
     cost: {
       title: 'Biaya-biaya',
@@ -63,7 +63,7 @@ export const threeCareersDataStatic = [
     },
     periodic: {
       title: 'Jangka Waktu Penempatan',
-      desc: '**1 tahun**',
+      desc: '**6 - 1 tahun**',
     },
     advantages: {
       title: 'Kelebihan',
