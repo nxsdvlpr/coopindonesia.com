@@ -8,7 +8,7 @@ export const menuDataStatic = {
         state: 'internship',
       },
       {
-        icon: 'lucide:languages',
+        icon: 'lucide:briefcase-business',
         label: 'Program Internship',
         description:
           'Penempatan Mahasiswa(i) Indonesia ke berbagai perusahaan di Jepang.',
@@ -67,6 +67,11 @@ export const menuDataStatic = {
         label: 'Roselindo Tea',
       },
     ],
+    studentInternship: {
+      icon: 'lucide:briefcase-business',
+      label: 'Program Internship',
+      href: '/program/student-internship',
+    },
     schools: [
       {
         href: '/program/nihonggo',
@@ -97,14 +102,14 @@ export const menuDataStatic = {
     {
       id: 1,
       label: 'Vlog',
-      description: 'Watch our latest video log on YouTube',
+      description: 'Tonton video log terbaru kami di YouTube',
       href: '/publication/vlog',
       icon: 'lucide:play',
     },
     {
       id: 2,
-      label: 'From Our Social Media Account',
-      description: 'Updates from our Instagram',
+      label: 'Dari Akun Media Sosial Kami',
+      description: 'Update dari Instagram kami',
       href: '/publication/instagram',
       icon: 'lucide:newspaper',
     },
@@ -142,31 +147,31 @@ export const menuDataStatic = {
   about: [
     {
       id: 1,
-      label: 'At a Glance',
-      description: 'Overview about LPK COOP Indonesia',
+      label: 'Tentang Kami',
+      description: 'Sekilas tentang LPK COOP Indonesia',
       href: '/about/at-a-glance',
       icon: 'lucide:building-2',
     },
     {
       id: 2,
-      label: 'Mission and Vision',
-      description: 'More about our core views',
+      label: 'Misi dan Visi',
+      description: 'Lebih jauh tentang tujuan kami',
       href: '/about/vision-and-mission',
       icon: 'lucide:scan-eye',
     },
     {
       id: 3,
-      label: 'Organization',
-      description: 'Leadership, board, and staff',
-      href: '/about/organization',
-      icon: 'lucide:users',
+      label: 'Struktur Organisasi',
+      description: 'Dewan kepemimpinan dan staf',
+      href: '/about/organization-structure',
+      icon: 'lucide:network',
     },
     {
       id: 4,
-      label: 'Organization Structure',
-      description: 'Leadership, board, and staff',
-      href: '/about/organization-structure',
-      icon: 'lucide:scroll-text',
+      label: 'Sejarah',
+      description: 'Kisah dibalik perjalanan kami',
+      href: '/about/organization',
+      icon: 'lucide:book-open',
     },
   ],
   contact: {

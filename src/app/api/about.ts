@@ -1,5 +1,5 @@
 export const aboutAtAGlanceDataStatic = {
-  title: 'At a Glance',
+  title: 'Tentang Kami',
   subtitle:
     '**LPK COOP Indonesia** sebagai salah satu Lembaga Penyelenggara Pemagangan ke Luar Negeri atau **Sending Organization (SO)** memberi peluang bagi pemuda(i) Indonesia untuk ditempatkan pada perusahaan-perusahaan di Jepang untuk mengikuti program pemagangan dalam rangka meningkatkan kualitas dan kompetensi diri.',
   contents: [
@@ -24,7 +24,7 @@ export const aboutAtAGlanceDataStatic = {
 
 export const aboutOrganizationStructure = {
   info: 'ABOUT US',
-  title: 'Organization Structure',
+  title: 'Struktur Organisasi',
   subtitle:
     'LPK COOP Indonesia memiliki jaringan organisasi di Indonesia dan juga kantor perwakilan di Jepang.',
   members: [
@@ -261,7 +261,7 @@ export const aboutOrganizationStructure = {
 
 export const aboutOrganizationDataStatic = {
   info: 'ABOUT US',
-  title: 'Organization',
+  title: 'Sejarah',
   subtitle: `LPK COOP Indonesia memiliki jaringan organisasi di Indonesia dan juga
   kantor perwakilan di Jepang.`,
   addresses: [
@@ -304,9 +304,9 @@ export const aboutOrganizationDataStatic = {
 
 export const aboutVisionAndMissionDataStatic = {
   info: 'ABOUT US',
-  title: 'Vision & Mission',
+  title: 'Misi dan Visi',
   vision: {
-    title: 'Vision',
+    title: 'Visi',
     description:
       'Tersedianya sumber daya manusia yang profesional dan handal guna mengembangkan sinergi kebersamaan sosial atas dasar kesetaraan dan keadilan bagi peningkatan kesejahteraan rakyat, daya saing dan kemajuan bangsa.',
     image: {
@@ -315,7 +315,7 @@ export const aboutVisionAndMissionDataStatic = {
     },
   },
   mission: {
-    title: 'Mission',
+    title: 'Misi',
     description:
       'Tersedianya sumber daya manusia yang profesional dan handal guna mengembangkan sinergi kebersamaan sosial atas dasar kesetaraan dan keadilan bagi peningkatan kesejahteraan rakyat, daya saing dan kemajuan bangsa.',
   },

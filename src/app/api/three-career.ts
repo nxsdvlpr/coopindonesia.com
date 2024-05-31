@@ -51,7 +51,7 @@ export const threeCareersDataStatic = [
   },
   {
     title: 'Program INTERNSIP',
-    subtitle: 'Nihongo Gakkou',
+    subtitle: 'Daigakusei Intanshippu',
     cost: {
       title: 'Biaya-biaya',
       price: '575rb',
