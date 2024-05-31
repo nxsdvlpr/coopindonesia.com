@@ -63,7 +63,7 @@ export const threeCareersDataStatic = [
     },
     periodic: {
       title: 'Jangka Waktu Penempatan',
-      desc: '**6 - 1 tahun**',
+      desc: '**6 bulan - 1 tahun**',
     },
     advantages: {
       title: 'Kelebihan',
