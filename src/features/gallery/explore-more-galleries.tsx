@@ -49,7 +49,7 @@ export default function ExploreMoreGalleries({
     <Section variant="gray">
       <Flexbox flow="col" gap="2xl">
         <Typo size="5xl" color="gray-900" fontWeight="semibold">
-          Explore More Galleries
+          Jelajahi Galeri Lainnya
         </Typo>
         <div className="flex flex-col gap-8 lg:flex-row">
           {galleries.map(

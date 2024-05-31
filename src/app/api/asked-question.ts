@@ -1,6 +1,6 @@
 export const askedQuestionDataStatic = {
-  title: 'Frequently Asked Question',
-  subtitle: 'Answers to your common questions.',
+  title: 'Pertanyaan yang Sering Diajukan',
+  subtitle: 'Jawaban dari pertanyaan paling umum',
   questions: [
     {
       title: 'Apa itu COOP Indonesia?',

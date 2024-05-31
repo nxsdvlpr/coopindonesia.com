@@ -37,7 +37,7 @@ export default function Instagram() {
               <PhotoView key={index} src={item.url.large ?? item.url.medium}>
                 <div className="group h-[10rem] w-full cursor-pointer overflow-hidden rounded-lg lg:h-[16.5rem]">
                   <ImageNui
-                    className="h-full w-full duration-200 ease-in-out hover:brightness-90 group-hover:scale-105"
+                    className="h-full w-full object-cover duration-200 ease-in-out hover:brightness-90 group-hover:scale-105"
                     src={item.url.large ?? item.url.medium}
                     alt={item.alt ?? 'coop-indonesia'}
                   />

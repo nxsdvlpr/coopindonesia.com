@@ -9,14 +9,14 @@ export const homeDataStatic = {
     },
   },
   publication: {
-    title: 'Publication',
-    subtitle: 'Updates from our social media platform',
+    title: 'Publikasi',
+    subtitle: 'Update dari media sosial kami',
     image: {
       src: '/from-our-youtube-channel/from-our-youtube-channel-image-1.png',
       alt: 'from-our-youtube-channel-image-1-coop-indonesia',
     },
     instagram: {
-      title: 'From Our Instagram',
+      title: 'Dari Akun Instagram Kami',
       assets: [
         {
           src: '/from-our-instagram/from-our-instagram-image-1.png',
@@ -37,7 +37,7 @@ export const homeDataStatic = {
       ],
     },
     youtube: {
-      title: 'From Our YouTube Channel',
+      title: 'Dari Kanal YouTube Kami',
       assets: [
         {
           src: '/from-our-youtube-channel/from-our-youtube-channel-image-1.png',
