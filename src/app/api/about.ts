@@ -1,5 +1,5 @@
 export const aboutAtAGlanceDataStatic = {
-  title: 'At a Glance',
+  title: 'Tentang Kami',
   subtitle:
     '**LPK COOP Indonesia** sebagai salah satu Lembaga Penyelenggara Pemagangan ke Luar Negeri atau **Sending Organization (SO)** memberi peluang bagi pemuda(i) Indonesia untuk ditempatkan pada perusahaan-perusahaan di Jepang untuk mengikuti program pemagangan dalam rangka meningkatkan kualitas dan kompetensi diri.',
   contents: [

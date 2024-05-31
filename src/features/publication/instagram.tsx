@@ -27,7 +27,7 @@ export default function Instagram() {
         <SectionTitle
           sizeTitle="6xl"
           info="PUBLICATION"
-          title="From Our Social Media Account"
+          title="Dari Akun Media Sosial Kami"
         />
       </Section>
       <Section>
