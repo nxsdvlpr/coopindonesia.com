@@ -266,11 +266,11 @@ export const aboutOrganizationDataStatic = {
   kantor perwakilan di Jepang.`,
   addresses: [
     {
-      title: 'Head Office',
+      title: 'Kantor Pusat',
       link: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1901050107867!2d106.80672617574834!3d-6.238656761092927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1c36e387eb9%3A0x4aaca7ad92e87fa8!2sLPK%20COOP%20Indonesia!5e0!3m2!1sid!2sid!4v1711291791793!5m2!1sid!2sid',
     },
     {
-      title: 'Training Center',
+      title: 'Pusat Pelatihan',
       link: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d495.1358013746139!2d107.693136803924!3d-6.880251008947482!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68dd0011189e79%3A0xfc4c5e0ea82fe941!2sPUSDIKLAT%20LPK%20COOP%20INDONESIA!5e0!3m2!1sid!2sid!4v1713772213066!5m2!1sid!2sid',
     },
   ],

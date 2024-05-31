@@ -1,6 +1,6 @@
 export const featuredProgramDataStatic = {
-  title: 'COOP Indonesia Programs',
-  subtitle: 'Discover more about our premier programs',
+  title: 'Program-program COOP Indonesia',
+  subtitle: 'Temukan lebih lanjut tentang program unggulan kami',
   programs: [
     {
       title: 'Pemagangan ke Jepang',

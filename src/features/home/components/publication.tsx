@@ -43,7 +43,7 @@ export default function HomePublication({
           <div className={main()}>
             <Flexbox align="start" flow="col" gap="xs">
               <Typo size="xl" color="gray-900" fontWeight="bold">
-                From Our Instagram
+                Dari Akun Instagram Kami
               </Typo>
               <div className={boxInstagram()}>
                 <PhotoProvider maskOpacity={0.7}>
@@ -66,7 +66,7 @@ export default function HomePublication({
             </Flexbox>
             <Flexbox align="start" flow="col" gap="xs">
               <Typo size="xl" color="gray-900" fontWeight="bold">
-                From Our YouTube Channel
+                Dari Kanal YouTube Kami
               </Typo>
               <div className={boxYoutube()}>
                 {youtube.items.slice(1, 5).map((item: any, index: number) => (

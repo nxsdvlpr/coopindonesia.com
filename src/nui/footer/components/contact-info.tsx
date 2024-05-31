@@ -11,7 +11,7 @@ export default function ContactInfo() {
           <Flexbox gap="lg" align="start" flow="col">
             <Flexbox gap="2xs" align="start" flow="col">
               <Typo size="md" fontWeight="semibold" color="gray-900">
-                Head Office
+                Kantor Pusat
               </Typo>
               <Typo size="sm" color="gray-900">
                 Jl. Ciragil II No.6;RT/RW 001/001 Kel. Rawa Barat, Kec.
