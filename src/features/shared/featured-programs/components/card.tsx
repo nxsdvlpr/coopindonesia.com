@@ -16,7 +16,7 @@ export default function Card({
   alt,
   href,
   title,
-  titleButton = 'Pelajari',
+  titleButton = 'Learn more',
   children,
 }: CardProps) {
   return (
