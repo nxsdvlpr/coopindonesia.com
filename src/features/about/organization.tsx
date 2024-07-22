@@ -10,9 +10,10 @@ export default function Organization() {
   return (
     <>
       <Section>
-        <SectionTitle sizeTitle="6xl" info={info} title={title}>
-          <Markdown>{subtitle}</Markdown>
-        </SectionTitle>
+        <SectionTitle sizeTitle="6xl" info={info} title={title} />
+      </Section>
+      <Section maxWidth="sm">
+        <Markdown size="lg">{subtitle}</Markdown>
       </Section>
       <Section>
         <Flexbox flow="col" gap="4xl">

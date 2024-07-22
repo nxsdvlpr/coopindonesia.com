@@ -11,6 +11,7 @@ export default function Education() {
     disciplinInstructors,
     generalAffairs,
     languageInstructors,
+    mathInstructors,
   } = aboutOrganizationStructure.education
 
   return (
@@ -66,6 +67,16 @@ export default function Education() {
         <div className="w-full">
           <Fields label={languageInstructors.label}>
             {languageInstructors.members.map((item, index) => (
+              <Field key={index}>
+                {item.name}
+                <p className="text-gray-500">{item.additionalInfo}</p>
+              </Field>
+            ))}
+          </Fields>
+        </div>
+        <div className="w-full">
+          <Fields label={mathInstructors.label}>
+            {mathInstructors.members.map((item, index) => (
               <Field key={index}>
                 {item.name}
                 <p className="text-gray-500">{item.additionalInfo}</p>

@@ -18,18 +18,6 @@ export const askedQuestionDataStatic = {
       id: 'cardThree',
       content: `**Ketentuan Pendaftaran**\n\nCalon peserta dapat mendaftar secara perorangan atau melalui Mitra Kerja LPK COOP Indonesia yang terdapat di halaman PENDAFTARAN\n\n(https://www.coopindonesia.com/program/internship/registration)`,
     },
-    // {
-    //   title: 'Apa saja syarat-syarat yang harus dilengkapi?',
-    //   id: 'cardFour',
-    //   content:
-    //     'LPK COOP Indonesia sebagai salah satu Lembaga Penyelenggara Pemagangan ke Luar Negeri atau Sending Organization (SO) memberi peluang bagi pemuda(i) Indonesia untuk ditempatkan pada perusahaan-perusahaan di Jepang untuk mengikuti program pemagangan dalam rangka meningkatkan kualitas dan kompetensi diri.',
-    // },
-    // {
-    //   title: 'Berapa biaya yang harus dikeluarkan untuk mengikuti program ini?',
-    //   id: 'cardFive',
-    //   content:
-    //     'LPK COOP Indonesia sebagai salah satu Lembaga Penyelenggara Pemagangan ke Luar Negeri atau Sending Organization (SO) memberi peluang bagi pemuda(i) Indonesia untuk ditempatkan pada perusahaan-perusahaan di Jepang untuk mengikuti program pemagangan dalam rangka meningkatkan kualitas dan kompetensi diri.',
-    // },
   ],
   image: {
     src: '/asked-question-image.svg',

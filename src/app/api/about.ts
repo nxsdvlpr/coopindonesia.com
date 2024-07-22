@@ -207,12 +207,22 @@ export const aboutOrganizationStructure = {
         {
           name: 'Rifa Aulia Husni Fadilla, S. Pd',
           additionalInfo:
-            'Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, JLPT N4',
+            'Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, JLPT N3',
         },
         {
           name: 'Omar Hafiz Shirazi, S.pd',
           additionalInfo:
             'Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, JLPT N4',
+        },
+      ],
+    },
+    mathInstructors: {
+      label: 'Instruktur Matematika:',
+      members: [
+        {
+          name: 'Yosia Anugrah, S.Pd',
+          additionalInfo:
+            'Sarjana (S1) Pendidikan Guru Universitas Negeri Jakarta',
         },
       ],
     },
@@ -262,8 +272,7 @@ export const aboutOrganizationStructure = {
 export const aboutOrganizationDataStatic = {
   info: 'ABOUT US',
   title: 'Sejarah',
-  subtitle: `LPK COOP Indonesia memiliki jaringan organisasi di Indonesia dan juga
-  kantor perwakilan di Jepang.`,
+  subtitle: `LPK COOP Indonesia beraktivitas sejak April 2012 dan berkantor pertama di Gedung Arthaloka, Jl. Jend. Sudirman, Jakarta. Penempatan Peserta Pemagangan Perdana berjumlah 3 orang di bidang Peternakan Sapi di Daerah Gunma, Jepang.\n\nLPK COOP Indonesia bekerjasama dengan Pusdiklat Gerkopin di Jatinangor, Sumedang, Jawa Barat yang berkapasitas 200 peserta.\n\nNamun kini setelah 12 Tahun berlalu, LPK COOP Indonesia telah menempatkan sekitar 2,800 Peserta di berbagai bidang antara lain: Kontruksi, Keperawatan, Pengelasan, Pertanian, Perikanan, Peternakan, Manufaktur, Industri Olahan Makanan, Tata Operasi Darat (Ground Handling), dan lain sebagainya.\n\nKarena itu, LPK COOP Indonesia memindahkan Pusdiklat ke Griya Krida Sekesalam, Bandung, Jawa Barat yang berkapasitas lebih banyak, yaitu: 350 Peserta. Sehingga kegiatan Pendidikan dan Pelatihan pra Keberangkatan bisa lebih optimal untuk menghasilkan Calon Peserta Pemagangan yang berkualitas.\n\nLPK COOP Indonesia juga telah membuka kantor perwakilan di Tokyo, Osaka dan Aichi untuk mendukung kelancaran kegiatan peserta pemagangan selama di Perusahaan Jepang, dan berkoordinasi dengan Lembaga-Lembaga Penerima (Accepting Organization).`,
   addresses: [
     {
       title: 'Kantor Pusat',
