@@ -3,8 +3,7 @@ import { Field, Fields, Flexbox, Typo } from '@/nui'
 import ContactInfo from './contact-info'
 
 export default function Agriculture() {
-  const { title, members, supervisor, administrator } =
-    aboutOrganizationStructure.agriculture
+  const { title, members, supervisor } = aboutOrganizationStructure.agriculture
 
   return (
     <>
@@ -31,14 +30,6 @@ export default function Agriculture() {
               <Field key={index}>
                 {supervisor.name}
                 <p className="text-gray-500">{supervisor.additionalInfo}</p>
-              </Field>
-            ))}
-          </Fields>
-          <Fields label={administrator.title}>
-            {administrator.members.map((administrator, index) => (
-              <Field key={index}>
-                {administrator.name}
-                <p className="text-gray-500">{administrator.additionalInfo}</p>
               </Field>
             ))}
           </Fields>
