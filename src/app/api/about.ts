@@ -94,7 +94,7 @@ export const aboutOrganizationStructure = {
     },
     generalAffair: {
       label: 'General Affair:',
-      members: ['Slamet Raharjo', 'Sugeng Riyadi', 'Chafid'],
+      members: ['Slamet Raharjo', 'Sugeng Riyadi', 'Chafid', 'Redi Ananto'],
     },
     corporateSecretary: {
       label: 'Corporate Secretary:',
@@ -114,7 +114,7 @@ export const aboutOrganizationStructure = {
           name: 'Winairoh, S.Tr.Ds.',
         },
         {
-          name: 'Nurul Zia Aida, S.Pd (JLPT N4',
+          name: 'Nurul Zia Aida, S.Pd (JLPT N4)',
         },
       ],
     },
@@ -136,6 +136,11 @@ export const aboutOrganizationStructure = {
         name: 'Ristiawan Hidayat, S.Pd.',
         additionalInfo:
           '(Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, Alumni Osaka Gaigo Gakuin, JLPT N2)',
+      },
+      {
+        name: 'Yunanta Trisutrisno',
+        additionalInfo:
+          'Alumni peserta magang LPK COOP Indonesia Angk 25, JLPT N3',
       },
     ],
   },
@@ -243,15 +248,6 @@ export const aboutOrganizationStructure = {
         {
           name: 'Mokhamad Said',
           additionalInfo: 'Alumni LPK COOP Indonesia Angkatan 1',
-        },
-      ],
-    },
-    administrator: {
-      title: 'Administrasi Pertanian:',
-      members: [
-        {
-          name: 'Yunanta Trisutrisno',
-          additionalInfo: 'Alumni peserta magang LPK COOP Indonesia Angk 25',
         },
       ],
     },
