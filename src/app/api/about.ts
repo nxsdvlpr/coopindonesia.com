@@ -114,7 +114,7 @@ export const aboutOrganizationStructure = {
           name: 'Winairoh, S.Tr.Ds.',
         },
         {
-          name: 'Nurul Zia Aida, S.Pd (JLPT N4',
+          name: 'Nurul Zia Aida, S.Pd (JLPT N4)',
         },
       ],
     },
