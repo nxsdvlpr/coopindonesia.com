@@ -79,7 +79,7 @@ export const aboutOrganizationStructure = {
       },
       {
         name: 'Selvy Rahmika, A.Ma S.Kom',
-        position: 'Personalia(HRD)',
+        position: 'Personalia (HRD)',
         src: '/profile/selvy-rahmika.png',
       },
       {
@@ -101,11 +101,11 @@ export const aboutOrganizationStructure = {
       members: [
         {
           name: 'Liska Maharani',
-          additionalInfo: '(Alumni Peserta Pemagangan Jepang)',
+          additionalInfo: 'Alumni Peserta Pemagangan Jepang',
         },
         {
           name: 'Yunita Wahyu Aryani, A.Ma',
-          additionalInfo: '(Alumni LPK COOP Indonesia Angk 13, JLPT N3)',
+          additionalInfo: 'Alumni LPK COOP Indonesia Angkatan 13, JLPT N3',
         },
         {
           name: 'Ragilia Farda Karima, A.Md',
@@ -114,7 +114,8 @@ export const aboutOrganizationStructure = {
           name: 'Winairoh, S.Tr.Ds.',
         },
         {
-          name: 'Nurul Zia Aida, S.Pd (JLPT N4)',
+          name: 'Nurul Zia Aida, S.Pd',
+          additionalInfo: 'JLPT N4',
         },
       ],
     },
@@ -130,17 +131,17 @@ export const aboutOrganizationStructure = {
       {
         name: 'Naldy Kostiyandi, S.Pd.',
         additionalInfo:
-          '(Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, Alumni Tokyo Gakugei University - Japan, JLPT N2)',
+          'Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, Alumni Tokyo Gakugei University - Japan, JLPT N2',
       },
       {
         name: 'Ristiawan Hidayat, S.Pd.',
         additionalInfo:
-          '(Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, Alumni Osaka Gaigo Gakuin, JLPT N2)',
+          'Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, Alumni Osaka Gaigo Gakuin, JLPT N2',
       },
       {
         name: 'Yunanta Trisutrisno',
         additionalInfo:
-          'Alumni peserta magang LPK COOP Indonesia Angk 25, JLPT N3',
+          'Alumni peserta magang LPK COOP Indonesia Angkatan 25, JLPT N3',
       },
     ],
   },
@@ -151,7 +152,7 @@ export const aboutOrganizationStructure = {
         name: 'Irwan Ardiyanto',
         src: '/profile/irwan-ardiyanto.png',
         position: 'Direktur',
-        additionalInfo: 'Alumni IM Japan Angk 37',
+        additionalInfo: 'Alumni IM Japan Angkatan 37',
       },
       {
         name: 'Pupung Masitoh, S.S',
@@ -177,11 +178,11 @@ export const aboutOrganizationStructure = {
         },
         {
           name: 'Bambang Heryawan',
-          additionalInfo: '(Alumni of LPK COOP Indonesia Class 15, JLPT N3)',
+          additionalInfo: 'Alumni of LPK COOP Indonesia Class 15, JLPT N3',
         },
         {
-          name: 'Gun gun Gunawan',
-          additionalInfo: '(Alumni LPK COOP Indonesia Angk 15)',
+          name: 'Gun Gun Gunawan',
+          additionalInfo: 'Alumni LPK COOP Indonesia Angkatan 15',
         },
       ],
     },
@@ -239,7 +240,7 @@ export const aboutOrganizationStructure = {
         name: 'Suyitno',
         position: 'Direktur',
         src: '/profile/suyitno.png',
-        additionalInfo: 'Alumni LPK COOP Indonesia Angk 6',
+        additionalInfo: 'Alumni LPK COOP Indonesia Angkatan 6',
       },
     ],
     supervisor: {

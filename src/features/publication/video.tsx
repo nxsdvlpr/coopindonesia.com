@@ -9,6 +9,11 @@ import { useEffect, useState } from 'react'
 export default function VideoVlog() {
   const [data, setdata] = useState<any>([])
 
+  console.log(
+    'data',
+    data?.items?.filter((item: any) => item?.snippet?.title === 'Deleted video')
+  )
+
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -22,7 +27,11 @@ export default function VideoVlog() {
     fetchData()
   }, [])
 
-  const id = data?.items?.[0]?.snippet?.resourceId?.videoId ?? ''
+  const filterData = data?.items?.filter(
+    (item: any) => item?.snippet?.title !== 'Deleted video'
+  )
+
+  const id = filterData?.[0]?.snippet?.resourceId?.videoId ?? ''
 
   const { onClickParam, videoId } = useParam()
 
@@ -31,7 +40,7 @@ export default function VideoVlog() {
       <Flexbox flow="col" gap="3xl">
         <Video youtubeId={videoId ?? id} />
         <div className="grid grid-cols-2 gap-6 lg:grid-cols-4 lg:gap-8">
-          {data?.items?.slice(1)?.map((item: any, index: number) => (
+          {filterData?.slice(1)?.map((item: any, index: number) => (
             <button
               key={index}
               className="group flex h-fit flex-col gap-4 text-start text-base font-semibold text-gray-900 hover:text-primary-500 focus:outline-none"
