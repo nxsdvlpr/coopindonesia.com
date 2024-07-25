@@ -50,6 +50,7 @@ export const aboutOrganizationStructure = {
       {
         name: 'Kosei Sahara',
         position: 'Perwakilan Area Tokyo',
+        src: '/profile/kosei-sahara.png',
       },
       {
         name: 'Herizal Adhardi',
@@ -59,6 +60,7 @@ export const aboutOrganizationStructure = {
       {
         name: 'Devi Riswanto',
         position: 'Perwakilan Area Aichi',
+        src: '/profile/devi-riswanto.png',
       },
       {
         name: 'Arief Rivani Nugraha, S.Pd.',
@@ -220,6 +222,11 @@ export const aboutOrganizationStructure = {
           additionalInfo:
             'Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, JLPT N4',
         },
+        {
+          name: 'Veny Aprilia, S.pd',
+          additionalInfo:
+            'Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, JLPT N3',
+        },
       ],
     },
     mathInstructors: {
@@ -261,7 +268,10 @@ export const aboutOrganizationStructure = {
     position: 'Direktur',
     staffProduct: {
       title: 'Tim Produksi dan Media:',
-      staffs: ['Muhammad Hisyam Rabbani', 'Hafid Nur Wahyudin'],
+      staffs: [
+        'Muhammad Hisyam Rabbani, A,Md.Sn',
+        'Hafid Nur Wahyudin, A,Md.Sn',
+      ],
     },
   },
 }
