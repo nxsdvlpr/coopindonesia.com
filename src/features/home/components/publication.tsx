@@ -69,27 +69,34 @@ export default function HomePublication({
                 Dari Kanal YouTube Kami
               </Typo>
               <div className={boxYoutube()}>
-                {youtube.items.slice(1, 5).map((item: any, index: number) => (
-                  <button
-                    key={index}
-                    className={boxYoutubeImage()}
-                    onClick={() =>
-                      onClickParam(
-                        'publication/vlog/?',
-                        item?.snippet?.resourceId?.videoId
-                      )
-                    }
-                  >
-                    <ImageNui
-                      className="h-full w-full duration-200 ease-in-out hover:brightness-90 group-hover:scale-105"
-                      src={
-                        item?.snippet?.thumbnails?.maxres?.url ??
-                        item?.snippet?.thumbnails?.default?.url
+                {youtube.items
+                  .filter(
+                    (item: any) =>
+                      item?.snippet?.thumbnails?.maxres?.url !== undefined ||
+                      item?.snippet?.thumbnails?.default?.url !== undefined
+                  )
+                  .slice(1, 5)
+                  .map((item: any, index: number) => (
+                    <button
+                      key={index}
+                      className={boxYoutubeImage()}
+                      onClick={() =>
+                        onClickParam(
+                          'publication/vlog/?',
+                          item?.snippet?.resourceId?.videoId
+                        )
                       }
-                      alt={item?.snippet?.videoOwnerChannelTitle}
-                    />
-                  </button>
-                ))}
+                    >
+                      <ImageNui
+                        className="h-full w-full duration-200 ease-in-out hover:brightness-90 group-hover:scale-105"
+                        src={
+                          item?.snippet?.thumbnails?.maxres?.url ??
+                          item?.snippet?.thumbnails?.default?.url
+                        }
+                        alt={item?.snippet?.videoOwnerChannelTitle}
+                      />
+                    </button>
+                  ))}
               </div>
             </Flexbox>
           </div>

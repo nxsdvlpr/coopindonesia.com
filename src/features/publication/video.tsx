@@ -9,11 +9,6 @@ import { useEffect, useState } from 'react'
 export default function VideoVlog() {
   const [data, setdata] = useState<any>([])
 
-  console.log(
-    'data',
-    data?.items?.filter((item: any) => item?.snippet?.title === 'Deleted video')
-  )
-
   useEffect(() => {
     const fetchData = async () => {
       try {
