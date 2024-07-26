@@ -94,10 +94,6 @@ export const aboutOrganizationStructure = {
       label: 'Finance and Accounting:',
       members: ['Nensi Audika B., SE.', 'Sholikin, SE., MMSi.'],
     },
-    generalAffair: {
-      label: 'General Affair:',
-      members: ['Slamet Raharjo', 'Sugeng Riyadi', 'Chafid', 'Redi Ananto'],
-    },
     corporateSecretary: {
       label: 'Corporate Secretary:',
       members: [
@@ -117,6 +113,10 @@ export const aboutOrganizationStructure = {
           additionalInfo: 'JLPT N4',
         },
       ],
+    },
+    generalAffair: {
+      label: 'General Affair:',
+      members: ['Slamet Raharjo', 'Sugeng Riyadi', 'Chafid', 'Redi Ananto'],
     },
   },
   development: {
@@ -185,7 +185,6 @@ export const aboutOrganizationStructure = {
         },
       ],
     },
-    generalAffairs: { label: 'General Affair:', members: ['Muhamad Taufik'] },
     languageInstructors: {
       label: 'Instruktur Bahasa dan Budaya Jepang:',
       members: [
@@ -236,6 +235,7 @@ export const aboutOrganizationStructure = {
         },
       ],
     },
+    generalAffairs: { label: 'General Affair:', members: ['Muhamad Taufik'] },
   },
   agriculture: {
     title: 'Departemen Pertanian',
