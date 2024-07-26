@@ -94,10 +94,6 @@ export const aboutOrganizationStructure = {
       label: 'Finance and Accounting:',
       members: ['Nensi Audika B., SE.', 'Sholikin, SE., MMSi.'],
     },
-    generalAffair: {
-      label: 'General Affair:',
-      members: ['Slamet Raharjo', 'Sugeng Riyadi', 'Chafid', 'Redi Ananto'],
-    },
     corporateSecretary: {
       label: 'Corporate Secretary:',
       members: [
@@ -113,13 +109,14 @@ export const aboutOrganizationStructure = {
           name: 'Ragilia Farda Karima, A.Md',
         },
         {
-          name: 'Winairoh, S.Tr.Ds.',
-        },
-        {
           name: 'Nurul Zia Aida, S.Pd',
           additionalInfo: 'JLPT N4',
         },
       ],
+    },
+    generalAffair: {
+      label: 'General Affair:',
+      members: ['Slamet Raharjo', 'Sugeng Riyadi', 'Chafid', 'Redi Ananto'],
     },
   },
   development: {
@@ -138,7 +135,7 @@ export const aboutOrganizationStructure = {
       {
         name: 'Ristiawan Hidayat, S.Pd.',
         additionalInfo:
-          'Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, Alumni Osaka Gaigo Gakuin, JLPT N2',
+          'Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, JLPT N2',
       },
       {
         name: 'Yunanta Trisutrisno',
@@ -188,7 +185,6 @@ export const aboutOrganizationStructure = {
         },
       ],
     },
-    generalAffairs: { label: 'General Affair:', members: ['Muhamad Taufik'] },
     languageInstructors: {
       label: 'Instruktur Bahasa dan Budaya Jepang:',
       members: [
@@ -239,6 +235,7 @@ export const aboutOrganizationStructure = {
         },
       ],
     },
+    generalAffairs: { label: 'General Affair:', members: ['Muhamad Taufik'] },
   },
   agriculture: {
     title: 'Departemen Pertanian',
@@ -271,6 +268,7 @@ export const aboutOrganizationStructure = {
       staffs: [
         'Muhammad Hisyam Rabbani, A,Md.Sn',
         'Hafid Nur Wahyudin, A,Md.Sn',
+        'Winairoh, S.Tr.Ds.',
       ],
     },
   },

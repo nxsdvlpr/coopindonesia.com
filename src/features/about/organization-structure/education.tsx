@@ -48,7 +48,7 @@ export default function Education() {
               ))}
             </Fields>
           </Flexbox>
-          <Flexbox align="start" justify="between" flow="col" gap="xl">
+          <div className="w-full">
             <Fields label={disciplinInstructors.label}>
               {disciplinInstructors.members.map((item, index) => (
                 <Field key={index}>
@@ -57,12 +57,7 @@ export default function Education() {
                 </Field>
               ))}
             </Fields>
-            <Fields label={generalAffairs.label}>
-              {generalAffairs.members.map((item, index) => (
-                <Field key={index}>{item}</Field>
-              ))}
-            </Fields>
-          </Flexbox>
+          </div>
         </div>
         <div className="w-full">
           <Fields label={languageInstructors.label}>
@@ -81,6 +76,13 @@ export default function Education() {
                 {item.name}
                 <p className="text-gray-500">{item.additionalInfo}</p>
               </Field>
+            ))}
+          </Fields>
+        </div>
+        <div className="w-full">
+          <Fields label={generalAffairs.label}>
+            {generalAffairs.members.map((item, index) => (
+              <Field key={index}>{item}</Field>
             ))}
           </Fields>
         </div>
