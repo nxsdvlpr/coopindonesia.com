@@ -44,7 +44,7 @@ export default function HeadOffice() {
             </Field>
           ))}
         </Fields>
-        <div className="col-span-2 flex justify-center">
+        <div className="flex lg:col-span-2 lg:justify-center">
           <Fields label={generalAffair.label}>
             {generalAffair.members.map((item, index) => (
               <Field key={index}>{item}</Field>

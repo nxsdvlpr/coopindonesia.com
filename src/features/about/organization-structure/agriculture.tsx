@@ -24,16 +24,18 @@ export default function Agriculture() {
             {member.additionalInfo}
           </ContactInfo>
         ))}
-        <Flexbox flow="col" gap="sm" align="start">
-          <Fields label={supervisor.title}>
-            {supervisor.members.map((supervisor, index) => (
-              <Field key={index}>
-                {supervisor.name}
-                <p className="text-gray-500">{supervisor.additionalInfo}</p>
-              </Field>
-            ))}
-          </Fields>
-        </Flexbox>
+        <div className="w-full lg:w-auto">
+          <Flexbox flow="col" gap="sm" align="start">
+            <Fields label={supervisor.title}>
+              {supervisor.members.map((supervisor, index) => (
+                <Field key={index}>
+                  {supervisor.name}
+                  <p className="text-gray-500">{supervisor.additionalInfo}</p>
+                </Field>
+              ))}
+            </Fields>
+          </Flexbox>
+        </div>
       </Flexbox>
     </>
   )
