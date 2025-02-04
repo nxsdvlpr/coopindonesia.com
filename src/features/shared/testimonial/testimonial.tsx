@@ -1,4 +1,4 @@
-import { testimonialDataStatic } from '@/app/api/testimonial'
+import { testimonialDataStatic } from '@/app/[locale]/api/testimonial'
 import {
   Box,
   Flexbox,

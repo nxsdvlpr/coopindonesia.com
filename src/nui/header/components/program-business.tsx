@@ -1,4 +1,4 @@
-import { menuDataStatic } from '@/app/api/menu'
+import { menuDataStatic } from '@/app/[locale]/api/menu'
 import Link from 'next/link'
 
 type MenuProgramBusinessProps = {

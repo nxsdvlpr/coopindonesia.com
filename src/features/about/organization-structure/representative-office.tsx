@@ -1,4 +1,4 @@
-import { aboutOrganizationStructure } from '@/app/api/about'
+import { aboutOrganizationStructure } from '@/app/[locale]/api/about'
 import { Typo } from '@/nui'
 import ContactInfo from './contact-info'
 

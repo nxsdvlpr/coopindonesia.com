@@ -1,4 +1,4 @@
-import { internshipSelectionDataStatic } from '@/app/api/internship'
+import { internshipSelectionDataStatic } from '@/app/[locale]/api/internship'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
 import { Menu } from '@/features/shared/menu'
 import { Flexbox, ImageNui, Markdown, Section, SectionTitle, Typo } from '@/nui'

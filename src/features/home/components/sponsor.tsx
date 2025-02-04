@@ -1,4 +1,4 @@
-import { homeDataStatic } from '@/app/api/home'
+import { homeDataStatic } from '@/app/[locale]/api/home'
 import { ImageNui, Section, Typo } from '@/nui'
 import { homeSponsorStyle } from './sponsor.style'
 

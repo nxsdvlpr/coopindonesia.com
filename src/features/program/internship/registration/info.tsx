@@ -1,4 +1,4 @@
-import { intershipRegistrationDataStatic } from '@/app/api/internship'
+import { intershipRegistrationDataStatic } from '@/app/[locale]/api/internship'
 import { Flexbox, Icon, Typo } from '@/nui'
 import { infoStyle } from './info.style'
 

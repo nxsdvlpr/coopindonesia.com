@@ -1,6 +1,6 @@
 'use client'
 
-import { instagramData } from '@/app/api/publication'
+import { instagramData } from '@/app/[locale]/api/publication'
 import { ImageNui, Section, SectionTitle } from '@/nui'
 import { useEffect, useState } from 'react'
 import { PhotoProvider, PhotoView } from 'react-photo-view'

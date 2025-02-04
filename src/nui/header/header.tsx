@@ -7,6 +7,7 @@ import { ImageNui } from '../image'
 import { MenuMobile } from '../menu-mobile/menu-mobile'
 import MenuAbout from './components/about'
 import MenuGallery from './components/gallery'
+import MenuLang from './components/lang'
 import { MenuProgram } from './components/program'
 import MenuPublication from './components/publication'
 
@@ -36,6 +37,7 @@ export function Header() {
               >
                 Contact Us
               </Link>
+              <MenuLang />
             </Flexbox>
           )}
         </nav>

@@ -1,4 +1,4 @@
-import { bannerDataStatic } from '@/app/api/banner'
+import { bannerDataStatic } from '@/app/[locale]/api/banner'
 import { Button, Flexbox, ImageNui, Section, Typo } from '@/nui'
 import { bannerStyle } from './index.style'
 

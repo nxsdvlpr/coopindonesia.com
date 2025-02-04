@@ -1,4 +1,4 @@
-import { postInternshiProselindoTeaDataStatic } from '@/app/api/post-internship'
+import { postInternshiProselindoTeaDataStatic } from '@/app/[locale]/api/post-internship'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
 import { Menu } from '@/features/shared/menu'
 import { Flexbox, ImageNui, Markdown, Section, SectionTitle, Typo } from '@/nui'

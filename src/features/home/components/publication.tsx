@@ -1,6 +1,6 @@
 'use client'
 
-import { homeDataStatic } from '@/app/api/home'
+import { homeDataStatic } from '@/app/[locale]/api/home'
 import { Flexbox, ImageNui, Section, SectionTitle, Typo } from '@/nui'
 import { Video } from '@/nui/video'
 import { useParam } from '@/utils/use-params'

@@ -1,4 +1,4 @@
-import { aboutVisionAndMissionDataStatic } from '@/app/api/about'
+import { aboutVisionAndMissionDataStatic } from '@/app/[locale]/api/about'
 import { Flexbox, ImageNui, Markdown, Section, SectionTitle, Typo } from '@/nui'
 import { AskedQuestion, Banner, Testimonial } from '../shared'
 import { Menu } from '../shared/menu'

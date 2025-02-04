@@ -1,4 +1,4 @@
-import { menuDataStatic } from '@/app/api/menu'
+import { menuDataStatic } from '@/app/[locale]/api/menu'
 import { Listbox } from '@/nui/listbox'
 import Link from 'next/link'
 import { useState } from 'react'

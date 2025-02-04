@@ -1,4 +1,4 @@
-import { studentInternshipDataStatic } from '@/app/api/student-internship'
+import { studentInternshipDataStatic } from '@/app/[locale]/api/student-internship'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
 import { Markdown, Section, SectionTitle } from '@/nui'
 

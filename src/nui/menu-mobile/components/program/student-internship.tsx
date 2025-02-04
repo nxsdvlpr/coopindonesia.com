@@ -1,4 +1,4 @@
-import { menuDataStatic } from '@/app/api/menu'
+import { menuDataStatic } from '@/app/[locale]/api/menu'
 import { Icon } from '@/nui/icon'
 import Link from 'next/link'
 
