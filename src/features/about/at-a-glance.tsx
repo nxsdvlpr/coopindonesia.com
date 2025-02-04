@@ -1,4 +1,4 @@
-import { aboutAtAGlanceDataStatic } from '@/app/api/about'
+import { aboutAtAGlanceDataStatic } from '@/app/[locale]/api/about'
 import { Flexbox, ImageNui, Markdown, Section, SectionTitle } from '@/nui'
 import { AskedQuestion, Banner, Testimonial } from '../shared'
 import { Menu } from '../shared/menu'

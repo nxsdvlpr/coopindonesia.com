@@ -1,4 +1,4 @@
-import { threeCareersDataStatic } from '@/app/api/three-career'
+import { threeCareersDataStatic } from '@/app/[locale]/api/three-career'
 import CardItem from './components/card-item'
 import CardTitle from './components/card-title'
 

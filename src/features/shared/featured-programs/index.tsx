@@ -1,4 +1,4 @@
-import { featuredProgramDataStatic } from '@/app/api/featured-program'
+import { featuredProgramDataStatic } from '@/app/[locale]/api/featured-program'
 import { Flexbox, Section, SectionTitle } from '@/nui'
 import Card from './components/card'
 

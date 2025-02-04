@@ -1,4 +1,4 @@
-import { intershipRegistrationDataStatic } from '@/app/api/internship'
+import { intershipRegistrationDataStatic } from '@/app/[locale]/api/internship'
 import AskedQuestion from '@/features/shared/asked-question'
 import Banner from '@/features/shared/banner'
 import FeaturedPrograms from '@/features/shared/featured-programs'

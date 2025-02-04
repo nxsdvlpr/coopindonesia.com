@@ -1,6 +1,6 @@
 'use client'
 
-import { askedQuestionDataStatic } from '@/app/api/asked-question'
+import { askedQuestionDataStatic } from '@/app/[locale]/api/asked-question'
 import { Flexbox, ImageNui, Section, SectionTitle } from '@/nui'
 import { useState } from 'react'
 import Card from './components/card'

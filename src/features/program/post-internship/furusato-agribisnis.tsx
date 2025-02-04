@@ -1,4 +1,4 @@
-import { postInternshipFurusatoAgribisnisDataStatic } from '@/app/api/post-internship'
+import { postInternshipFurusatoAgribisnisDataStatic } from '@/app/[locale]/api/post-internship'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
 import { Menu } from '@/features/shared/menu'
 import { ImageNui, Section, SectionTitle } from '@/nui'

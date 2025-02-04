@@ -1,4 +1,4 @@
-import { intershipRegistrationDataStatic } from '@/app/api/internship'
+import { intershipRegistrationDataStatic } from '@/app/[locale]/api/internship'
 import { Flexbox, Markdown, Typo } from '@/nui'
 
 export default function Requirement() {

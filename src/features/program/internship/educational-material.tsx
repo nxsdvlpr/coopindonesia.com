@@ -1,4 +1,4 @@
-import { internshipEducationalMaterialDataStatic } from '@/app/api/internship'
+import { internshipEducationalMaterialDataStatic } from '@/app/[locale]/api/internship'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
 import { Menu } from '@/features/shared/menu'
 import { Flexbox, ImageNui, Section, SectionTitle, Typo } from '@/nui'

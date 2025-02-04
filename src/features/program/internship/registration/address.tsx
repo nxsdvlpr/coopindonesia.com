@@ -1,4 +1,4 @@
-import { intershipRegistrationDataStatic } from '@/app/api/internship'
+import { intershipRegistrationDataStatic } from '@/app/[locale]/api/internship'
 import { Flexbox, ImageNui, Typo } from '@/nui'
 
 export default function Address() {

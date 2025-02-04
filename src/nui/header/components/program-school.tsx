@@ -1,4 +1,4 @@
-import { menuDataStatic } from '@/app/api/menu'
+import { menuDataStatic } from '@/app/[locale]/api/menu'
 import { Flexbox, ImageNui, Typo } from '@/nui'
 import Link from 'next/link'
 

@@ -1,6 +1,6 @@
 'use client'
 
-import { menuDataStatic } from '@/app/api/menu'
+import { menuDataStatic } from '@/app/[locale]/api/menu'
 import { Icon, MenuButton, Typo } from '@/nui'
 import Link from 'next/link'
 import { useState } from 'react'

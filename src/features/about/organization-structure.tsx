@@ -1,4 +1,4 @@
-import { aboutOrganizationStructure } from '@/app/api/about'
+import { aboutOrganizationStructure } from '@/app/[locale]/api/about'
 import { Section, SectionTitle } from '@/nui'
 import { AskedQuestion, Banner, Testimonial } from '../shared'
 import { Menu } from '../shared/menu'

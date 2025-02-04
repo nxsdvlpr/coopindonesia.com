@@ -1,4 +1,4 @@
-import { aboutOrganizationDataStatic } from '@/app/api/about'
+import { aboutOrganizationDataStatic } from '@/app/[locale]/api/about'
 import { Box, Flexbox, Markdown, Section, SectionTitle, Typo } from '@/nui'
 import { AskedQuestion, Banner, Testimonial } from '../shared'
 import { Menu } from '../shared/menu'
