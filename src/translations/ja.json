@@ -9,6 +9,10 @@
         "alt": "hero-image-coop-indonesia"
       }
     },
+    "featuredPrograms": {
+      "title": "LPK COOP Indonesia Program",
+      "subtitle": "LPK COOP Indonesia's Berikut program utama dari LPK COOP Indonesia"
+    },
     "publication": {
       "title": "Publikasi",
       "subtitle": "Update dari media sosial kami",
@@ -60,7 +64,7 @@
       }
     },
     "sponsor": {
-      "title": "Kami berkolaborasi untuk mencapai dampak terbesar bagi komunitas.",
+      "title": "「私たちはコミュニティに最大の影響を与えるために協力します。」",
       "assets": [
         {
           "src": "/sponsor/fursato-logo.png",
