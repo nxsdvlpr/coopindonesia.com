@@ -14,6 +14,7 @@ export default function FeaturedPrograms({
   variant,
 }: FeaturedProgramsProps) {
   const { title, subtitle, programs } = featuredProgramDataStatic
+  // test
 
   return (
     <Section variant={variant}>
