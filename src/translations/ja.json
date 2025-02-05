@@ -2,16 +2,16 @@
   "homePage": {
     "hero": {
       "info": "HOME",
-      "title": "LPK COOP インドネシアへようこそ",
-      "desc": "LPK COOP Indonesiaは、2012年に設立された外国研修提供機関（Sending Organization - SO）の一つであり、これまでに2,800人以上の研修生を日本の企業に派遣しています。",
+      "title": "LPK COOPインドネシアへようこそ",
+      "desc": "LPK COOPインドネシアは、2012年に設立された海外技能実習プログラム送り出し機関（Sending Organization）の一つであり、これまでに2,800人以上の参加者を日本の様々な企業に派遣してきました。",
       "image": {
         "src": "/hero-image.svg",
         "alt": "hero-image-coop-indonesia"
       }
     },
     "featuredPrograms": {
-      "title": "LPK COOP Indonesia Program",
-      "subtitle": "LPK COOP Indonesia's Berikut program utama dari LPK COOP Indonesia"
+      "title": "LPK COOPインドネシアのプログラム",
+      "subtitle": "以下は、LPK COOPインドネシアの主なプログラムです。"
     },
     "publication": {
       "title": "Publikasi",
@@ -64,7 +64,7 @@
       }
     },
     "sponsor": {
-      "title": "「私たちはコミュニティに最大の影響を与えるために協力します。」",
+      "title": "私たちはコミュニティに最大の影響を与えるために協力しています。",
       "assets": [
         {
           "src": "/sponsor/fursato-logo.png",
@@ -276,6 +276,401 @@
       "contact": {
         "label": "CONTACT US",
         "href": "/contact-us"
+      }
+    }
+  },
+  "sharedContent": {
+    "featuredPrograms": {
+      "title": "LPK COOPインドネシアのプログラム",
+      "subtitle": "以下は、LPK COOPインドネシアの主なプログラムです。",
+      "programs": [
+        {
+          "title": "日本技能実習生",
+          "src": "/featured-programs/image-1.svg",
+          "href": "/program/internship/registration",
+          "alt": "hero-image-coop-indonesia",
+          "description": "LPK COOPインドネシアは、参加者の募集から日本での配置前の研修と訓練の実施までのプロセスを行っています。",
+          "labelButton": "詳しくはこちら"
+        },
+        {
+          "title": "インターンシッププログラム",
+          "src": "/featured-programs/image-2.svg",
+          "alt": "hero-image-coop-indonesia",
+          "href": "/program/student-internship",
+          "description": "インターンシッププログラムを通じて、学生は職場での様々な指導を受けることができ、スキルセットや職場でのネットワーキングを習得できます。",
+          "labelButton": "詳しくはこちら"
+        },
+        {
+          "title": "自主事業プログラム",
+          "src": "/featured-programs/image-3.svg",
+          "alt": "hero-image-coop-indonesia",
+          "href": "/program/post-internship",
+          "description": "技能実習後の活動として、日本での技能実習プログラムを終了し、帰国した参加者を支援するためのプログラムです。",
+          "labelButton": "詳しくはこちら"
+        }
+      ]
+    },
+    "askedQuestion": {
+      "title": "FAQ",
+      "subtitle": "よくある質問",
+      "questions": [
+        {
+          "title": "コープとは何ですか？",
+          "id": "cardOne",
+          "content": "LPKコープ インドネシアは、海外研修派遣機関または送り出し機関（Sending Organizer）の一つとして、インドネシアの若者に対し、日本の企業での技能実習プログラムに参加する機会を提供し、自身の質と能力を向上させることを目的としています。"
+        },
+        {
+          "title": "コープインドネシアのプログラムには何がありますか？",
+          "id": "cardTwo",
+          "content": "コープインドネシアの主なプログラムは、日本の企業への技能実習生の配置です。\n\nしかし、それ以外にも、コープインドネシアは日本での技能実習プログラムを終了し、帰国した参加者を支援するための活動も行っています。 \n\nその参加者が \"**「THE ENTREPRENEUR」**\"という技能実習プログラムのタグラインに沿って、独立して事業を開始することを期待しています。 \n\n日本からの技能実習後のプログラムは、参加者が将来個人またはグループで独立して事業を開始できるように支援することを目的としています。"
+        },
+        {
+          "title": "プログラムを参加するのにどうすればいいですか？",
+          "id": "cardThree",
+          "content": "**登録規定**\n\n応募者は、個人で登録するか、LPK コープインドネシアの提携パートナーを通じて登録することができます。詳細は「登録ページ」をご覧ください。\n\n(https://www.coopindonesia.com/program/internship/registration)"
+        }
+      ],
+      "image": {
+        "src": "/asked-question-image.svg",
+        "alt": "asked-question-image-coop-indonesia"
+      }
+    },
+    "threeCareer": {
+      "title": "日本でキャリアを積むための3つの道",
+      "subtitle": "日本語と日本文化のスキルを向上させるための包括的なプログラムであり、日本での貴重な経験を提供します。",
+      "lists": [
+        {
+          "title": "技能実習生",
+          "subtitle": "Ginou Jisshusei",
+          "cost": {
+            "title": "費用",
+            "price": "27,5jt",
+            "desc": "* LPKコープインドネシアの教育訓練センターでの出発前の研修費用: Rp. 30,000,000,-\n* LPKコープインドネシアの卒業生向け技術実習3Bの費用: **無料**"
+          },
+          "requirement": {
+            "title": "候補者の要件",
+            "desc": "* 最低限の学歴として高校卒業または同等の資格。\n* 技能実習の分野に関連する職務経験（最低1年間）。\n* いかなるプログラムでも日本に行ったことがない人。"
+          },
+          "periodic": {
+            "title": "配置期間",
+            "desc": "**3～5 年**\n* 技能実習1B: 1年\n* 技能実習2B: 2年\n* 技能実習3B: 3年"
+          },
+          "advantages": {
+            "title": "利点",
+            "desc": "* 日本での仕事にまだ適応できない参加者は、管理団体(AO) または企業からのサポート/指導を受けることができます。\n* 日本語能力の要求はありません。\n* 技術実習3Bの参加者は、毎年インドネシアに休暇を取ることができます。**.\n* 費用が手頃です。"
+          },
+          "weakness": {
+            "title": "欠点",
+            "desc": "* 配置期間が決められています。\n* W企業の選考を受ける必要があります。\n* 住居の規定は企業によって決められます。"
+          }
+        },
+        {
+          "title": "特定技能ビザ",
+          "subtitle": "Tokutei Ginou",
+          "cost": {
+            "title": "費用",
+            "price": "10jt*",
+            "desc": "* 他の送出機関（SO）からの技能実習生の卒業生および非卒業生候補者の費用：Rp. 10,000,000,-。\n* LPKコープインドネシアの技能実習参加者の卒業生： **無料**"
+          },
+          "requirement": {
+            "title": "候補者の要件",
+            "desc": "* 最低限の技術実習訓練2B（3年間）のプログラムを修了した技能実習生。\n* 技能実習生ではない人に向けは:\n  1. 最低限日本語能力試験N4の証明書を持っていること。\n  2. 最低限の学歴として高校卒業または同等の資格を持っていること。 &\n  3. 選択した職種に関連する技能試験に合格すること。\n* 職種を変更したい技能実習生は、技能試験に合格する必要があります。"
+          },
+          "periodic": {
+            "title": "配属期間",
+            "desc": "**5～10 年**\n* 特定技能2号: 5年以上"
+          },
+          "advantages": {
+            "title": "利点",
+            "desc": "* LPKコープインドネシアの技能実習参加者の卒業生は無料です。\n* 日本での滞在期間が長くなります。\n* 毎年インドネシアに帰国するための休暇を取る権利があります。**\n* 特定技能2号の場合、インドネシアから家族を呼び寄せることができます。\n* 自分でアパートや住居を選ぶことができます。"
+          },
+          "weakness": {
+            "title": "欠点",
+            "desc": "* 最低限、日本語能力試験N4の合格証明書または技術実習2Bの終了証明書を持っている必要があります。\n* 企業の選考プロセスを受ける必要があります。"
+          }
+        },
+        {
+          "title": "大学生インターンシップ",
+          "subtitle": "Daigakusei Intanshippu",
+          "cost": {
+            "title": "費用",
+            "price": "575rb",
+            "desc": "* 費用なし/ 日本の企業が負担します。"
+          },
+          "requirement": {
+            "title": "候補者の要件",
+            "desc": "* インターンシップの候補者は、インドネシアのいずれかの大学に在籍している現役学生であり、日本の企業と提携していること。\n* 専攻分野は日本での配置職務と関連していること。\n* インターンシップの候補者は大学側によって選定されること。\n* 日本の企業でのインターンシップを終了した参加者は、大学に戻り、学業を完了すること。"
+          },
+          "periodic": {
+            "title": "配属期間",
+            "desc": "**6ヶ月〜1年**"
+          },
+          "advantages": {
+            "title": "利点",
+            "desc": "* インターンシッププログラムは学生の単位数を増やすことができます。\n* インターンシップ期間を終了した学生は、卒業後に以前のインターンシップ先企業で就労ビザを取得して無期限の滞在期間で働く大きな機会があります。"
+          },
+          "weakness": {
+            "title": "欠点",
+            "desc": "* インターンシップの候補者は、日本側と提携している特定の大学の現役学生に限定されます。\n* 候補者は学生の成績に基づいて大学側が決定します。"
+          }
+        }
+      ]
+    },
+    "banner": {
+      "image": {
+        "src": "/banner/banner-image-1.svg",
+        "alt": "banner-image-1-coop-indonesia"
+      },
+      "title": "私たちと一緒に、自分を成長させ、強力な起業家（Entrepreneur）になりましょう",
+      "desc": "詳細については、ぜひお問い合わせください ...",
+      "buttonName": "お問い合わせ"
+    }
+  },
+  "aboutPage": {
+    "aboutAtAGlance": {
+      "title": "私たちについて",
+      "subtitle": "LPKコープインドネシアは、**海外技能実習派遣機関または送り出し機関 （Sending Organizer）** の一つとして、インドネシアの若者に対し、日本の企業での技能実習プログラムに参加する機会を提供し、自身の質と能力を向上させることを目的としています。",
+      "contents": [
+        {
+          "image": {
+            "src": "/about/at-a-glance-image-1.svg",
+            "alt": "at-a-glance-image-1-coop-indonesia"
+          },
+          "content": "LPKコープインドネシアは、候補者の募集から日本での配置前教育・訓練までのプロセスを行い、日本企業のニーズに合わせて、日本語と日本文化、体力、精神力、規律、キャラクタービルディング、宗教教育、起業家精神、及び技能知識に応じた技術訓練の教育を提供します。\n\n日本とインドネシアの国際協力枠組みの一環として、LPKコープインドネシアは、東京、大阪、愛知に代表事務所を開設し、日本での技能実習生の配置プログラムの円滑な実施を図っています。現在、私たちは約2,500名の技能実習生を日本の様々な企業に配置しており、建設、介護、溶接、農業、水産業、畜産業、製造業、食品加工業、地上操作（グランドハンドリング）など、様々な分野で活躍しています"
+        },
+        {
+          "image": {
+            "src": "/about/at-a-glance-image-2.svg",
+            "alt": "at-a-glance-image-2-coop-indonesia"
+          },
+          "content": "さらに、LPKコープインドネシアは、日本での技能実習プログラムを終了した参加者のために、技能実習後プログラムを準備し、支援しています。このプログラムは、参加者が日本で得た経験を活かして、個人またはグループで自分のビジネスを開始することを促進することを目的としています。この目標を実現するために、LPKコープインドネシアは地方政府、関連省庁、研究センター、国内外の企業と協力しています。\n\nLPKコープインドネシアは、日本での技能実習を通じた **自営業育成プログラム** が以下のような利点をもたらすと確信しています:\n* 自立して、創造的で競争力のある若い起業家を育成することができます。\n* 地域経済の成長を促進し、全国の失業率の低減に貢献します。\n* 国際市場における国産品の競争力を向上させます。"
+        }
+      ]
+    },
+    "aboutOrganizationStructure": {
+      "info": "ABOUT US",
+      "title": "役員・事務局一覧",
+      "subtitle": "LPKコープインドネシアは、インドネシア国内に広がるネットワーク組織と、日本にある代表事務所を有しています。",
+      "members": [
+        {
+          "name": "Herson Tendean, S.Kom （ヘ ルソン  テンデアン）",
+          "position": "代表理事",
+          "src": "/profile/herson-tendean.png"
+        }
+      ],
+      "representativeOffice": {
+        "title": "日本駐在員事務所担当",
+        "members": [
+          {
+            "name": "Toshiyuki Sahara",
+            "position": "代表責任者",
+            "src": "/profile/toshiyuki-sahara.png"
+          },
+          {
+            "name": "Tomoko Yamamoto (山本知子)",
+            "position": "東京エリアの代表",
+            "src": "/profile/tomoko-yamamoto.png"
+          },
+          {
+            "name": "Kosei Sahara",
+            "position": "東京都の代表",
+            "src": "/profile/kosei-sahara.png"
+          },
+          {
+            "name": "Herizal Adhardi (ヘリザ ル アダ ル ディ) ",
+            "position": "大阪府の代表",
+            "src": "/profile/herizal-adhardi.png"
+          },
+          {
+            "name": "Devi Riswanto（デフィ　リスワント",
+            "position": "愛知県の代表",
+            "src": "/profile/devi-riswanto.png"
+          },
+          {
+            "name": "Arief Rivani Nugraha, S.Pd.（アリフ リファン ヌグラハ）",
+            "position": "東京都 コーポレートセクレタリー",
+            "additionalInfo": "日本語教育学士 (S1)、インドネシア教育大学卒業、静岡大学 (日本) 卒業生、日本語能力試験N2取得",
+            "src": "/profile/arief-rivani-nugraha.png"
+          }
+        ]
+      },
+      "headOffice": {
+        "title": "Kantor Pusat",
+        "members": [
+          {
+            "name": "Leila Djawas",
+            "position": "Advisor",
+            "src": "/profile/leila-djawas.png"
+          },
+          {
+            "name": "Selvy Rahmika, A.Ma S.Kom",
+            "position": "Personalia (HRD)",
+            "src": "/profile/selvy-rahmika.png"
+          },
+          {
+            "name": "Sandy B.Y Bangapadang, S.H.",
+            "position": "Legal Advisor",
+            "src": "/profile/sandy-b.png"
+          }
+        ],
+        "financeAccounting": {
+          "label": "Finance and Accounting:",
+          "members": ["Nensi Audika B., SE.", "Sholikin, SE., MMSi."]
+        },
+        "corporateSecretary": {
+          "label": "Corporate Secretary:",
+          "members": [
+            {
+              "name": "Liska Maharani",
+              "additionalInfo": "Alumni Peserta Pemagangan Jepang"
+            },
+            {
+              "name": "Yunita Wahyu Aryani, A.Ma",
+              "additionalInfo": "Alumni LPK COOP Indonesia Angkatan 13, JLPT N3"
+            },
+            {
+              "name": "Ragilia Farda Karima, A.Md"
+            },
+            {
+              "name": "Nurul Zia Aida, S.Pd",
+              "additionalInfo": "JLPT N4"
+            }
+          ]
+        },
+        "generalAffair": {
+          "label": "General Affair:",
+          "members": [
+            "Slamet Raharjo",
+            "Sugeng Riyadi",
+            "Chafid",
+            "Redi Ananto"
+          ]
+        }
+      },
+      "development": {
+        "title": "Departemen Pengembangan Usaha",
+        "members": [
+          {
+            "name": "Cristian Ade Candra., S.T,. M.T",
+            "position": "Direktur",
+            "src": "/profile/cristian-ade-candra.png"
+          },
+          {
+            "name": "Naldy Kostiyandi, S.Pd.",
+            "additionalInfo": "Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, Alumni Tokyo Gakugei University - Japan, JLPT N2"
+          },
+          {
+            "name": "Ristiawan Hidayat, S.Pd.",
+            "additionalInfo": "Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, JLPT N2"
+          },
+          {
+            "name": "Yunanta Trisutrisno",
+            "additionalInfo": "Alumni peserta magang LPK COOP Indonesia Angkatan 25, JLPT N3"
+          }
+        ]
+      },
+      "education": {
+        "title": "Departemen Pendidikan dan Pelatihan",
+        "members": [
+          {
+            "name": "Irwan Ardiyanto",
+            "src": "/profile/irwan-ardiyanto.png",
+            "position": "Direktur",
+            "additionalInfo": "Alumni IM Japan Angkatan 37"
+          },
+          {
+            "name": "Pupung Masitoh, S.S",
+            "position": "Kepala Pusat Pendidikan dan Pelatihan",
+            "src": "/profile/pupung-masitoh.png",
+            "additionalInfo": "Sarjana (S1) Sastra Jepang Universitas Gajah Mada, JLPT N2"
+          }
+        ],
+        "publicRelations": {
+          "label": "Hubungan Masyarakat:",
+          "members": ["Yusron Ahmadi", "Ahmad Sumarna, S, Sos."]
+        },
+        "corporateSecretary": {
+          "label": "Corporate Secretary:",
+          "members": ["Rizal Muhamad Dahlan, S.Ak"]
+        },
+        "disciplinInstructors": {
+          "label": "Instruktur Fisik, Mental dan Kedisplinan:",
+          "members": [
+            { "name": "Serma (PURN) Kasiyanto, S.Pd" },
+            {
+              "name": "Bambang Heryawan",
+              "additionalInfo": "Alumni of LPK COOP Indonesia Class 15, JLPT N3"
+            },
+            {
+              "name": "Gun Gun Gunawan",
+              "additionalInfo": "Alumni LPK COOP Indonesia Angkatan 15"
+            }
+          ]
+        },
+        "languageInstructors": {
+          "label": "Instruktur Bahasa dan Budaya Jepang:",
+          "members": [
+            {
+              "name": "Nur Rizki Adi Jourgia Abdillah, S.Pd.",
+              "additionalInfo": "Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, Alumni Tokyo Gakugei University - Japan, JLPT N2"
+            },
+            {
+              "name": "Trisnawati Srimulyani, S.Pd.",
+              "additionalInfo": "Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, Alumni Osaka Gaigo Gakuin, JLPT N2"
+            }
+          ]
+        }
+      },
+      "agriculture": {
+        "title": "Departemen Pertanian",
+        "members": [
+          {
+            "name": "Suyitno",
+            "position": "Direktur",
+            "src": "/profile/suyitno.png",
+            "additionalInfo": "Alumni LPK COOP Indonesia Angkatan 6"
+          }
+        ],
+        "supervisor": {
+          "title": "Supervisi Pertanian:",
+          "members": [
+            {
+              "name": "Mokhamad Said",
+              "additionalInfo": "Alumni LPK COOP Indonesia Angkatan 1"
+            }
+          ]
+        }
+      },
+      "MICE": {
+        "title": "Departemen MICE",
+        "subtitle": "(Meeting, Incentive, Convention, and Exhibition)",
+        "name": "Amboro Alfianto",
+        "src": "/profile/amboro-alfianto.png",
+        "position": "Direktur",
+        "staffProduct": {
+          "title": "Tim Produksi dan Media:",
+          "staffs": [
+            "Muhammad Hisyam Rabbani, A,Md.Sn",
+            "Hafid Nur Wahyudin, A,Md.Sn",
+            "Winairoh, S.Tr.Ds."
+          ]
+        }
+      }
+    },
+    "aboutVisionAndMission": {
+      "info": "について",
+      "title": "企業理念",
+      "vision": {
+        "title": "ビジョン",
+        "description": "平等と公正を基盤に社会的連携のシナジーを発展させ、国民の福祉、競争力、そして国家の進歩を向上させるために、プロフェッショナルで信頼できる人材を提供することです。",
+        "image": {
+          "src": "/about/vision-and-mission-image-1.svg",
+          "alt": "/about/vision-and-mission-image-1-coop-indonesia"
+        }
+      },
+      "mission": {
+        "title": "ミッション",
+        "description": "平等と公正を基盤に社会的連携のシナジーを発展させ、国民の福祉、競争力、そして国家の進歩を向上させるために、プロフェッショナルで信頼できる人材を提供することです。"
       }
     }
   }

@@ -6,6 +6,7 @@ import { Video } from '@/nui/video'
 import { useParam } from '@/utils/use-params'
 import { PhotoProvider, PhotoView } from 'react-photo-view'
 
+import { useTranslations } from 'next-intl'
 import { homePublicationStyle } from './publication.style'
 
 type HomePublicationProps = {
@@ -17,6 +18,8 @@ export default function HomePublication({
   youtube,
   instagram,
 }: HomePublicationProps) {
+  const t = useTranslations()
+
   const {
     imageBox,
     main,
@@ -35,7 +38,9 @@ export default function HomePublication({
   return (
     <Section>
       <Flexbox flow="col" gap="2xl">
-        <SectionTitle title={title}>{subtitle}</SectionTitle>
+        <SectionTitle title={t(`homePage.publication.title`)}>
+          {subtitle}
+        </SectionTitle>
         <Flexbox align="normal" flow="col" gap="2xl">
           <div className={imageBox()}>
             <Video youtubeId={videoId} />

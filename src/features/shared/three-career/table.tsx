@@ -7,8 +7,10 @@ import {
   TableHeadCell,
   Typo,
 } from '@/nui'
+import { useTranslations } from 'next-intl'
 
 export default function ThreeCareerTable() {
+  const t = useTranslations()
   const threeCareers = threeCareersDataStatic
 
   const renderTableCells = (data: any) => {
@@ -26,56 +28,78 @@ export default function ThreeCareerTable() {
       <Table>
         <TableHead>
           <TableHeadCell />
-          {threeCareers.map((career, index) => (
-            <TableHeadCell
-              key={index}
-              title={career.title}
-              background={index === 1}
-            >
-              {career.subtitle}
-            </TableHeadCell>
-          ))}
+          {t
+            .raw('sharedContent.threeCareer.lists')
+            .map((list: any, index: number) => (
+              <TableHeadCell
+                key={index}
+                title={list.title}
+                background={index === 1}
+              >
+                {list.subtitle}
+              </TableHeadCell>
+            ))}
         </TableHead>
         <tbody>
           <tr>
             <TableBodyCell>
               <Typo size="lg" fontWeight="bold" color="gray-900">
-                {threeCareers[0].cost.title}
+                {t.raw('sharedContent.threeCareer.lists')[0].cost.title}
               </Typo>
             </TableBodyCell>
-            {renderTableCells(threeCareers.map((career) => career.cost))}
+            {renderTableCells(
+              t
+                .raw('sharedContent.threeCareer.lists')
+                .map((list: any) => list.cost)
+            )}
           </tr>
           <tr>
             <TableBodyCell>
               <Typo size="lg" fontWeight="bold" color="gray-900">
-                {threeCareers[0].requirement.title}
+                {t.raw('sharedContent.threeCareer.lists')[0].requirement.title}
               </Typo>
             </TableBodyCell>
-            {renderTableCells(threeCareers.map((career) => career.requirement))}
+            {renderTableCells(
+              t
+                .raw('sharedContent.threeCareer.lists')
+                .map((list: any) => list.requirement)
+            )}
           </tr>
           <tr>
             <TableBodyCell>
               <Typo size="lg" fontWeight="bold" color="gray-900">
-                {threeCareers[0].periodic.title}
+                {t.raw('sharedContent.threeCareer.lists')[0].periodic.title}
               </Typo>
             </TableBodyCell>
-            {renderTableCells(threeCareers.map((career) => career.periodic))}
+            {renderTableCells(
+              t
+                .raw('sharedContent.threeCareer.lists')
+                .map((list: any) => list.periodic)
+            )}
           </tr>
           <tr>
             <TableBodyCell>
               <Typo size="lg" fontWeight="bold" color="gray-900">
-                {threeCareers[0].advantages.title}
+                {t.raw('sharedContent.threeCareer.lists')[0].advantages.title}
               </Typo>
             </TableBodyCell>
-            {renderTableCells(threeCareers.map((career) => career.advantages))}
+            {renderTableCells(
+              t
+                .raw('sharedContent.threeCareer.lists')
+                .map((list: any) => list.advantages)
+            )}
           </tr>
           <tr>
             <TableBodyCell>
               <Typo size="lg" fontWeight="bold" color="gray-900">
-                {threeCareers[0].weakness.title}
+                {t.raw('sharedContent.threeCareer.lists')[0].weakness.title}
               </Typo>
             </TableBodyCell>
-            {renderTableCells(threeCareers.map((career) => career.weakness))}
+            {renderTableCells(
+              t
+                .raw('sharedContent.threeCareer.lists')
+                .map((list: any) => list.weakness)
+            )}
           </tr>
         </tbody>
       </Table>

@@ -1,13 +1,10 @@
-import { homeDataStatic } from '@/app/[locale]/api/home'
 import { ImageNui, Section, Typo } from '@/nui'
-import { homeSponsorStyle } from './sponsor.style'
 import { useTranslations } from 'next-intl'
+import { homeSponsorStyle } from './sponsor.style'
 
 export function HomeSponsor() {
   const t = useTranslations()
   const { wrapper, main } = homeSponsorStyle()
-
-  const { title, assets } = homeDataStatic.sponsor
 
   return (
     <Section>
