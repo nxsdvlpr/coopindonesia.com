@@ -2,14 +2,20 @@ import { internshipTermsConditionsDataStatic } from '@/app/[locale]/api/internsh
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
 import { Menu } from '@/features/shared/menu'
 import { Flexbox, ImageNui, Markdown, Section, SectionTitle, Typo } from '@/nui'
+import { useTranslations } from 'next-intl'
 
 export default function InternshipTermsConditions() {
+  const t = useTranslations()
   const { info, title, termsConditions } = internshipTermsConditionsDataStatic
 
   return (
     <>
       <Section>
-        <SectionTitle sizeTitle="6xl" info={info} title={title} />
+        <SectionTitle
+          sizeTitle="6xl"
+          info={t('internshipTermsConditions.info')}
+          title={t('internshipTermsConditions.title')}
+        />
       </Section>
       <Section maxWidth="sm">
         <Flexbox flow="col" gap="2xl">
@@ -21,9 +27,11 @@ export default function InternshipTermsConditions() {
           </div>
           <Flexbox flow="col" gap="none" align="normal">
             <Typo size="2xl" fontWeight="bold" color="gray-900">
-              {termsConditions.title}
+              {t('internshipTermsConditions.termsConditions.title')}
             </Typo>
-            <Markdown size="lg">{termsConditions.body}</Markdown>
+            <Markdown size="lg">
+              {t('internshipTermsConditions.termsConditions.body')}
+            </Markdown>
           </Flexbox>
         </Flexbox>
       </Section>

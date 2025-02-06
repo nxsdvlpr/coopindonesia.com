@@ -2,8 +2,10 @@ import { internshipRightsObligationsDataStatic } from '@/app/[locale]/api/intern
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
 import { Menu } from '@/features/shared/menu'
 import { Flexbox, ImageNui, Markdown, Section, SectionTitle, Typo } from '@/nui'
+import { useTranslations } from 'next-intl'
 
 export default function InternshipRightsObligations() {
+  const t = useTranslations()
   const {
     info,
     title,
@@ -17,24 +19,35 @@ export default function InternshipRightsObligations() {
   return (
     <>
       <Section>
-        <SectionTitle sizeTitle="6xl" info={info} title={title} />
+        <SectionTitle
+          sizeTitle="6xl"
+          info={t('internshipRightsObligation.info')}
+          title={t('internshipRightsObligation.title')}
+        />
       </Section>
       <Section maxWidth="sm">
         <Flexbox flow="col" gap="2xl">
           <div className="mx-auto shrink-0 lg:w-[28.75rem]">
-            <ImageNui src={image.src} alt={image.alt} />
+            <ImageNui
+              src={t('internshipRightsObligation.image.src')}
+              alt={t('internshipRightsObligation.image.alt')}
+            />
           </div>
           <Flexbox flow="col" gap="none" align="normal">
             <Typo size="2xl" fontWeight="bold" color="gray-900">
-              {titleRights}
+              {t('internshipRightsObligation.titleRights')}
             </Typo>
-            <Markdown size="lg">{contentRights}</Markdown>
+            <Markdown size="lg">
+              {t('internshipRightsObligation.contentRights')}
+            </Markdown>
           </Flexbox>
           <Flexbox flow="col" gap="none" align="normal">
             <Typo size="2xl" fontWeight="bold" color="gray-900">
-              {titleObligations}
+              {t('internshipRightsObligation.titleObligations')}
             </Typo>
-            <Markdown size="lg">{contentObligations}</Markdown>
+            <Markdown size="lg">
+              {t('internshipRightsObligation.contentObligations')}
+            </Markdown>
           </Flexbox>
         </Flexbox>
       </Section>

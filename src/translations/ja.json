@@ -279,6 +279,249 @@
       }
     }
   },
+  "internship": {
+    "info": "日本での技能実習プログラム",
+    "title": "技能実習について",
+    "subtitle": "日本への技能実習生派遣プログラムは、日本政府が実施する職業訓練プログラムの一つであり、高校または職業高校を卒業した方を対象としています。 ",
+    "image": {
+      "src": "/program/internship/program-internship-image-1.svg",
+      "alt": "program-internship-image-1-coop-indonesia"
+    },
+    "body": "日本への技能実習プログラムは、知識の習得と技術の向上を目的として実施されています。技能実習生の規律を鍛え、生活の向上を図ることも目指しています。技能実習生は、給与や手当を受け取ることができるため、技能実習生本人やその家族の生活も豊かになります。\n\n日本への技能実習プログラムは、 **インドネシア共和国労働省職業訓練および生産性開発総局（Binalavotas）**の監督下にあります。\n\n技能実習生は給与を受け取りますが、このプログラムはインドネシア人移住労働者（PMI）としての労働とは異なります。その違いは、ステータス、給与、施設、そして提供される法的保護にあります。日本滞在中、技能実習生は特別な住居又を提供され、必要な設備が整っています。さらに、移動手段として自転車も提供されます。",
+    "contents": [
+      {
+        "images": [
+          {
+            "src": "/program/internship/program-internship-image-2.png",
+            "alt": "program-internship-image-2-coop-indonesia"
+          },
+          {
+            "src": "/program/internship/program-internship-image-3.png",
+            "alt": "program-internship-image-3-coop-indonesia"
+          }
+        ],
+        "body": "日本への技能実習プログラムは3年間実施されますが、参加者（実習生）には5年間まで延長する機会も与えられます。この実習期間は以下の段階に分けられます：\n\n 1. **初月（訓練期間または実習生期間）**：訓練センターで実施される基礎訓練期間です。\n 2. **2ヶ月目から12ヶ月目**：この期間は、技能評価期間です。\n 3. **ヶ月目から3年目までの技能実習プログラム**：この期間は、技術実習（Technical Intern Training）または実習期間と呼ばれます。\n 4. **技能実習期間の延長（5年まで）**：参加者と企業が合意すれば、実習期間を延長することができます。"
+      },
+      {
+        "images": [
+          {
+            "src": "/program/internship/program-internship-image-4.png",
+            "alt": "program-internship-image-4-coop-indonesia"
+          },
+          {
+            "src": "/program/internship/program-internship-image-5.png",
+            "alt": "program-internship-image-5-coop-indonesia"
+          },
+          {
+            "src": "/program/internship/program-internship-image-6.png",
+            "alt": "program-internship-image-6-coop-indonesia"
+          }
+        ],
+        "body": "現在、LPKコープインドネシアは、以下の様々な分野で2,800名の技能実習生を配置しています：グランドハンドリング、介護、建設業（建物のフレーム作り）、インテリアデザイン（住宅建設）、大工、石工（コンクリート作業）、道路/橋梁建設、配管工事、塗装、その他の一般建設作業、溶接、金属塗装、製造業（機械加工、プレス機、旋盤、プラスチック/金属製品製造）、食品加工業、水産業（魚加工工場、カキ養殖）、酪農（乳牛）、養鶏業、農業（野菜栽培、花栽培、その他の農業分野）。\n\n配置場所は日本全国にわたります。具体的には、札幌および北海道のいくつかの地域、東京およびその周辺、千葉、愛知、岐阜、大分、群馬、栃木、宮城、広島、神奈川、静岡、茨城、鹿児島、富山、京都、四国の各地です。\n\n**LPKコープインドネシアは、** 候補者の募集から日本での配置前研修・訓練までのプロセスを行い、日本企業のニーズに応じた人材を提供しています。研修と訓練の内容は以下の通りです：\n\n- 日本語と日本文化.\n- 体力訓練.\n- メンタル訓練.\n- 規律とキャラクタービルディング.\n- 宗教教育.\n- 起業家精神.\n- 技能実習分野に応じた技術訓練\n\nこれらのプログラムは、日本企業が必要とするスキルや特性を備えた人材を育成するために設計されています。しかし、どの仕事にもリスクが伴うように、日本での技能実習プログラムにもリスクがあります。以下は、日本での実習におけるいくつかのリスクです：\n\n- **高い生活費**：特に大都市では、さまざまな分野で生活費が高くなります。\n- **厳しい手続き**：企業の面接手続きから在留許可書類の取得まで非常に厳格です。\n- **文化と言語の習得のチャレンジ**：日本の文化や言語を習得するのは挑戦であり、文化の違いに対処するのが難しい場合があります。\n- **文化の違いによる適応のチャレンジ**：文化の違いは、職場のシステムや環境に適応する上での課題となります。\n\nこれらのリスクを理解し、適切に対処することが重要です。以上が日本での技能実習プログラムとそのリスクに関する情報です。\n\nどうですか？桜の国での技能実習に興味はありますか？"
+      }
+    ]
+  },
+  "internshipRegistration": {
+    "info": "日本での技能実習プログラム",
+    "title": "応募",
+    "infoThreeCareer": "日本での技能実習プログラム",
+    "address": {
+      "title": "LPKコープインドネシアのパートナー連絡先",
+      "subtitle": "以下の地域にあるLPKコープインドネシアのパートナーにもお問い合わせいただけます：",
+      "image": {
+        "src": "/program/registration-image-1.svg",
+        "alt": "registration-image-1-coop-indonesia"
+      },
+      "locations": [
+        {
+          "region": "東ジャワ地域",
+          "offices": [
+            { "name": "Bojonegoro - LPK Masayu", "phone": "0823-3163-6660" },
+            { "name": "Malang - LPK Furusato", "phone": "0821-4081-3864" },
+            { "name": "Ponorogo - LPK BNS", "phone": "0852-3046-1229" },
+            { "name": "Tulung Agung - LPK Akashiro", "phone": "081213114789" }
+          ]
+        },
+        {
+          "region": "中部ジャワ地域",
+          "offices": [
+            { "name": "Brebes - LPK Ilalang", "phone": "0819-0272-2631" },
+            { "name": "Cilacap - LPK ITCO", "phone": "0815-656-2914" },
+            { "name": "Kebumen - LPK Shiawase", "phone": "0831-5492-4576" },
+            { "name": "Kudus - LPK Karazu", "phone": "0813-901-7562" },
+            { "name": "Purwokerto - LPK Akemi", "phone": "0896-1913-3864" }
+          ]
+        },
+        {
+          "region": "西ジャワ地域",
+          "offices": [
+            { "name": "Bandung - LPK Megumi", "phone": "0813-2072-2262" },
+            { "name": "Bandung - LPK SAHARA", "phone": "0813-2070-0185" },
+            { "name": "Cirebon - LPK ORI", "phone": "0852-1722-9216" },
+            { "name": "Cirebon - LPK PMB", "phone": "0857-2245-6269" },
+            { "name": "Indramayu - LPK Seiko", "phone": "0813-2426-4474" },
+            { "name": "Sukabumi - LPK Sahaja", "phone": "0813-1737-9047" },
+            { "name": "Tasik - LPK Seiko", "phone": "0812-8134-5766" },
+            { "name": "Pangandaran - Furusato", "phone": "0852-2087-8323" }
+          ]
+        },
+        {
+          "region": "ランプン地域",
+          "offices": [
+            { "name": "Lampung - LPK Matsumoto", "phone": "0821-7917-5940" },
+            { "name": "Lampung - LPK Ayabe", "phone": "0813-7994-9372" },
+            { "name": "Lampung - LPK Yamamori", "phone": "0821-7511-3260" },
+            { "name": "Lampung - LPK Gakusho", "phone": "0813-6969-6429" }
+          ]
+        }
+      ]
+    },
+    "howToRegistration": {
+      "title": "応募方法",
+      "titleStep": "参加希望者は、以下の方法で応募できます：",
+      "steps": [
+        {
+          "label": "メール:",
+          "content": "mail@coopindonesia.com",
+          "icon": "lucide:mail"
+        },
+        {
+          "label": "件名:",
+          "content": "「日本への技能実習プログラム登録」",
+          "icon": "lucide:edit"
+        },
+        {
+          "label": "宛先:",
+          "content": "ジャカルタのLPKコープインドネシア人材開発プログラム部門",
+          "icon": "lucide:building-2"
+        }
+      ]
+    },
+    "contactInfo": {
+      "title": "LPKコープインドネシアの技能実習プログラムに関する詳細については、以下の連絡先までお問い合わせください：",
+      "contacts": [
+        {
+          "admin": "Admin #1",
+          "phone": "0821-4081-3864",
+          "icon": "mdi:whatsapp"
+        },
+        {
+          "admin": "Admin #2",
+          "phone": "0822-3238-8961",
+          "icon": "mdi:whatsapp"
+        }
+      ]
+    },
+    "requirement": {
+      "title": "応募条件",
+      "body": "1. 候補者は、個人または地域のLPKコープインドネシアのパートナーを通じて応募できます。\n\n2. 候補者は、LPKコープインドネシアが実施する**事前選考**に参加し、体力テスト、心理テスト/IQテスト、学力テスト、面接などを受けます。\n\n3. 事前選考に合格した後、候補者は日本の受け入れ企業による選考に参加します。この選考には、**実技テスト、面接**（その他必要なテスト）が含まれます。\n\n4. 選考に合格した場合、候補者は必要な書類を揃え、インドネシアで90日間の配置前訓練に参加する必要があります。この訓練には、**体力、メンタル、規律（FMD）の形成、日本語と日本文化の**学習が含まれ、費用は候補者が負担します。"
+    }
+  },
+  "internshipTermsConditions": {
+    "info": "日本での技能実習プログラム",
+    "title": "条件と規約",
+    "termsConditions": {
+      "title": "条件と規約",
+      "body": "日本の受け入れ企業による選考は、事前選考を通過した候補者を対象に行われます。 **応募条件**. \n\n1. **学歴**: 職業高校卒業または同等の資格 \n\n2. **日本語能力**: LPKコープインドネシアによる日本語能力試験に合格 \n\n3. **職務経験**: 最低1年の関連分野での勤務経験 \n\n4. **年齢**: 19歳から27歳（送出機関の要件による）\n\n5. **日本への渡航歴**: いかなるプログラムでも日本に行ったことがないこと \n\n6. **身体条件**: 欠損、刺青または刺青跡、ピアスまたはピアス跡、骨折、難聴、ヘルニア、皮膚疾患、色盲、特定の手術跡がないこと\n\n7. **身長**: 男性は最低160cm、女性は最低150cm、体重は適正であること\n\n8. **体力テスト**: ランニング、腹筋、腕立て伏せ、懸垂、シャトルラン\n\n9. 心理テスト、IQテスト、学力試験、数学試験\n\n10. **面接**: 知識、一般常識、プログラムの理解、パフォーマンスなどについての面接\n\n11. **健康診断**: 血液検査、尿検査、視力検査、便検査、肺検査、心臓検査、薬物検査、肝炎検査、HIV/AIDS検査など"
+    }
+  },
+  "internshipDocument": {
+    "info": "日本での技能実習プログラム",
+    "title": "必要な書類",
+    "image": {
+      "src": "/program/document-image-1.svg",
+      "alt": "document-image-1-coop-indonesia"
+    },
+    "document": {
+      "title": "必要な書類",
+      "body": "1. **パスポート（原本）**- 有効期間が最低4年以上あること\n\n2. **最新の署名写真（ファイル）**- 背景は白色（スキャンファイル）\n\n3. **卒業証書（ファイル）**小学校、中学校、高校または同等の学歴\n\n4. **身分証明書（ファイル）**.\n\n5. **家族証明書（ファイル）**.\n\n6. **出生証明書（ファイル）**.\n\n7. **勤務証明書（任意）**\n\n8. **警察証明書（SKCK）**.\n\n9. **親または保護者の同意書（印紙付き）** - 日本での技能実習プログラムに参加するための許可書（LPKコープインドネシアの様式）\n\n10. **技能実習プログラム参加に関する同意書（印紙付き）** - 日本の中小企業で3年以上の技能実習プログラムに参加する意思を示す書類（LPKコープインドネシアの様式）"
+    }
+  },
+  "internshipRightsObligation": {
+    "info": "日本での技能実習プログラム",
+    "title": "Hak dan Kewajiban",
+    "image": {
+      "src": "/program/rights-obligations-image-1.svg",
+      "alt": "rights-obligations-image-1-coop-indonesia"
+    },
+    "titleRights": "参加者の権利",
+    "contentRights": "1. **インドネシア滞在中**\n  1. 宿泊、食事、および研修中の必要備品（90日間）\n  2. 研修カリキュラムの受講：\n    1. 日本文化と日本語\n    2. 運動/体力訓練.\n    3. メンタルとイデオロギーを含むキャラクタービルディング\n    4. その他のスキル\n\n2. **日本滞在中**\n  1. 最初の1ヶ月間の技能研修\n  2. 宿泊および手当（給与）\n  3. 健康保険および労働災害保険\n  4. 契約に基づく3年間の技能実習プログラムの配置",
+    "titleObligations": "参加者の義務",
+    "contentObligations": "1. 契約に基づく技能実習プログラムを完了すること\n\n2. 受け入れ企業および日本の法律に従うこと\n\n3. 上記のポイント1および2に違反した場合、現地の法律に基づく法的制裁を受け入れること\n\n4. 日本への配置プロセスに必要な書類を提出すること"
+  },
+  "internshipPlacement": {
+    "info": "日本での技能実習プログラム",
+    "title": "配置",
+    "images": [
+      {
+        "src": "/training/training-image-2.png",
+        "alt": "training-image-2-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-3.png",
+        "alt": "training-image-3-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-4.png",
+        "alt": "training-image-4-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-5.png",
+        "alt": "training-image-5-coop-indonesia"
+      }
+    ],
+    "content": {
+      "title": "日本での配置",
+      "body": "候補者が教育訓練センター（Pusdiklat）での研修および訓練を完了し、渡航書類が全て揃った後、参加者は合意された労働契約に基づいて日本に配置されます。\n\n参加者の技能実習の配置期間は**1年間、3年間、延長可能期間**さらに2年間延長可能です。これにより、技能実習プログラムの総期間は最大で7年間となります。\n\n参加者が引き続き日本で働くことを希望する場合、特定技能（SSW）プログラムに進むことができます。このプログラムは、日本での技能実習プログラムの次のステップとなります。\n\n特定技能（SSW）プログラムの条件およびビザは、技能実習プログラムとは異なるため、詳細については別途確認が必要です。"
+    }
+  },
+  "internshipProgramFlow": {
+    "info": "日本での技能実習プログラム",
+    "title": "プログラムの流れ",
+    "steps": [
+      {
+        "titleStep": "プログラムの流れ",
+        "title": "レギュラープログラムのスキーム",
+        "image": {
+          "src": "/program/program-flow-image-1.svg",
+          "alt": "program-flow-image-1-coop-indonesia"
+        }
+      },
+      {
+        "title": "介護プログラムのスキーム",
+        "image": {
+          "src": "/program/program-flow-image-2.svg",
+          "alt": "program-flow-image-2-coop-indonesia"
+        }
+      }
+    ]
+  },
+  "internshipEducationalMaterial": {
+    "info": "日本での技能実習",
+    "title": "研修と訓練の内容",
+    "image": {
+      "src": "/program/educational-material-image-1.svg",
+      "alt": "educational-material-image-1-coop-indonesia"
+    },
+    "contents": [
+      {
+        "title": "A. 日本語（60%）:",
+        "body": "- 文法、会話、聴解.\n- LPKコープインドネシアの学習モジュールは、『みんなの日本語1 とみんなの日本語 2』から編集されており、ビジュアル学習のために『Gakken Nihongo 4me』アプリを使用し、日本語能力試験N4相当のレベルを目指します。"
+      },
+      {
+        "title": "B. 体力、メンタル、規律（20%）:",
+        "body": "- 体力訓練（ランニング、腕立て伏せ、懸垂、腹筋、シャトルラン）.\n- 愛国心教育\n- 労働安全/災害対応\n- キャラクタービルディング\n- 宗教教育\n- メンタリング\n- 職業技能"
+      },
+      {
+        "title": "C. 文化（10%）:",
+        "body": "- 日本社会における態度、文化、生活規則"
+      },
+      {
+        "title": "D. 起業家精神（10%）:",
+        "body": "- 自営業計画\n- 協同組合の紹介\n- 簡単な財務管理"
+      }
+    ]
+  },
   "sharedContent": {
     "featuredPrograms": {
       "title": "LPK COOPインドネシアのプログラム",
@@ -495,166 +738,242 @@
         ]
       },
       "headOffice": {
-        "title": "Kantor Pusat",
+        "title": "本部",
         "members": [
           {
-            "name": "Leila Djawas",
-            "position": "Advisor",
+            "name": "Leila Djawas（レイラ　ジャワス",
+            "position": "顧問",
             "src": "/profile/leila-djawas.png"
           },
           {
-            "name": "Selvy Rahmika, A.Ma S.Kom",
-            "position": "Personalia (HRD)",
+            "name": "Selvy Rahmika, A.Ma S.Kom　（セルフィ ラーミカ",
+            "position": "人材開発",
             "src": "/profile/selvy-rahmika.png"
           },
           {
-            "name": "Sandy B.Y Bangapadang, S.H.",
-            "position": "Legal Advisor",
+            "name": "Sandy B.Y Bangapadang, S.H., （サンディ バンガパダン）",
+            "position": "顧問弁護士",
             "src": "/profile/sandy-b.png"
           }
         ],
         "financeAccounting": {
-          "label": "Finance and Accounting:",
-          "members": ["Nensi Audika B., SE.", "Sholikin, SE., MMSi."]
+          "label": "一般会計:",
+          "members": [
+            "Nensi Audika B., SE.　（ンシ　オーディカ）",
+            "Sholikin, SE., MMSi.　（ショリキン）"
+          ]
         },
         "corporateSecretary": {
-          "label": "Corporate Secretary:",
+          "label": "コーポレートセクレタリー:",
           "members": [
             {
-              "name": "Liska Maharani",
-              "additionalInfo": "Alumni Peserta Pemagangan Jepang"
+              "name": "Liska Maharani　（リスカ　マハラニ）",
+              "additionalInfo": "(日本技能実習プログラム終了生)"
             },
             {
-              "name": "Yunita Wahyu Aryani, A.Ma",
-              "additionalInfo": "Alumni LPK COOP Indonesia Angkatan 13, JLPT N3"
+              "name": "Yunita Wahyu Aryani, A.Ma　（ユニタ　ワヒュ　アリヤニ）",
+              "additionalInfo": "（LPKコープインドネシア第13期卒業生、日本語能力試験N3取得）"
             },
             {
-              "name": "Ragilia Farda Karima, A.Md"
+              "name": "Ragilia Farda Karima, A.Md　（ラギリア　ファルダ　カリマ）"
             },
             {
-              "name": "Nurul Zia Aida, S.Pd",
-              "additionalInfo": "JLPT N4"
+              "name": "Winairoh, S.Tr.Ds.　（ウィナイロ）"
+            },
+            {
+              "name": "Nurul Zia Aida, S.Pd （ヌルル　ジア　アイダ）",
+              "additionalInfo": "（日本語能力試験N4取得）"
             }
           ]
         },
         "generalAffair": {
-          "label": "General Affair:",
+          "label": "総務:",
           "members": [
-            "Slamet Raharjo",
-            "Sugeng Riyadi",
-            "Chafid",
-            "Redi Ananto"
+            "Slamet Raharjo　（スラメット　ラハルジョ）",
+            "Sugeng Riyadi　（スゲン　リヤディ）",
+            "Chafid　（ハフィド）"
           ]
         }
       },
       "development": {
-        "title": "Departemen Pengembangan Usaha",
+        "title": "業務開発部",
         "members": [
           {
-            "name": "Cristian Ade Candra., S.T,. M.T",
-            "position": "Direktur",
+            "name": "Cristian Ade Candra., S.T,. M.T　（クリスティアン・アデ・チャンドラ）",
+            "position": "理事",
             "src": "/profile/cristian-ade-candra.png"
           },
           {
-            "name": "Naldy Kostiyandi, S.Pd.",
-            "additionalInfo": "Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, Alumni Tokyo Gakugei University - Japan, JLPT N2"
+            "name": "Naldy Kostiyandi, S.Pd.　（ナルディ　コスティヤンディ）",
+            "additionalInfo": "（日本語教育学士（S1）、インドネシア教育大学卒業、東京学芸大学（日本）卒業生、日本語能力試験N2取得）"
           },
           {
-            "name": "Ristiawan Hidayat, S.Pd.",
-            "additionalInfo": "Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, JLPT N2"
-          },
-          {
-            "name": "Yunanta Trisutrisno",
-            "additionalInfo": "Alumni peserta magang LPK COOP Indonesia Angkatan 25, JLPT N3"
+            "name": "Ristiawan Hidayat, S.Pd.　（リスティアワン・ヒダヤット）",
+            "additionalInfo": "（日本語教育学士（S1）、インドネシア教育大学卒業、大阪外語学院卒業生、日本語能力試験N2取得）"
           }
         ]
       },
       "education": {
-        "title": "Departemen Pendidikan dan Pelatihan",
+        "title": "教育訓練部",
         "members": [
           {
-            "name": "Irwan Ardiyanto",
+            "name": "Irwan Ardiyanto　（イルワン　アルディヤント）",
             "src": "/profile/irwan-ardiyanto.png",
-            "position": "Direktur",
-            "additionalInfo": "Alumni IM Japan Angkatan 37"
+            "position": "理事",
+            "additionalInfo": "IM Japan第37期卒業生"
           },
           {
-            "name": "Pupung Masitoh, S.S",
-            "position": "Kepala Pusat Pendidikan dan Pelatihan",
+            "name": "Pupung Masitoh, S.S　（ププン　マシトー）",
+            "position": "教育訓練部長",
             "src": "/profile/pupung-masitoh.png",
-            "additionalInfo": "Sarjana (S1) Sastra Jepang Universitas Gajah Mada, JLPT N2"
+            "additionalInfo": "日本文学士（S1）、ガジャマダ大学卒業、日本語能力試験N2取得"
           }
         ],
         "publicRelations": {
-          "label": "Hubungan Masyarakat:",
-          "members": ["Yusron Ahmadi", "Ahmad Sumarna, S, Sos."]
+          "label": "広報部:",
+          "members": [
+            "Yusron Ahmadi　（ユスロン　アフマディ）",
+            "Ahmad Sumarna, S, Sos.　（アフマド　スマルナ）"
+          ]
         },
         "corporateSecretary": {
-          "label": "Corporate Secretary:",
-          "members": ["Rizal Muhamad Dahlan, S.Ak"]
+          "label": "コーポレートセクレタリー:",
+          "members": [
+            "Rizal Muhamad Dahlan, S.Ak　（リザル　ムハマド　ダラン）"
+          ]
         },
         "disciplinInstructors": {
-          "label": "Instruktur Fisik, Mental dan Kedisplinan:",
+          "label": "体育   精神    規律担：",
           "members": [
-            { "name": "Serma (PURN) Kasiyanto, S.Pd" },
             {
-              "name": "Bambang Heryawan",
-              "additionalInfo": "Alumni of LPK COOP Indonesia Class 15, JLPT N3"
+              "name": "Serma (PURN) Kasiyanto, S.Pd　（退役海軍軍曹　カシヤント）"
             },
             {
-              "name": "Gun Gun Gunawan",
-              "additionalInfo": "Alumni LPK COOP Indonesia Angkatan 15"
+              "name": "Bambang Heryawan　（バンバン　ヘルヤワン）",
+              "additionalInfo": "（LPKコープインドネシア第15期卒業生、日本語能力試験N3取得）"
+            },
+            {
+              "name": "Gun gun Gunawan　（グングン　グナワン）",
+              "additionalInfo": "（LPKコープインドネシア第15期卒業生）"
             }
           ]
         },
         "languageInstructors": {
-          "label": "Instruktur Bahasa dan Budaya Jepang:",
+          "label": "日本語・日本文化教育担当:",
           "members": [
             {
-              "name": "Nur Rizki Adi Jourgia Abdillah, S.Pd.",
-              "additionalInfo": "Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, Alumni Tokyo Gakugei University - Japan, JLPT N2"
+              "name": "Nur Rizki Adi Jourgia Abdillah, S.Pd.　（ヌル　リズキ　アディ　ジョルギア　アブディラ）",
+              "additionalInfo": "日本語教育学士（S1）、インドネシア教育大学卒業、東京学芸大学（日本）卒業生、日本語能力試験N2取得"
             },
             {
-              "name": "Trisnawati Srimulyani, S.Pd.",
-              "additionalInfo": "Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, Alumni Osaka Gaigo Gakuin, JLPT N2"
+              "name": "Trisnawati Srimulyani, S.Pd.　（トリスナワティ　スリムリヤニ）",
+              "additionalInfo": "日本語教育学士（S1）、インドネシア教育大学卒業、大阪外語学院卒業生、日本語能力試験N2取得"
+            },
+            {
+              "name": "Devy Ramputy, S.Pd　（デヴィ・ラムプティ）",
+              "additionalInfo": "日本語教育学士（S1）、インドネシア教育大学卒業、日本語能力試験N3取得"
+            },
+            {
+              "name": "Nida Siti Hanifah, S.Pd.　（ニダ　シティ　ハニファ）",
+              "additionalInfo": "ヤパリ外国語学校 - ABAバンドン卒業、日本語能力試験N3取得"
+            },
+            {
+              "name": "Rifa Aulia Husni Fadilla, S. Pd　（リファ　アウリア　フスニ　ファディラ）",
+              "additionalInfo": "日本語教育学士（S1）、インドネシア教育大学卒業、日本語能力試験N4取得"
+            },
+            {
+              "name": "Omar Hafiz Shirazi, S.Pd　（オマール・ハフィズ・シラジ）",
+              "additionalInfo": "日本語教育学士（S1）、インドネシア教育大学卒業、日本語能力試験N4取得"
             }
           ]
+        },
+        "generalAffairs": {
+          "label": "総務:",
+          "members": ["ムハマド　タウフィク"]
         }
       },
       "agriculture": {
-        "title": "Departemen Pertanian",
+        "title": "農業部",
         "members": [
           {
-            "name": "Suyitno",
-            "position": "Direktur",
+            "name": "Suyitno　（スイトノ）",
+            "position": "理事",
             "src": "/profile/suyitno.png",
-            "additionalInfo": "Alumni LPK COOP Indonesia Angkatan 6"
+            "additionalInfo": "LPKコープインドネシア第6期卒業生"
           }
         ],
         "supervisor": {
-          "title": "Supervisi Pertanian:",
+          "title": "農業監督担当：",
           "members": [
             {
-              "name": "Mokhamad Said",
-              "additionalInfo": "Alumni LPK COOP Indonesia Angkatan 1"
+              "name": "Mokhamad Said　（モハマド　サイド）",
+              "additionalInfo": "LPKコープインドネシア第1期卒業生"
+            }
+          ]
+        },
+        "adminAgriculture": {
+          "title": "農業管理担当:",
+          "members": [
+            {
+              "name": "Yunanta Trisutrisno　（ユナンタ・トリスツリスノ）",
+              "additionalInfo": "LPKコープインドネシア第25期技能実習生卒業生"
             }
           ]
         }
       },
       "MICE": {
-        "title": "Departemen MICE",
-        "subtitle": "(Meeting, Incentive, Convention, and Exhibition)",
-        "name": "Amboro Alfianto",
+        "title": "MICE部",
+        "subtitle": "（会議、インセンティブ、コンベンション、展示会）",
+        "name": "Amboro Alfianto　（アンボロ　アルフィアント）",
         "src": "/profile/amboro-alfianto.png",
-        "position": "Direktur",
+        "position": "理事",
         "staffProduct": {
-          "title": "Tim Produksi dan Media:",
+          "title": "制作とメディアの担当:",
           "staffs": [
-            "Muhammad Hisyam Rabbani, A,Md.Sn",
-            "Hafid Nur Wahyudin, A,Md.Sn",
-            "Winairoh, S.Tr.Ds."
+            "Muhammad Hisyam Rabbani　（ムハマド　ヒシャム　ラバニ）",
+            "Hafid Nur Wahyudin　（ハフィド　ヌル　ワユディン）"
           ]
         }
+      }
+    },
+    "aboutOrganization": {
+      "info": "について",
+      "title": "歴史",
+      "subtitle": "LPKコープインドネシアは、インドネシア国内に広がるネットワーク組織と、日本にある代表事務所を有しています。",
+      "addresses": [
+        {
+          "title": "本部所在地",
+          "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1901050107867!2d106.80672617574834!3d-6.238656761092927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1c36e387eb9%3A0x4aaca7ad92e87fa8!2sLPK%20COOP%20Indonesia!5e0!3m2!1sid!2sid!4v1711291791793!5m2!1sid!2sid"
+        },
+        {
+          "title": "教育施設",
+          "link": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d495.1358013746139!2d107.693136803924!3d-6.880251008947482!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68dd0011189e79%3A0xfc4c5e0ea82fe941!2sPUSDIKLAT%20LPK%20COOP%20INDONESIA!5e0!3m2!1sid!2sid!4v1713772213066!5m2!1sid!2sid"
+        }
+      ],
+      "office": {
+        "title": "日本駐在員事務所",
+        "addresses": [
+          {
+            "city": "東京",
+            "address": "Sanhaitsu Ikebukuro 204, 2-Chome 47-7 Minami Ikebukuro, Toshima City, Tokyo 171-0022, Japan",
+            "hp": "+8190-2481-0613",
+            "email": "arief@coopindonesia.com"
+          },
+          {
+            "city": "大阪",
+            "address": "1735-9 Shindachi Ichiba Sennan Shi Osaka Fu JAPAN 590-0504",
+            "tel": "+8172-4476-976",
+            "fax": "+8172-4476-976",
+            "hp": "+8180-4844-7883",
+            "email": "herizal@coopindonesia.com"
+          },
+          {
+            "city": "愛知",
+            "address": "4-11-16, Imure Minami, Toyohashi, Aichi-ken, JAPAN 440-0835",
+            "hp": "+8180-4224-1668",
+            "email": "devi@coopindonesia.com"
+          }
+        ]
       }
     },
     "aboutVisionAndMission": {
