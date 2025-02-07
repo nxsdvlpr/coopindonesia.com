@@ -1,6 +1,8 @@
 import { Flexbox, ImageNui, Typo } from '@/nui'
+import { useTranslations } from 'next-intl'
 
 export default function Partnership() {
+  const t = useTranslations()
   const partnerships = [
     {
       src: '/sponsor/fursato-logo.png',
@@ -23,7 +25,7 @@ export default function Partnership() {
   return (
     <Flexbox align="start" flow="col" gap="sm">
       <Typo size="md" fontWeight="semibold" color="gray-900">
-        Partnership
+        {t('sharedContent.partnership.label')}
       </Typo>
       <Flexbox align="start" gap="xs">
         {partnerships.map((partnership, index) => (

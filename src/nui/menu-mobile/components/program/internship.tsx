@@ -1,5 +1,6 @@
 import { menuDataStatic } from '@/app/[locale]/api/menu'
 import { Listbox } from '@/nui/listbox'
+import { useTranslations } from 'next-intl'
 import Link from 'next/link'
 import { useState } from 'react'
 import Button from './button'
@@ -11,6 +12,7 @@ type MenuInternshipProps = {
 export default function MenuProgramInternship({
   onclose,
 }: MenuInternshipProps) {
+  const t = useTranslations()
   const [isOpen, setIsOpen] = useState(false)
 
   const { internship } = menuDataStatic.program

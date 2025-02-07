@@ -9,11 +9,10 @@ import MenuProgramBusiness from './program-business'
 import MenuProgramInternship from './program-internship'
 
 export function MenuProgram() {
+  const t = useTranslations()
   const [isOpen, setIsOpen] = useState(false)
 
   const [state, setState] = useState('internship')
-
-  const t = useTranslations()
 
   const menu = t.raw('programPage.menu.program.menu')
 

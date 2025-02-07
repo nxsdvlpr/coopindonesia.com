@@ -1,6 +1,8 @@
 import { Flexbox, Icon, ImageNui, Typo } from '@/nui'
+import { useTranslations } from 'next-intl'
 
 export default function ContactInfo() {
+  const t = useTranslations()
   return (
     <div className="max-w-2xl">
       <div className="flex flex-col gap-x-8 gap-y-6 lg:flex-row">
@@ -11,11 +13,10 @@ export default function ContactInfo() {
           <Flexbox gap="lg" align="start" flow="col">
             <Flexbox gap="2xs" align="start" flow="col">
               <Typo size="md" fontWeight="semibold" color="gray-900">
-                Kantor Pusat
+                {t('sharedContent.contactInfo.label')}
               </Typo>
               <Typo size="sm" color="gray-900">
-                Jl. Ciragil II No.6;RT/RW 001/001 Kel. Rawa Barat, Kec.
-                Kebayoran Baru Jakarta Selatan 12180
+                {t('sharedContent.contactInfo.address')}
               </Typo>
             </Flexbox>
             <Flexbox gap="2xs" align="start" flow="col">
@@ -24,7 +25,7 @@ export default function ContactInfo() {
                   <Icon size="sm" icon="lucide:phone" />
                 </div>
                 <Typo size="sm" fontWeight="medium" color="gray-900">
-                  +62 21 29501010
+                  {t('sharedContent.contactInfo.phone')}
                 </Typo>
               </Flexbox>
               <Flexbox align="center" gap="xs">
@@ -32,18 +33,17 @@ export default function ContactInfo() {
                   <Icon size="sm" icon="lucide:mail" />
                 </div>
                 <Typo size="sm" fontWeight="medium" color="gray-900">
-                  mail@coopindonesia.com
+                  {t('sharedContent.contactInfo.email')}{' '}
                 </Typo>
               </Flexbox>
             </Flexbox>
           </Flexbox>
           <Flexbox gap="2xs" align="start" flow="col">
             <Typo size="md" fontWeight="semibold" color="gray-900">
-              PUSDIKLAT LPK COOP Indonesia
+              {t('sharedContent.contactTrainingCenter.label')}
             </Typo>
             <Typo size="sm" color="gray-900">
-              Jl. Arcamanik Sindanglaya, KP. Sekesalam RT/RW 001/008, DS.
-              Sindanglaya, Kec. Cimenyan, Kab. Bandung, Jawa Barat 40195
+              {t('sharedContent.contactTrainingCenter.address')}
             </Typo>
           </Flexbox>
         </div>

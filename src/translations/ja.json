@@ -91,84 +91,84 @@
         "menu": [
           {
             "icon": "lucide:graduation-cap",
-            "label": "ペマガンガンハウスジャパンG",
-            "description": "LPK COOP Indonesia melakukan proses rekrutmen",
+            "label": "日本技能実習生",
+            "description": "LPK COOPインドネシアは、参加者の募集から",
             "state": "internship"
           },
           {
             "icon": "lucide:briefcase-business",
-            "label": "Program Internship",
+            "label": "インターンシッププログラム",
             "description": "Penempatan Mahasiswa(i) Indonesia ke berbagai perusahaan di Jepang.",
             "state": "",
             "href": "/program/student-internship"
           },
           {
             "icon": "lucide:award",
-            "label": "Program Usaha Mandiri",
+            "label": "自主事業プログラム",
             "description": "Kegiatan usai magang di Jepang & kembali ke Tanah Air",
             "state": "business"
           }
         ],
         "internship": [
-          { "href": "/program/internship", "label": "Tentang Magang" },
+          { "href": "/program/internship", "label": "技能実習について" },
           {
             "href": "/program/internship/educational-material",
-            "label": "Materi Program"
+            "label": "プログラムの内容"
           },
           {
             "href": "/program/internship/registration",
-            "label": "Pendaftaran"
+            "label": "登録"
           },
           {
             "href": "/program/internship/placement-progress",
-            "label": "Progress Penempatan"
+            "label": "配置進捗"
           },
           {
             "href": "/program/internship/three-career-path",
-            "label": "Cara Berkarir di Jepang"
+            "label": "日本でのキャリアの始め方"
           },
           {
             "href": "/program/internship/pre-selection",
-            "label": "Pra Seleksi"
+            "label": "事前選考"
           },
           {
             "href": "/program/internship/terms-conditions",
-            "label": "Syarat & Ketentuan"
+            "label": "条件と規約"
           },
-          { "href": "/program/internship/selection", "label": "Seleksi" },
+          { "href": "/program/internship/selection", "label": "選考" },
           {
             "href": "/program/internship/documents",
-            "label": "Kelengkapan Dokumen"
+            "label": "必要書類"
           },
-          { "href": "/program/internship/training", "label": "Pelatihan" },
+          { "href": "/program/internship/training", "label": "訓練" },
           {
             "href": "/program/internship/rights-obligations",
-            "label": "Hak & Kewajiban"
+            "label": "権利と義務"
           },
-          { "href": "/program/internship/placement", "label": "Penempatan" },
+          { "href": "/program/internship/placement", "label": "配属" },
           {
             "href": "/program/internship/program-flow",
-            "label": "Alur Program"
+            "label": "プログラムの流れ"
           }
         ],
         "business": [
-          { "href": "/program/post-internship", "label": "Pendahuluan" },
+          { "href": "/program/post-internship", "label": "はじめに" },
           {
             "href": "/program/post-internship/furusato-agribisnis",
-            "label": "Furusato Agribisnis"
+            "label": "フルサトアグリビジネス"
           },
           {
             "href": "/program/post-internship/palm-sugar",
-            "label": "Gula Aren"
+            "label": "グラアレン（パームシュガー）"
           },
           {
             "href": "/program/post-internship/roselindo-tea",
-            "label": "Roselindo Tea"
+            "label": "ROSELINDO TEA （ロゼリンド茶）"
           }
         ],
         "studentInternship": {
           "icon": "lucide:briefcase-business",
-          "label": "Program Internship",
+          "label": "インターンシッププログラム",
           "href": "/program/student-internship"
         },
         "schools": [
@@ -216,28 +216,28 @@
       "galleries": [
         {
           "id": 1,
-          "label": "Kunjungan Kerja",
+          "label": "視察",
           "description": "Foto-foto kunjungan kerja",
           "href": "/gallery/work-visit",
           "icon": "lucide:image"
         },
         {
           "id": 2,
-          "label": "Kerjasama",
+          "label": "協力",
           "description": "Foto-foto kerjasama COOP Indonesia",
           "href": "/gallery/collaboration",
           "icon": "lucide:image"
         },
         {
           "id": 3,
-          "label": "Kegiatan Magang",
+          "label": "技能実習生活動",
           "description": "Foto-foto peserta dalam kegiatan magang",
           "href": "/gallery/internship-activities",
           "icon": "lucide:image"
         },
         {
           "id": 4,
-          "label": "Pusdiklat Magang",
+          "label": "技能実習生教育訓練センター",
           "description": "Foto-foto kegiatan di pusdiklat magang",
           "href": "/gallery/training-center",
           "icon": "lucide:image"
@@ -246,35 +246,35 @@
       "about": [
         {
           "id": 1,
-          "label": "Tentang Kami",
+          "label": "私たちについて",
           "description": "Sekilas tentang LPK COOP Indonesia",
           "href": "/about/at-a-glance",
           "icon": "lucide:building-2"
         },
         {
           "id": 2,
-          "label": "Misi dan Visi",
+          "label": "企業理念",
           "description": "Lebih jauh tentang tujuan kami",
           "href": "/about/vision-and-mission",
           "icon": "lucide:scan-eye"
         },
         {
           "id": 3,
-          "label": "Struktur Organisasi",
+          "label": "役員・事務局一覧",
           "description": "Dewan kepemimpinan dan staf",
           "href": "/about/organization-structure",
           "icon": "lucide:network"
         },
         {
           "id": 4,
-          "label": "Sejarah",
+          "label": "歴史",
           "description": "Kisah dibalik perjalanan kami",
           "href": "/about/organization",
           "icon": "lucide:book-open"
         }
       ],
       "contact": {
-        "label": "CONTACT US",
+        "label": "お問い合わせ",
         "href": "/contact-us"
       }
     }
@@ -439,7 +439,7 @@
   },
   "internshipRightsObligation": {
     "info": "日本での技能実習プログラム",
-    "title": "Hak dan Kewajiban",
+    "title": "参加者の権利参加者の義務",
     "image": {
       "src": "/program/rights-obligations-image-1.svg",
       "alt": "rights-obligations-image-1-coop-indonesia"
@@ -520,6 +520,272 @@
         "title": "D. 起業家精神（10%）:",
         "body": "- 自営業計画\n- 協同組合の紹介\n- 簡単な財務管理"
       }
+    ]
+  },
+  "internshipPlacementProgress": {
+    "info": "日本での技能実習プログラム",
+    "title": "配置進捗",
+    "image": {
+      "src": "/program/placement-progress-image-1.svg",
+      "alt": "placement-progress-image-1-coop-indonesia"
+    }
+  },
+  "internshipPreSelection": {
+    "info": "日本での技能実習プログラム",
+    "title": "事前選考",
+    "images": [
+      {
+        "src": "/pre-selection/pre-selection-image-2.png",
+        "alt": "pre-selection-image-2-coop-indonesia"
+      },
+      {
+        "src": "/pre-selection/pre-selection-image-3.png",
+        "alt": "pre-selection-image-3-coop-indonesia"
+      },
+      {
+        "src": "/pre-selection/pre-selection-image-4.png",
+        "alt": "pre-selection-image-4-coop-indonesia"
+      },
+      {
+        "src": "/pre-selection/pre-selection-image-5.png",
+        "alt": "pre-selection-image-5-coop-indonesia"
+      },
+      {
+        "src": "/pre-selection/pre-selection-image-6.png",
+        "alt": "pre-selection-image-6-coop-indonesia"
+      },
+      {
+        "src": "/pre-selection/pre-selection-image-7.png",
+        "alt": "pre-selection-image-7-coop-indonesia"
+      }
+    ],
+    "content": {
+      "title": "事前選考活動",
+      "body": "事前選考活動は、LPKコープインドネシアのリクルートメントチームによって実施され、日本での技能実習プログラムに参加することに興味のある候補者を選抜するために行われます。\n\n事前選考は、バンドンのLPKコープインドネシアの教育訓練センター（Pusdiklat）や、LPKコープインドネシアのパートナーであるLPK支援拠点で実施される場合があります。\n\n事前選考の内容：\n\n 1. **体力テスト**: ランニング、腹筋、腕立て伏せ、懸垂、シャトルラン\n 2. **筆記テスト**: 基本的な日本語、数学、学力試験、心理テスト\n 3. **履歴書の記入**: 履歴書の記入、書類のチェック、健康診断結果の確認\n 4. **身体条件のチェック**: 以下の身体条件を確認します：欠損、刺青または刺青跡、ピアスまたはピアス跡、骨折、難聴、ヘルニア、皮膚疾患、色盲、特定の手術跡がないこと\n 5. **面接**: 知識、一般常識、プログラムの理解、パフォーマンスなどについての面接 \n\nこの事前選考活動は、日本企業との面接プロセスに入る前の第1段階の選抜です。"
+    }
+  },
+  "internshipSelection": {
+    "info": "日本での技能実習プログラム",
+    "title": "候補者選考",
+    "images": [
+      {
+        "src": "/selection/selection-image-2.png",
+        "alt": "selection-image-2-coop-indonesia"
+      },
+      {
+        "src": "/selection/selection-image-3.png",
+        "alt": "selection-image-3-coop-indonesia"
+      },
+      {
+        "src": "/selection/selection-image-4.png",
+        "alt": "selection-image-4-coop-indonesia"
+      }
+    ],
+    "content": {
+      "title": "選考活動",
+      "body": "選考活動および企業面接は、受け入れ企業または受け入れ機関（Accepting Organization/AO）によって日本で直接行われます。\n\n候補者が面接に参加するための条件は、LPKコープインドネシアによる事前選考に合格していることです。\n\n 選考に合格した参加者は、約90日間のLPKコープインドネシア教育訓練センター（Pusdiklat）での教育および訓練に備えます。参加者はまた、日本への配置プロセスのために必要な書類を揃える必要があります。"
+    }
+  },
+  "internshipTraining": {
+    "info": "日本での技能実習プログラム",
+    "title": "訓練",
+    "images": [
+      {
+        "src": "/training/training-image-2.png",
+        "alt": "training-image-2-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-3.png",
+        "alt": "training-image-3-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-4.png",
+        "alt": "training-image-4-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-5.png",
+        "alt": "training-image-5-coop-indonesia"
+      }
+    ],
+    "content": {
+      "title": "教育と訓練期間",
+      "body": "日本の企業への配置前に、LPKコープインドネシアの教育訓練センター（PUSDIKLAT）で90日間の準備期間があります。この期間には以下の内容が含まれます：\n\n1. 日本語教育\n2. 日本文化の紹介\n3. 体力、メンタル、および規律の訓練\n4. 配置分野に応じた職業技能訓練\n\n教育訓練センターでの期間中、候補者は外部との接触が制限され、隔離状態で生活します。参加者は全ての規則を遵守する必要があり、LPKコープインドネシアは規則違反を犯した候補者を帰国させるか、渡航を取り消す権利を有します。\n\nしたがって、教育および訓練期間に参加する候補者は、精神的および肉体的に完全に準備されている必要があります。LPKコープインドネシアのトレーナーおよび教師（先生）の指導のもとで、十分な準備を整えることが求められます。"
+    }
+  },
+  "studentInternship": {
+    "info": "INTERNSHIP",
+    "title": "インターンシッププログラム",
+    "contents": {
+      "body": "LPK COOP Indonesia bekerjasama dengan beberapa Kampus/ Universitas di Bandung dan Jogja untuk menempatkan Mahasiswa(i) Indonesia ke berbagai perusahaan di Jepang, diantaranya Perusahaan Aviasi dan Teknologi Informasi.\n\nMelalui program Internship, Mahasiswa(i) akan mendapatkan berbagai bimbingan dalam pekerjaan. Hal itu akan membuat mahasiswa(i) memperoleh skillset atau networking di dunia pekerjaan. Masa Penempatan Internship 6 bulan atau 1 tahun.\n\nUntuk Bidang Aviasi, Mahasiswa(i) akan ditempatkan di Counter Check in Bandara Narita, sedangkan untuk bidang Teknologi Informasi, Mahasiswa(i) bersama dengan Tim Developer lain akan membangun Sistem Informasi maupun Aplikasi untuk berbagai perusahaan di Jepang.\n\nSelanjutnya, Mahasiswa(i) yang telah menyelesaikan kegiatan Internship di Jepang akan kembali ke kampus-nya kembali di Tanah Air dan menyelesaikan Perkuliahannya.\n\nSetelah mendapatkan Ijazah S1, Mahasiswa(i) tersebut dapat kembali melanjutkan bekerja di Perusahaan sebelumnya dengan Status Visa Workers, dan dapat tinggal di Jepang dengan waktu TIDAK TERBATAS.\n\nBagi LPK COOP Indonesia Program INTERNSHIP ini merupakan Kelanjutan dari Program Pemagangan khususnya bidang Ground Handling, dimana Peserta Pemagangan di tempatkan dibagian Pengaturan Kargo Pesawat atau Penataan Bagasi Penumpang, sedangkan Mahasiswa(i) INTERNSHIP ditempatkan di COUNTER CHECK IN.\n\nMerupakan suatu Kesempatan dan Kehormatan bilamana Anak-Anak Muda Indonesia dapat berkontribusi terhadap kekurangan Tenaga Kerja di Jepang, khususnya di dunia Aviasi.\n\n Karena itu, Jangan Kaget teman-teman Traveler bila suatu waktu, ketika anda melakukan Check in Pesawat di beberapa Bandara di Jepang, anda akan menemukan pekerja yang dapat melayani Anda dengan Bahasa Indonesia !!!\n\nBagaimana… Minat..?"
+    },
+    "images": [
+      {
+        "src": "/training/training-image-1.png",
+        "alt": "training-image-1-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-2.png",
+        "alt": "training-image-2-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-3.png",
+        "alt": "training-image-3-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-4.png",
+        "alt": "training-image-4-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-5.png",
+        "alt": "training-image-5-coop-indonesia"
+      }
+    ]
+  },
+  "postInternship": {
+    "info": "自事業プログラム",
+    "title": "はじめに",
+    "contents": {
+      "title": "自営業開発プログラム",
+      "body": "自営業開発プログラムは、LPKコープインドネシアが実施する日本からの技能実習後の活動です。このプログラムは、日本での技能実習プログラムを終了し、帰国した参加者を支援するために設けられています。参加者が「THE ENTREPRENEUR」という技能実習プログラムのタグラインに沿って、自立して事業を開始することを期待しています。\n\n日本からの技能実習後プログラムは、参加者が将来個人またはグループで独立した事業を開始できるよう支援することを目的としています。\n\n現在、LPKコープインドネシアの技能実習参加者の卒業生は、以下の様々な分野で事業を展開しています：\n- 砂糖椰子農業\n- 乳牛および肉牛の畜産\n- ロゼリンド茶の栽培\n- 内水面養殖\n- その他の分野\n\nLPKコープインドネシアは、製品のマーケティングおよび生産品質の向上において、民間企業や地方政府の関連機関と協力しています。この協力により、国内市場および国際市場での競争力を高めることができます。"
+    },
+    "images": [
+      {
+        "src": "/training/training-image-1.jpg",
+        "alt": "training-image-1-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-2.jpg",
+        "alt": "training-image-2-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-3.jpg",
+        "alt": "training-image-3-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-4.jpg",
+        "alt": "training-image-4-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-5.jpg",
+        "alt": "training-image-5-coop-indonesia"
+      }
+    ]
+  },
+  "postInternshipFurusatoAgribisnis": {
+    "info": "自事業プログラム",
+    "title": "フルサトアグリビジネス",
+    "content": {
+      "title": "フルサトアグリビジネスでより良い生活を",
+      "body": "LPKコープインドネシアは、日本の田原市からのNPOと協力して、東ジャワ州マランのバトゥ市ブミアジに「環境に優しい農業の卓越センター」を設立しました。<br/><br/> ブミアジ活動は、日本での技能実習プログラムを終了し帰国した卒業生が、得た知識を発展させるために開始されます。さらに、田原市からの専門家が、最適な結果を達成するための支援を行います。<br/><br/> プログラムの目的：\n1. 地元の若者を中心に、現代農業について無料で学ぶ機会を提供します。\n2. 東ジャワ州マランのバトゥ市ブミアジを、国内市場で海外製品と競争できる環境に優しい農業産業の卓越センターとします。\n3. 東ジャワ州マランのバトゥ市ブミアジを、環境に優しい農業産業の卓越センター（Center of Excellence）として発展させ、国内市場で海外製品と競争力を持たせます。\n4. インドネシアのバトゥ市と日本の田原市が、将来的に姉妹都市となるための協力を促進します。これは、バトゥ市の市長と田原市の市長の協力によって実現されます。"
+    },
+    "images": [
+      {
+        "src": "/training/training-image-1.jpg",
+        "alt": "training-image-1-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-2.jpg",
+        "alt": "training-image-2-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-3.jpg",
+        "alt": "training-image-3-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-4.jpg",
+        "alt": "training-image-4-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-5.jpg",
+        "alt": "training-image-5-coop-indonesia"
+      }
+    ]
+  },
+  "postInternshipPalmSugar": {
+    "info": "自事業プログラム",
+    "title": "グラアレン（パームシュガー）",
+    "content": {
+      "title": "グラアレン（パームシュガー）",
+      "body": "これは、西ジャワ州チアンジュール出身の技能実習プログラム卒業生による製品です。LPKコープインドネシアは、**グラアレン（パームシュガー）**の包装とマーケティングを国内市場および日本市場向けに支援しています。<br/><br/> グラアレンは、多くの健康効果を持つ赤砂糖です。しかし、現在の多くの消費者は、通常の赤砂糖や白砂糖を選ぶことが多いです。その理由は、グラアレンが持つ赤い色が、提供される食べ物や飲み物の基本色を変えてしまうからです。それでも、グラアレンは、ジェナンやガドガドなど特定の食べ物の天然着色料として使用できます。<br/><br/> グラアレンは、アレンの木の雄花から得られる樹液から作られる天然の甘味料です。アレンは、グルコースの形で豊富な炭水化物を含むヤシ科の植物の一種です。グラアレンの糖度は、通常の赤砂糖や白砂糖よりも高いですが、多くの健康効果があります"
+    },
+    "benefits": {
+      "title": "グラアレンの健康効果",
+      "body": "* 口内炎の治療\n* 貧血の予防\n* 糖尿病患者に適していること\n* 体力の向上\n* 美容効果\n* 肝炎の予防\n* 体内のカロリーを減らすこと\n* 胃潰瘍の痛みを和らげること\n* 伝統薬の成分\n* 抗酸化物質の供給源\n* 神経系への効果"
+    },
+    "images": [
+      {
+        "src": "/training/training-image-1.jpg",
+        "alt": "training-image-1-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-2.jpg",
+        "alt": "training-image-2-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-3.jpg",
+        "alt": "training-image-3-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-4.jpg",
+        "alt": "training-image-4-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-5.jpg",
+        "alt": "training-image-5-coop-indonesia"
+      }
+    ]
+  },
+  "postInternshipRoselindoTea": {
+    "info": "自事業プログラム",
+    "title": "ROSELINDO TEA （ロゼリンド茶）",
+    "contents": {
+      "title": "Roselindo Tea",
+      "body": "ROSELINDO TEAは、ROSELA HERBAL INDONESIAから抽出された高品質カリックスエキスで作られたハーブティーの一種です。<br/><br/> LPKコープインドネシアは、マランの甘味および繊維作物研究センター（BALITTAS）と協力してROSELINDO TEAを生産しています。ROSELINDO品種の使用により、ROSELINDO TEAの品質の一貫性が保証されます。<br/><br/> ROSELINDO品種のROSELA HERBALの栽培は、東ジャワ州のガンジュックで、日本からの技能実習生の卒業生グループが環境に優しい方法で行われています。ROSELINDO TEAは国内市場だけでなく、日本でも販売されており、健康に良いオーガニックハーブ製品として認められています。",
+      "images": [
+        {
+          "src": "/training/training-image-1.jpg",
+          "alt": "training-image-1-coop-indonesia"
+        },
+        {
+          "src": "/training/training-image-2.jpg",
+          "alt": "training-image-2-coop-indonesia"
+        },
+        {
+          "src": "/training/training-image-3.jpg",
+          "alt": "training-image-3-coop-indonesia"
+        },
+        {
+          "src": "/training/training-image-4.jpg",
+          "alt": "training-image-4-coop-indonesia"
+        },
+        {
+          "src": "/training/training-image-5.jpg",
+          "alt": "training-image-5-coop-indonesia"
+        }
+      ]
+    },
+    "postContents": [
+      {
+        "title": "なぜお茶を飲むのか",
+        "content": "一般的に、お茶には抗酸化物質が含まれており、体の脂肪燃焼を助け、心臓発作のリスクを低減する効果があります。"
+      },
+      {
+        "title": "ROSELINDO TEAの健康効果",
+        "content": "* 体力と免疫力の向上\n* 高血圧の低下\n* コレステロールと尿酸の低下\n* 糖尿病患者の血糖値の低下\n* 骨粗しょう症の予防\n* 癌および腫瘍の予防\n* 肌の滑らかさを保ち、早期老化を防止\n* 熱中症、口内炎、喉の痛みを緩和\n* 血液循環、排尿および排便を促進"
+      },
+      {
+        "title": "ROSELINDO TEAの栄養成分",
+        "content": "* ビタミンC（200mg以上/100g）\n* ベータカロテン（10mg以上/100g）\n* カルシウム、鉄、アントシアニン\n* d抗菌、抗真菌、抗炎症、抗糖尿病、抗酸化、抗高血圧などの健康促進活動を持つフィトケミカル"
+      },
+      {
+        "title": "購入方法",
+        "content": "現在、ROSELINDO TEAは以下のオンラインストアで購入できます。"
+      }
+    ],
+    "followUsImages": [
+      "/follow-us/instagram.svg",
+      "/follow-us/facebook.svg",
+      "/follow-us/tiktok.svg"
     ]
   },
   "sharedContent": {
@@ -667,6 +933,94 @@
       "title": "私たちと一緒に、自分を成長させ、強力な起業家（Entrepreneur）になりましょう",
       "desc": "詳細については、ぜひお問い合わせください ...",
       "buttonName": "お問い合わせ"
+    },
+    "contactInfo": {
+      "label": "本部所在地",
+      "address": "Jl. Ciragil II No.6;RT/RW 001/001 Kel. Rawa Barat, Kec.Kebayoran Baru Jakarta Selatan 12180",
+      "phone": "+62 21 29501010",
+      "email": "mail@coopindonesia.com"
+    },
+    "contactTrainingCenter": {
+      "label": "LPKコープインドネシアの教育施設",
+      "address": "Jl. Arcamanik Sindanglaya, KP. Sekesalam RT/RW 001/008, DS.Sindanglaya, Kec. Cimenyan, Kab. Bandung, Jawa Barat 40195"
+    },
+    "partnership": {
+      "label": "パートナーシップ"
+    },
+    "menuProgramInternship": {
+      "title": "日本技能実習生",
+      "internship": [
+        { "href": "/program/internship", "label": "技能実習について" },
+        {
+          "href": "/program/internship/educational-material",
+          "label": "研修と訓練の内容"
+        },
+        { "href": "/program/internship/registration", "label": "応募" },
+        {
+          "href": "/program/internship/placement-progress",
+          "label": "配置進捗"
+        },
+        {
+          "href": "/program/internship/three-career-path",
+          "label": "日本でキャリアを積むための3つの道"
+        },
+        { "href": "/program/internship/pre-selection", "label": "事前選考" },
+        {
+          "href": "/program/internship/terms-conditions",
+          "label": "条件と規約"
+        },
+        { "href": "/program/internship/selection", "label": "候補者選考" },
+        {
+          "href": "/program/internship/documents",
+          "label": "必要な書類"
+        },
+        { "href": "/program/internship/training", "label": "訓練" },
+        {
+          "href": "/program/internship/rights-obligations",
+          "label": "参加者の権利参加者の義務"
+        },
+        { "href": "/program/internship/placement", "label": "配置" },
+        {
+          "href": "/program/internship/program-flow",
+          "label": "プログラムの流れ"
+        }
+      ]
+    },
+    "menuProgramBusiness": {
+      "title": "日本技能実習生",
+      "business": [
+        { "href": "/program/post-internship", "label": "はじめに" },
+        {
+          "href": "/program/post-internship/furusato-agribisnis",
+          "label": "フルサトアグリビジネス"
+        },
+        {
+          "href": "/program/post-internship/palm-sugar",
+          "label": "グラアレン（パームシュガー）"
+        },
+        {
+          "href": "/program/post-internship/roselindo-tea",
+          "label": "ROSELINDO TEA （ロゼリンド茶）"
+        }
+      ]
+    }
+  },
+  "gallery": {
+    "workVisit": {
+      "info": "ギャラリー",
+      "title": "視察"
+    },
+    "collaboration": {
+      "info": "ギャラリー",
+      "title": "協力"
+    },
+    "internshipActivities": {
+      "info": "ギャラリー",
+      "title": "技能実習生活動"
+    },
+    "trainingCenter": {
+      "info": "ギャラリー",
+      "title": "技能実習生教育訓練センター"
     }
   },
   "aboutPage": {
@@ -992,5 +1346,18 @@
         "description": "平等と公正を基盤に社会的連携のシナジーを発展させ、国民の福祉、競争力、そして国家の進歩を向上させるために、プロフェッショナルで信頼できる人材を提供することです。"
       }
     }
+  },
+  "contactUsPage": {
+    "info": "お問い合わせ",
+    "title": "お問い合わせ"
+  },
+  "form": {
+    "firstName": "姓",
+    "lastName": "名",
+    "email": "Your@company.com",
+    "desc": "説明を入力してください。",
+    "privacy": "当社のプライバシーポリシー",
+    "policy": "に同意します。",
+    "message": "送信"
   }
 }

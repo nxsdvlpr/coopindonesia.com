@@ -2,6 +2,7 @@
 
 import { menuDataStatic } from '@/app/[locale]/api/menu'
 import { Section, Typo } from '@/nui'
+import { useTranslations } from 'next-intl'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { menuLinkstyle, menustyle, wrapperMenuStyle } from './menu.style'
@@ -21,6 +22,7 @@ export function Menu({
   showMenuNihonggo,
   showMenuPostInternship,
 }: MenuProps) {
+  const t = useTranslations()
   const { about, program } = menuDataStatic
 
   const { container } = menustyle()
@@ -50,13 +52,17 @@ export function Menu({
         <Typo size="lg" fontWeight="bold" color="gray-900">
           {showMenuAbout && 'ABOUT'}
           {(showMenuNihonggo || showMenuInternship || showMenuPostInternship) &&
-            'PEMAGANGAN KE JEPANG'}
+            t('sharedContent.menuProgramBusiness.title')}
         </Typo>
         <div className={container()}>
           {showMenuAbout && renderLinks(about)}
-          {showMenuInternship && renderLinks(internship)}
+          {showMenuInternship &&
+            renderLinks(
+              t.raw('sharedContent.menuProgramInternship.internship')
+            )}
           {showMenuNihonggo && renderLinks(nihonggo)}
-          {showMenuPostInternship && renderLinks(business)}
+          {showMenuPostInternship &&
+            renderLinks(t.raw('sharedContent.menuProgramBusiness.business'))}
         </div>
       </div>
     </Section>

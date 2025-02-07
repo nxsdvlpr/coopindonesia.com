@@ -2,9 +2,11 @@ import { postInternshiProselindoTeaDataStatic } from '@/app/[locale]/api/post-in
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
 import { Menu } from '@/features/shared/menu'
 import { Flexbox, ImageNui, Markdown, Section, SectionTitle, Typo } from '@/nui'
+import { useTranslations } from 'next-intl'
 import PostInternshipContent from './content'
 
 export default function PostInternshiProselindoTea() {
+  const t = useTranslations()
   const { info, title, contents, postContents, followUsImages } =
     postInternshiProselindoTeaDataStatic
 
@@ -17,29 +19,35 @@ export default function PostInternshiProselindoTea() {
   return (
     <>
       <Section>
-        <SectionTitle sizeTitle="6xl" info={info} title={title} />
+        <SectionTitle
+          sizeTitle="6xl"
+          info={t('postInternshipRoselindoTea.info')}
+          title={t('postInternshipRoselindoTea.title')}
+        />
       </Section>
       <PostInternshipContent
-        title={contents.title}
+        title={t('postInternshipRoselindoTea.contents.title')}
         items={items}
-        makdown={contents.body}
+        makdown={t('postInternshipRoselindoTea.contents.body')}
       >
-        {postContents.map((item, index) => (
-          <Flexbox key={index} flow="col" gap="none" align="normal">
-            <Typo size="2xl" fontWeight="bold" color="gray-900">
-              {item.title}
-            </Typo>
-            <Markdown size="lg">{item.content}</Markdown>
-            <Flexbox gap="xs">
-              {item.title === 'Ketersediaan' &&
-                followUsImages.map((image) => (
-                  <div className="w-5">
-                    <ImageNui src={image} alt="image-follow-us" />
-                  </div>
-                ))}
+        {t
+          .raw('postInternshipRoselindoTea.postContents')
+          .map((item: any, index: number) => (
+            <Flexbox key={index} flow="col" gap="none" align="normal">
+              <Typo size="2xl" fontWeight="bold" color="gray-900">
+                {item.title}
+              </Typo>
+              <Markdown size="lg">{item.content}</Markdown>
+              <Flexbox gap="xs">
+                {item.title === 'Ketersediaan' &&
+                  followUsImages.map((image) => (
+                    <div className="w-5">
+                      <ImageNui src={image} alt="image-follow-us" />
+                    </div>
+                  ))}
+              </Flexbox>
             </Flexbox>
-          </Flexbox>
-        ))}
+          ))}
       </PostInternshipContent>
       <Menu showMenuPostInternship />
       <FeaturedPrograms variant="gray" />

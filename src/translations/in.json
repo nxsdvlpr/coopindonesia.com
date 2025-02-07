@@ -522,6 +522,272 @@
       }
     ]
   },
+  "internshipPlacementProgress": {
+    "info": "PROGRAM PEMAGANGAN KE JEPANG",
+    "title": "Progress Penempatan",
+    "image": {
+      "src": "/program/placement-progress-image-1.svg",
+      "alt": "placement-progress-image-1-coop-indonesia"
+    }
+  },
+  "internshipPreSelection": {
+    "info": "PROGRAM PEMAGANGAN KE JEPANG",
+    "title": "Pra Seleksi",
+    "images": [
+      {
+        "src": "/pre-selection/pre-selection-image-2.png",
+        "alt": "pre-selection-image-2-coop-indonesia"
+      },
+      {
+        "src": "/pre-selection/pre-selection-image-3.png",
+        "alt": "pre-selection-image-3-coop-indonesia"
+      },
+      {
+        "src": "/pre-selection/pre-selection-image-4.png",
+        "alt": "pre-selection-image-4-coop-indonesia"
+      },
+      {
+        "src": "/pre-selection/pre-selection-image-5.png",
+        "alt": "pre-selection-image-5-coop-indonesia"
+      },
+      {
+        "src": "/pre-selection/pre-selection-image-6.png",
+        "alt": "pre-selection-image-6-coop-indonesia"
+      },
+      {
+        "src": "/pre-selection/pre-selection-image-7.png",
+        "alt": "pre-selection-image-7-coop-indonesia"
+      }
+    ],
+    "content": {
+      "title": "Kegiatan Pra Seleksi Calon Peserta Pemagangan",
+      "body": "Kegiatan Pra Seleksi diselenggarakan oleh Tim Recruitmen LPK COOP Indonesia dalam rangka menyeleksi Calon Peserta yang berminat untuk mengikuti program penempatan peserta pemagangan ke Jepang.\n\nPra Seleksi dapat diselenggarakan di Pusdiklat LPK COOP Indonesia di Bandung maupun di Lokasi-Lokasi LPK Penyangga yang merupakan Mitra Kerja LPK COOP Indonesia.\n\nAdapun Materi Pra Seleksi yang diberikan kepada Calon Peserta antara lain:\n\n 1. Tes Fisik: Lari, Sit up, Push up, Pull up, Shuttle Run\n 2. Tes Tertulis: Bahasa Jepang dasar, Matematika, Akademis dan Psykotes\n 3. Pengisian Form CV Calon Peserta dan Pengecekan Kelengkapan Dokumen dan Hasil MCU CV Calon Peserta\n 4. Mengecek Ketentuan Fisik Calon Peserta, antara lain: (TIDAK) cacat, bertato atau bekas tato, tindik/bekas tindik, patah tulang, tuli, hernia, penyakit kulit, buta warna, bekas operasi tertentu.\n 5. Wawancara tentang wawasan, pengetahuan umum, pengertian program, performance dll. \n\nKegiatan pra seleksi ini juga merupakan Penyaringan Tahap 1 calon peserta sebelum Proses Wawancara dengan Pihak Perusahaan Jepang."
+    }
+  },
+  "internshipSelection": {
+    "info": "PROGRAM PEMAGANGAN KE JEPANG",
+    "title": "Seleksi Calon Peserta",
+    "images": [
+      {
+        "src": "/selection/selection-image-2.png",
+        "alt": "selection-image-2-coop-indonesia"
+      },
+      {
+        "src": "/selection/selection-image-3.png",
+        "alt": "selection-image-3-coop-indonesia"
+      },
+      {
+        "src": "/selection/selection-image-4.png",
+        "alt": "selection-image-4-coop-indonesia"
+      }
+    ],
+    "content": {
+      "title": "Kegiatan Seleksi/Wawancara Perusahaan",
+      "body": "Merupakan Kegiatan Seleksi yang diadakan langsung oleh Pihak Perusahaan Penerima atau diwakili oleh Lembaga Penerima (Accepting Organization/AO) di Jepang.\n\nSyarat bagi calon peserta untuk mengikuti Wawancara adalah telah **LULUS Pra Seleksi LPK COOP Indonesia.**\n\n Peserta yang terpilih pada Kegiatan Seleksi ini selanjutnya akan mempersiapkan diri untuk mengikuti Pendidikan dan Pelatihan di Pusdiklat LPK COOP Indonesia selama kurang lebih 90 hari. Selain itu Para Peserta juga Wajib melengkapi dokumen yang diperlukan untuk proses penempatan ke Jepang."
+    }
+  },
+  "internshipTraining": {
+    "info": "PROGRAM PEMAGANGAN KE JEPANG",
+    "title": "Pelatihan",
+    "images": [
+      {
+        "src": "/training/training-image-2.png",
+        "alt": "training-image-2-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-3.png",
+        "alt": "training-image-3-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-4.png",
+        "alt": "training-image-4-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-5.png",
+        "alt": "training-image-5-coop-indonesia"
+      }
+    ],
+    "content": {
+      "title": "Masa Pendidikan & Pelatihan",
+      "body": "Merupakan persiapan bagi para Calon Peserta Pemagangan selama 90 hari di Pusat Pendidikan dan Pelatihan LPK COOP Indonesia sebelum penempatan di Perusahaan Jepang yang meliputi:\n\n1. Pendidikan Bahasa Jepang\n2. Pengenalan Budaya Jepang\n3. Pelatihan Fisik, Mental dan Disiplin\n4. Keterampilan Kerja sesuai bidang penempatan\n\nCalon Peserta selama di PUSDIKLAT akan di karantina dan tidak dapat berinteraksi dengan pihak luar. Para Peserta wajib mengikuti setiap Aturan yang berlaku dan Pihak LPK COOP Indonesia dapat memulangkan atau membatalkan keberangkatan Calon Peserta yang melakukan Pelanggaran.\n\nKarena itu, Para Peserta yang akan mengikuti masa Pendidikan dan Pelatihan harus benar-benar sudah siap Mental dan Fisik untuk dipersiapkan oleh TIM PELATIH dan Guru (Sensei) LPK COOP Indonesia."
+    }
+  },
+  "studentInternship": {
+    "info": "INTERNSHIP",
+    "title": "Program Internship",
+    "contents": {
+      "body": "LPK COOP Indonesia bekerjasama dengan beberapa Kampus/ Universitas di Bandung dan Jogja untuk menempatkan Mahasiswa(i) Indonesia ke berbagai perusahaan di Jepang, diantaranya Perusahaan Aviasi dan Teknologi Informasi.\n\nMelalui program Internship, Mahasiswa(i) akan mendapatkan berbagai bimbingan dalam pekerjaan. Hal itu akan membuat mahasiswa(i) memperoleh skillset atau networking di dunia pekerjaan. Masa Penempatan Internship 6 bulan atau 1 tahun.\n\nUntuk Bidang Aviasi, Mahasiswa(i) akan ditempatkan di Counter Check in Bandara Narita, sedangkan untuk bidang Teknologi Informasi, Mahasiswa(i) bersama dengan Tim Developer lain akan membangun Sistem Informasi maupun Aplikasi untuk berbagai perusahaan di Jepang.\n\nSelanjutnya, Mahasiswa(i) yang telah menyelesaikan kegiatan Internship di Jepang akan kembali ke kampus-nya kembali di Tanah Air dan menyelesaikan Perkuliahannya.\n\nSetelah mendapatkan Ijazah S1, Mahasiswa(i) tersebut dapat kembali melanjutkan bekerja di Perusahaan sebelumnya dengan Status Visa Workers, dan dapat tinggal di Jepang dengan waktu TIDAK TERBATAS.\n\nBagi LPK COOP Indonesia Program INTERNSHIP ini merupakan Kelanjutan dari Program Pemagangan khususnya bidang Ground Handling, dimana Peserta Pemagangan di tempatkan dibagian Pengaturan Kargo Pesawat atau Penataan Bagasi Penumpang, sedangkan Mahasiswa(i) INTERNSHIP ditempatkan di COUNTER CHECK IN.\n\nMerupakan suatu Kesempatan dan Kehormatan bilamana Anak-Anak Muda Indonesia dapat berkontribusi terhadap kekurangan Tenaga Kerja di Jepang, khususnya di dunia Aviasi.\n\n Karena itu, Jangan Kaget teman-teman Traveler bila suatu waktu, ketika anda melakukan Check in Pesawat di beberapa Bandara di Jepang, anda akan menemukan pekerja yang dapat melayani Anda dengan Bahasa Indonesia !!!\n\nBagaimana… Minat..?"
+    },
+    "images": [
+      {
+        "src": "/training/training-image-1.png",
+        "alt": "training-image-1-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-2.png",
+        "alt": "training-image-2-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-3.png",
+        "alt": "training-image-3-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-4.png",
+        "alt": "training-image-4-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-5.png",
+        "alt": "training-image-5-coop-indonesia"
+      }
+    ]
+  },
+  "postInternship": {
+    "info": "PROGRAM USAHA MANDIRI",
+    "title": "Pendahuluan",
+    "contents": {
+      "title": "Pengembangan Usaha Mandiri",
+      "body": "Program Pengembangan Usaha Mandiri adalah kegiatan Pasca Magang dari Jepang yang diselenggarakan oleh LPK COOP Indonesia untuk memfasilitasi para peserta yang telah selesai mengikuti program magang di Jepang dan kembali ke Tanah Air. Diharapkan para peserta tersebut berkeinginan untuk memulai usaha mandiri sebagaimana Tagline dari program magang itu sendiri yaitu '**THE ENTREPRENEUR**'.\n\nProgram Pasca Magang dari Jepang bertujuan untuk melakukan pendampingan bagi para peserta agar kelak bisa memulai usaha mandiri baik secara perorangan maupun berkelompok.\n\nAlumni Peserta Magang dari LPK COOP Indonesia saat ini telah bergerak di berbagai bidang usaha, diantaranya : **Pertanian Gula Aren, Peternakan Sapi Perah dan Pedaging, Pertanian Teh Roselindo, Perikanan darat,** dan lain-lain.\n\nDalam hal pemasaran dan peningkatan kualitas hasil produksi, LPK COOP Indonesia bekerjasama dengan beberapa pihak baik swasta maupun institusi terkait dari pemerintah daerah sehingga dapat meningkatkan daya saing ke pasar domestik maupun global."
+    },
+    "images": [
+      {
+        "src": "/training/training-image-1.jpg",
+        "alt": "training-image-1-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-2.jpg",
+        "alt": "training-image-2-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-3.jpg",
+        "alt": "training-image-3-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-4.jpg",
+        "alt": "training-image-4-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-5.jpg",
+        "alt": "training-image-5-coop-indonesia"
+      }
+    ]
+  },
+  "postInternshipFurusatoAgribisnis": {
+    "info": "PROGRAM USAHA MANDIRI",
+    "title": "Furusato Agribisnis",
+    "content": {
+      "title": "Furusato Agribisnis for Better Life",
+      "body": "LPK COOP Indonesia bekerjasama dengan salah satu lembaga NPO dari Tahara City, Jepang membangun \"Center of Excellence\" bidang Pertanian yang Ramah Lingkungan di BumiAji, Batu, Malang, Jawa Timur.<br/><br/> Kegiatan di BumiAji akan diprakarsai oleh para alumni peserta magang yang telah kembali ke Tanah Air agar dapat mengembangkan ilmu yang diperoleh selama mengikuti program pemagangan di Jepang. Selain itu, Tenaga Ahli dari Tahara City akan melakukan pendampingan untuk mencapai hasil yang optimal.<br/><br/> Tujuan dari program ini adalah :\n1. Memberi kesempatan secara gratis bagi masyarakat sekitar untuk belajar tentang Usaha Pertanian Modern, khususnya masyarakat muda.\n2. Menjadikan kawasan BumiAji, Batu, Malang, Jawa Timur sebagai Center of Excellence bagi Industri Pertanian Ramah Lingkungan, yang dapat bersaing dengan produk luar di pasar domestik.\n3. Menjadikan kawasan BumiAji, Batu, Malang, Jawa Timur sebagai Center of Excellence bagi Industri Pertanian Ramah Lingkungan, yang dapat bersaing dengan produk luar di pasar domestik.\n4. Menfasilitasi Kota Batu, Indonesia dan Tahara City, Jepang agar kelak dapat menjadi Sister City melalui kerjasama antara Walikota Kota Batu dengan Walikota Tahara City"
+    },
+    "images": [
+      {
+        "src": "/training/training-image-1.jpg",
+        "alt": "training-image-1-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-2.jpg",
+        "alt": "training-image-2-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-3.jpg",
+        "alt": "training-image-3-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-4.jpg",
+        "alt": "training-image-4-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-5.jpg",
+        "alt": "training-image-5-coop-indonesia"
+      }
+    ]
+  },
+  "postInternshipPalmSugar": {
+    "info": "PROGRAM USAHA MANDIRI",
+    "title": "Gula Aren",
+    "content": {
+      "title": "Gula Aren",
+      "body": "Merupakan hasil olahan dari salah satu alumni peserta magang yang berasal dari Cianjur, Jawa Barat. LPK COOP Indonesia membantu kemasan dan pemasaran hasil produksi Gula Aren tersebut ke pasar domestik maupun Jepang.<br/><br/> Gula aren sendiri merupakan gula merah asli yang memiliki khasiat banyak untuk kesehatan. Meskipun begitu, mayoritas masyarakat saat ini lebih memilih gula merah biasa atau gula pasir dibandingkan dengan gula aren. Hal tersebut disebabkan karena gula aren memiliki warna merah yang dapat merusak warna dasar pada makanan ataupun minuman yang akan disajikan. Meskipun demikian, gula aren ini dapat dijadikan sebagai pewarna alami pada makanan-makanan tertentu seperti jenang, gado-gado dan lain sebagainya.<br/><br/> Gula aren merupakan pemanis alami yang terbuat dari air nira yang berasal dari tandan bunga jantan pada pohon aren. Aren merupakan salah satu tanaman palem-paleman yang kaya akan kandungan karbohidrat yang terdapat dalam bentuk glukosa. Kadar gula aren ini cukup tinggi dibandingkan dengan gula merah ataupun gula pasir. Meskipun tinggi, gula aren memiliki banyak khasiat untuk kesehatan tubuh."
+    },
+    "benefits": {
+      "title": "Khasiat Gula Aren",
+      "body": "* Mengobati Sariawan\n* Mencegah Anemia\n* Untuk Penderita Diabetes\n* Meningkatkan Stamina Tubuh\n* Untuk Kecantikan\n* Mencegah Penyakit Hepatitis\n* Mengurangi Kadar Kalori di Dalam Tubuh\n* Mengurangi Rasa Sakit Untuk Penderita Maag\n* Sebagai Bahan Campuran Obat Tradisional\n* Sebagai Sumber Antioksidan\n* Gula Aren dan Manfaatnya Untuk Sistem Syaraf"
+    },
+    "images": [
+      {
+        "src": "/training/training-image-1.jpg",
+        "alt": "training-image-1-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-2.jpg",
+        "alt": "training-image-2-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-3.jpg",
+        "alt": "training-image-3-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-4.jpg",
+        "alt": "training-image-4-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-5.jpg",
+        "alt": "training-image-5-coop-indonesia"
+      }
+    ]
+  },
+  "postInternshipRoselindoTea": {
+    "info": "PROGRAM USAHA MANDIRI",
+    "title": "Roselindo Tea",
+    "contents": {
+      "title": "Roselindo Tea",
+      "body": "ROSELINDO TEA adalah jenis lain dari minuman herbal yg terbuat dari ekstrak calyx varietas unggul Rosela Herbal Indonesia.<br/><br/> LPK COOP Indonesia bekerjasama dengan Balai Penelitian Tanaman Pemanis dan Serat (BALITTAS) di Malang dalam memproduksi ROSELINDO TEA. Penggunaan varietas unggul Roselindo merupakan jaminan konsistensi mutu produk ROSELINDO TEA.<br/><br/> Proses budidaya Rosela Herbal varietas ROSELINDO dilakukan secara ramah lingkungan tanpa menggunakan pestisida di Nganjuk, Jawa Timur oleh Kelompok Alumni peserta pemagangan dari Jepang. ROSELINDO TEA selain di pasarkan dalam negeri, juga telah dipasarkan di Jepang, dan telah mendapat pengakuan sebagai salah satu Produk Herbal Organic yang baik untuk Kesehatan.",
+      "images": [
+        {
+          "src": "/training/training-image-1.jpg",
+          "alt": "training-image-1-coop-indonesia"
+        },
+        {
+          "src": "/training/training-image-2.jpg",
+          "alt": "training-image-2-coop-indonesia"
+        },
+        {
+          "src": "/training/training-image-3.jpg",
+          "alt": "training-image-3-coop-indonesia"
+        },
+        {
+          "src": "/training/training-image-4.jpg",
+          "alt": "training-image-4-coop-indonesia"
+        },
+        {
+          "src": "/training/training-image-5.jpg",
+          "alt": "training-image-5-coop-indonesia"
+        }
+      ]
+    },
+    "postContents": [
+      {
+        "title": "Mengapa Minum Teh",
+        "content": "Pada umumnya teh mengandung antioksidan yang membantu tubuh untuk membakar lemak. Teh membantu menurunkan risiko serangan jantung."
+      },
+      {
+        "title": "Manfaat Roselindo Tea",
+        "content": "* Meningkatkan Stamina dan Daya Tahan Tubuh\n* Menurunkan Tekanan Darah Tinggi\n* Menurunkan Kolesterol & Asam Urat\n* Menurunkan Kadar Gula dalam Darah pada Penderita Diabetes\n* Mencegah Osteoporosis (Tulang Keropos)\n* Mencegah Kanker dan Tumor\n* Menjaga Kehalusan Kulit & Menghambat Penuaan Dini\n* Meredakan Panas Dalam, Sariawan dan Sakit Tenggorokan\n* Melancarkan Peredaran Darah, Buang Air Kecil dan Besar"
+      },
+      {
+        "title": "Kandungan Nutrisi Roselindo Tea",
+        "content": "Vitamin C (kadar >200mg / 100g), Beta Carotene (>10mg /100g), Calcium, iron, anthocyanin. dan senyawa-senyawa fitokima dengan aktivitas menyehatkan tubuh, seperti : anti bacterial, anti fungal, anti inflammation, anti diabetic, anti oxidant, and anti hypertension activities."
+      },
+      {
+        "title": "Ketersediaan",
+        "content": "Roselindo Tea kini dapat anda peroleh di beberapa Toko Online, antara lain:"
+      }
+    ],
+    "followUsImages": [
+      "/follow-us/instagram.svg",
+      "/follow-us/facebook.svg",
+      "/follow-us/tiktok.svg"
+    ]
+  },
   "sharedContent": {
     "featuredPrograms": {
       "title": "Program-program COOP Indonesia",
@@ -667,6 +933,91 @@
       "title": "Mari bergabung bersama kami dan kembangkan diri Anda untuk menjadi Pengusaha Tangguh (Entrepreneur)",
       "desc": "Untuk Keterangan Lebih Lanjut, silahkan menghubungi kami ...",
       "buttonName": "Kontak Kami"
+    },
+    "contactInfo": {
+      "label": "Kantor Pusat",
+      "address": "Jl. Ciragil II No.6;RT/RW 001/001 Kel. Rawa Barat, Kec.Kebayoran Baru Jakarta Selatan 12180",
+      "phone": "+62 21 29501010",
+      "email": "mail@coopindonesia.com"
+    },
+    "contactTrainingCenter": {
+      "label": "PUSDIKLAT LPK COOP Indonesia",
+      "address": "Jl. Arcamanik Sindanglaya, KP. Sekesalam RT/RW 001/008, DS.Sindanglaya, Kec. Cimenyan, Kab. Bandung, Jawa Barat 40195"
+    },
+    "partnership": {
+      "label": "Partnership"
+    },
+    "menuProgramInternship": {
+      "title": "PEMAGANGAN KE JEPANG",
+      "internship": [
+        { "href": "/program/internship", "label": "Tentang Magang" },
+        {
+          "href": "/program/internship/educational-material",
+          "label": "Materi Program"
+        },
+        { "href": "/program/internship/registration", "label": "Pendaftaran" },
+        {
+          "href": "/program/internship/placement-progress",
+          "label": "Progress Penempatan"
+        },
+        {
+          "href": "/program/internship/three-career-path",
+          "label": "Cara Berkarir di Jepang"
+        },
+        { "href": "/program/internship/pre-selection", "label": "Pra Seleksi" },
+        {
+          "href": "/program/internship/terms-conditions",
+          "label": "Syarat & Ketentuan"
+        },
+        { "href": "/program/internship/selection", "label": "Seleksi" },
+        {
+          "href": "/program/internship/documents",
+          "label": "Kelengkapan Dokumen"
+        },
+        { "href": "/program/internship/training", "label": "Pelatihan" },
+        {
+          "href": "/program/internship/rights-obligations",
+          "label": "Hak & Kewajiban"
+        },
+        { "href": "/program/internship/placement", "label": "Penempatan" },
+        { "href": "/program/internship/program-flow", "label": "Alur Program" }
+      ]
+    },
+    "menuProgramBusiness": {
+      "title": "PEMAGANGAN KE JEPANG",
+      "business": [
+        { "href": "/program/post-internship", "label": "Pendahuluan" },
+        {
+          "href": "/program/post-internship/furusato-agribisnis",
+          "label": "Furusato Agribisnis"
+        },
+        {
+          "href": "/program/post-internship/palm-sugar",
+          "label": "Gula Aren"
+        },
+        {
+          "href": "/program/post-internship/roselindo-tea",
+          "label": "Roselindo Tea"
+        }
+      ]
+    }
+  },
+  "gallery": {
+    "workVisit": {
+      "info": "GALLERY",
+      "title": "Kunjungan Kerja"
+    },
+    "collaboration": {
+      "info": "GALLERY",
+      "title": "Kerjasama"
+    },
+    "internshipActivities": {
+      "info": "GALLERY",
+      "title": "Kegiatan Magang"
+    },
+    "trainingCenter": {
+      "info": "GALLERY",
+      "title": "Pusdiklat Magang"
     }
   },
   "aboutPage": {
@@ -978,5 +1329,18 @@
         "description": "Tersedianya sumber daya manusia yang profesional dan handal guna mengembangkan sinergi kebersamaan sosial atas dasar kesetaraan dan keadilan bagi peningkatan kesejahteraan rakyat, daya saing dan kemajuan bangsa."
       }
     }
+  },
+  "contactUsPage": {
+    "info": "Contact Us",
+    "title": "Contact Us"
+  },
+  "form": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "you@company.com",
+    "desc": "Enter a description...",
+    "privacy": "You agree to our friendly",
+    "policy": "privacy policy",
+    "message": "Send message"
   }
 }

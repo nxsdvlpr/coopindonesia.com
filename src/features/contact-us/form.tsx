@@ -1,25 +1,27 @@
 import { Button, Checkbox, Input, Textarea } from '@/nui'
+import { useTranslations } from 'next-intl'
 import { contactUsFormStyle } from './form.style'
 
 export default function ContactUsForm() {
+  const t = useTranslations()
   const { wrapper, stack } = contactUsFormStyle()
 
   return (
     <div className={wrapper()}>
       <div className={stack()}>
-        <Input placeholder="First name" />
-        <Input placeholder="Last name" />
+        <Input placeholder={t('form.firstName')} />
+        <Input placeholder={t('form.lastName')} />
       </div>
-      <Input placeholder="you@company.com" />
-      <Textarea placeholder="Enter a description..." />
+      <Input placeholder={t('form.email')} />
+      <Textarea placeholder={t('form.desc')} />
       <div className="flex items-center">
-        <Checkbox label="You agree to our friendly" />
+        <Checkbox label={t('form.privacy')} />
         <span className="ml-1 mt-0.5 font-semibold text-primary-500">
-          privacy policy.
+          {t('form.policy')}
         </span>
       </div>
       <Button rounded="lg" size="sm" wider="md">
-        Send message
+        {t('form.message')}
       </Button>
     </div>
   )

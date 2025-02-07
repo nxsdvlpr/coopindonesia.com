@@ -1,8 +1,10 @@
 import { ImageNui, Section, SectionTitle } from '@/nui'
 import Carousel from '@/nui/carousel/carousel'
+import { useTranslations } from 'next-intl'
 import ExploreMoreGalleries from './explore-more-galleries'
 
 export default function InternshipActivities() {
+  const t = useTranslations()
   let images = []
   const totalImages = 4
 
@@ -20,7 +22,11 @@ export default function InternshipActivities() {
   return (
     <>
       <Section>
-        <SectionTitle sizeTitle="6xl" info="GALLERY" title="Kegiatan Magang" />
+        <SectionTitle
+          sizeTitle="6xl"
+          info={t('gallery.internshipActivities.info')}
+          title={t('gallery.internshipActivities.title')}
+        />
       </Section>
       <Section maxWidth="sm">
         <Carousel items={items} />
