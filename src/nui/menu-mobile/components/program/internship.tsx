@@ -24,13 +24,13 @@ export default function MenuProgramInternship({
           isActive={isOpen}
           onClick={() => setIsOpen((e) => !e)}
           icon="lucide:graduation-cap"
-          label="Pemagangan ke Jepang"
+          label={t('programPage.menu.program.menu.0.label')}
         />
       }
       isOpen={isOpen}
     >
       <div className="flex flex-col pl-9">
-        {internship.map((item) => (
+        {t.raw('programPage.menu.program.internship').map((item: any) => (
           <Link
             key={item.label}
             href={item.href}

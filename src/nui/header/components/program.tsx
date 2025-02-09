@@ -14,7 +14,7 @@ export function MenuProgram() {
 
   const [state, setState] = useState('internship')
 
-  const menu = t.raw('programPage.menu.program.menu')
+  // const menu = t.raw('programPage.menu.program.menu')
 
   return (
     <>
@@ -28,7 +28,7 @@ export function MenuProgram() {
         <Item>
           <div className="flex">
             <Flexbox flow="col" gap="none" align="normal">
-              {menu.map((item: any) => (
+              {t.raw('programPage.menu.program.menu').map((item: any) => (
                 <Menu
                   key={item.label}
                   label={item.label}

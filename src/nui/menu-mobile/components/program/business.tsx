@@ -1,5 +1,6 @@
 import { menuDataStatic } from '@/app/[locale]/api/menu'
 import { Listbox } from '@/nui/listbox'
+import { useTranslations } from 'next-intl'
 import Link from 'next/link'
 import { useState } from 'react'
 import Button from './button'
@@ -11,6 +12,7 @@ type MenuProgramBusinessProps = {
 export default function MenuProgramBusiness({
   onclose,
 }: MenuProgramBusinessProps) {
+  const t = useTranslations()
   const [isOpen, setIsOpen] = useState(false)
 
   const { business } = menuDataStatic.program
@@ -22,13 +24,13 @@ export default function MenuProgramBusiness({
           isActive={isOpen}
           onClick={() => setIsOpen((e) => !e)}
           icon="lucide:award"
-          label="Program Usaha Mandiri"
+          label={t('programPage.menu.program.menu.2.label')}
         />
       }
       isOpen={isOpen}
     >
       <div className="flex flex-col pl-9">
-        {business.map((item) => (
+        {t.raw('programPage.menu.program.business').map((item: any) => (
           <Link
             key={item.label}
             href={item.href}

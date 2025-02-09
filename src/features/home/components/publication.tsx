@@ -38,8 +38,8 @@ export default function HomePublication({
   return (
     <Section>
       <Flexbox flow="col" gap="2xl">
-        <SectionTitle title={t(`homePage.publication.title`)}>
-          {subtitle}
+        <SectionTitle title={t('homePage.publication.title')}>
+          {t.raw('homePage.publication.subtitle')}
         </SectionTitle>
         <Flexbox align="normal" flow="col" gap="2xl">
           <div className={imageBox()}>
@@ -52,20 +52,23 @@ export default function HomePublication({
               </Typo>
               <div className={boxInstagram()}>
                 <PhotoProvider maskOpacity={0.7}>
-                  {instagram.slice(0, 4).map((item: any, index: number) => (
-                    <PhotoView
-                      key={index}
-                      src={item.url.large ?? item.url.medium}
-                    >
-                      <div className={boxInstagramImage()}>
-                        <ImageNui
-                          className="h-full w-full duration-200 ease-in-out hover:brightness-90 group-hover:scale-105"
-                          src={item.url.large ?? item.url.medium}
-                          alt={item.alt ?? 'coop-indonesia'}
-                        />
-                      </div>
-                    </PhotoView>
-                  ))}
+                  {t
+                    .raw('homePage.publication.instagram.assets')
+                    .slice(0, 4)
+                    .map((item: any, index: number) => (
+                      <PhotoView
+                        key={index}
+                        src={item.url?.large ?? item.url?.medium}
+                      >
+                        <div className={boxInstagramImage()}>
+                          <ImageNui
+                            className="h-full w-full duration-200 ease-in-out hover:brightness-90 group-hover:scale-105"
+                            src={item.url?.large ?? item.url?.medium}
+                            alt={item.alt ?? 'coop-indonesia'}
+                          />
+                        </div>
+                      </PhotoView>
+                    ))}
                 </PhotoProvider>
               </div>
             </Flexbox>
