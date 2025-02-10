@@ -1,6 +1,6 @@
 'use client'
 
-import { youtubeData } from '@/app/api/publication'
+import { youtubeData } from '@/app/[locale]/api/publication'
 import { Flexbox, ImageNui, Section } from '@/nui'
 import { Video } from '@/nui/video'
 import { useParam } from '@/utils/use-params'

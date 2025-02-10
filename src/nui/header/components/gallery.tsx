@@ -1,12 +1,14 @@
 'use client'
 
-import { menuDataStatic } from '@/app/api/menu'
+import { menuDataStatic } from '@/app/[locale]/api/menu'
 import { Icon, MenuButton, Typo } from '@/nui'
+import { useTranslations } from 'next-intl'
 import Link from 'next/link'
 import { useState } from 'react'
 import { Item } from 'react-stately'
 
 export default function MenuGallery() {
+  const t = useTranslations()
   const [isOpen, setIsOpen] = useState(false)
 
   const { galleries } = menuDataStatic
@@ -20,8 +22,8 @@ export default function MenuGallery() {
       closeOnSelect={false}
       onOpenChange={() => setIsOpen((e) => !e)}
     >
-      {(item) => (
-        <Item textValue={item.label}>
+      {t.raw('programPage.menu.galleries').map((item: any, index: number) => (
+        <Item key={index} textValue={item.label}>
           <Link
             href={item.href}
             onClick={() => setIsOpen(false)}
@@ -38,7 +40,7 @@ export default function MenuGallery() {
             </div>
           </Link>
         </Item>
-      )}
+      ))}
     </MenuButton>
   )
 }

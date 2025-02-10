@@ -1,4 +1,4 @@
-import { menuDataStatic } from '@/app/api/menu'
+import { useTranslations } from 'next-intl'
 import Link from 'next/link'
 
 type MenuInternshipProps = {
@@ -8,11 +8,12 @@ type MenuInternshipProps = {
 export default function MenuProgramInternship({
   onclose,
 }: MenuInternshipProps) {
-  const { internship } = menuDataStatic.program
+  const t = useTranslations()
+  // const { internship } = menuDataStatic.program
 
   return (
     <div className="grid shrink-0 grid-cols-2 content-start border-l border-primary-50 p-8 xl:w-[43rem]">
-      {internship.map((item) => (
+      {t.raw('programPage.menu.program.internship').map((item: any) => (
         <Link
           key={item.label}
           href={item.href}

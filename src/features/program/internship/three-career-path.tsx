@@ -1,4 +1,3 @@
-import { intershipRegistrationDataStatic } from '@/app/api/internship'
 import {
   AskedQuestion,
   Banner,
@@ -6,12 +5,13 @@ import {
   ThreeCareer,
 } from '@/features/shared'
 import { Menu } from '@/features/shared/menu'
+import { useTranslations } from 'next-intl'
 
 export default function InternshipThreeCareerPath() {
-  const { infoThreeCareer } = intershipRegistrationDataStatic
+  const t = useTranslations()
   return (
     <>
-      <ThreeCareer sizeTitle="6xl" info={infoThreeCareer} />
+      <ThreeCareer sizeTitle="6xl" info={t('internship.info')} />
       <Menu showMenuInternship />
       <FeaturedPrograms variant="gray" />
       <AskedQuestion />

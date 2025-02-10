@@ -1,21 +1,25 @@
-import { intershipRegistrationDataStatic } from '@/app/api/internship'
 import AskedQuestion from '@/features/shared/asked-question'
 import Banner from '@/features/shared/banner'
 import FeaturedPrograms from '@/features/shared/featured-programs'
 import { Menu } from '@/features/shared/menu'
 import { Flexbox, Section, SectionTitle } from '@/nui'
+import { useTranslations } from 'next-intl'
 import Address from './registration/address'
 import HowToRegistration from './registration/how-to-registration'
 import Info from './registration/info'
 import Requirement from './registration/requirement'
 
 export default function InternshipRegistration() {
-  const { info, title } = intershipRegistrationDataStatic
+  const t = useTranslations()
 
   return (
     <>
       <Section>
-        <SectionTitle sizeTitle="6xl" info={info} title={title} />
+        <SectionTitle
+          sizeTitle="6xl"
+          info={t('internshipRegistration.info')}
+          title={t('internshipRegistration.title')}
+        />
       </Section>
       <Section maxWidth="sm">
         <Flexbox flow="col" gap="2xl">

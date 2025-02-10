@@ -1,4 +1,5 @@
-import { menuDataStatic } from '@/app/api/menu'
+import { menuDataStatic } from '@/app/[locale]/api/menu'
+import { useTranslations } from 'next-intl'
 import Card from './card'
 import Link from './link'
 
@@ -7,11 +8,12 @@ type MenuGalleryProps = {
 }
 
 export default function MenuGallery({ onClose }: MenuGalleryProps) {
+  const t = useTranslations()
   const { galleries } = menuDataStatic
 
   return (
     <Card title="GALLERY">
-      {galleries.map((item) => (
+      {t.raw('programPage.menu.galleries').map((item: any) => (
         <Link
           key={item.id}
           icon={item.icon}

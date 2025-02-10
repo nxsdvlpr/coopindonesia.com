@@ -1,28 +1,36 @@
-import { internshipPlacementDataStatic } from '@/app/api/internship'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
 import { Menu } from '@/features/shared/menu'
 import { Flexbox, ImageNui, Markdown, Section, SectionTitle, Typo } from '@/nui'
 import Carousel from '@/nui/carousel/carousel'
+import { useTranslations } from 'next-intl'
 
 export default function InternshipPlacement() {
-  const { info, title, images, content } = internshipPlacementDataStatic
+  const t = useTranslations()
 
-  const items = images.map((image, i) => (
-    <ImageNui key={i} src={image.src} alt={image.alt} />
-  ))
+  const items = t
+    .raw('internshipPlacement.images')
+    .map((image: any, i: number) => (
+      <ImageNui key={i} src={image.src} alt={image.alt} />
+    ))
 
   return (
     <>
       <Section>
-        <SectionTitle sizeTitle="6xl" info={info} title={title} />
+        <SectionTitle
+          sizeTitle="6xl"
+          info={t('internshipPlacement.info')}
+          title={t('internshipPlacement.title')}
+        />
       </Section>
       <Section maxWidth="sm">
         <Flexbox flow="col" gap="none" align="normal">
           <Typo size="2xl" fontWeight="bold" color="gray-900">
-            {content.title}
+            {t('internshipPlacement.content.title')}
           </Typo>
           <Typo size="lg">
-            <Markdown size="lg">{content.body}</Markdown>
+            <Markdown size="lg">
+              {t('internshipPlacement.content.body')}
+            </Markdown>
           </Typo>
         </Flexbox>
         <div className="h-6" />

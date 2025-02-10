@@ -1,5 +1,6 @@
-import { menuDataStatic } from '@/app/api/menu'
+import { menuDataStatic } from '@/app/[locale]/api/menu'
 import { Icon } from '@/nui/icon'
+import { useTranslations } from 'next-intl'
 import Link from 'next/link'
 
 type MenuProgramStudentInternshipProps = {
@@ -9,6 +10,7 @@ type MenuProgramStudentInternshipProps = {
 export default function MenuProgramStudentInternship({
   onclose,
 }: MenuProgramStudentInternshipProps) {
+  const t = useTranslations()
   const { studentInternship } = menuDataStatic.program
 
   const { icon, href, label } = studentInternship
@@ -22,7 +24,9 @@ export default function MenuProgramStudentInternship({
       <div className="rounded bg-primary-50 p-1.5 text-primary-500">
         <Icon size="sm" icon={icon} />
       </div>
-      <div className="text-base font-semibold text-primary-500">{label}</div>
+      <div className="text-base font-semibold text-primary-500">
+        {t('programPage.menu.program.menu.1.label')}
+      </div>
     </Link>
   )
 }

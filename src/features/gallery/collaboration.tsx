@@ -1,8 +1,10 @@
 import { ImageNui, Section, SectionTitle } from '@/nui'
 import Carousel from '@/nui/carousel/carousel'
+import { useTranslations } from 'next-intl'
 import ExploreMoreGalleries from './explore-more-galleries'
 
 export default function Collaboration() {
+  const t = useTranslations()
   let images = []
   const totalImages = 8
 
@@ -20,7 +22,11 @@ export default function Collaboration() {
   return (
     <>
       <Section>
-        <SectionTitle sizeTitle="6xl" info="GALLERY" title="Kerjasama" />
+        <SectionTitle
+          sizeTitle="6xl"
+          info={t('gallery.collaboration.info')}
+          title={t('gallery.collaboration.title')}
+        />
       </Section>
       <Section maxWidth="sm">
         <Carousel items={items} />

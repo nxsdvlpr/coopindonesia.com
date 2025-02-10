@@ -1,7 +1,7 @@
 'use client'
 
-import { menuDataStatic } from '@/app/api/menu'
 import { Flexbox, MenuButton } from '@/nui'
+import { useTranslations } from 'next-intl'
 import { useState } from 'react'
 import { Item } from 'react-stately'
 import Menu from './menu'
@@ -9,11 +9,12 @@ import MenuProgramBusiness from './program-business'
 import MenuProgramInternship from './program-internship'
 
 export function MenuProgram() {
+  const t = useTranslations()
   const [isOpen, setIsOpen] = useState(false)
 
   const [state, setState] = useState('internship')
 
-  const { menu } = menuDataStatic.program
+  // const menu = t.raw('programPage.menu.program.menu')
 
   return (
     <>
@@ -27,7 +28,7 @@ export function MenuProgram() {
         <Item>
           <div className="flex">
             <Flexbox flow="col" gap="none" align="normal">
-              {menu.map((item) => (
+              {t.raw('programPage.menu.program.menu').map((item: any) => (
                 <Menu
                   key={item.label}
                   label={item.label}

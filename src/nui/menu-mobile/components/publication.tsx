@@ -1,4 +1,4 @@
-import { menuDataStatic } from '@/app/api/menu'
+import { menuDataStatic } from '@/app/[locale]/api/menu'
 import Card from './card'
 import Link from './link'
 type MenuPublicationProps = {

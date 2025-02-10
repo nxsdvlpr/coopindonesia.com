@@ -1,5 +1,6 @@
 import { Flexbox, Section, SectionTitle } from '@/nui'
 import { TypoSize } from '@/nui/typo/types'
+import { useTranslations } from 'next-intl'
 import ThreeCareerCard from './card'
 import ThreeCareerTable from './table'
 
@@ -9,16 +10,16 @@ type ThreeCareerProps = {
 }
 
 export function ThreeCareer({ info, sizeTitle }: ThreeCareerProps) {
+  const t = useTranslations()
   return (
     <Section>
       <Flexbox align="normal" justify="normal" flow="col" gap="2xl">
         <SectionTitle
           sizeTitle={sizeTitle}
           info={info}
-          title="3 Jalur Untuk Berkarir di Jepang"
+          title={t('sharedContent.threeCareer.title')}
         >
-          Program komprehensif untuk pengembangan keterampilan bahasa dan budaya
-          Jepang, serta pengalaman berharga di Jepang.
+          {t('sharedContent.threeCareer.subtitle')}
         </SectionTitle>
         <ThreeCareerCard />
         <ThreeCareerTable />

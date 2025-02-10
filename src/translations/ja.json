@@ -1,0 +1,1426 @@
+{
+  "homePage": {
+    "hero": {
+      "info": "HOME",
+      "title": "LPK COOPインドネシアへようこそ",
+      "desc": "LPK COOPインドネシアは、2012年に設立された海外技能実習プログラム送り出し機関（Sending Organization）の一つであり、これまでに2,800人以上の参加者を日本の様々な企業に派遣してきました。",
+      "image": {
+        "src": "/hero-image.svg",
+        "alt": "hero-image-coop-indonesia"
+      }
+    },
+    "featuredPrograms": {
+      "title": "LPK COOPインドネシアのプログラム",
+      "subtitle": "以下は、LPK COOPインドネシアの主なプログラムです。"
+    },
+    "publication": {
+      "title": "Publikasi",
+      "subtitle": "Update dari media sosial kami",
+      "image": {
+        "src": "/from-our-youtube-channel/from-our-youtube-channel-image-1.png",
+        "alt": "from-our-youtube-channel-image-1-coop-indonesia"
+      },
+      "instagram": {
+        "title": "Dari Akun Instagram Kami",
+        "assets": [
+          {
+            "src": "/from-our-instagram/from-our-instagram-image-1.png",
+            "alt": "from-our-instagram-image-1-coop-indonesia"
+          },
+          {
+            "src": "/from-our-instagram/from-our-instagram-image-2.png",
+            "alt": "from-our-instagram-image-2-coop-indonesia"
+          },
+          {
+            "src": "/from-our-instagram/from-our-instagram-image-3.png",
+            "alt": "from-our-instagram-image-3-coop-indonesia"
+          },
+          {
+            "src": "/from-our-instagram/from-our-instagram-image-4.png",
+            "alt": "from-our-instagram-image-4-coop-indonesia"
+          }
+        ]
+      },
+      "youtube": {
+        "title": "Dari Kanal YouTube Kami",
+        "assets": [
+          {
+            "src": "/from-our-youtube-channel/from-our-youtube-channel-image-1.png",
+            "alt": "from-our-youtube-channel-image-1-coop-indonesia"
+          },
+          {
+            "src": "/from-our-youtube-channel/from-our-youtube-channel-image-2.png",
+            "alt": "from-our-youtube-channel-image-2-coop-indonesia"
+          },
+          {
+            "src": "/from-our-youtube-channel/from-our-youtube-channel-image-3.png",
+            "alt": "from-our-youtube-channel-image-3-coop-indonesia"
+          },
+          {
+            "src": "/from-our-youtube-channel/from-our-youtube-channel-image-4.png",
+            "alt": "from-our-youtube-channel-image-4-coop-indonesia"
+          }
+        ]
+      }
+    },
+    "sponsor": {
+      "title": "私たちはコミュニティに最大の影響を与えるために協力しています。",
+      "assets": [
+        {
+          "src": "/sponsor/fursato-logo.png",
+          "alt": "fursato-logo-coop-indonesia"
+        },
+        {
+          "src": "/sponsor/coop-japan-logo.png",
+          "alt": "coop-japan-logo-coop-indonesia"
+        },
+        {
+          "src": "/sponsor/other-sponsor-logo.png",
+          "alt": "other-sponsor-logo-coop-indonesia"
+        },
+        {
+          "src": "/sponsor/igs-logo.png",
+          "alt": "igs-logo-coop-indonesia"
+        }
+      ]
+    }
+  },
+  "programPage": {
+    "menu": {
+      "program": {
+        "menu": [
+          {
+            "icon": "lucide:graduation-cap",
+            "label": "日本技能実習生",
+            "description": "LPK COOPインドネシアは、参加者の募集から",
+            "state": "internship"
+          },
+          {
+            "icon": "lucide:briefcase-business",
+            "label": "インターンシッププログラム",
+            "description": "Penempatan Mahasiswa(i) Indonesia ke berbagai perusahaan di Jepang.",
+            "state": "",
+            "href": "/program/student-internship"
+          },
+          {
+            "icon": "lucide:award",
+            "label": "自主事業プログラム",
+            "description": "Kegiatan usai magang di Jepang & kembali ke Tanah Air",
+            "state": "business"
+          }
+        ],
+        "internship": [
+          { "href": "/program/internship", "label": "技能実習について" },
+          {
+            "href": "/program/internship/educational-material",
+            "label": "プログラムの内容"
+          },
+          {
+            "href": "/program/internship/registration",
+            "label": "登録"
+          },
+          {
+            "href": "/program/internship/placement-progress",
+            "label": "配置進捗"
+          },
+          {
+            "href": "/program/internship/three-career-path",
+            "label": "日本でのキャリアの始め方"
+          },
+          {
+            "href": "/program/internship/pre-selection",
+            "label": "事前選考"
+          },
+          {
+            "href": "/program/internship/terms-conditions",
+            "label": "条件と規約"
+          },
+          { "href": "/program/internship/selection", "label": "選考" },
+          {
+            "href": "/program/internship/documents",
+            "label": "必要書類"
+          },
+          { "href": "/program/internship/training", "label": "訓練" },
+          {
+            "href": "/program/internship/rights-obligations",
+            "label": "権利と義務"
+          },
+          { "href": "/program/internship/placement", "label": "配属" },
+          {
+            "href": "/program/internship/program-flow",
+            "label": "プログラムの流れ"
+          }
+        ],
+        "business": [
+          { "href": "/program/post-internship", "label": "はじめに" },
+          {
+            "href": "/program/post-internship/furusato-agribisnis",
+            "label": "フルサトアグリビジネス"
+          },
+          {
+            "href": "/program/post-internship/palm-sugar",
+            "label": "グラアレン（パームシュガー）"
+          },
+          {
+            "href": "/program/post-internship/roselindo-tea",
+            "label": "ROSELINDO TEA （ロゼリンド茶）"
+          }
+        ],
+        "studentInternship": {
+          "icon": "lucide:briefcase-business",
+          "label": "インターンシッププログラム",
+          "href": "/program/student-internship"
+        },
+        "schools": [
+          {
+            "href": "/program/nihonggo",
+            "label": "Persyaratan Calon Siswa & Dokumen",
+            "body": "Program Sekolah Bahasa Jepang atau Nihonggo Gakko (sekolah Bahasa Jepang Mandiri) merupakan peluang bagi Masyarakat Indonesia"
+          },
+          {
+            "href": "/program/nihonggo/anabuki",
+            "label": "Sekolah Anabuki",
+            "image": {
+              "src": "/nihonggo/logo-anabuki.png",
+              "alt": "logo-anabuki"
+            },
+            "body": "Anabuki College Group is a vocational school group with 14 vocational schools in the Chugoku-Shikoku area."
+          },
+          {
+            "href": "/program/nihonggo/isb",
+            "label": "Sekolah ISB",
+            "image": {
+              "src": "/nihonggo/logo-isb.png",
+              "alt": "logo-isb"
+            },
+            "body": "Everyone has a dream. How to achieve that dream may be of the utmost importance to a young person."
+          }
+        ]
+      },
+      "publication": [
+        {
+          "id": 1,
+          "label": "Vlog",
+          "description": "Tonton video log terbaru kami di YouTube",
+          "href": "/publication/vlog",
+          "icon": "lucide:play"
+        },
+        {
+          "id": 2,
+          "label": "Dari Akun Media Sosial Kami",
+          "description": "Update dari Instagram kami",
+          "href": "/publication/instagram",
+          "icon": "lucide:newspaper"
+        }
+      ],
+      "galleries": [
+        {
+          "id": 1,
+          "label": "視察",
+          "description": "Foto-foto kunjungan kerja",
+          "href": "/gallery/work-visit",
+          "icon": "lucide:image"
+        },
+        {
+          "id": 2,
+          "label": "協力",
+          "description": "Foto-foto kerjasama COOP Indonesia",
+          "href": "/gallery/collaboration",
+          "icon": "lucide:image"
+        },
+        {
+          "id": 3,
+          "label": "技能実習生活動",
+          "description": "Foto-foto peserta dalam kegiatan magang",
+          "href": "/gallery/internship-activities",
+          "icon": "lucide:image"
+        },
+        {
+          "id": 4,
+          "label": "技能実習生教育訓練センター",
+          "description": "Foto-foto kegiatan di pusdiklat magang",
+          "href": "/gallery/training-center",
+          "icon": "lucide:image"
+        }
+      ],
+      "about": [
+        {
+          "id": 1,
+          "label": "私たちについて",
+          "description": "Sekilas tentang LPK COOP Indonesia",
+          "href": "/about/at-a-glance",
+          "icon": "lucide:building-2"
+        },
+        {
+          "id": 2,
+          "label": "企業理念",
+          "description": "Lebih jauh tentang tujuan kami",
+          "href": "/about/vision-and-mission",
+          "icon": "lucide:scan-eye"
+        },
+        {
+          "id": 3,
+          "label": "役員・事務局一覧",
+          "description": "Dewan kepemimpinan dan staf",
+          "href": "/about/organization-structure",
+          "icon": "lucide:network"
+        },
+        {
+          "id": 4,
+          "label": "歴史",
+          "description": "Kisah dibalik perjalanan kami",
+          "href": "/about/organization",
+          "icon": "lucide:book-open"
+        }
+      ],
+      "contact": {
+        "label": "お問い合わせ",
+        "href": "/contact-us"
+      }
+    }
+  },
+  "internship": {
+    "info": "日本での技能実習プログラム",
+    "title": "技能実習について",
+    "subtitle": "日本への技能実習生派遣プログラムは、日本政府が実施する職業訓練プログラムの一つであり、高校または職業高校を卒業した方を対象としています。 ",
+    "image": {
+      "src": "/program/internship/program-internship-image-1.svg",
+      "alt": "program-internship-image-1-coop-indonesia"
+    },
+    "body": "日本への技能実習プログラムは、知識の習得と技術の向上を目的として実施されています。技能実習生の規律を鍛え、生活の向上を図ることも目指しています。技能実習生は、給与や手当を受け取ることができるため、技能実習生本人やその家族の生活も豊かになります。\n\n日本への技能実習プログラムは、 **インドネシア共和国労働省職業訓練および生産性開発総局（Binalavotas）**の監督下にあります。\n\n技能実習生は給与を受け取りますが、このプログラムはインドネシア人移住労働者（PMI）としての労働とは異なります。その違いは、ステータス、給与、施設、そして提供される法的保護にあります。日本滞在中、技能実習生は特別な住居又を提供され、必要な設備が整っています。さらに、移動手段として自転車も提供されます。",
+    "contents": [
+      {
+        "images": [
+          {
+            "src": "/program/internship/program-internship-image-2.png",
+            "alt": "program-internship-image-2-coop-indonesia"
+          },
+          {
+            "src": "/program/internship/program-internship-image-3.png",
+            "alt": "program-internship-image-3-coop-indonesia"
+          }
+        ],
+        "body": "日本への技能実習プログラムは3年間実施されますが、参加者（実習生）には5年間まで延長する機会も与えられます。この実習期間は以下の段階に分けられます：\n\n 1. **初月（訓練期間または実習生期間）**：訓練センターで実施される基礎訓練期間です。\n 2. **2ヶ月目から12ヶ月目**：この期間は、技能評価期間です。\n 3. **ヶ月目から3年目までの技能実習プログラム**：この期間は、技術実習（Technical Intern Training）または実習期間と呼ばれます。\n 4. **技能実習期間の延長（5年まで）**：参加者と企業が合意すれば、実習期間を延長することができます。"
+      },
+      {
+        "images": [
+          {
+            "src": "/program/internship/program-internship-image-4.png",
+            "alt": "program-internship-image-4-coop-indonesia"
+          },
+          {
+            "src": "/program/internship/program-internship-image-5.png",
+            "alt": "program-internship-image-5-coop-indonesia"
+          },
+          {
+            "src": "/program/internship/program-internship-image-6.png",
+            "alt": "program-internship-image-6-coop-indonesia"
+          }
+        ],
+        "body": "現在、LPKコープインドネシアは、以下の様々な分野で2,800名の技能実習生を配置しています：グランドハンドリング、介護、建設業（建物のフレーム作り）、インテリアデザイン（住宅建設）、大工、石工（コンクリート作業）、道路/橋梁建設、配管工事、塗装、その他の一般建設作業、溶接、金属塗装、製造業（機械加工、プレス機、旋盤、プラスチック/金属製品製造）、食品加工業、水産業（魚加工工場、カキ養殖）、酪農（乳牛）、養鶏業、農業（野菜栽培、花栽培、その他の農業分野）。\n\n配置場所は日本全国にわたります。具体的には、札幌および北海道のいくつかの地域、東京およびその周辺、千葉、愛知、岐阜、大分、群馬、栃木、宮城、広島、神奈川、静岡、茨城、鹿児島、富山、京都、四国の各地です。\n\n**LPKコープインドネシアは、** 候補者の募集から日本での配置前研修・訓練までのプロセスを行い、日本企業のニーズに応じた人材を提供しています。研修と訓練の内容は以下の通りです：\n\n- 日本語と日本文化.\n- 体力訓練.\n- メンタル訓練.\n- 規律とキャラクタービルディング.\n- 宗教教育.\n- 起業家精神.\n- 技能実習分野に応じた技術訓練\n\nこれらのプログラムは、日本企業が必要とするスキルや特性を備えた人材を育成するために設計されています。しかし、どの仕事にもリスクが伴うように、日本での技能実習プログラムにもリスクがあります。以下は、日本での実習におけるいくつかのリスクです：\n\n- **高い生活費**：特に大都市では、さまざまな分野で生活費が高くなります。\n- **厳しい手続き**：企業の面接手続きから在留許可書類の取得まで非常に厳格です。\n- **文化と言語の習得のチャレンジ**：日本の文化や言語を習得するのは挑戦であり、文化の違いに対処するのが難しい場合があります。\n- **文化の違いによる適応のチャレンジ**：文化の違いは、職場のシステムや環境に適応する上での課題となります。\n\nこれらのリスクを理解し、適切に対処することが重要です。以上が日本での技能実習プログラムとそのリスクに関する情報です。\n\nどうですか？桜の国での技能実習に興味はありますか？"
+      }
+    ]
+  },
+  "internshipRegistration": {
+    "info": "日本での技能実習プログラム",
+    "title": "応募",
+    "infoThreeCareer": "日本での技能実習プログラム",
+    "address": {
+      "title": "LPKコープインドネシアのパートナー連絡先",
+      "subtitle": "以下の地域にあるLPKコープインドネシアのパートナーにもお問い合わせいただけます：",
+      "image": {
+        "src": "/program/registration-image-1.svg",
+        "alt": "registration-image-1-coop-indonesia"
+      },
+      "locations": [
+        {
+          "region": "東ジャワ地域",
+          "offices": [
+            { "name": "Bojonegoro - LPK Masayu", "phone": "0823-3163-6660" },
+            { "name": "Malang - LPK Furusato", "phone": "0821-4081-3864" },
+            { "name": "Ponorogo - LPK BNS", "phone": "0852-3046-1229" },
+            { "name": "Tulung Agung - LPK Akashiro", "phone": "081213114789" }
+          ]
+        },
+        {
+          "region": "中部ジャワ地域",
+          "offices": [
+            { "name": "Brebes - LPK Ilalang", "phone": "0819-0272-2631" },
+            { "name": "Cilacap - LPK ITCO", "phone": "0815-656-2914" },
+            { "name": "Kebumen - LPK Shiawase", "phone": "0831-5492-4576" },
+            { "name": "Kudus - LPK Karazu", "phone": "0813-901-7562" },
+            { "name": "Purwokerto - LPK Akemi", "phone": "0896-1913-3864" }
+          ]
+        },
+        {
+          "region": "西ジャワ地域",
+          "offices": [
+            { "name": "Bandung - LPK Megumi", "phone": "0813-2072-2262" },
+            { "name": "Bandung - LPK SAHARA", "phone": "0813-2070-0185" },
+            { "name": "Cirebon - LPK ORI", "phone": "0852-1722-9216" },
+            { "name": "Cirebon - LPK PMB", "phone": "0857-2245-6269" },
+            { "name": "Indramayu - LPK Seiko", "phone": "0813-2426-4474" },
+            { "name": "Sukabumi - LPK Sahaja", "phone": "0813-1737-9047" },
+            { "name": "Tasik - LPK Seiko", "phone": "0812-8134-5766" },
+            { "name": "Pangandaran - Furusato", "phone": "0852-2087-8323" }
+          ]
+        },
+        {
+          "region": "ランプン地域",
+          "offices": [
+            { "name": "Lampung - LPK Matsumoto", "phone": "0821-7917-5940" },
+            { "name": "Lampung - LPK Ayabe", "phone": "0813-7994-9372" },
+            { "name": "Lampung - LPK Yamamori", "phone": "0821-7511-3260" },
+            { "name": "Lampung - LPK Gakusho", "phone": "0813-6969-6429" }
+          ]
+        }
+      ]
+    },
+    "howToRegistration": {
+      "title": "応募方法",
+      "titleStep": "参加希望者は、以下の方法で応募できます：",
+      "steps": [
+        {
+          "label": "メール:",
+          "content": "mail@coopindonesia.com",
+          "icon": "lucide:mail"
+        },
+        {
+          "label": "件名:",
+          "content": "「日本への技能実習プログラム登録」",
+          "icon": "lucide:edit"
+        },
+        {
+          "label": "宛先:",
+          "content": "ジャカルタのLPKコープインドネシア人材開発プログラム部門",
+          "icon": "lucide:building-2"
+        }
+      ]
+    },
+    "contactInfo": {
+      "title": "LPKコープインドネシアの技能実習プログラムに関する詳細については、以下の連絡先までお問い合わせください：",
+      "contacts": [
+        {
+          "admin": "Admin #1",
+          "phone": "0821-4081-3864",
+          "icon": "mdi:whatsapp"
+        },
+        {
+          "admin": "Admin #2",
+          "phone": "0822-3238-8961",
+          "icon": "mdi:whatsapp"
+        }
+      ]
+    },
+    "requirement": {
+      "title": "応募条件",
+      "body": "1. 候補者は、個人または地域のLPKコープインドネシアのパートナーを通じて応募できます。\n\n2. 候補者は、LPKコープインドネシアが実施する**事前選考**に参加し、体力テスト、心理テスト/IQテスト、学力テスト、面接などを受けます。\n\n3. 事前選考に合格した後、候補者は日本の受け入れ企業による選考に参加します。この選考には、**実技テスト、面接**（その他必要なテスト）が含まれます。\n\n4. 選考に合格した場合、候補者は必要な書類を揃え、インドネシアで90日間の配置前訓練に参加する必要があります。この訓練には、**体力、メンタル、規律（FMD）の形成、日本語と日本文化の**学習が含まれ、費用は候補者が負担します。"
+    }
+  },
+  "internshipTermsConditions": {
+    "info": "日本での技能実習プログラム",
+    "title": "条件と規約",
+    "termsConditions": {
+      "title": "条件と規約",
+      "body": "日本の受け入れ企業による選考は、事前選考を通過した候補者を対象に行われます。 **応募条件**. \n\n1. **学歴**: 職業高校卒業または同等の資格 \n\n2. **日本語能力**: LPKコープインドネシアによる日本語能力試験に合格 \n\n3. **職務経験**: 最低1年の関連分野での勤務経験 \n\n4. **年齢**: 19歳から27歳（送出機関の要件による）\n\n5. **日本への渡航歴**: いかなるプログラムでも日本に行ったことがないこと \n\n6. **身体条件**: 欠損、刺青または刺青跡、ピアスまたはピアス跡、骨折、難聴、ヘルニア、皮膚疾患、色盲、特定の手術跡がないこと\n\n7. **身長**: 男性は最低160cm、女性は最低150cm、体重は適正であること\n\n8. **体力テスト**: ランニング、腹筋、腕立て伏せ、懸垂、シャトルラン\n\n9. 心理テスト、IQテスト、学力試験、数学試験\n\n10. **面接**: 知識、一般常識、プログラムの理解、パフォーマンスなどについての面接\n\n11. **健康診断**: 血液検査、尿検査、視力検査、便検査、肺検査、心臓検査、薬物検査、肝炎検査、HIV/AIDS検査など"
+    }
+  },
+  "internshipDocument": {
+    "info": "日本での技能実習プログラム",
+    "title": "必要な書類",
+    "image": {
+      "src": "/program/document-image-1.svg",
+      "alt": "document-image-1-coop-indonesia"
+    },
+    "document": {
+      "title": "必要な書類",
+      "body": "1. **パスポート（原本）**- 有効期間が最低4年以上あること\n\n2. **最新の署名写真（ファイル）**- 背景は白色（スキャンファイル）\n\n3. **卒業証書（ファイル）**小学校、中学校、高校または同等の学歴\n\n4. **身分証明書（ファイル）**.\n\n5. **家族証明書（ファイル）**.\n\n6. **出生証明書（ファイル）**.\n\n7. **勤務証明書（任意）**\n\n8. **警察証明書（SKCK）**.\n\n9. **親または保護者の同意書（印紙付き）** - 日本での技能実習プログラムに参加するための許可書（LPKコープインドネシアの様式）\n\n10. **技能実習プログラム参加に関する同意書（印紙付き）** - 日本の中小企業で3年以上の技能実習プログラムに参加する意思を示す書類（LPKコープインドネシアの様式）"
+    }
+  },
+  "internshipRightsObligation": {
+    "info": "日本での技能実習プログラム",
+    "title": "参加者の権利参加者の義務",
+    "image": {
+      "src": "/program/rights-obligations-image-1.svg",
+      "alt": "rights-obligations-image-1-coop-indonesia"
+    },
+    "titleRights": "参加者の権利",
+    "contentRights": "1. **インドネシア滞在中**\n  1. 宿泊、食事、および研修中の必要備品（90日間）\n  2. 研修カリキュラムの受講：\n    1. 日本文化と日本語\n    2. 運動/体力訓練.\n    3. メンタルとイデオロギーを含むキャラクタービルディング\n    4. その他のスキル\n\n2. **日本滞在中**\n  1. 最初の1ヶ月間の技能研修\n  2. 宿泊および手当（給与）\n  3. 健康保険および労働災害保険\n  4. 契約に基づく3年間の技能実習プログラムの配置",
+    "titleObligations": "参加者の義務",
+    "contentObligations": "1. 契約に基づく技能実習プログラムを完了すること\n\n2. 受け入れ企業および日本の法律に従うこと\n\n3. 上記のポイント1および2に違反した場合、現地の法律に基づく法的制裁を受け入れること\n\n4. 日本への配置プロセスに必要な書類を提出すること"
+  },
+  "internshipPlacement": {
+    "info": "日本での技能実習プログラム",
+    "title": "配置",
+    "images": [
+      {
+        "src": "/training/training-image-2.jpg",
+        "alt": "training-image-2-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-3.jpg",
+        "alt": "training-image-3-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-4.jpg",
+        "alt": "training-image-4-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-5.jpg",
+        "alt": "training-image-5-coop-indonesia"
+      }
+    ],
+    "content": {
+      "title": "日本での配置",
+      "body": "候補者が教育訓練センター（Pusdiklat）での研修および訓練を完了し、渡航書類が全て揃った後、参加者は合意された労働契約に基づいて日本に配置されます。\n\n参加者の技能実習の配置期間は**1年間、3年間、延長可能期間**さらに2年間延長可能です。これにより、技能実習プログラムの総期間は最大で7年間となります。\n\n参加者が引き続き日本で働くことを希望する場合、特定技能（SSW）プログラムに進むことができます。このプログラムは、日本での技能実習プログラムの次のステップとなります。\n\n特定技能（SSW）プログラムの条件およびビザは、技能実習プログラムとは異なるため、詳細については別途確認が必要です。"
+    }
+  },
+  "internshipProgramFlow": {
+    "info": "日本での技能実習プログラム",
+    "title": "プログラムの流れ",
+    "steps": [
+      {
+        "titleStep": "プログラムの流れ",
+        "title": "レギュラープログラムのスキーム",
+        "image": {
+          "src": "/program/program-flow-image-1.svg",
+          "alt": "program-flow-image-1-coop-indonesia"
+        }
+      },
+      {
+        "title": "介護プログラムのスキーム",
+        "image": {
+          "src": "/program/program-flow-image-2.svg",
+          "alt": "program-flow-image-2-coop-indonesia"
+        }
+      }
+    ]
+  },
+  "internshipEducationalMaterial": {
+    "info": "日本での技能実習",
+    "title": "研修と訓練の内容",
+    "image": {
+      "src": "/program/educational-material-image-1.svg",
+      "alt": "educational-material-image-1-coop-indonesia"
+    },
+    "contents": [
+      {
+        "title": "A. 日本語（60%）:",
+        "body": "- 文法、会話、聴解.\n- LPKコープインドネシアの学習モジュールは、『みんなの日本語1 とみんなの日本語 2』から編集されており、ビジュアル学習のために『Gakken Nihongo 4me』アプリを使用し、日本語能力試験N4相当のレベルを目指します。"
+      },
+      {
+        "title": "B. 体力、メンタル、規律（20%）:",
+        "body": "- 体力訓練（ランニング、腕立て伏せ、懸垂、腹筋、シャトルラン）.\n- 愛国心教育\n- 労働安全/災害対応\n- キャラクタービルディング\n- 宗教教育\n- メンタリング\n- 職業技能"
+      },
+      {
+        "title": "C. 文化（10%）:",
+        "body": "- 日本社会における態度、文化、生活規則"
+      },
+      {
+        "title": "D. 起業家精神（10%）:",
+        "body": "- 自営業計画\n- 協同組合の紹介\n- 簡単な財務管理"
+      }
+    ]
+  },
+  "internshipPlacementProgress": {
+    "info": "日本での技能実習プログラム",
+    "title": "配置進捗",
+    "image": {
+      "src": "/program/placement-progress-image-1.svg",
+      "alt": "placement-progress-image-1-coop-indonesia"
+    }
+  },
+  "internshipPreSelection": {
+    "info": "日本での技能実習プログラム",
+    "title": "事前選考",
+    "images": [
+      {
+        "src": "/pre-selection/pre-selection-image-2.png",
+        "alt": "pre-selection-image-2-coop-indonesia"
+      },
+      {
+        "src": "/pre-selection/pre-selection-image-3.png",
+        "alt": "pre-selection-image-3-coop-indonesia"
+      },
+      {
+        "src": "/pre-selection/pre-selection-image-4.png",
+        "alt": "pre-selection-image-4-coop-indonesia"
+      },
+      {
+        "src": "/pre-selection/pre-selection-image-5.png",
+        "alt": "pre-selection-image-5-coop-indonesia"
+      },
+      {
+        "src": "/pre-selection/pre-selection-image-6.png",
+        "alt": "pre-selection-image-6-coop-indonesia"
+      },
+      {
+        "src": "/pre-selection/pre-selection-image-7.png",
+        "alt": "pre-selection-image-7-coop-indonesia"
+      }
+    ],
+    "content": {
+      "title": "事前選考活動",
+      "body": "事前選考活動は、LPKコープインドネシアのリクルートメントチームによって実施され、日本での技能実習プログラムに参加することに興味のある候補者を選抜するために行われます。\n\n事前選考は、バンドンのLPKコープインドネシアの教育訓練センター（Pusdiklat）や、LPKコープインドネシアのパートナーであるLPK支援拠点で実施される場合があります。\n\n事前選考の内容：\n\n 1. **体力テスト**: ランニング、腹筋、腕立て伏せ、懸垂、シャトルラン\n 2. **筆記テスト**: 基本的な日本語、数学、学力試験、心理テスト\n 3. **履歴書の記入**: 履歴書の記入、書類のチェック、健康診断結果の確認\n 4. **身体条件のチェック**: 以下の身体条件を確認します：欠損、刺青または刺青跡、ピアスまたはピアス跡、骨折、難聴、ヘルニア、皮膚疾患、色盲、特定の手術跡がないこと\n 5. **面接**: 知識、一般常識、プログラムの理解、パフォーマンスなどについての面接 \n\nこの事前選考活動は、日本企業との面接プロセスに入る前の第1段階の選抜です。"
+    }
+  },
+  "internshipSelection": {
+    "info": "日本での技能実習プログラム",
+    "title": "候補者選考",
+    "images": [
+      {
+        "src": "/selection/selection-image-2.png",
+        "alt": "selection-image-2-coop-indonesia"
+      },
+      {
+        "src": "/selection/selection-image-3.png",
+        "alt": "selection-image-3-coop-indonesia"
+      },
+      {
+        "src": "/selection/selection-image-4.png",
+        "alt": "selection-image-4-coop-indonesia"
+      }
+    ],
+    "content": {
+      "title": "選考活動",
+      "body": "選考活動および企業面接は、受け入れ企業または受け入れ機関（Accepting Organization/AO）によって日本で直接行われます。\n\n候補者が面接に参加するための条件は、LPKコープインドネシアによる事前選考に合格していることです。\n\n 選考に合格した参加者は、約90日間のLPKコープインドネシア教育訓練センター（Pusdiklat）での教育および訓練に備えます。参加者はまた、日本への配置プロセスのために必要な書類を揃える必要があります。"
+    }
+  },
+  "internshipTraining": {
+    "info": "日本での技能実習プログラム",
+    "title": "訓練",
+    "images": [
+      {
+        "src": "/training/training-image-2.jpg",
+        "alt": "training-image-2-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-3.jpg",
+        "alt": "training-image-3-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-4.jpg",
+        "alt": "training-image-4-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-5.jpg",
+        "alt": "training-image-5-coop-indonesia"
+      }
+    ],
+    "content": {
+      "title": "教育と訓練期間",
+      "body": "日本の企業への配置前に、LPKコープインドネシアの教育訓練センター（PUSDIKLAT）で90日間の準備期間があります。この期間には以下の内容が含まれます：\n\n1. 日本語教育\n2. 日本文化の紹介\n3. 体力、メンタル、および規律の訓練\n4. 配置分野に応じた職業技能訓練\n\n教育訓練センターでの期間中、候補者は外部との接触が制限され、隔離状態で生活します。参加者は全ての規則を遵守する必要があり、LPKコープインドネシアは規則違反を犯した候補者を帰国させるか、渡航を取り消す権利を有します。\n\nしたがって、教育および訓練期間に参加する候補者は、精神的および肉体的に完全に準備されている必要があります。LPKコープインドネシアのトレーナーおよび教師（先生）の指導のもとで、十分な準備を整えることが求められます。"
+    }
+  },
+  "studentInternship": {
+    "info": "INTERNSHIP",
+    "title": "インターンシッププログラム",
+    "contents": {
+      "body": "LPK COOP Indonesia bekerjasama dengan beberapa Kampus/ Universitas di Bandung dan Jogja untuk menempatkan Mahasiswa(i) Indonesia ke berbagai perusahaan di Jepang, diantaranya Perusahaan Aviasi dan Teknologi Informasi.\n\nMelalui program Internship, Mahasiswa(i) akan mendapatkan berbagai bimbingan dalam pekerjaan. Hal itu akan membuat mahasiswa(i) memperoleh skillset atau networking di dunia pekerjaan. Masa Penempatan Internship 6 bulan atau 1 tahun.\n\nUntuk Bidang Aviasi, Mahasiswa(i) akan ditempatkan di Counter Check in Bandara Narita, sedangkan untuk bidang Teknologi Informasi, Mahasiswa(i) bersama dengan Tim Developer lain akan membangun Sistem Informasi maupun Aplikasi untuk berbagai perusahaan di Jepang.\n\nSelanjutnya, Mahasiswa(i) yang telah menyelesaikan kegiatan Internship di Jepang akan kembali ke kampus-nya kembali di Tanah Air dan menyelesaikan Perkuliahannya.\n\nSetelah mendapatkan Ijazah S1, Mahasiswa(i) tersebut dapat kembali melanjutkan bekerja di Perusahaan sebelumnya dengan Status Visa Workers, dan dapat tinggal di Jepang dengan waktu TIDAK TERBATAS.\n\nBagi LPK COOP Indonesia Program INTERNSHIP ini merupakan Kelanjutan dari Program Pemagangan khususnya bidang Ground Handling, dimana Peserta Pemagangan di tempatkan dibagian Pengaturan Kargo Pesawat atau Penataan Bagasi Penumpang, sedangkan Mahasiswa(i) INTERNSHIP ditempatkan di COUNTER CHECK IN.\n\nMerupakan suatu Kesempatan dan Kehormatan bilamana Anak-Anak Muda Indonesia dapat berkontribusi terhadap kekurangan Tenaga Kerja di Jepang, khususnya di dunia Aviasi.\n\n Karena itu, Jangan Kaget teman-teman Traveler bila suatu waktu, ketika anda melakukan Check in Pesawat di beberapa Bandara di Jepang, anda akan menemukan pekerja yang dapat melayani Anda dengan Bahasa Indonesia !!!\n\nBagaimana… Minat..?"
+    },
+    "images": [
+      {
+        "src": "/training/training-image-1.jpg",
+        "alt": "training-image-1-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-2.jpg",
+        "alt": "training-image-2-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-3.jpg",
+        "alt": "training-image-3-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-4.jpg",
+        "alt": "training-image-4-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-5.jpg",
+        "alt": "training-image-5-coop-indonesia"
+      }
+    ]
+  },
+  "postInternship": {
+    "info": "自事業プログラム",
+    "title": "はじめに",
+    "contents": {
+      "title": "自営業開発プログラム",
+      "body": "自営業開発プログラムは、LPKコープインドネシアが実施する日本からの技能実習後の活動です。このプログラムは、日本での技能実習プログラムを終了し、帰国した参加者を支援するために設けられています。参加者が「THE ENTREPRENEUR」という技能実習プログラムのタグラインに沿って、自立して事業を開始することを期待しています。\n\n日本からの技能実習後プログラムは、参加者が将来個人またはグループで独立した事業を開始できるよう支援することを目的としています。\n\n現在、LPKコープインドネシアの技能実習参加者の卒業生は、以下の様々な分野で事業を展開しています：\n- 砂糖椰子農業\n- 乳牛および肉牛の畜産\n- ロゼリンド茶の栽培\n- 内水面養殖\n- その他の分野\n\nLPKコープインドネシアは、製品のマーケティングおよび生産品質の向上において、民間企業や地方政府の関連機関と協力しています。この協力により、国内市場および国際市場での競争力を高めることができます。"
+    },
+    "images": [
+      {
+        "src": "/training/training-image-1.jpg",
+        "alt": "training-image-1-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-2.jpg",
+        "alt": "training-image-2-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-3.jpg",
+        "alt": "training-image-3-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-4.jpg",
+        "alt": "training-image-4-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-5.jpg",
+        "alt": "training-image-5-coop-indonesia"
+      }
+    ]
+  },
+  "postInternshipFurusatoAgribisnis": {
+    "info": "自事業プログラム",
+    "title": "フルサトアグリビジネス",
+    "content": {
+      "title": "フルサトアグリビジネスでより良い生活を",
+      "body": "LPKコープインドネシアは、日本の田原市からのNPOと協力して、東ジャワ州マランのバトゥ市ブミアジに「環境に優しい農業の卓越センター」を設立しました。<br/><br/> ブミアジ活動は、日本での技能実習プログラムを終了し帰国した卒業生が、得た知識を発展させるために開始されます。さらに、田原市からの専門家が、最適な結果を達成するための支援を行います。<br/><br/> プログラムの目的：\n1. 地元の若者を中心に、現代農業について無料で学ぶ機会を提供します。\n2. 東ジャワ州マランのバトゥ市ブミアジを、国内市場で海外製品と競争できる環境に優しい農業産業の卓越センターとします。\n3. 東ジャワ州マランのバトゥ市ブミアジを、環境に優しい農業産業の卓越センター（Center of Excellence）として発展させ、国内市場で海外製品と競争力を持たせます。\n4. インドネシアのバトゥ市と日本の田原市が、将来的に姉妹都市となるための協力を促進します。これは、バトゥ市の市長と田原市の市長の協力によって実現されます。"
+    },
+    "images": [
+      {
+        "src": "/training/training-image-1.jpg",
+        "alt": "training-image-1-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-2.jpg",
+        "alt": "training-image-2-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-3.jpg",
+        "alt": "training-image-3-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-4.jpg",
+        "alt": "training-image-4-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-5.jpg",
+        "alt": "training-image-5-coop-indonesia"
+      }
+    ]
+  },
+  "postInternshipPalmSugar": {
+    "info": "自事業プログラム",
+    "title": "グラアレン（パームシュガー）",
+    "content": {
+      "title": "グラアレン（パームシュガー）",
+      "body": "これは、西ジャワ州チアンジュール出身の技能実習プログラム卒業生による製品です。LPKコープインドネシアは、**グラアレン（パームシュガー）**の包装とマーケティングを国内市場および日本市場向けに支援しています。<br/><br/> グラアレンは、多くの健康効果を持つ赤砂糖です。しかし、現在の多くの消費者は、通常の赤砂糖や白砂糖を選ぶことが多いです。その理由は、グラアレンが持つ赤い色が、提供される食べ物や飲み物の基本色を変えてしまうからです。それでも、グラアレンは、ジェナンやガドガドなど特定の食べ物の天然着色料として使用できます。<br/><br/> グラアレンは、アレンの木の雄花から得られる樹液から作られる天然の甘味料です。アレンは、グルコースの形で豊富な炭水化物を含むヤシ科の植物の一種です。グラアレンの糖度は、通常の赤砂糖や白砂糖よりも高いですが、多くの健康効果があります"
+    },
+    "benefits": {
+      "title": "グラアレンの健康効果",
+      "body": "* 口内炎の治療\n* 貧血の予防\n* 糖尿病患者に適していること\n* 体力の向上\n* 美容効果\n* 肝炎の予防\n* 体内のカロリーを減らすこと\n* 胃潰瘍の痛みを和らげること\n* 伝統薬の成分\n* 抗酸化物質の供給源\n* 神経系への効果"
+    },
+    "images": [
+      {
+        "src": "/training/training-image-1.jpg",
+        "alt": "training-image-1-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-2.jpg",
+        "alt": "training-image-2-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-3.jpg",
+        "alt": "training-image-3-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-4.jpg",
+        "alt": "training-image-4-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-5.jpg",
+        "alt": "training-image-5-coop-indonesia"
+      }
+    ]
+  },
+  "postInternshipRoselindoTea": {
+    "info": "自事業プログラム",
+    "title": "ROSELINDO TEA （ロゼリンド茶）",
+    "contents": {
+      "title": "Roselindo Tea",
+      "body": "ROSELINDO TEAは、ROSELA HERBAL INDONESIAから抽出された高品質カリックスエキスで作られたハーブティーの一種です。<br/><br/> LPKコープインドネシアは、マランの甘味および繊維作物研究センター（BALITTAS）と協力してROSELINDO TEAを生産しています。ROSELINDO品種の使用により、ROSELINDO TEAの品質の一貫性が保証されます。<br/><br/> ROSELINDO品種のROSELA HERBALの栽培は、東ジャワ州のガンジュックで、日本からの技能実習生の卒業生グループが環境に優しい方法で行われています。ROSELINDO TEAは国内市場だけでなく、日本でも販売されており、健康に良いオーガニックハーブ製品として認められています。",
+      "images": [
+        {
+          "src": "/training/training-image-1.jpg",
+          "alt": "training-image-1-coop-indonesia"
+        },
+        {
+          "src": "/training/training-image-2.jpg",
+          "alt": "training-image-2-coop-indonesia"
+        },
+        {
+          "src": "/training/training-image-3.jpg",
+          "alt": "training-image-3-coop-indonesia"
+        },
+        {
+          "src": "/training/training-image-4.jpg",
+          "alt": "training-image-4-coop-indonesia"
+        },
+        {
+          "src": "/training/training-image-5.jpg",
+          "alt": "training-image-5-coop-indonesia"
+        }
+      ]
+    },
+    "postContents": [
+      {
+        "title": "なぜお茶を飲むのか",
+        "content": "一般的に、お茶には抗酸化物質が含まれており、体の脂肪燃焼を助け、心臓発作のリスクを低減する効果があります。"
+      },
+      {
+        "title": "ROSELINDO TEAの健康効果",
+        "content": "* 体力と免疫力の向上\n* 高血圧の低下\n* コレステロールと尿酸の低下\n* 糖尿病患者の血糖値の低下\n* 骨粗しょう症の予防\n* 癌および腫瘍の予防\n* 肌の滑らかさを保ち、早期老化を防止\n* 熱中症、口内炎、喉の痛みを緩和\n* 血液循環、排尿および排便を促進"
+      },
+      {
+        "title": "ROSELINDO TEAの栄養成分",
+        "content": "* ビタミンC（200mg以上/100g）\n* ベータカロテン（10mg以上/100g）\n* カルシウム、鉄、アントシアニン\n* d抗菌、抗真菌、抗炎症、抗糖尿病、抗酸化、抗高血圧などの健康促進活動を持つフィトケミカル"
+      },
+      {
+        "title": "購入方法",
+        "content": "現在、ROSELINDO TEAは以下のオンラインストアで購入できます。"
+      }
+    ],
+    "followUsImages": [
+      "/follow-us/instagram.svg",
+      "/follow-us/facebook.svg",
+      "/follow-us/tiktok.svg"
+    ]
+  },
+  "sharedContent": {
+    "featuredPrograms": {
+      "title": "LPK COOPインドネシアのプログラム",
+      "subtitle": "以下は、LPK COOPインドネシアの主なプログラムです。",
+      "programs": [
+        {
+          "title": "日本技能実習生",
+          "src": "/featured-programs/image-1.svg",
+          "href": "/program/internship/registration",
+          "alt": "hero-image-coop-indonesia",
+          "description": "LPK COOPインドネシアは、参加者の募集から日本での配置前の研修と訓練の実施までのプロセスを行っています。",
+          "labelButton": "詳しくはこちら"
+        },
+        {
+          "title": "インターンシッププログラム",
+          "src": "/featured-programs/image-2.svg",
+          "alt": "hero-image-coop-indonesia",
+          "href": "/program/student-internship",
+          "description": "インターンシッププログラムを通じて、学生は職場での様々な指導を受けることができ、スキルセットや職場でのネットワーキングを習得できます。",
+          "labelButton": "詳しくはこちら"
+        },
+        {
+          "title": "自主事業プログラム",
+          "src": "/featured-programs/image-3.svg",
+          "alt": "hero-image-coop-indonesia",
+          "href": "/program/post-internship",
+          "description": "技能実習後の活動として、日本での技能実習プログラムを終了し、帰国した参加者を支援するためのプログラムです。",
+          "labelButton": "詳しくはこちら"
+        }
+      ]
+    },
+    "askedQuestion": {
+      "title": "FAQ",
+      "subtitle": "よくある質問",
+      "questions": [
+        {
+          "title": "コープとは何ですか？",
+          "id": "cardOne",
+          "content": "LPKコープ インドネシアは、海外研修派遣機関または送り出し機関（Sending Organizer）の一つとして、インドネシアの若者に対し、日本の企業での技能実習プログラムに参加する機会を提供し、自身の質と能力を向上させることを目的としています。"
+        },
+        {
+          "title": "コープインドネシアのプログラムには何がありますか？",
+          "id": "cardTwo",
+          "content": "コープインドネシアの主なプログラムは、日本の企業への技能実習生の配置です。\n\nしかし、それ以外にも、コープインドネシアは日本での技能実習プログラムを終了し、帰国した参加者を支援するための活動も行っています。 \n\nその参加者が \"**「THE ENTREPRENEUR」**\"という技能実習プログラムのタグラインに沿って、独立して事業を開始することを期待しています。 \n\n日本からの技能実習後のプログラムは、参加者が将来個人またはグループで独立して事業を開始できるように支援することを目的としています。"
+        },
+        {
+          "title": "プログラムを参加するのにどうすればいいですか？",
+          "id": "cardThree",
+          "content": "**登録規定**\n\n応募者は、個人で登録するか、LPK コープインドネシアの提携パートナーを通じて登録することができます。詳細は「登録ページ」をご覧ください。\n\n(https://www.coopindonesia.com/program/internship/registration)"
+        }
+      ],
+      "image": {
+        "src": "/asked-question-image.svg",
+        "alt": "asked-question-image-coop-indonesia"
+      }
+    },
+    "threeCareer": {
+      "title": "日本でキャリアを積むための3つの道",
+      "subtitle": "日本語と日本文化のスキルを向上させるための包括的なプログラムであり、日本での貴重な経験を提供します。",
+      "lists": [
+        {
+          "title": "技能実習生",
+          "subtitle": "Ginou Jisshusei",
+          "cost": {
+            "title": "費用",
+            "price": "27,5jt",
+            "desc": "* LPKコープインドネシアの教育訓練センターでの出発前の研修費用: Rp. 30,000,000,-\n* LPKコープインドネシアの卒業生向け技術実習3Bの費用: **無料**"
+          },
+          "requirement": {
+            "title": "候補者の要件",
+            "desc": "* 最低限の学歴として高校卒業または同等の資格。\n* 技能実習の分野に関連する職務経験（最低1年間）。\n* いかなるプログラムでも日本に行ったことがない人。"
+          },
+          "periodic": {
+            "title": "配置期間",
+            "desc": "**3～5 年**\n* 技能実習1B: 1年\n* 技能実習2B: 2年\n* 技能実習3B: 3年"
+          },
+          "advantages": {
+            "title": "利点",
+            "desc": "* 日本での仕事にまだ適応できない参加者は、管理団体(AO) または企業からのサポート/指導を受けることができます。\n* 日本語能力の要求はありません。\n* 技術実習3Bの参加者は、毎年インドネシアに休暇を取ることができます。**.\n* 費用が手頃です。"
+          },
+          "weakness": {
+            "title": "欠点",
+            "desc": "* 配置期間が決められています。\n* W企業の選考を受ける必要があります。\n* 住居の規定は企業によって決められます。"
+          }
+        },
+        {
+          "title": "特定技能ビザ",
+          "subtitle": "Tokutei Ginou",
+          "cost": {
+            "title": "費用",
+            "price": "10jt*",
+            "desc": "* 他の送出機関（SO）からの技能実習生の卒業生および非卒業生候補者の費用：Rp. 10,000,000,-。\n* LPKコープインドネシアの技能実習参加者の卒業生： **無料**"
+          },
+          "requirement": {
+            "title": "候補者の要件",
+            "desc": "* 最低限の技術実習訓練2B（3年間）のプログラムを修了した技能実習生。\n* 技能実習生ではない人に向けは:\n  1. 最低限日本語能力試験N4の証明書を持っていること。\n  2. 最低限の学歴として高校卒業または同等の資格を持っていること。 &\n  3. 選択した職種に関連する技能試験に合格すること。\n* 職種を変更したい技能実習生は、技能試験に合格する必要があります。"
+          },
+          "periodic": {
+            "title": "配属期間",
+            "desc": "**5～10 年**\n* 特定技能2号: 5年以上"
+          },
+          "advantages": {
+            "title": "利点",
+            "desc": "* LPKコープインドネシアの技能実習参加者の卒業生は無料です。\n* 日本での滞在期間が長くなります。\n* 毎年インドネシアに帰国するための休暇を取る権利があります。**\n* 特定技能2号の場合、インドネシアから家族を呼び寄せることができます。\n* 自分でアパートや住居を選ぶことができます。"
+          },
+          "weakness": {
+            "title": "欠点",
+            "desc": "* 最低限、日本語能力試験N4の合格証明書または技術実習2Bの終了証明書を持っている必要があります。\n* 企業の選考プロセスを受ける必要があります。"
+          }
+        },
+        {
+          "title": "大学生インターンシップ",
+          "subtitle": "Daigakusei Intanshippu",
+          "cost": {
+            "title": "費用",
+            "price": "575rb",
+            "desc": "* 費用なし/ 日本の企業が負担します。"
+          },
+          "requirement": {
+            "title": "候補者の要件",
+            "desc": "* インターンシップの候補者は、インドネシアのいずれかの大学に在籍している現役学生であり、日本の企業と提携していること。\n* 専攻分野は日本での配置職務と関連していること。\n* インターンシップの候補者は大学側によって選定されること。\n* 日本の企業でのインターンシップを終了した参加者は、大学に戻り、学業を完了すること。"
+          },
+          "periodic": {
+            "title": "配属期間",
+            "desc": "**6ヶ月〜1年**"
+          },
+          "advantages": {
+            "title": "利点",
+            "desc": "* インターンシッププログラムは学生の単位数を増やすことができます。\n* インターンシップ期間を終了した学生は、卒業後に以前のインターンシップ先企業で就労ビザを取得して無期限の滞在期間で働く大きな機会があります。"
+          },
+          "weakness": {
+            "title": "欠点",
+            "desc": "* インターンシップの候補者は、日本側と提携している特定の大学の現役学生に限定されます。\n* 候補者は学生の成績に基づいて大学側が決定します。"
+          }
+        }
+      ]
+    },
+    "banner": {
+      "image": {
+        "src": "/banner/banner-image-1.svg",
+        "alt": "banner-image-1-coop-indonesia"
+      },
+      "title": "私たちと一緒に、自分を成長させ、強力な起業家（Entrepreneur）になりましょう",
+      "desc": "詳細については、ぜひお問い合わせください ...",
+      "buttonName": "お問い合わせ"
+    },
+    "contactInfo": {
+      "label": "本部所在地",
+      "address": "Jl. Ciragil II No.6;RT/RW 001/001 Kel. Rawa Barat, Kec.Kebayoran Baru Jakarta Selatan 12180",
+      "phone": "+62 21 29501010",
+      "email": "mail@coopindonesia.com"
+    },
+    "contactTrainingCenter": {
+      "label": "LPKコープインドネシアの教育施設",
+      "address": "Jl. Arcamanik Sindanglaya, KP. Sekesalam RT/RW 001/008, DS.Sindanglaya, Kec. Cimenyan, Kab. Bandung, Jawa Barat 40195"
+    },
+    "partnership": {
+      "label": "パートナーシップ"
+    },
+    "menuProgramInternship": {
+      "title": "日本技能実習生",
+      "internship": [
+        { "href": "/program/internship", "label": "技能実習について" },
+        {
+          "href": "/program/internship/educational-material",
+          "label": "研修と訓練の内容"
+        },
+        { "href": "/program/internship/registration", "label": "応募" },
+        {
+          "href": "/program/internship/placement-progress",
+          "label": "配置進捗"
+        },
+        {
+          "href": "/program/internship/three-career-path",
+          "label": "日本でキャリアを積むための3つの道"
+        },
+        { "href": "/program/internship/pre-selection", "label": "事前選考" },
+        {
+          "href": "/program/internship/terms-conditions",
+          "label": "条件と規約"
+        },
+        { "href": "/program/internship/selection", "label": "候補者選考" },
+        {
+          "href": "/program/internship/documents",
+          "label": "必要な書類"
+        },
+        { "href": "/program/internship/training", "label": "訓練" },
+        {
+          "href": "/program/internship/rights-obligations",
+          "label": "参加者の権利参加者の義務"
+        },
+        { "href": "/program/internship/placement", "label": "配置" },
+        {
+          "href": "/program/internship/program-flow",
+          "label": "プログラムの流れ"
+        }
+      ]
+    },
+    "menuProgramBusiness": {
+      "title": "日本技能実習生",
+      "business": [
+        { "href": "/program/post-internship", "label": "はじめに" },
+        {
+          "href": "/program/post-internship/furusato-agribisnis",
+          "label": "フルサトアグリビジネス"
+        },
+        {
+          "href": "/program/post-internship/palm-sugar",
+          "label": "グラアレン（パームシュガー）"
+        },
+        {
+          "href": "/program/post-internship/roselindo-tea",
+          "label": "ROSELINDO TEA （ロゼリンド茶）"
+        }
+      ]
+    },
+    "menuAbout": {
+      "title": "について",
+      "about": [
+        {
+          "id": 1,
+          "label": "私たちについて",
+          "description": "Sekilas tentang LPK COOP Indonesia",
+          "href": "/about/at-a-glance",
+          "icon": "lucide:building-2"
+        },
+        {
+          "id": 2,
+          "label": "企業理念",
+          "description": "Lebih jauh tentang tujuan kami",
+          "href": "/about/vision-and-mission",
+          "icon": "lucide:scan-eye"
+        },
+        {
+          "id": 3,
+          "label": "役員・事務局一覧",
+          "description": "Dewan kepemimpinan dan staf",
+          "href": "/about/organization-structure",
+          "icon": "lucide:network"
+        },
+        {
+          "id": 4,
+          "label": "歴史",
+          "description": "Kisah dibalik perjalanan kami",
+          "href": "/about/organization",
+          "icon": "lucide:book-open"
+        }
+      ]
+    }
+  },
+  "gallery": {
+    "workVisit": {
+      "info": "ギャラリー",
+      "title": "視察"
+    },
+    "collaboration": {
+      "info": "ギャラリー",
+      "title": "協力"
+    },
+    "internshipActivities": {
+      "info": "ギャラリー",
+      "title": "技能実習生活動"
+    },
+    "trainingCenter": {
+      "info": "ギャラリー",
+      "title": "技能実習生教育訓練センター"
+    }
+  },
+  "exploreMoreGalleries": {
+    "label": "Jelajahi Galeri Lainnya",
+    "galleries": [
+      {
+        "href": "/gallery/work-visit",
+        "src": "/gallery/explore-more-galleries-4.svg",
+        "alt": "explore-more-galleries-4-coop-indonesia",
+        "title": "視察"
+      },
+      {
+        "href": "/gallery/collaboration",
+        "src": "/gallery/explore-more-galleries-1.svg",
+        "alt": "explore-more-galleries-1-coop-indonesia",
+        "title": "協力"
+      },
+      {
+        "href": "/gallery/internship-activities",
+        "src": "/gallery/explore-more-galleries-2.svg",
+        "alt": "explore-more-galleries-2-coop-indonesia",
+        "title": "技能実習生活動"
+      },
+      {
+        "href": "/gallery/training-center",
+        "src": "/gallery/explore-more-galleries-3.svg",
+        "alt": "explore-more-galleries-3-coop-indonesia",
+        "title": "技能実習生教育訓練センター"
+      }
+    ]
+  },
+  "aboutPage": {
+    "info": "について",
+    "aboutAtAGlance": {
+      "title": "私たちについて",
+      "subtitle": "LPKコープインドネシアは、**海外技能実習派遣機関または送り出し機関 （Sending Organizer）** の一つとして、インドネシアの若者に対し、日本の企業での技能実習プログラムに参加する機会を提供し、自身の質と能力を向上させることを目的としています。",
+      "contents": [
+        {
+          "image": {
+            "src": "/about/at-a-glance-image-1.svg",
+            "alt": "at-a-glance-image-1-coop-indonesia"
+          },
+          "content": "LPKコープインドネシアは、候補者の募集から日本での配置前教育・訓練までのプロセスを行い、日本企業のニーズに合わせて、日本語と日本文化、体力、精神力、規律、キャラクタービルディング、宗教教育、起業家精神、及び技能知識に応じた技術訓練の教育を提供します。\n\n日本とインドネシアの国際協力枠組みの一環として、LPKコープインドネシアは、東京、大阪、愛知に代表事務所を開設し、日本での技能実習生の配置プログラムの円滑な実施を図っています。現在、私たちは約2,500名の技能実習生を日本の様々な企業に配置しており、建設、介護、溶接、農業、水産業、畜産業、製造業、食品加工業、地上操作（グランドハンドリング）など、様々な分野で活躍しています"
+        },
+        {
+          "image": {
+            "src": "/about/at-a-glance-image-2.svg",
+            "alt": "at-a-glance-image-2-coop-indonesia"
+          },
+          "content": "さらに、LPKコープインドネシアは、日本での技能実習プログラムを終了した参加者のために、技能実習後プログラムを準備し、支援しています。このプログラムは、参加者が日本で得た経験を活かして、個人またはグループで自分のビジネスを開始することを促進することを目的としています。この目標を実現するために、LPKコープインドネシアは地方政府、関連省庁、研究センター、国内外の企業と協力しています。\n\nLPKコープインドネシアは、日本での技能実習を通じた **自営業育成プログラム** が以下のような利点をもたらすと確信しています:\n* 自立して、創造的で競争力のある若い起業家を育成することができます。\n* 地域経済の成長を促進し、全国の失業率の低減に貢献します。\n* 国際市場における国産品の競争力を向上させます。"
+        }
+      ]
+    },
+    "aboutOrganizationStructure": {
+      "info": "について",
+      "title": "役員・事務局一覧",
+      "subtitle": "LPKコープインドネシアは、インドネシア国内に広がるネットワーク組織と、日本にある代表事務所を有しています。",
+      "members": [
+        {
+          "name": "Herson Tendean, S.Kom （ヘ ルソン  テンデアン）",
+          "position": "代表理事",
+          "src": "/profile/herson-tendean.png"
+        }
+      ],
+      "representativeOffice": {
+        "title": "日本駐在員事務所担当",
+        "members": [
+          {
+            "name": "Toshiyuki Sahara",
+            "position": "代表責任者",
+            "src": "/profile/toshiyuki-sahara.png"
+          },
+          {
+            "name": "Tomoko Yamamoto (山本知子)",
+            "position": "東京エリアの代表",
+            "src": "/profile/tomoko-yamamoto.png"
+          },
+          {
+            "name": "Kosei Sahara",
+            "position": "東京都の代表",
+            "src": "/profile/kosei-sahara.png"
+          },
+          {
+            "name": "Herizal Adhardi (ヘリザ ル アダ ル ディ) ",
+            "position": "大阪府の代表",
+            "src": "/profile/herizal-adhardi.png"
+          },
+          {
+            "name": "Devi Riswanto（デフィ　リスワント",
+            "position": "愛知県の代表",
+            "src": "/profile/devi-riswanto.png"
+          },
+          {
+            "name": "Arief Rivani Nugraha, S.Pd.（アリフ リファン ヌグラハ）",
+            "position": "東京都 コーポレートセクレタリー",
+            "additionalInfo": "日本語教育学士 (S1)、インドネシア教育大学卒業、静岡大学 (日本) 卒業生、日本語能力試験N2取得",
+            "src": "/profile/arief-rivani-nugraha.png"
+          }
+        ]
+      },
+      "headOffice": {
+        "title": "本部",
+        "members": [
+          {
+            "name": "Leila Djawas（レイラ　ジャワス",
+            "position": "顧問",
+            "src": "/profile/leila-djawas.png"
+          },
+          {
+            "name": "Selvy Rahmika, A.Ma S.Kom　（セルフィ ラーミカ",
+            "position": "人材開発",
+            "src": "/profile/selvy-rahmika.png"
+          },
+          {
+            "name": "Sandy B.Y Bangapadang, S.H., （サンディ バンガパダン）",
+            "position": "顧問弁護士",
+            "src": "/profile/sandy-b.png"
+          }
+        ],
+        "financeAccounting": {
+          "label": "一般会計:",
+          "members": [
+            "Nensi Audika B., SE.　（ンシ　オーディカ）",
+            "Sholikin, SE., MMSi.　（ショリキン）"
+          ]
+        },
+        "corporateSecretary": {
+          "label": "コーポレートセクレタリー:",
+          "members": [
+            {
+              "name": "Liska Maharani　（リスカ　マハラニ）",
+              "additionalInfo": "(日本技能実習プログラム終了生)"
+            },
+            {
+              "name": "Yunita Wahyu Aryani, A.Ma　（ユニタ　ワヒュ　アリヤニ）",
+              "additionalInfo": "（LPKコープインドネシア第13期卒業生、日本語能力試験N3取得）"
+            },
+            {
+              "name": "Ragilia Farda Karima, A.Md　（ラギリア　ファルダ　カリマ）"
+            },
+            {
+              "name": "Winairoh, S.Tr.Ds.　（ウィナイロ）"
+            },
+            {
+              "name": "Nurul Zia Aida, S.Pd （ヌルル　ジア　アイダ）",
+              "additionalInfo": "（日本語能力試験N4取得）"
+            }
+          ]
+        },
+        "generalAffair": {
+          "label": "総務:",
+          "members": [
+            "Slamet Raharjo　（スラメット　ラハルジョ）",
+            "Sugeng Riyadi　（スゲン　リヤディ）",
+            "Chafid　（ハフィド）"
+          ]
+        }
+      },
+      "development": {
+        "title": "業務開発部",
+        "members": [
+          {
+            "name": "Cristian Ade Candra., S.T,. M.T　（クリスティアン・アデ・チャンドラ）",
+            "position": "理事",
+            "src": "/profile/cristian-ade-candra.png"
+          },
+          {
+            "name": "Naldy Kostiyandi, S.Pd.　（ナルディ　コスティヤンディ）",
+            "additionalInfo": "（日本語教育学士（S1）、インドネシア教育大学卒業、東京学芸大学（日本）卒業生、日本語能力試験N2取得）"
+          },
+          {
+            "name": "Ristiawan Hidayat, S.Pd.　（リスティアワン・ヒダヤット）",
+            "additionalInfo": "（日本語教育学士（S1）、インドネシア教育大学卒業、大阪外語学院卒業生、日本語能力試験N2取得）"
+          }
+        ]
+      },
+      "education": {
+        "title": "教育訓練部",
+        "members": [
+          {
+            "name": "Irwan Ardiyanto　（イルワン　アルディヤント）",
+            "src": "/profile/irwan-ardiyanto.png",
+            "position": "理事",
+            "additionalInfo": "IM Japan第37期卒業生"
+          },
+          {
+            "name": "Pupung Masitoh, S.S　（ププン　マシトー）",
+            "position": "教育訓練部長",
+            "src": "/profile/pupung-masitoh.png",
+            "additionalInfo": "日本文学士（S1）、ガジャマダ大学卒業、日本語能力試験N2取得"
+          }
+        ],
+        "publicRelations": {
+          "label": "広報部:",
+          "members": [
+            "Yusron Ahmadi　（ユスロン　アフマディ）",
+            "Ahmad Sumarna, S, Sos.　（アフマド　スマルナ）"
+          ]
+        },
+        "corporateSecretary": {
+          "label": "コーポレートセクレタリー:",
+          "members": [
+            "Rizal Muhamad Dahlan, S.Ak　（リザル　ムハマド　ダラン）"
+          ]
+        },
+        "disciplinInstructors": {
+          "label": "体育   精神    規律担：",
+          "members": [
+            {
+              "name": "Serma (PURN) Kasiyanto, S.Pd　（退役海軍軍曹　カシヤント）"
+            },
+            {
+              "name": "Bambang Heryawan　（バンバン　ヘルヤワン）",
+              "additionalInfo": "（LPKコープインドネシア第15期卒業生、日本語能力試験N3取得）"
+            },
+            {
+              "name": "Gun gun Gunawan　（グングン　グナワン）",
+              "additionalInfo": "（LPKコープインドネシア第15期卒業生）"
+            }
+          ]
+        },
+        "languageInstructors": {
+          "label": "日本語・日本文化教育担当:",
+          "members": [
+            {
+              "name": "Nur Rizki Adi Jourgia Abdillah, S.Pd.　（ヌル　リズキ　アディ　ジョルギア　アブディラ）",
+              "additionalInfo": "日本語教育学士（S1）、インドネシア教育大学卒業、東京学芸大学（日本）卒業生、日本語能力試験N2取得"
+            },
+            {
+              "name": "Trisnawati Srimulyani, S.Pd.　（トリスナワティ　スリムリヤニ）",
+              "additionalInfo": "日本語教育学士（S1）、インドネシア教育大学卒業、大阪外語学院卒業生、日本語能力試験N2取得"
+            },
+            {
+              "name": "Devy Ramputy, S.Pd　（デヴィ・ラムプティ）",
+              "additionalInfo": "日本語教育学士（S1）、インドネシア教育大学卒業、日本語能力試験N3取得"
+            },
+            {
+              "name": "Nida Siti Hanifah, S.Pd.　（ニダ　シティ　ハニファ）",
+              "additionalInfo": "ヤパリ外国語学校 - ABAバンドン卒業、日本語能力試験N3取得"
+            },
+            {
+              "name": "Rifa Aulia Husni Fadilla, S. Pd　（リファ　アウリア　フスニ　ファディラ）",
+              "additionalInfo": "日本語教育学士（S1）、インドネシア教育大学卒業、日本語能力試験N4取得"
+            },
+            {
+              "name": "Omar Hafiz Shirazi, S.Pd　（オマール・ハフィズ・シラジ）",
+              "additionalInfo": "日本語教育学士（S1）、インドネシア教育大学卒業、日本語能力試験N4取得"
+            }
+          ]
+        },
+        "generalAffairs": {
+          "label": "総務:",
+          "members": ["ムハマド　タウフィク"]
+        }
+      },
+      "agriculture": {
+        "title": "農業部",
+        "members": [
+          {
+            "name": "Suyitno　（スイトノ）",
+            "position": "理事",
+            "src": "/profile/suyitno.png",
+            "additionalInfo": "LPKコープインドネシア第6期卒業生"
+          }
+        ],
+        "supervisor": {
+          "title": "農業監督担当：",
+          "members": [
+            {
+              "name": "Mokhamad Said　（モハマド　サイド）",
+              "additionalInfo": "LPKコープインドネシア第1期卒業生"
+            }
+          ]
+        },
+        "adminAgriculture": {
+          "title": "農業管理担当:",
+          "members": [
+            {
+              "name": "Yunanta Trisutrisno　（ユナンタ・トリスツリスノ）",
+              "additionalInfo": "LPKコープインドネシア第25期技能実習生卒業生"
+            }
+          ]
+        }
+      },
+      "MICE": {
+        "title": "MICE部",
+        "subtitle": "（会議、インセンティブ、コンベンション、展示会）",
+        "name": "Amboro Alfianto　（アンボロ　アルフィアント）",
+        "src": "/profile/amboro-alfianto.png",
+        "position": "理事",
+        "staffProduct": {
+          "title": "制作とメディアの担当:",
+          "staffs": [
+            "Muhammad Hisyam Rabbani　（ムハマド　ヒシャム　ラバニ）",
+            "Hafid Nur Wahyudin　（ハフィド　ヌル　ワユディン）"
+          ]
+        }
+      }
+    },
+    "aboutOrganization": {
+      "info": "について",
+      "title": "歴史",
+      "subtitle": "LPKコープインドネシアは、インドネシア国内に広がるネットワーク組織と、日本にある代表事務所を有しています。",
+      "addresses": [
+        {
+          "title": "本部所在地",
+          "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1901050107867!2d106.80672617574834!3d-6.238656761092927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1c36e387eb9%3A0x4aaca7ad92e87fa8!2sLPK%20COOP%20Indonesia!5e0!3m2!1sid!2sid!4v1711291791793!5m2!1sid!2sid"
+        },
+        {
+          "title": "教育施設",
+          "link": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d495.1358013746139!2d107.693136803924!3d-6.880251008947482!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68dd0011189e79%3A0xfc4c5e0ea82fe941!2sPUSDIKLAT%20LPK%20COOP%20INDONESIA!5e0!3m2!1sid!2sid!4v1713772213066!5m2!1sid!2sid"
+        }
+      ],
+      "office": {
+        "title": "日本駐在員事務所",
+        "addresses": [
+          {
+            "city": "東京",
+            "address": "Sanhaitsu Ikebukuro 204, 2-Chome 47-7 Minami Ikebukuro, Toshima City, Tokyo 171-0022, Japan",
+            "hp": "+8190-2481-0613",
+            "email": "arief@coopindonesia.com"
+          },
+          {
+            "city": "大阪",
+            "address": "1735-9 Shindachi Ichiba Sennan Shi Osaka Fu JAPAN 590-0504",
+            "tel": "+8172-4476-976",
+            "fax": "+8172-4476-976",
+            "hp": "+8180-4844-7883",
+            "email": "herizal@coopindonesia.com"
+          },
+          {
+            "city": "愛知",
+            "address": "4-11-16, Imure Minami, Toyohashi, Aichi-ken, JAPAN 440-0835",
+            "hp": "+8180-4224-1668",
+            "email": "devi@coopindonesia.com"
+          }
+        ]
+      }
+    },
+    "aboutVisionAndMission": {
+      "info": "について",
+      "title": "企業理念",
+      "vision": {
+        "title": "ビジョン",
+        "description": "平等と公正を基盤に社会的連携のシナジーを発展させ、国民の福祉、競争力、そして国家の進歩を向上させるために、プロフェッショナルで信頼できる人材を提供することです。",
+        "image": {
+          "src": "/about/vision-and-mission-image-1.svg",
+          "alt": "/about/vision-and-mission-image-1-coop-indonesia"
+        }
+      },
+      "mission": {
+        "title": "ミッション",
+        "description": "平等と公正を基盤に社会的連携のシナジーを発展させ、国民の福祉、競争力、そして国家の進歩を向上させるために、プロフェッショナルで信頼できる人材を提供することです。"
+      }
+    }
+  },
+  "contactUsPage": {
+    "info": "お問い合わせ",
+    "title": "お問い合わせ"
+  },
+  "form": {
+    "firstName": "姓",
+    "lastName": "名",
+    "email": "Your@company.com",
+    "desc": "説明を入力してください。",
+    "privacy": "当社のプライバシーポリシー",
+    "policy": "に同意します。",
+    "message": "送信"
+  }
+}

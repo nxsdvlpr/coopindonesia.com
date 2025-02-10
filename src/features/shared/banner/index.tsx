@@ -1,11 +1,10 @@
-import { bannerDataStatic } from '@/app/api/banner'
 import { Button, Flexbox, ImageNui, Section, Typo } from '@/nui'
+import { useTranslations } from 'next-intl'
 import { bannerStyle } from './index.style'
 
 export default function Banner() {
+  const t = useTranslations()
   const { wrapper, container, box, image: imageStyle } = bannerStyle()
-
-  const { image, title, desc, buttonName } = bannerDataStatic
 
   return (
     <Section>
@@ -14,21 +13,21 @@ export default function Banner() {
           <div className={box()}>
             <ImageNui
               className={imageStyle()}
-              src={image.src}
-              alt={image.alt}
+              src={t('sharedContent.banner.image.src')}
+              alt={t('sharedContent.banner.image.alt')}
             />
           </div>
           <Flexbox align="start" flow="col" gap="xl">
             <Flexbox align="normal" flow="col" gap="sm">
               <Typo size="3xl" fontWeight="extrabold" color="gray-900">
-                {title}
+                {t('sharedContent.banner.title')}
               </Typo>
               <Typo size="lg" color="gray-900">
-                {desc}
+                {t('sharedContent.banner.desc')}
               </Typo>
             </Flexbox>
             <Button as="a" href="/contact-us">
-              {buttonName}
+              {t('sharedContent.banner.buttonName')}
             </Button>
           </Flexbox>
         </div>

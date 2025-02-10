@@ -1,11 +1,11 @@
 'use client'
 
-import { homeDataStatic } from '@/app/api/home'
 import { Flexbox, ImageNui, Section, SectionTitle, Typo } from '@/nui'
 import { Video } from '@/nui/video'
 import { useParam } from '@/utils/use-params'
 import { PhotoProvider, PhotoView } from 'react-photo-view'
 
+import { useTranslations } from 'next-intl'
 import { homePublicationStyle } from './publication.style'
 
 type HomePublicationProps = {
@@ -17,6 +17,7 @@ export default function HomePublication({
   youtube,
   instagram,
 }: HomePublicationProps) {
+  const t = useTranslations()
   const {
     imageBox,
     main,
@@ -26,8 +27,6 @@ export default function HomePublication({
     boxYoutubeImage,
   } = homePublicationStyle()
 
-  const { title, subtitle } = homeDataStatic.publication
-
   const videoId = youtube?.items?.[0]?.snippet?.resourceId?.videoId ?? ''
 
   const { onClickParam } = useParam()
@@ -35,7 +34,9 @@ export default function HomePublication({
   return (
     <Section>
       <Flexbox flow="col" gap="2xl">
-        <SectionTitle title={title}>{subtitle}</SectionTitle>
+        <SectionTitle title={t('homePage.publication.title')}>
+          {t('homePage.publication.subtitle')}
+        </SectionTitle>
         <Flexbox align="normal" flow="col" gap="2xl">
           <div className={imageBox()}>
             <Video youtubeId={videoId} />
@@ -43,11 +44,11 @@ export default function HomePublication({
           <div className={main()}>
             <Flexbox align="start" flow="col" gap="xs">
               <Typo size="xl" color="gray-900" fontWeight="bold">
-                Dari Akun Instagram Kami
+                {t('homePage.publication.instagram.title')}
               </Typo>
               <div className={boxInstagram()}>
                 <PhotoProvider maskOpacity={0.7}>
-                  {instagram.slice(0, 4).map((item: any, index: number) => (
+                  {instagram?.slice(0, 4).map((item: any, index: number) => (
                     <PhotoView
                       key={index}
                       src={item.url.large ?? item.url.medium}
@@ -66,7 +67,7 @@ export default function HomePublication({
             </Flexbox>
             <Flexbox align="start" flow="col" gap="xs">
               <Typo size="xl" color="gray-900" fontWeight="bold">
-                Dari Kanal YouTube Kami
+                {t('homePage.publication.youtube.title')}
               </Typo>
               <div className={boxYoutube()}>
                 {youtube.items

@@ -1,4 +1,5 @@
-import { menuDataStatic } from '@/app/api/menu'
+import { menuDataStatic } from '@/app/[locale]/api/menu'
+import { useTranslations } from 'next-intl'
 import Card from './card'
 import Link from './link'
 
@@ -7,11 +8,12 @@ type MenuAboutUsProps = {
 }
 
 export default function MenuAboutUs({ onClose }: MenuAboutUsProps) {
+  const t = useTranslations()
   const { about } = menuDataStatic
 
   return (
     <Card title="ABOUT US">
-      {about.map((item) => (
+      {t.raw('programPage.menu.about').map((item: any) => (
         <Link
           key={item.id}
           icon={item.icon}

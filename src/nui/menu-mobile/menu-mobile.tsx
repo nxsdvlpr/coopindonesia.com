@@ -1,6 +1,7 @@
 'use client'
 
 import { useResponsive } from '@/utils/use-responsive'
+import MenuLang from '../header/components/lang'
 import MenuAboutUs from './components/about-us'
 import MenuContactUs from './components/contact-us'
 import MenuGallery from './components/gallery'
@@ -26,6 +27,9 @@ export function MenuMobile() {
               <MenuGallery onClose={onClose} />
               <MenuAboutUs onClose={onClose} />
               <MenuContactUs onClose={onClose} />
+              <div className="flex w-full justify-start py-4">
+                <MenuLang />
+              </div>
             </div>
           </div>
         )}

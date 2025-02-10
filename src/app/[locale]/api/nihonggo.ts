@@ -41,19 +41,19 @@ export const nihonggoIsbDataStatic = {
   },
   images: [
     {
-      src: '/training/training-image-2.png',
+      src: '/training/training-image-2.jpg',
       alt: 'training-image-2-coop-indonesia',
     },
     {
-      src: '/training/training-image-3.png',
+      src: '/training/training-image-3.jpg',
       alt: 'training-image-3-coop-indonesia',
     },
     {
-      src: '/training/training-image-4.png',
+      src: '/training/training-image-4.jpg',
       alt: 'training-image-4-coop-indonesia',
     },
     {
-      src: '/training/training-image-5.png',
+      src: '/training/training-image-5.jpg',
       alt: 'training-image-5-coop-indonesia',
     },
   ],
@@ -72,19 +72,19 @@ export const nihonggoAnabukiDataStatic = {
   },
   images: [
     {
-      src: '/training/training-image-2.png',
+      src: '/training/training-image-2.jpg',
       alt: 'training-image-2-coop-indonesia',
     },
     {
-      src: '/training/training-image-3.png',
+      src: '/training/training-image-3.jpg',
       alt: 'training-image-3-coop-indonesia',
     },
     {
-      src: '/training/training-image-4.png',
+      src: '/training/training-image-4.jpg',
       alt: 'training-image-4-coop-indonesia',
     },
     {
-      src: '/training/training-image-5.png',
+      src: '/training/training-image-5.jpg',
       alt: 'training-image-5-coop-indonesia',
     },
   ],

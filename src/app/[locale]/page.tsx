@@ -1,3 +1,4 @@
+// 'use client'
 import {
   HomeHero,
   HomePublication,
@@ -14,6 +15,8 @@ import { Suspense } from 'react'
 import { instagramData, youtubeData } from './api/publication'
 
 export default async function HomePage() {
+  // const t = useTranslations()
+
   const youtube = await youtubeData()
 
   const instagram = await instagramData()
@@ -22,8 +25,8 @@ export default async function HomePage() {
     <>
       <HomeHero />
       <FeaturedPrograms
-        title="Program LPK COOP Indonesia"
-        subtitle={`LPK COOP Indonesia's Berikut program utama dari LPK COOP Indonesia`}
+      // title={t('homePage.featuredPrograms.title')}
+      // subtitle={t('homePage.featuredPrograms.subtitle')}
       />
       <HomeSponsor />
       <Suspense>

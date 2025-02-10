@@ -1,4 +1,4 @@
-import { nihonggoDataStatic } from '@/app/api/nihonggo'
+import { nihonggoDataStatic } from '@/app/[locale]/api/nihonggo'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
 import { Menu } from '@/features/shared/menu'
 import { Flexbox, ImageNui, Markdown, Section, SectionTitle, Typo } from '@/nui'

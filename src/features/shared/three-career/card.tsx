@@ -1,13 +1,13 @@
-import { threeCareersDataStatic } from '@/app/api/three-career'
+import { useTranslations } from 'next-intl'
 import CardItem from './components/card-item'
 import CardTitle from './components/card-title'
 
 export default function ThreeCareerCard() {
-  const threeCareers = threeCareersDataStatic
+  const t = useTranslations()
 
   return (
     <div className="grid divide-y divide-gray-200 rounded-lg border border-gray-200 lg:hidden">
-      {threeCareers.map((item: any, index: any) => (
+      {t.raw('sharedContent.threeCareer.lists').map((item: any, index: any) => (
         <div
           key={index}
           className={index === 1 ? 'bg-primary-25 px-6 py-8' : 'px-6 py-8'}
