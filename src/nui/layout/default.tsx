@@ -1,4 +1,5 @@
 import { epilogue, hankenGrotesk } from '@/font/font'
+import { AutoLanguage } from '@/lib/auto-language'
 import { Footer, Header } from '@/nui'
 import { AbstractIntlMessages, NextIntlClientProvider } from 'next-intl'
 import { ReactNode } from 'react'
@@ -15,7 +16,7 @@ export default function Layout({ messages, children }: LayoutProps) {
       suppressHydrationWarning
     >
       <NextIntlClientProvider messages={messages}>
-        {/* <AutoLanguage /> */}
+        <AutoLanguage />
         <link rel="icon" href="/logo.png" sizes="any" />
         <Header />
         <main>{children}</main>

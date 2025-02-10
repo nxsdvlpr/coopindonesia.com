@@ -14,9 +14,9 @@ export default getRequestConfig(async ({ requestLocale }) => {
   return {
     locale,
     messages: (
-      await (locale === 'in'
-        ? // When using Turbopack, this will enable HMR for `in`
-          import('../translations/in.json')
+      await (locale === 'id'
+        ? // When using Turbopack, this will enable HMR for `id`
+          import('../translations/id.json')
         : import(`../translations/${locale}.json`))
     ).default,
   }
