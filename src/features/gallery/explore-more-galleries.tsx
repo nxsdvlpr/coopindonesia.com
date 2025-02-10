@@ -1,4 +1,5 @@
 import { Box, Flexbox, ImageNui, Section, Typo } from '@/nui'
+import { useTranslations } from 'next-intl'
 import Link from 'next/link'
 
 type ExploreMoreGalleriesProps = {
@@ -14,48 +15,33 @@ export default function ExploreMoreGalleries({
   hideInternshipActivities,
   hideTrainingCenter,
 }: ExploreMoreGalleriesProps) {
-  const galleries = [
-    {
-      href: '/gallery/work-visit',
-      src: '/gallery/explore-more-galleries-4.svg',
-      alt: 'explore-more-galleries-4-coop-indonesia',
-      title: 'Kunjungan Kerja',
-      hide: hideWorkVisit,
-    },
-    {
-      href: '/gallery/collaboration',
-      src: '/gallery/explore-more-galleries-1.svg',
-      alt: 'explore-more-galleries-1-coop-indonesia',
-      title: 'Kerjasama',
-      hide: hideCollaboration,
-    },
-    {
-      href: '/gallery/internship-activities',
-      src: '/gallery/explore-more-galleries-2.svg',
-      alt: 'explore-more-galleries-2-coop-indonesia',
-      title: 'Kegiatan Magang',
-      hide: hideInternshipActivities,
-    },
-    {
-      href: '/gallery/training-center',
-      src: '/gallery/explore-more-galleries-3.svg',
-      alt: 'explore-more-galleries-3-coop-indonesia',
-      title: 'Pusdiklat Magang',
-      hide: hideTrainingCenter,
-    },
+  const t = useTranslations()
+  const hideValues = [
+    hideWorkVisit,
+    hideCollaboration,
+    hideInternshipActivities,
+    hideTrainingCenter,
   ]
+
+  const updatedGalleries = t.raw('exploreMoreGalleries.galleries')
+
+  if (Array.isArray(updatedGalleries)) {
+    updatedGalleries.forEach((gallery, index) => {
+      gallery.hide = hideValues[index]
+    })
+  }
 
   return (
     <Section variant="gray">
       <Flexbox flow="col" gap="2xl">
         <Typo size="5xl" color="gray-900" fontWeight="semibold">
-          Jelajahi Galeri Lainnya
+          {t('exploreMoreGalleries.label')}
         </Typo>
         <div className="flex flex-col gap-8 lg:flex-row">
-          {galleries.map(
-            (gallery, index) =>
-              !gallery.hide && (
-                <Link key={index} href={gallery.href}>
+          {updatedGalleries.map(
+            (gallery: any, index: number) =>
+              gallery.hide !== true && (
+                <Link key={index} href={gallery.href ?? ''}>
                   <Box withBorder>
                     <Flexbox flow="col" gap="sm">
                       <div className="aspect-video w-full lg:max-w-[19.6875rem]">

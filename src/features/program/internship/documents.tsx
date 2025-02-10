@@ -1,4 +1,3 @@
-import { internshipDocumentDataStatic } from '@/app/[locale]/api/internship'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
 import { Menu } from '@/features/shared/menu'
 import { Flexbox, ImageNui, Markdown, Section, SectionTitle, Typo } from '@/nui'
@@ -6,7 +5,6 @@ import { useTranslations } from 'next-intl'
 
 export default function InternshipDocuments() {
   const t = useTranslations()
-  const { title, info, image, document } = internshipDocumentDataStatic
 
   return (
     <>

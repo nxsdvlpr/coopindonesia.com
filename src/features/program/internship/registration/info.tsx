@@ -1,4 +1,3 @@
-import { intershipRegistrationDataStatic } from '@/app/[locale]/api/internship'
 import { Flexbox, Icon, Typo } from '@/nui'
 import { useTranslations } from 'next-intl'
 import { infoStyle } from './info.style'
@@ -6,8 +5,6 @@ import { infoStyle } from './info.style'
 export default function Info() {
   const t = useTranslations()
   const { wrapper, main, icon } = infoStyle()
-
-  const { title, contacts } = intershipRegistrationDataStatic.contactInfo
 
   return (
     <div className={wrapper()}>

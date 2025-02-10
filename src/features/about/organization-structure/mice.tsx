@@ -1,12 +1,9 @@
-import { aboutOrganizationStructure } from '@/app/[locale]/api/about'
 import { Field, Fields, Typo } from '@/nui'
 import { useTranslations } from 'next-intl'
 import ContactInfo from './contact-info'
 
 export default function Mice() {
   const t = useTranslations()
-  const { title, subtitle, name, src, position, staffProduct } =
-    aboutOrganizationStructure.MICE
 
   return (
     <>
@@ -20,7 +17,11 @@ export default function Mice() {
         </Typo>
       </div>
       <div className="flex flex-col gap-8 lg:items-center">
-        <ContactInfo src={src} name={name} position={position} />
+        <ContactInfo
+          src={t('aboutPage.aboutOrganizationStructure.MICE.src')}
+          name={t('aboutPage.aboutOrganizationStructure.MICE.name')}
+          position={t('aboutPage.aboutOrganizationStructure.MICE.position')}
+        />
         <Fields
           label={t(
             'aboutPage.aboutOrganizationStructure.MICE.staffProduct.title'

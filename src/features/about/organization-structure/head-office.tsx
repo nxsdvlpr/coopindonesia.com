@@ -1,17 +1,9 @@
-import { aboutOrganizationStructure } from '@/app/[locale]/api/about'
 import { Field, Fields, Typo } from '@/nui'
 import { useTranslations } from 'next-intl'
 import ContactInfo from './contact-info'
 
 export default function HeadOffice() {
   const t = useTranslations()
-  const {
-    title,
-    members,
-    financeAccounting,
-    generalAffair,
-    corporateSecretary,
-  } = aboutOrganizationStructure.headOffice
 
   return (
     <>

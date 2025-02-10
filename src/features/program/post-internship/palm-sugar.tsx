@@ -1,4 +1,3 @@
-import { postInternshipPalmSugarDataStatic } from '@/app/[locale]/api/post-internship'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
 import { Menu } from '@/features/shared/menu'
 import { Flexbox, ImageNui, Markdown, Section, SectionTitle, Typo } from '@/nui'
@@ -7,12 +6,12 @@ import PostInternshipContent from './content'
 
 export default function PostInternshipPalmSugar() {
   const t = useTranslations()
-  const { info, title, images, content, benefits } =
-    postInternshipPalmSugarDataStatic
 
-  const items = images.map((image, i) => (
-    <ImageNui key={i} src={image.src} alt={image.alt} />
-  ))
+  const items = t
+    .raw('postInternshipPalmSugar.images')
+    .map((image: any, i: number) => (
+      <ImageNui key={i} src={image.src} alt={image.alt} />
+    ))
 
   return (
     <>

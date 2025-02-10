@@ -22,8 +22,8 @@ export default function MenuGallery() {
       closeOnSelect={false}
       onOpenChange={() => setIsOpen((e) => !e)}
     >
-      {t.raw('programPage.menu.galleries').map((item: any) => (
-        <Item textValue={item.label}>
+      {t.raw('programPage.menu.galleries').map((item: any, index: number) => (
+        <Item key={index} textValue={item.label}>
           <Link
             href={item.href}
             onClick={() => setIsOpen(false)}

@@ -1,4 +1,3 @@
-import { aboutOrganizationStructure } from '@/app/[locale]/api/about'
 import { Section, SectionTitle } from '@/nui'
 import { useTranslations } from 'next-intl'
 import { AskedQuestion, Banner, Testimonial } from '../shared'
@@ -13,7 +12,6 @@ import RepresentativeOffice from './organization-structure/representative-office
 
 export default function OrganizationStructure() {
   const t = useTranslations()
-  const { info, title, subtitle, members } = aboutOrganizationStructure
 
   return (
     <>

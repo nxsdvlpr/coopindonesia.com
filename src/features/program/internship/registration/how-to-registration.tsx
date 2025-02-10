@@ -1,11 +1,8 @@
-import { intershipRegistrationDataStatic } from '@/app/[locale]/api/internship'
 import { Flexbox, Icon, Typo } from '@/nui'
 import { useTranslations } from 'next-intl'
 
 export default function HowToRegistration() {
   const t = useTranslations()
-  const { title, titleStep, steps } =
-    intershipRegistrationDataStatic.howToRegistration
 
   return (
     <Flexbox flow="col" align="normal" gap="xs">

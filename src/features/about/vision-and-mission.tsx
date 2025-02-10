@@ -1,4 +1,3 @@
-import { aboutVisionAndMissionDataStatic } from '@/app/[locale]/api/about'
 import { Flexbox, ImageNui, Markdown, Section, SectionTitle, Typo } from '@/nui'
 import { useTranslations } from 'next-intl'
 import { AskedQuestion, Banner, Testimonial } from '../shared'
@@ -6,7 +5,6 @@ import { Menu } from '../shared/menu'
 
 export default function VisionMission() {
   const t = useTranslations()
-  const { info, title, vision, mission } = aboutVisionAndMissionDataStatic
 
   return (
     <>

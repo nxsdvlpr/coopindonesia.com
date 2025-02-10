@@ -1,6 +1,5 @@
 'use client'
 
-import { homeDataStatic } from '@/app/[locale]/api/home'
 import { Flexbox, ImageNui, Section, SectionTitle, Typo } from '@/nui'
 import { Video } from '@/nui/video'
 import { useParam } from '@/utils/use-params'
@@ -19,7 +18,6 @@ export default function HomePublication({
   instagram,
 }: HomePublicationProps) {
   const t = useTranslations()
-
   const {
     imageBox,
     main,
@@ -29,8 +27,6 @@ export default function HomePublication({
     boxYoutubeImage,
   } = homePublicationStyle()
 
-  const { title, subtitle } = homeDataStatic.publication
-
   const videoId = youtube?.items?.[0]?.snippet?.resourceId?.videoId ?? ''
 
   const { onClickParam } = useParam()
@@ -39,7 +35,7 @@ export default function HomePublication({
     <Section>
       <Flexbox flow="col" gap="2xl">
         <SectionTitle title={t('homePage.publication.title')}>
-          {t.raw('homePage.publication.subtitle')}
+          {t('homePage.publication.subtitle')}
         </SectionTitle>
         <Flexbox align="normal" flow="col" gap="2xl">
           <div className={imageBox()}>
@@ -48,33 +44,30 @@ export default function HomePublication({
           <div className={main()}>
             <Flexbox align="start" flow="col" gap="xs">
               <Typo size="xl" color="gray-900" fontWeight="bold">
-                Dari Akun Instagram Kami
+                {t('homePage.publication.instagram.title')}
               </Typo>
               <div className={boxInstagram()}>
                 <PhotoProvider maskOpacity={0.7}>
-                  {t
-                    .raw('homePage.publication.instagram.assets')
-                    .slice(0, 4)
-                    .map((item: any, index: number) => (
-                      <PhotoView
-                        key={index}
-                        src={item.url?.large ?? item.url?.medium}
-                      >
-                        <div className={boxInstagramImage()}>
-                          <ImageNui
-                            className="h-full w-full duration-200 ease-in-out hover:brightness-90 group-hover:scale-105"
-                            src={item.url?.large ?? item.url?.medium}
-                            alt={item.alt ?? 'coop-indonesia'}
-                          />
-                        </div>
-                      </PhotoView>
-                    ))}
+                  {instagram?.slice(0, 4).map((item: any, index: number) => (
+                    <PhotoView
+                      key={index}
+                      src={item.url.large ?? item.url.medium}
+                    >
+                      <div className={boxInstagramImage()}>
+                        <ImageNui
+                          className="h-full w-full duration-200 ease-in-out hover:brightness-90 group-hover:scale-105"
+                          src={item.url.large ?? item.url.medium}
+                          alt={item.alt ?? 'coop-indonesia'}
+                        />
+                      </div>
+                    </PhotoView>
+                  ))}
                 </PhotoProvider>
               </div>
             </Flexbox>
             <Flexbox align="start" flow="col" gap="xs">
               <Typo size="xl" color="gray-900" fontWeight="bold">
-                Dari Kanal YouTube Kami
+                {t('homePage.publication.youtube.title')}
               </Typo>
               <div className={boxYoutube()}>
                 {youtube.items

@@ -1,4 +1,3 @@
-import { internshipTrainingDataStatic } from '@/app/[locale]/api/internship'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
 import { Menu } from '@/features/shared/menu'
 import { Flexbox, ImageNui, Markdown, Section, SectionTitle, Typo } from '@/nui'
@@ -7,11 +6,12 @@ import { useTranslations } from 'next-intl'
 
 export default function InternshipTraining() {
   const t = useTranslations()
-  const { info, title, images, content } = internshipTrainingDataStatic
 
-  const items = images.map((image, i) => (
-    <ImageNui key={i} src={image.src} alt={image.alt} />
-  ))
+  const items = t
+    .raw('internshipTraining.images')
+    .map((image: any, i: number) => (
+      <ImageNui key={i} src={image.src} alt={image.alt} />
+    ))
 
   return (
     <>

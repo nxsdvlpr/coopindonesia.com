@@ -1,10 +1,8 @@
-import { intershipRegistrationDataStatic } from '@/app/[locale]/api/internship'
 import { Flexbox, Markdown, Typo } from '@/nui'
 import { useTranslations } from 'next-intl'
 
 export default function Requirement() {
   const t = useTranslations()
-  const { title, body } = intershipRegistrationDataStatic.requirement
 
   return (
     <Flexbox flow="col" align="start" gap="none">

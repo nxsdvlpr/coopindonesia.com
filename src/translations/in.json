@@ -454,19 +454,19 @@
     "title": "Penempatan",
     "images": [
       {
-        "src": "/training/training-image-2.png",
+        "src": "/training/training-image-2.jpg",
         "alt": "training-image-2-coop-indonesia"
       },
       {
-        "src": "/training/training-image-3.png",
+        "src": "/training/training-image-3.jpg",
         "alt": "training-image-3-coop-indonesia"
       },
       {
-        "src": "/training/training-image-4.png",
+        "src": "/training/training-image-4.jpg",
         "alt": "training-image-4-coop-indonesia"
       },
       {
-        "src": "/training/training-image-5.png",
+        "src": "/training/training-image-5.jpg",
         "alt": "training-image-5-coop-indonesia"
       }
     ],
@@ -591,19 +591,19 @@
     "title": "Pelatihan",
     "images": [
       {
-        "src": "/training/training-image-2.png",
+        "src": "/training/training-image-2.jpg",
         "alt": "training-image-2-coop-indonesia"
       },
       {
-        "src": "/training/training-image-3.png",
+        "src": "/training/training-image-3.jpg",
         "alt": "training-image-3-coop-indonesia"
       },
       {
-        "src": "/training/training-image-4.png",
+        "src": "/training/training-image-4.jpg",
         "alt": "training-image-4-coop-indonesia"
       },
       {
-        "src": "/training/training-image-5.png",
+        "src": "/training/training-image-5.jpg",
         "alt": "training-image-5-coop-indonesia"
       }
     ],
@@ -620,23 +620,23 @@
     },
     "images": [
       {
-        "src": "/training/training-image-1.png",
+        "src": "/training/training-image-1.jpg",
         "alt": "training-image-1-coop-indonesia"
       },
       {
-        "src": "/training/training-image-2.png",
+        "src": "/training/training-image-2.jpg",
         "alt": "training-image-2-coop-indonesia"
       },
       {
-        "src": "/training/training-image-3.png",
+        "src": "/training/training-image-3.jpg",
         "alt": "training-image-3-coop-indonesia"
       },
       {
-        "src": "/training/training-image-4.png",
+        "src": "/training/training-image-4.jpg",
         "alt": "training-image-4-coop-indonesia"
       },
       {
-        "src": "/training/training-image-5.png",
+        "src": "/training/training-image-5.jpg",
         "alt": "training-image-5-coop-indonesia"
       }
     ]
@@ -1019,6 +1019,35 @@
       "info": "GALLERY",
       "title": "Pusdiklat Magang"
     }
+  },
+  "exploreMoreGalleries": {
+    "label": "Jelajahi Galeri Lainnya",
+    "galleries": [
+      {
+        "href": "/gallery/work-visit",
+        "src": "/gallery/explore-more-galleries-4.svg",
+        "alt": "explore-more-galleries-4-coop-indonesia",
+        "title": "Kunjungan Kerja"
+      },
+      {
+        "href": "/gallery/collaboration",
+        "src": "/gallery/explore-more-galleries-1.svg",
+        "alt": "explore-more-galleries-1-coop-indonesia",
+        "title": "Kerjasama"
+      },
+      {
+        "href": "/gallery/internship-activities",
+        "src": "/gallery/explore-more-galleries-2.svg",
+        "alt": "explore-more-galleries-2-coop-indonesia",
+        "title": "Kegiatan Magang"
+      },
+      {
+        "href": "/gallery/training-center",
+        "src": "/gallery/explore-more-galleries-3.svg",
+        "alt": "explore-more-galleries-3-coop-indonesia",
+        "title": "Pusdiklat Magang"
+      }
+    ]
   },
   "aboutPage": {
     "aboutAtAGlance": {

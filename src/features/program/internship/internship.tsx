@@ -1,4 +1,3 @@
-import { intershipDataStatic } from '@/app/[locale]/api/internship'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
 import { Menu } from '@/features/shared/menu'
 import { ImageNui, Markdown, Section, SectionTitle } from '@/nui'
@@ -7,7 +6,6 @@ import { Fragment } from 'react'
 
 export default function Internship() {
   const t = useTranslations()
-  const { info, title, subtitle, body, image, contents } = intershipDataStatic
 
   return (
     <>

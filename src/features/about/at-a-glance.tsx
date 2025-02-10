@@ -1,4 +1,3 @@
-import { aboutAtAGlanceDataStatic } from '@/app/[locale]/api/about'
 import { Flexbox, ImageNui, Markdown, Section, SectionTitle } from '@/nui'
 import { useTranslations } from 'next-intl'
 import { AskedQuestion, Banner, Testimonial } from '../shared'
@@ -6,7 +5,6 @@ import { Menu } from '../shared/menu'
 
 export default function AtaGlance() {
   const t = useTranslations()
-  const { title, subtitle, contents } = aboutAtAGlanceDataStatic
 
   return (
     <>

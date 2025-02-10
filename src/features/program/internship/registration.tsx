@@ -1,4 +1,3 @@
-import { intershipRegistrationDataStatic } from '@/app/[locale]/api/internship'
 import AskedQuestion from '@/features/shared/asked-question'
 import Banner from '@/features/shared/banner'
 import FeaturedPrograms from '@/features/shared/featured-programs'
@@ -12,7 +11,6 @@ import Requirement from './registration/requirement'
 
 export default function InternshipRegistration() {
   const t = useTranslations()
-  const { info, title } = intershipRegistrationDataStatic
 
   return (
     <>

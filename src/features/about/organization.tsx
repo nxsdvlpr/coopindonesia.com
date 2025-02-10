@@ -1,4 +1,3 @@
-import { aboutOrganizationDataStatic } from '@/app/[locale]/api/about'
 import { Box, Flexbox, Markdown, Section, SectionTitle, Typo } from '@/nui'
 import { useTranslations } from 'next-intl'
 import { AskedQuestion, Banner, Testimonial } from '../shared'
@@ -6,8 +5,6 @@ import { Menu } from '../shared/menu'
 
 export default function Organization() {
   const t = useTranslations()
-  const { info, title, subtitle, addresses, office } =
-    aboutOrganizationDataStatic
 
   return (
     <>

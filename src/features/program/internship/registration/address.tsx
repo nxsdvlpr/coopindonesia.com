@@ -1,11 +1,8 @@
-import { intershipRegistrationDataStatic } from '@/app/[locale]/api/internship'
 import { Flexbox, ImageNui, Typo } from '@/nui'
 import { useTranslations } from 'next-intl'
 
 export default function Address() {
   const t = useTranslations()
-  const { title, subtitle, image, locations } =
-    intershipRegistrationDataStatic.address
 
   return (
     <Flexbox align="normal" flow="col" gap="sm">

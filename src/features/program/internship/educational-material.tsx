@@ -1,4 +1,3 @@
-import { internshipEducationalMaterialDataStatic } from '@/app/[locale]/api/internship'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
 import { Menu } from '@/features/shared/menu'
 import { Flexbox, ImageNui, Markdown, Section, SectionTitle, Typo } from '@/nui'
@@ -6,8 +5,6 @@ import { useTranslations } from 'next-intl'
 
 export default function InternshipEducationalMaterial() {
   const t = useTranslations()
-  const { info, title, image, contents } =
-    internshipEducationalMaterialDataStatic
 
   return (
     <>

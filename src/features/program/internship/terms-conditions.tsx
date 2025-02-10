@@ -1,4 +1,3 @@
-import { internshipTermsConditionsDataStatic } from '@/app/[locale]/api/internship'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
 import { Menu } from '@/features/shared/menu'
 import { Flexbox, ImageNui, Markdown, Section, SectionTitle, Typo } from '@/nui'
@@ -6,7 +5,6 @@ import { useTranslations } from 'next-intl'
 
 export default function InternshipTermsConditions() {
   const t = useTranslations()
-  const { info, title, termsConditions } = internshipTermsConditionsDataStatic
 
   return (
     <>

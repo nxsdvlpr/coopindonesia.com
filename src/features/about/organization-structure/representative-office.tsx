@@ -1,11 +1,9 @@
-import { aboutOrganizationStructure } from '@/app/[locale]/api/about'
 import { Typo } from '@/nui'
 import { useTranslations } from 'next-intl'
 import ContactInfo from './contact-info'
 
 export default function RepresentativeOffice() {
   const t = useTranslations()
-  const { title, members } = aboutOrganizationStructure.representativeOffice
 
   return (
     <>

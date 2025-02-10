@@ -1,4 +1,3 @@
-import { postInternshiProselindoTeaDataStatic } from '@/app/[locale]/api/post-internship'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
 import { Menu } from '@/features/shared/menu'
 import { Flexbox, ImageNui, Markdown, Section, SectionTitle, Typo } from '@/nui'
@@ -7,14 +6,14 @@ import PostInternshipContent from './content'
 
 export default function PostInternshiProselindoTea() {
   const t = useTranslations()
-  const { info, title, contents, postContents, followUsImages } =
-    postInternshiProselindoTeaDataStatic
 
-  const images = contents.images
+  // const images = contents.images
 
-  const items = images.map((image, i) => (
-    <ImageNui key={i} src={image.src} alt={image.alt} />
-  ))
+  const items = t
+    .raw('postInternshipRoselindoTea.images')
+    .map((image: any, i: number) => (
+      <ImageNui key={i} src={image.src} alt={image.alt} />
+    ))
 
   return (
     <>
@@ -40,11 +39,13 @@ export default function PostInternshiProselindoTea() {
               <Markdown size="lg">{item.content}</Markdown>
               <Flexbox gap="xs">
                 {item.title === 'Ketersediaan' &&
-                  followUsImages.map((image) => (
-                    <div className="w-5">
-                      <ImageNui src={image} alt="image-follow-us" />
-                    </div>
-                  ))}
+                  t
+                    .raw('postInternshipRoselindoTea.followUsImages')
+                    .map((image: any) => (
+                      <div className="w-5">
+                        <ImageNui src={image} alt="image-follow-us" />
+                      </div>
+                    ))}
               </Flexbox>
             </Flexbox>
           ))}

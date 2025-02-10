@@ -1,11 +1,9 @@
-import { aboutOrganizationStructure } from '@/app/[locale]/api/about'
 import { Field, Fields, Flexbox, Typo } from '@/nui'
 import { useTranslations } from 'next-intl'
 import ContactInfo from './contact-info'
 
 export default function Development() {
   const t = useTranslations()
-  const { title, members } = aboutOrganizationStructure.development
 
   return (
     <>
