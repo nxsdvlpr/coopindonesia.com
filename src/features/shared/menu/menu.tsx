@@ -50,12 +50,12 @@ export function Menu({
     <Section>
       <div className={wrapperMenuStyle({ borderBottom })}>
         <Typo size="lg" fontWeight="bold" color="gray-900">
-          {showMenuAbout && 'ABOUT'}
+          {showMenuAbout && t('sharedContent.menuAbout.title')}
           {(showMenuNihonggo || showMenuInternship || showMenuPostInternship) &&
             t('sharedContent.menuProgramBusiness.title')}
         </Typo>
         <div className={container()}>
-          {showMenuAbout && renderLinks(about)}
+          {showMenuAbout && renderLinks(t.raw('sharedContent.menuAbout.about'))}
           {showMenuInternship &&
             renderLinks(
               t.raw('sharedContent.menuProgramInternship.internship')

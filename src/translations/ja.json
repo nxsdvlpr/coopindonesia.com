@@ -1003,6 +1003,39 @@
           "label": "ROSELINDO TEA （ロゼリンド茶）"
         }
       ]
+    },
+    "menuAbout": {
+      "title": "について",
+      "about": [
+        {
+          "id": 1,
+          "label": "私たちについて",
+          "description": "Sekilas tentang LPK COOP Indonesia",
+          "href": "/about/at-a-glance",
+          "icon": "lucide:building-2"
+        },
+        {
+          "id": 2,
+          "label": "企業理念",
+          "description": "Lebih jauh tentang tujuan kami",
+          "href": "/about/vision-and-mission",
+          "icon": "lucide:scan-eye"
+        },
+        {
+          "id": 3,
+          "label": "役員・事務局一覧",
+          "description": "Dewan kepemimpinan dan staf",
+          "href": "/about/organization-structure",
+          "icon": "lucide:network"
+        },
+        {
+          "id": 4,
+          "label": "歴史",
+          "description": "Kisah dibalik perjalanan kami",
+          "href": "/about/organization",
+          "icon": "lucide:book-open"
+        }
+      ]
     }
   },
   "gallery": {
@@ -1053,6 +1086,7 @@
     ]
   },
   "aboutPage": {
+    "info": "について",
     "aboutAtAGlance": {
       "title": "私たちについて",
       "subtitle": "LPKコープインドネシアは、**海外技能実習派遣機関または送り出し機関 （Sending Organizer）** の一つとして、インドネシアの若者に対し、日本の企業での技能実習プログラムに参加する機会を提供し、自身の質と能力を向上させることを目的としています。",
@@ -1074,7 +1108,7 @@
       ]
     },
     "aboutOrganizationStructure": {
-      "info": "ABOUT US",
+      "info": "について",
       "title": "役員・事務局一覧",
       "subtitle": "LPKコープインドネシアは、インドネシア国内に広がるネットワーク組織と、日本にある代表事務所を有しています。",
       "members": [

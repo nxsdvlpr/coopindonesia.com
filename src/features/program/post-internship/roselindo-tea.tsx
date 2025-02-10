@@ -7,10 +7,8 @@ import PostInternshipContent from './content'
 export default function PostInternshiProselindoTea() {
   const t = useTranslations()
 
-  // const images = contents.images
-
   const items = t
-    .raw('postInternshipRoselindoTea.images')
+    .raw('postInternshipRoselindoTea.contents.images')
     .map((image: any, i: number) => (
       <ImageNui key={i} src={image.src} alt={image.alt} />
     ))
@@ -38,7 +36,7 @@ export default function PostInternshiProselindoTea() {
               </Typo>
               <Markdown size="lg">{item.content}</Markdown>
               <Flexbox gap="xs">
-                {item.title === 'Ketersediaan' &&
+                {(item.title === 'Ketersediaan' || item.title === '購入方法') &&
                   t
                     .raw('postInternshipRoselindoTea.followUsImages')
                     .map((image: any) => (

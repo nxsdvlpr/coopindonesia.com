@@ -1000,6 +1000,39 @@
           "label": "Roselindo Tea"
         }
       ]
+    },
+    "menuAbout": {
+      "title": "ABOUT",
+      "about": [
+        {
+          "id": 1,
+          "label": "Tentang Kami",
+          "description": "Sekilas tentang LPK COOP Indonesia",
+          "href": "/about/at-a-glance",
+          "icon": "lucide:building-2"
+        },
+        {
+          "id": 2,
+          "label": "Misi dan Visi",
+          "description": "Lebih jauh tentang tujuan kami",
+          "href": "/about/vision-and-mission",
+          "icon": "lucide:scan-eye"
+        },
+        {
+          "id": 3,
+          "label": "Struktur Organisasi",
+          "description": "Dewan kepemimpinan dan staf",
+          "href": "/about/organization-structure",
+          "icon": "lucide:network"
+        },
+        {
+          "id": 4,
+          "label": "Sejarah",
+          "description": "Kisah dibalik perjalanan kami",
+          "href": "/about/organization",
+          "icon": "lucide:book-open"
+        }
+      ]
     }
   },
   "gallery": {
@@ -1050,6 +1083,7 @@
     ]
   },
   "aboutPage": {
+    "info": "ABOUT US",
     "aboutAtAGlance": {
       "title": "Tentang Kami",
       "subtitle": "**LPK COOP Indonesia** sebagai salah satu Lembaga Penyelenggara Pemagangan ke Luar Negeri atau **Sending Organization (SO)** memberi peluang bagi pemuda(i) Indonesia untuk ditempatkan pada perusahaan-perusahaan di Jepang untuk mengikuti program pemagangan dalam rangka meningkatkan kualitas dan kompetensi diri.",

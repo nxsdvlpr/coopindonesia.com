@@ -11,7 +11,7 @@ export default function AtaGlance() {
       <Section>
         <SectionTitle
           sizeTitle="6xl"
-          info="ABOUT US"
+          info={t('aboutPage.info')}
           title={t('aboutPage.aboutAtAGlance.title')}
         >
           <Markdown size="lg">
