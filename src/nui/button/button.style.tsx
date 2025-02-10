@@ -9,7 +9,7 @@ export const buttonStyle = tv({
     },
     wider: {
       none: '',
-      sm: 'w-[6.5625rem]',
+      sm: 'min-w-[6.5625rem]',
       md: 'w-[17rem]',
     },
     rounded: {
