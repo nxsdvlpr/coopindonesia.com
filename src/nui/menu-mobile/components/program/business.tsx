@@ -1,4 +1,3 @@
-import { menuDataStatic } from '@/app/[locale]/api/menu'
 import { Listbox } from '@/nui/listbox'
 import { useTranslations } from 'next-intl'
 import Link from 'next/link'
@@ -14,8 +13,6 @@ export default function MenuProgramBusiness({
 }: MenuProgramBusinessProps) {
   const t = useTranslations()
   const [isOpen, setIsOpen] = useState(false)
-
-  const { business } = menuDataStatic.program
 
   return (
     <Listbox

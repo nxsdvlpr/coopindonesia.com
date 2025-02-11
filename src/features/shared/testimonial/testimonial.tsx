@@ -1,4 +1,3 @@
-import { testimonialDataStatic } from '@/app/[locale]/api/testimonial'
 import {
   Box,
   Flexbox,
@@ -8,21 +7,23 @@ import {
   SectionTitle,
   Typo,
 } from '@/nui'
+import { useTranslations } from 'next-intl'
 import { testimonialStyle } from './testimonial.style'
 
 export default function Testimonial() {
+  const t = useTranslations()
   const { wrapper, main, boxImage, background } = testimonialStyle()
 
-  const { title, subtitle, items } = testimonialDataStatic
-
-  if (testimonialDataStatic) return null
+  if (t('testimonial')) return null
 
   return (
     <Section>
       <Flexbox align="normal" justify="normal" flow="col" gap="2xl">
-        <SectionTitle title={title}>{subtitle}</SectionTitle>
+        <SectionTitle title={t('testimonial.title')}>
+          {t('testimonial.subtitle')}
+        </SectionTitle>
         <div className={wrapper()}>
-          {items.map((item) => (
+          {t.raw('testimonial.items').map((item: any) => (
             <div key={item.name} className={main()}>
               <Box withBorder>
                 <Flexbox align="end" justify="between">

@@ -1,6 +1,5 @@
 'use client'
 
-import { menuDataStatic } from '@/app/[locale]/api/menu'
 import { Section, Typo } from '@/nui'
 import { useTranslations } from 'next-intl'
 import Link from 'next/link'
@@ -23,17 +22,10 @@ export function Menu({
   showMenuPostInternship,
 }: MenuProps) {
   const t = useTranslations()
-  const { about, program } = menuDataStatic
 
   const { container } = menustyle()
 
   const pathname = usePathname()
-
-  const internship = program.internship
-
-  const nihonggo = program.schools
-
-  const business = program.business
 
   const renderLinks = (items: any) =>
     items.map((item: any, index: number) => (
@@ -60,7 +52,8 @@ export function Menu({
             renderLinks(
               t.raw('sharedContent.menuProgramInternship.internship')
             )}
-          {showMenuNihonggo && renderLinks(nihonggo)}
+          {showMenuNihonggo &&
+            renderLinks(t.raw('programPage.menu.program.schools'))}
           {showMenuPostInternship &&
             renderLinks(t.raw('sharedContent.menuProgramBusiness.business'))}
         </div>

@@ -68,19 +68,28 @@
       "assets": [
         {
           "src": "/sponsor/fursato-logo.png",
-          "alt": "fursato-logo-coop-indonesia"
+          "alt": "fursato-logo-coop-indonesia",
+          "href": "https://furusatoindonesia.com/"
+        },
+        {
+          "src": "/sponsor/coop-global.png",
+          "alt": "coop-global-logo-indonesia",
+          "href": "https://coopglobal.jp/"
         },
         {
           "src": "/sponsor/coop-japan-logo.png",
-          "alt": "coop-japan-logo-coop-indonesia"
+          "alt": "coop-japan-logo-coop-indonesia",
+          "href": "https://www.coopindonesia.com/"
         },
         {
           "src": "/sponsor/other-sponsor-logo.png",
-          "alt": "other-sponsor-logo-coop-indonesia"
+          "alt": "other-sponsor-logo-coop-indonesia",
+          "href": "https://www.coopindonesia.com/"
         },
         {
           "src": "/sponsor/igs-logo.png",
-          "alt": "igs-logo-coop-indonesia"
+          "alt": "igs-logo-coop-indonesia",
+          "href": "https://www.intermediaglobalsolusi.com/"
         }
       ]
     }
@@ -789,6 +798,14 @@
     ]
   },
   "sharedContent": {
+    "menuNavbar": {
+      "Home": "Home",
+      "Programs": "Programs",
+      "Publication": "Publication",
+      "Gallery": "Gallery",
+      "AboutUs": "About Us",
+      "ContactUs": "Contact Us"
+    },
     "featuredPrograms": {
       "title": "Program-program COOP Indonesia",
       "subtitle": "Temukan lebih lanjut tentang program unggulan kami",
@@ -1395,7 +1412,7 @@
     "aboutOrganization": {
       "info": "ABOUT US",
       "title": "Sejarah",
-      "subtitle": "LPK COOP Indonesia memiliki jaringan organisasi di Indonesia dan juga kantor perwakilan di Jepang.",
+      "subtitle": "Didirikan pada April 2012, LPK COOP Indonesia dibentuk atas dasar keprihatinan terhadap kondisi Pertanian Indonesia, menjadi pertanyaan ketika kita sebagai Negara yang subur akan hasil alam, namun Mengapa Petani kita hidup dibawah garis kemiskinan? Mengapa Hasil Pertanian kita jauh tertinggal dari Negara tetangga di Asia Tenggara.\n\n  Salah satu faktor penyebab yang perlu dibenahi adalah kualitas Sumber Daya Manusia atau Petani Indonesia. Karena itu perlu adanya pelatihan bagi para petani Indonesia, karena itu-lah LPK COOP Indonesia membuka jejaring ke Negara Jepang sebagai salah satu Negara Maju di bidang Pertanian.\n\n Salah satu program yang ditawarkan oleh Pemerintah Jepang Ketika itu Penempatan Peserta Pemagangan, Dimana akan ada transfer teknologi dan Ilmu pengetahuan tentang bidang Pertanian di Jepang yang tentu akan sangat bermanfaat bagi para petani Indonesia kelak.\n\n Karena itu LPK COOP Indonesia memulai dengan penempatan 3 orang peserta pemagnagan di daerah Gunma-ken, Jepang pada Agustus 2012. Hingga saat ini LPK COOP Indonesia telah menempatkan sekitar 3,500 peserta di berbagai bidang pemagangan, tidak hanya bidang pertanian saja. Karena diharapkan, para peserta pemagangan tersebut yang merupakan generasi muda usia produktif (20 sd 30 tahun) diyakini dapat membangun daerah nya masing-masing ketika Kembali ke Tanah Air pasca program pemagangan yang diikuti.\n\n Tahun 2016, Bersama dengan Furusato Indonesia, kami bekerjasama dalam program pasca pemagangan dengan membantu pelatihan pasca pemagangan dari Jepang dan Pemasaran Produk ke pasar modern, antara lain: AEON Mall, Food Hall, Jakaichi Mart, dan lain-lain.\n\n Selain itu, untuk melayani kebutuhan ataupun permasalahan peserta selama penempatan di Jepang, LPK COOP Indonesia telah membuka Kantor Perwakilan di Tokyo, Aichi dan Osaka.\n\n Diharapkan upaya ini dapat berkontribusi bagi perekonomian Indonesia dan mendorong meningkatnya kualitas Sumber Daya Manusia Indonesia, baik disektor Pertanian, Peternakan, Perikanan dan usaha-usaha lainnya.",
       "addresses": [
         {
           "title": "Kantor Pusat",
@@ -1461,5 +1478,118 @@
     "privacy": "You agree to our friendly",
     "policy": "privacy policy",
     "message": "Send message"
+  },
+  "nihonggo": {
+    "info": "PROGRAM PEMAGANGAN KE JEPANG",
+    "title": "Program Sekolah Bahasa",
+    "image": {
+      "src": "/nihonggo/nihonggo-image-1.svg",
+      "alt": "nihonggo-image-1-coop-indonesia"
+    },
+    "contents": [
+      {
+        "body": "Program Sekolah Bahasa Jepang atau Nihonggo Gakko (sekolah Bahasa Jepang Mandiri) merupakan peluang bagi Masyarakat Indonesia yang berminat mempelajari secara langsung budaya dan bahasa Jepang di Negeri Sakura, yang kemudian dapat dilanjutkan dengan peluang bekerja di Perusahaan Jepang sesuai minat yang diinginkan."
+      },
+      {
+        "title": "Kelebihan Program",
+        "body": "Mendapatkan jaminan bekerja paruh waktu (Part time) atau Arubaito oleh Sekolah Bahasa dengan gaji sesuai Upah Minimal (UMP)."
+      },
+      {
+        "title": "Persyaratan Calon Siswa",
+        "body": "1. Lulus Ujian N-5, atau sederajat (sertifikasi kursus bahasa jepang)\n2. Usia minimal 18 tahun\n3. Pendidikan: Lulus SMA/SMK sederajat\n4. FIT Medical Check Up test\n5. Mendapatkan garansi pembiayaan dari Orang Tua/Wali"
+      },
+      {
+        "title": "Dokumen yang Diperlukan",
+        "body": "1. Softcopy KTP, Kartu Keluarga, Akte Lahir\n2. Softcopy Passfoto (latar belakang Putih)\n3. Softcopy Ijazah : SD, SMP, SMA/SMK Sederajat, (S1 Optional)\n4. Sertifikasi lembaga kursus Bahasa Jepang atau Sertifikat N-5 (asli dan softcopy)\n5. Surat pernyataan bermaterai kesediaan orang tua/wali sebagai penjamin calon siswa(i)\n6. Surat Keterangan Kesehatan (Medical Check Up)\n\nSoftcopy dikirim via email ke email: **coopindonesia@gmail.com** dengan subjek: **Program Sekolah Bahasa Jepang**."
+      },
+      {
+        "body": "Rep Office:\nKantor LPK COOP Indonesia, Jl Ciragil II No. 6, RT/RW 001/001 Kel. Rawa Barat, Kec. Kebayoran Baru, Jakarta Selatan 12180 <br/>Tel. +62 21 29501010<br/>Email: mail@coopindonesia.com"
+      }
+    ]
+  },
+  "nihonggoISB": {
+    "info": "PROGRAM PEMAGANGAN KE JEPANG",
+    "title": "Sekolah ISB",
+    "subtitle": "**Aren't Dreams There to Come True! <br/> Everyone has a dream.**",
+    "content": {
+      "title": "Sekolah ISB",
+      "image": {
+        "src": "/nihonggo/logo-isb.png",
+        "alt": "logo-isb-coop-indonesia"
+      },
+      "body": "How to achieve that dream may be of the utmost importance to a young person.\n\nThere are many overseas students from several different countries at International School of Business, who are studying the Japanese language, culture and international business. ISB always welcome overseas student's dynamic exchange and endeavors to preserve an international-campus environment.\n\n we strongly hope that our students attain their own goals through our campus life, and that they keep perusing the belief:\n\n **\"Dreams are there to come true\"**\n\n Berikut foto-foto kegiatan di sekolah ISB"
+    },
+    "images": [
+      {
+        "src": "/training/training-image-2.jpg",
+        "alt": "training-image-2-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-3.jpg",
+        "alt": "training-image-3-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-4.jpg",
+        "alt": "training-image-4-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-5.jpg",
+        "alt": "training-image-5-coop-indonesia"
+      }
+    ]
+  },
+  "nihonggoAnabuki": {
+    "info": "PROGRAM PEMAGANGAN KE JEPANG",
+    "title": "Sekolah Anabuki",
+    "content": {
+      "title": "Sekolah Anabuki",
+      "image": {
+        "src": "/nihonggo/logo-anabuki.png",
+        "alt": "logo-anabuki-coop-indonesia"
+      },
+      "body": "   **Anabuki College Group** is a vocational school group with 14 vocational schools in the Chugoku-Shikoku area. Berikut foto-foto kegiatan di sekolah Anabuki"
+    },
+    "images": [
+      {
+        "src": "/training/training-image-2.jpg",
+        "alt": "training-image-2-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-3.jpg",
+        "alt": "training-image-3-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-4.jpg",
+        "alt": "training-image-4-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-5.jpg",
+        "alt": "training-image-5-coop-indonesia"
+      }
+    ]
+  },
+  "testimonial": {
+    "title": "What People are Saying",
+    "subtitle": "Discover what others have to say about their experiences with us.",
+    "items": [
+      {
+        "name": "Dr. Sugiharto",
+        "position": "Menteri BUMN (Periode 2004-2007)",
+        "desc": "LPK COOP Indonesia sebagai salah satu Lembaga Penyelenggara Pemagangan ke Luar Negeri atau Sending Organization (SO) memberi peluang bagi pemuda(i) Indonesia untuk ditempatkan pada perusahaan-perusahaan di Jepang untuk mengikuti program pemagangan dalam rangka meningkatkan kualitas dan kompetensi diri.",
+        "imageSrc": ""
+      },
+      {
+        "name": "Dra. Hj. Dewanti Rumpoko",
+        "position": "Walikota Batu",
+        "desc": "Sistem industri pertanian organik dan ramah lingkungan yang ada di kebun Furusato, diharapkan bisa dikembangkan di tempat lainnya yang ada di Kota Batu. Karena terbukti telah dapat bersaing dengan produk luar di pasar domestik.",
+        "imageSrc": ""
+      },
+      {
+        "name": "Dra. Hj. Dewanti Rumpokoo",
+        "position": "Menteri BUMN (Periode 2004-2007)",
+        "desc": "LPK COOP Indonesia sebagai salah satu Lembaga Penyelenggara Pemagangan ke Luar Negeri atau Sending Organization (SO) memberi peluang bagi pemuda(i) Indonesia untuk ditempatkan pada perusahaan-perusahaan di Jepang untuk mengikuti program pemagangan dalam rangka meningkatkan kualitas dan kompetensi diri.",
+        "imageSrc": ""
+      }
+    ]
   }
 }

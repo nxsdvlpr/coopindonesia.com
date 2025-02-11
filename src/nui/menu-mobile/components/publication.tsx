@@ -1,4 +1,4 @@
-import { menuDataStatic } from '@/app/[locale]/api/menu'
+import { useTranslations } from 'next-intl'
 import Card from './card'
 import Link from './link'
 type MenuPublicationProps = {
@@ -6,11 +6,12 @@ type MenuPublicationProps = {
 }
 
 export default function MenuPublication({ onClose }: MenuPublicationProps) {
-  const { publication } = menuDataStatic
+  const t = useTranslations()
+  const publication = t.raw('programPage.menu.publication')
 
   return (
     <Card title="PUBLICATION">
-      {publication.map((item) => (
+      {publication.map((item: any) => (
         <Link
           key={item.id}
           icon={item.icon}

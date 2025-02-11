@@ -1,6 +1,5 @@
 'use client'
 
-import { menuDataStatic } from '@/app/[locale]/api/menu'
 import { Icon, MenuButton, Typo } from '@/nui'
 import { useTranslations } from 'next-intl'
 import Link from 'next/link'
@@ -11,13 +10,11 @@ export default function MenuAbout() {
   const t = useTranslations()
   const [isOpen, setIsOpen] = useState(false)
 
-  const { about } = menuDataStatic
-
   return (
     <MenuButton
-      label="About Us"
+      label={t('sharedContent.menuNavbar.AboutUs')}
       placement="bottom right"
-      items={about}
+      items={t.raw('programPage.menu.about')}
       isOpen={isOpen}
       closeOnSelect={false}
       onOpenChange={() => setIsOpen((e) => !e)}
