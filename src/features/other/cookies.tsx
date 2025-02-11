@@ -1,61 +1,53 @@
 import { Flexbox, ImageNui, Markdown, Section, SectionTitle, Typo } from '@/nui'
+import { useTranslations } from 'next-intl'
 
 export default function Cookies() {
+  const t = useTranslations()
   return (
     <>
       <Section>
-        <SectionTitle sizeTitle="6xl" title="Kebijakan Privasi" />
+        <SectionTitle
+          sizeTitle="6xl"
+          title={t('sharedContent.cookies.title')}
+        />
       </Section>
       <Section maxWidth="sm">
         <Flexbox flow="col" align="normal" gap="2xl">
-          <ImageNui src="cookies-image.svg" alt="cookies" />
-          <Markdown size="lg">
-            Selamat datang di halaman Kebijakan Cookie kami. Di bawah ini, kami
-            menjelaskan tentang penggunaan cookie di situs kami.
-          </Markdown>
+          <ImageNui
+            src={t('sharedContent.cookies.image.src')}
+            alt={t('sharedContent.cookies.image.alt')}
+          />
+          <Markdown size="lg">{t('sharedContent.cookies.body')}</Markdown>
           <Flexbox flow="col" gap="xs" align="start">
             <Typo size="2xl" fontWeight="bold">
-              Apa itu Cookie
+              {t('sharedContent.cookies.titleCookie')}
             </Typo>
             <Markdown size="lg">
-              Cookie adalah file kecil yang disimpan di perangkat Anda saat Anda
-              mengunjungi situs web. Cookie memungkinkan situs web untuk
-              mengenali perangkat Anda dan menyimpan informasi tentang
-              preferensi atau riwayat Anda.
+              {t('sharedContent.cookies.contentCookie')}
             </Markdown>
           </Flexbox>
           <Flexbox flow="col" gap="xs" align="start">
             <Typo size="2xl" fontWeight="bold">
-              Jenis Cookie yang Kami Gunakan
+              {t('sharedContent.cookies.titleTypesOfCookies')}
             </Typo>
             <Markdown size="lg">
-              {`1. **Essential Cookies:** Cookie ini diperlukan untuk menjalankan situs web dengan lancar. Mereka termasuk cookie yang memungkinkan Anda masuk ke akun Anda dan mengakses fitur keamanan situs.\n\n2. **Analytic Cookies:** Cookie ini membantu kami memahami bagaimana pengunjung menggunakan situs kami. Informasi yang dikumpulkan melalui cookie ini membantu kami melakukan analisis statistik untuk meningkatkan pengalaman pengguna.\n\n3. **Fungsional Cookies:** Cookie ini memungkinkan situs web untuk menyimpan preferensi Anda seperti bahasa atau wilayah, sehingga kami dapat menyediakan pengalaman yang lebih pribadi.`}
+              {t('sharedContent.cookies.contentTypesOfCookies')}
             </Markdown>
           </Flexbox>
           <Flexbox flow="col" gap="xs" align="start">
             <Typo size="2xl" fontWeight="bold">
-              Pengelolaan Cookie
+              {t('sharedContent.cookies.titleManagingCookies')}
             </Typo>
             <Markdown size="lg">
-              Anda dapat mengelola preferensi cookie Anda melalui pengaturan
-              browser Anda. Anda dapat menghapus cookie yang sudah ada dan
-              mengatur browser Anda untuk menolak cookie di masa depan. Namun,
-              perlu diperhatikan bahwa menonaktifkan cookie dapat memengaruhi
-              pengalaman pengguna Anda dan beberapa fitur situs mungkin tidak
-              berfungsi dengan baik.
+              {t('sharedContent.cookies.contentManagingCookies')}
             </Markdown>
           </Flexbox>
           <Flexbox flow="col" gap="xs" align="start">
             <Typo size="2xl" fontWeight="bold">
-              Pertanyaan
+              {t('sharedContent.cookies.titleQuestion')}
             </Typo>
             <Markdown size="lg">
-              {`Jika Anda memiliki pertanyaan lebih lanjut tentang penggunaan
-              cookie di situs kami, jangan ragu untuk menghubungi kami melalui
-              informasi kontak yang tersedia di situs ini.\n\n Terima kasih telah
-              membaca halaman Kebijakan Cookie kami. Dengan menggunakan situs
-              kami, Anda menyetujui penggunaan cookie sebagaimana dijelaskan
-              dalam kebijakan cookie ini.`}
+              {t('sharedContent.cookies.contentQuestion')}
             </Markdown>
           </Flexbox>
         </Flexbox>
