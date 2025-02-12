@@ -1,6 +1,5 @@
 'use client'
 
-import { menuDataStatic } from '@/app/[locale]/api/menu'
 import { Icon, MenuButton, Typo } from '@/nui'
 import { useTranslations } from 'next-intl'
 import Link from 'next/link'
@@ -11,13 +10,11 @@ export default function MenuGallery() {
   const t = useTranslations()
   const [isOpen, setIsOpen] = useState(false)
 
-  const { galleries } = menuDataStatic
-
   return (
     <MenuButton
-      label="Gallery"
+      label={t('sharedContent.menuNavbar.Gallery')}
       placement="bottom right"
-      items={galleries}
+      items={t.raw('programPage.menu.galleries')}
       isOpen={isOpen}
       closeOnSelect={false}
       onOpenChange={() => setIsOpen((e) => !e)}

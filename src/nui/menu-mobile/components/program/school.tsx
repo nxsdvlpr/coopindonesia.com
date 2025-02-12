@@ -1,5 +1,5 @@
-import { menuDataStatic } from '@/app/[locale]/api/menu'
 import { Listbox } from '@/nui/listbox'
+import { useTranslations } from 'next-intl'
 import Link from 'next/link'
 import { useState } from 'react'
 import Button from './button'
@@ -9,9 +9,8 @@ type MenuProgramSchoolProps = {
 }
 
 export default function MenuProgramSchool({ onclose }: MenuProgramSchoolProps) {
+  const t = useTranslations()
   const [isOpen, setIsOpen] = useState(false)
-
-  const { schools } = menuDataStatic.program
 
   return (
     <>
@@ -27,7 +26,7 @@ export default function MenuProgramSchool({ onclose }: MenuProgramSchoolProps) {
         isOpen={isOpen}
       >
         <div className="flex flex-col pl-9">
-          {schools.map((item) => (
+          {t.raw('programPage.menu.program.schools').map((item: any) => (
             <Link
               key={item.label}
               href={item.href}

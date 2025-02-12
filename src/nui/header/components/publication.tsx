@@ -1,26 +1,27 @@
 'use client'
 
-import { menuDataStatic } from '@/app/[locale]/api/menu'
 import { Icon, MenuButton, Typo } from '@/nui'
+import { useTranslations } from 'next-intl'
 import Link from 'next/link'
 import { useState } from 'react'
 import { Item } from 'react-stately'
 
 export default function MenuPublication() {
+  const t = useTranslations()
   const [isOpen, setIsOpen] = useState(false)
 
-  const { publication } = menuDataStatic
+  const publication = t.raw('programPage.menu.publication')
 
   return (
     <MenuButton
-      label="Publication"
+      label={t('sharedContent.menuNavbar.Publication')}
       placement="bottom right"
       items={publication}
       isOpen={isOpen}
       closeOnSelect={false}
       onOpenChange={() => setIsOpen((e) => !e)}
     >
-      {(item) => (
+      {publication.map((item: any) => (
         <Item textValue={item.label}>
           <Link
             href={item.href}
@@ -38,7 +39,7 @@ export default function MenuPublication() {
             </div>
           </Link>
         </Item>
-      )}
+      ))}
     </MenuButton>
   )
 }

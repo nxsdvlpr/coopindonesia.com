@@ -1,5 +1,5 @@
-import { menuDataStatic } from '@/app/[locale]/api/menu'
 import { Flexbox, ImageNui, Typo } from '@/nui'
+import { useTranslations } from 'next-intl'
 import Link from 'next/link'
 
 type MenuProgramSchoolProps = {
@@ -7,7 +7,8 @@ type MenuProgramSchoolProps = {
 }
 
 export default function MenuProgramSchool({ onclose }: MenuProgramSchoolProps) {
-  const { schools } = menuDataStatic.program
+  const t = useTranslations()
+  const schools = t.raw('programPage.menu.program.schools')
 
   return (
     <div className="border-l border-primary-50 p-8 lg:w-[43rem]">
@@ -22,7 +23,7 @@ export default function MenuProgramSchool({ onclose }: MenuProgramSchoolProps) {
         <Typo>{schools[0].body}</Typo>
       </Link>
       <Flexbox align="normal" justify="between">
-        {schools.slice(1).map((item, index) => (
+        {schools.slice(1).map((item: any, index: number) => (
           <Link
             key={index}
             href={item.href}

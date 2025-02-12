@@ -9,7 +9,6 @@ export default function MenuProgramInternship({
   onclose,
 }: MenuInternshipProps) {
   const t = useTranslations()
-  // const { internship } = menuDataStatic.program
 
   return (
     <div className="grid shrink-0 grid-cols-2 content-start border-l border-primary-50 p-8 xl:w-[43rem]">
