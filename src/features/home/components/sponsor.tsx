@@ -14,13 +14,13 @@ export function HomeSponsor() {
         <div className={main()}>
           {t.raw('homePage.sponsor.assets').map((asset: any, index: number) => (
             <Link
-              className="h-12 max-w-[7.5rem]"
+              className="h-12 "
               key={index}
               href={asset.href}
               target="_blank"
             >
               <ImageNui
-                className="h-full w-full grayscale hover:grayscale-0"
+                className="h-full w-full object-cover grayscale hover:grayscale-0"
                 src={asset.src}
                 alt={asset.alt}
               />

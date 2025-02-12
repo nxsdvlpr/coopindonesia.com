@@ -11,10 +11,11 @@ import { useTranslations } from 'next-intl'
 import { testimonialStyle } from './testimonial.style'
 
 export default function Testimonial() {
+  const hideContent = true
   const t = useTranslations()
   const { wrapper, main, boxImage, background } = testimonialStyle()
 
-  if (t('testimonial')) return null
+  if (hideContent) return null
 
   return (
     <Section>
