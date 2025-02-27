@@ -1,4 +1,3 @@
-import { threeCareersDataStatic } from '@/app/[locale]/api/three-career'
 import {
   Markdown,
   Table,
@@ -11,7 +10,6 @@ import { useTranslations } from 'next-intl'
 
 export default function ThreeCareerTable() {
   const t = useTranslations()
-  const threeCareers = threeCareersDataStatic
 
   const renderTableCells = (data: any) => {
     return data.map((item: any, idx: number) => (

@@ -68,19 +68,28 @@
       "assets": [
         {
           "src": "/sponsor/fursato-logo.png",
-          "alt": "fursato-logo-coop-indonesia"
+          "alt": "fursato-logo-coop-indonesia",
+          "href": "https://furusatoindonesia.com/"
+        },
+        {
+          "src": "/sponsor/coop-global.png",
+          "alt": "coop-global-logo-indonesia",
+          "href": "https://coopglobal.jp/"
         },
         {
           "src": "/sponsor/coop-japan-logo.png",
-          "alt": "coop-japan-logo-coop-indonesia"
+          "alt": "coop-japan-logo-coop-indonesia",
+          "href": "https://www.coopindonesia.com/"
         },
         {
           "src": "/sponsor/other-sponsor-logo.png",
-          "alt": "other-sponsor-logo-coop-indonesia"
+          "alt": "other-sponsor-logo-coop-indonesia",
+          "href": "https://www.coopindonesia.com/"
         },
         {
           "src": "/sponsor/igs-logo.png",
-          "alt": "igs-logo-coop-indonesia"
+          "alt": "igs-logo-coop-indonesia",
+          "href": "https://www.intermediaglobalsolusi.com/"
         }
       ]
     }
@@ -789,6 +798,14 @@
     ]
   },
   "sharedContent": {
+    "menuNavbar": {
+      "Home": "Home",
+      "Programs": "Programs",
+      "Publication": "Publication",
+      "Gallery": "Gallery",
+      "AboutUs": "About Us",
+      "ContactUs": "Contact Us"
+    },
     "featuredPrograms": {
       "title": "Program-program COOP Indonesia",
       "subtitle": "Temukan lebih lanjut tentang program unggulan kami",
@@ -1033,6 +1050,62 @@
           "icon": "lucide:book-open"
         }
       ]
+    },
+    "term": {
+      "title": "Ketentuan Pengguna",
+      "image": {
+        "src": "term-image.svg",
+        "alt": "term"
+      },
+      "body": "Selamat datang di situs kami. Dengan mengakses atau menggunakan situs ini, Anda setuju untuk terikat dengan ketentuan dan syarat penggunaan yang tercantum di bawah ini. Jika Anda tidak setuju dengan ketentuan ini, mohon untuk tidak mengakses atau menggunakan situs ini.",
+      "titleInfo": "Informasi yang Kami Kumpulkan",
+      "contentInfo": "Kami dapat mengumpulkan informasi pribadi Anda saat Anda menggunakan situs ini. Informasi ini dapat mencakup namun tidak terbatas pada nama, alamat email, dan informasi kontak lainnya. Kami dapat menggunakan informasi ini untuk keperluan internal seperti analisis dan peningkatan layanan.",
+      "titleCookie": "Penggunaan Cookie",
+      "contentCookie": "Situs kami dapat menggunakan cookie dan teknologi pelacakan serupa untuk meningkatkan pengalaman pengguna. Anda dapat mengatur preferensi cookie Anda melalui pengaturan browser Anda.",
+      "titleUsage": "Penggunaan Informasi",
+      "contentUsage": "Informasi yang kami kumpulkan dapat digunakan untuk berbagai tujuan, termasuk untuk menyediakan, menjaga, dan meningkatkan layanan kami, serta untuk keperluan analisis data internal.",
+      "titlePrivacy": "Pengungkapan kepada Pihak Ketiga",
+      "contentPrivacy": "Kami tidak akan mengungkapkan informasi pribadi Anda kepada pihak ketiga tanpa izin Anda, kecuali jika diperlukan oleh hukum.",
+      "titleUpdate": "Perubahan pada Kebijakan Privasi",
+      "contentUpdate": "Kami dapat memperbarui kebijakan privasi ini dari waktu ke waktu. Kami akan memberi tahu Anda tentang perubahan material dengan memposting kebijakan privasi baru di situs ini."
+    },
+    "privacy": {
+      "title": "Kebijakan Privasi",
+      "image": {
+        "src": "privacy-image.svg",
+        "alt": "privacy"
+      },
+      "body": "Kami menghormati privasi pengguna kami dan berkomitmen untuk melindungi informasi pribadi yang Anda berikan kepada kami. Kebijakan privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi pribadi Anda.",
+      "titleInfo": "Informasi yang Kami Kumpulkan",
+      "contentInfo": "Kami dapat mengumpulkan informasi pribadi Anda seperti nama, alamat email, dan informasi kontak lainnya saat Anda mendaftar atau menggunakan layanan kami. Kami juga dapat mengumpulkan informasi non-pribadi seperti data penggunaan situs.",
+      "titleSecurity": "Keamanan Informasi",
+      "contentSecurity": "Kami mengambil langkah-langkah yang wajar untuk melindungi informasi pribadi Anda dari akses, penggunaan, atau pengungkapan yang tidak sah.",
+      "titleAccess": "Akses dan Kontrol Informasi Anda",
+      "contentAccess": "Anda dapat mengakses dan memperbarui informasi pribadi Anda yang kami simpan dengan menghubungi kami. Anda juga dapat memilih untuk tidak menerima surel pemasaran dari kami dengan mengikuti petunjuk di surel tersebut.",
+      "titleContact": "Hubungi Kami",
+      "contentContact": "Jika Anda memiliki pertanyaan atau komentar tentang kebijakan privasi kami, silakan hubungi kami melalui informasi kontak yang tersedia di situs ini. Terima kasih telah membaca kebijakan privasi dan ketentuan penggunaan kami. Dengan menggunakan situs kami, Anda menyetujui praktik yang dijelaskan dalam kebijakan ini."
+    },
+    "cookies": {
+      "title": "Kebijakan Privasi",
+      "image": {
+        "src": "cookies-image.svg",
+        "alt": "cookies"
+      },
+      "body": "Selamat datang di halaman Kebijakan Cookie kami. Di bawah ini, kami menjelaskan tentang penggunaan cookie di situs kami.",
+      "titleCookie": "Apa itu Cookie",
+      "contentCookie": "Cookie adalah file kecil yang disimpan di perangkat Anda saat Anda mengunjungi situs web. Cookie memungkinkan situs web untuk mengenali perangkat Anda dan menyimpan informasi tentang preferensi atau riwayat Anda.",
+      "titleTypesOfCookies": "Jenis Cookie yang Kami Gunakan",
+      "contentTypesOfCookies": "1. **Essential Cookies:** Cookie ini diperlukan untuk menjalankan situs web dengan lancar. Mereka termasuk cookie yang memungkinkan Anda masuk ke akun Anda dan mengakses fitur keamanan situs.\n\n2. **Analytic Cookies:** Cookie ini membantu kami memahami bagaimana pengunjung menggunakan situs kami. Informasi yang dikumpulkan melalui cookie ini membantu kami melakukan analisis statistik untuk meningkatkan pengalaman pengguna.\n\n3. **Fungsional Cookies:** Cookie ini memungkinkan situs web untuk menyimpan preferensi Anda seperti bahasa atau wilayah, sehingga kami dapat menyediakan pengalaman yang lebih pribadi.",
+      "titleManagingCookies": "Pengelolaan Cookie",
+      "contentManagingCookies": "Anda dapat mengelola preferensi cookie Anda melalui pengaturan browser Anda. Anda dapat menghapus cookie yang sudah ada dan mengatur browser Anda untuk menolak cookie di masa depan. Namun, perlu diperhatikan bahwa menonaktifkan cookie dapat memengaruhi pengalaman pengguna Anda dan beberapa fitur situs mungkin tidak berfungsi dengan baik.",
+      "titleQuestion": "Pertanyaan",
+      "contentQuestion": "Jika Anda memiliki pertanyaan lebih lanjut tentang penggunaan cookie di situs kami, jangan ragu untuk menghubungi kami melalui informasi kontak yang tersedia di situs ini.\n\n Terima kasih telah membaca halaman Kebijakan Cookie kami. Dengan menggunakan situs kami, Anda menyetujui penggunaan cookie sebagaimana dijelaskan dalam kebijakan cookie ini."
+    },
+    "copyright": {
+      "title": "© Copyright 2010 - LPK COOP Indonesia All Rights Reserved",
+      "menuTerm": "Terms",
+      "menuPrivacy": "Privacy",
+      "menuCookies": "Cookies"
     }
   },
   "gallery": {
@@ -1339,7 +1412,7 @@
     "aboutOrganization": {
       "info": "ABOUT US",
       "title": "Sejarah",
-      "subtitle": "LPK COOP Indonesia memiliki jaringan organisasi di Indonesia dan juga kantor perwakilan di Jepang.",
+      "subtitle": "Didirikan pada April 2012, LPK COOP Indonesia dibentuk atas dasar keprihatinan terhadap kondisi Pertanian Indonesia, menjadi pertanyaan ketika kita sebagai Negara yang subur akan hasil alam, namun Mengapa Petani kita hidup dibawah garis kemiskinan? Mengapa Hasil Pertanian kita jauh tertinggal dari Negara tetangga di Asia Tenggara.\n\n  Salah satu faktor penyebab yang perlu dibenahi adalah kualitas Sumber Daya Manusia atau Petani Indonesia. Karena itu perlu adanya pelatihan bagi para petani Indonesia, karena itu-lah LPK COOP Indonesia membuka jejaring ke Negara Jepang sebagai salah satu Negara Maju di bidang Pertanian.\n\n Salah satu program yang ditawarkan oleh Pemerintah Jepang Ketika itu Penempatan Peserta Pemagangan, Dimana akan ada transfer teknologi dan Ilmu pengetahuan tentang bidang Pertanian di Jepang yang tentu akan sangat bermanfaat bagi para petani Indonesia kelak.\n\n Karena itu LPK COOP Indonesia memulai dengan penempatan 3 orang peserta pemagnagan di daerah Gunma-ken, Jepang pada Agustus 2012. Hingga saat ini LPK COOP Indonesia telah menempatkan sekitar 3,500 peserta di berbagai bidang pemagangan, tidak hanya bidang pertanian saja. Karena diharapkan, para peserta pemagangan tersebut yang merupakan generasi muda usia produktif (20 sd 30 tahun) diyakini dapat membangun daerah nya masing-masing ketika Kembali ke Tanah Air pasca program pemagangan yang diikuti.\n\n Tahun 2016, Bersama dengan Furusato Indonesia, kami bekerjasama dalam program pasca pemagangan dengan membantu pelatihan pasca pemagangan dari Jepang dan Pemasaran Produk ke pasar modern, antara lain: AEON Mall, Food Hall, Jakaichi Mart, dan lain-lain.\n\n Selain itu, untuk melayani kebutuhan ataupun permasalahan peserta selama penempatan di Jepang, LPK COOP Indonesia telah membuka Kantor Perwakilan di Tokyo, Aichi dan Osaka.\n\n Diharapkan upaya ini dapat berkontribusi bagi perekonomian Indonesia dan mendorong meningkatnya kualitas Sumber Daya Manusia Indonesia, baik disektor Pertanian, Peternakan, Perikanan dan usaha-usaha lainnya.",
       "addresses": [
         {
           "title": "Kantor Pusat",
@@ -1405,5 +1478,118 @@
     "privacy": "You agree to our friendly",
     "policy": "privacy policy",
     "message": "Send message"
+  },
+  "nihonggo": {
+    "info": "PROGRAM PEMAGANGAN KE JEPANG",
+    "title": "Program Sekolah Bahasa",
+    "image": {
+      "src": "/nihonggo/nihonggo-image-1.svg",
+      "alt": "nihonggo-image-1-coop-indonesia"
+    },
+    "contents": [
+      {
+        "body": "Program Sekolah Bahasa Jepang atau Nihonggo Gakko (sekolah Bahasa Jepang Mandiri) merupakan peluang bagi Masyarakat Indonesia yang berminat mempelajari secara langsung budaya dan bahasa Jepang di Negeri Sakura, yang kemudian dapat dilanjutkan dengan peluang bekerja di Perusahaan Jepang sesuai minat yang diinginkan."
+      },
+      {
+        "title": "Kelebihan Program",
+        "body": "Mendapatkan jaminan bekerja paruh waktu (Part time) atau Arubaito oleh Sekolah Bahasa dengan gaji sesuai Upah Minimal (UMP)."
+      },
+      {
+        "title": "Persyaratan Calon Siswa",
+        "body": "1. Lulus Ujian N-5, atau sederajat (sertifikasi kursus bahasa jepang)\n2. Usia minimal 18 tahun\n3. Pendidikan: Lulus SMA/SMK sederajat\n4. FIT Medical Check Up test\n5. Mendapatkan garansi pembiayaan dari Orang Tua/Wali"
+      },
+      {
+        "title": "Dokumen yang Diperlukan",
+        "body": "1. Softcopy KTP, Kartu Keluarga, Akte Lahir\n2. Softcopy Passfoto (latar belakang Putih)\n3. Softcopy Ijazah : SD, SMP, SMA/SMK Sederajat, (S1 Optional)\n4. Sertifikasi lembaga kursus Bahasa Jepang atau Sertifikat N-5 (asli dan softcopy)\n5. Surat pernyataan bermaterai kesediaan orang tua/wali sebagai penjamin calon siswa(i)\n6. Surat Keterangan Kesehatan (Medical Check Up)\n\nSoftcopy dikirim via email ke email: **coopindonesia@gmail.com** dengan subjek: **Program Sekolah Bahasa Jepang**."
+      },
+      {
+        "body": "Rep Office:\nKantor LPK COOP Indonesia, Jl Ciragil II No. 6, RT/RW 001/001 Kel. Rawa Barat, Kec. Kebayoran Baru, Jakarta Selatan 12180 <br/>Tel. +62 21 29501010<br/>Email: mail@coopindonesia.com"
+      }
+    ]
+  },
+  "nihonggoISB": {
+    "info": "PROGRAM PEMAGANGAN KE JEPANG",
+    "title": "Sekolah ISB",
+    "subtitle": "**Aren't Dreams There to Come True! <br/> Everyone has a dream.**",
+    "content": {
+      "title": "Sekolah ISB",
+      "image": {
+        "src": "/nihonggo/logo-isb.png",
+        "alt": "logo-isb-coop-indonesia"
+      },
+      "body": "How to achieve that dream may be of the utmost importance to a young person.\n\nThere are many overseas students from several different countries at International School of Business, who are studying the Japanese language, culture and international business. ISB always welcome overseas student's dynamic exchange and endeavors to preserve an international-campus environment.\n\n we strongly hope that our students attain their own goals through our campus life, and that they keep perusing the belief:\n\n **\"Dreams are there to come true\"**\n\n Berikut foto-foto kegiatan di sekolah ISB"
+    },
+    "images": [
+      {
+        "src": "/training/training-image-2.jpg",
+        "alt": "training-image-2-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-3.jpg",
+        "alt": "training-image-3-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-4.jpg",
+        "alt": "training-image-4-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-5.jpg",
+        "alt": "training-image-5-coop-indonesia"
+      }
+    ]
+  },
+  "nihonggoAnabuki": {
+    "info": "PROGRAM PEMAGANGAN KE JEPANG",
+    "title": "Sekolah Anabuki",
+    "content": {
+      "title": "Sekolah Anabuki",
+      "image": {
+        "src": "/nihonggo/logo-anabuki.png",
+        "alt": "logo-anabuki-coop-indonesia"
+      },
+      "body": "   **Anabuki College Group** is a vocational school group with 14 vocational schools in the Chugoku-Shikoku area. Berikut foto-foto kegiatan di sekolah Anabuki"
+    },
+    "images": [
+      {
+        "src": "/training/training-image-2.jpg",
+        "alt": "training-image-2-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-3.jpg",
+        "alt": "training-image-3-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-4.jpg",
+        "alt": "training-image-4-coop-indonesia"
+      },
+      {
+        "src": "/training/training-image-5.jpg",
+        "alt": "training-image-5-coop-indonesia"
+      }
+    ]
+  },
+  "testimonial": {
+    "title": "What People are Saying",
+    "subtitle": "Discover what others have to say about their experiences with us.",
+    "items": [
+      {
+        "name": "Dr. Sugiharto",
+        "position": "Menteri BUMN (Periode 2004-2007)",
+        "desc": "LPK COOP Indonesia sebagai salah satu Lembaga Penyelenggara Pemagangan ke Luar Negeri atau Sending Organization (SO) memberi peluang bagi pemuda(i) Indonesia untuk ditempatkan pada perusahaan-perusahaan di Jepang untuk mengikuti program pemagangan dalam rangka meningkatkan kualitas dan kompetensi diri.",
+        "imageSrc": ""
+      },
+      {
+        "name": "Dra. Hj. Dewanti Rumpoko",
+        "position": "Walikota Batu",
+        "desc": "Sistem industri pertanian organik dan ramah lingkungan yang ada di kebun Furusato, diharapkan bisa dikembangkan di tempat lainnya yang ada di Kota Batu. Karena terbukti telah dapat bersaing dengan produk luar di pasar domestik.",
+        "imageSrc": ""
+      },
+      {
+        "name": "Dra. Hj. Dewanti Rumpokoo",
+        "position": "Menteri BUMN (Periode 2004-2007)",
+        "desc": "LPK COOP Indonesia sebagai salah satu Lembaga Penyelenggara Pemagangan ke Luar Negeri atau Sending Organization (SO) memberi peluang bagi pemuda(i) Indonesia untuk ditempatkan pada perusahaan-perusahaan di Jepang untuk mengikuti program pemagangan dalam rangka meningkatkan kualitas dan kompetensi diri.",
+        "imageSrc": ""
+      }
+    ]
   }
 }

@@ -1,6 +1,7 @@
 'use client'
 
 import { useResponsive } from '@/utils/use-responsive'
+import { useTranslations } from 'next-intl'
 import Link from 'next/link'
 import { Flexbox } from '../flexbox'
 import { ImageNui } from '../image'
@@ -12,6 +13,7 @@ import { MenuProgram } from './components/program'
 import MenuPublication from './components/publication'
 
 export function Header() {
+  const t = useTranslations()
   const { lg } = useResponsive()
 
   return (
@@ -25,7 +27,7 @@ export function Header() {
           {lg && (
             <Flexbox gap="xl">
               <Link href="/" className="text-base font-semibold text-gray-900">
-                Home
+                {t('sharedContent.menuNavbar.Home')}
               </Link>
               <MenuProgram />
               <MenuPublication />
@@ -35,7 +37,7 @@ export function Header() {
                 href="/contact-us"
                 className="text-base font-semibold text-gray-900"
               >
-                Contact Us
+                {t('sharedContent.menuNavbar.ContactUs')}
               </Link>
               <MenuLang />
             </Flexbox>

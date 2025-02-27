@@ -1,34 +1,36 @@
 import { Flexbox, Typo } from '@/nui'
+import { useTranslations } from 'next-intl'
 import Link from 'next/link'
 import { copyrightStyle } from './copyright.style'
 
 export default function Copyright() {
+  const t = useTranslations()
   const { wrapper, main } = copyrightStyle()
 
   return (
     <div className={wrapper()}>
       <div className={main()}>
         <Typo size="sm" color="gray-400">
-          © Copyright 2010 - LPK COOP Indonesia All Rights Reserved
+          {t('sharedContent.copyright.title')}
         </Typo>
         <Flexbox>
           <Link
             className="font-semibold text-primary-500 hover:text-primary-700"
             href="/term"
           >
-            Terms
+            {t('sharedContent.copyright.menuTerm')}
           </Link>
           <Link
             className="font-semibold text-primary-500 hover:text-primary-700"
             href="/privacy"
           >
-            Privacy
+            {t('sharedContent.copyright.menuPrivacy')}
           </Link>
           <Link
             className="font-semibold text-primary-500 hover:text-primary-700"
             href="/cookies"
           >
-            Cookies
+            {t('sharedContent.copyright.menuCookies')}
           </Link>
         </Flexbox>
       </div>

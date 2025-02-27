@@ -14,8 +14,6 @@ export function MenuProgram() {
 
   const [state, setState] = useState('internship')
 
-  // const menu = t.raw('programPage.menu.program.menu')
-
   return (
     <>
       <MenuButton
@@ -23,7 +21,7 @@ export function MenuProgram() {
         closeOnSelect={false}
         onOpenChange={() => setIsOpen((e) => !e)}
         selectionMode="none"
-        label="Programs"
+        label={t('sharedContent.menuNavbar.Programs')}
       >
         <Item>
           <div className="flex">

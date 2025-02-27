@@ -1,34 +1,43 @@
-import { nihonggoIsbDataStatic } from '@/app/[locale]/api/nihonggo'
 import { AskedQuestion, Banner, FeaturedPrograms } from '@/features/shared'
 import { Menu } from '@/features/shared/menu'
 import { Flexbox, ImageNui, Markdown, Section, SectionTitle, Typo } from '@/nui'
 import Carousel from '@/nui/carousel/carousel'
+import { useTranslations } from 'next-intl'
 
 export default function NihonggoIsb() {
-  const { info, title, subtitle, images, content } = nihonggoIsbDataStatic
+  const t = useTranslations()
 
-  const items = images.map((image, i) => (
-    <ImageNui key={i} src={image.src} alt={image.alt} />
-  ))
+  const items = t
+    .raw('nihonggoISB.images')
+    .map((image: any, i: number) => (
+      <ImageNui key={i} src={image.src} alt={image.alt} />
+    ))
 
   return (
     <>
       <Section>
-        <SectionTitle sizeTitle="6xl" info={info} title={title} />
+        <SectionTitle
+          sizeTitle="6xl"
+          info={t('nihonggoISB.info')}
+          title={t('nihonggoISB.title')}
+        />
       </Section>
       <Section maxWidth="sm">
         <Flexbox flow="col" gap="xs" align="normal">
           <Typo size="2xl" fontWeight="bold" color="gray-900">
-            {content.title}
+            {t('nihonggoISB.content.title')}
           </Typo>
           <Flexbox gap="md">
             <div className="h-10 w-10">
-              <ImageNui src={content.image.src} alt={content.image.alt} />
+              <ImageNui
+                src={t('nihonggoISB.content.image.src')}
+                alt={t('nihonggoISB.content.image.alt')}
+              />
             </div>
-            <Markdown size="lg">{subtitle}</Markdown>
+            <Markdown size="lg">{t('nihonggoISB.subtitle')}</Markdown>
           </Flexbox>
         </Flexbox>
-        <Markdown size="lg">{content.body}</Markdown>
+        <Markdown size="lg">{t('nihonggoISB.content.body')}</Markdown>
         <Carousel items={items} />
       </Section>
       <Menu showMenuNihonggo />
