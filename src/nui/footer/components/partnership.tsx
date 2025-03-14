@@ -9,6 +9,10 @@ export default function Partnership() {
       alt: 'fursato-logo-coop-indonesia',
     },
     {
+      src: '/sponsor/coop-global.png',
+      alt: 'coop-global-logo-indonesia',
+    },
+    {
       src: '/sponsor/coop-japan-logo.png',
       alt: 'coop-japan-logo-coop-indonesia',
     },
