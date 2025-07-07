@@ -1166,7 +1166,7 @@
             "src": "/about/at-a-glance-image-1.svg",
             "alt": "at-a-glance-image-1-coop-indonesia"
           },
-          "content": "LPK COOP Indonesia melakukan proses rekrutmen calon peserta sampai pelaksanaan pendidikan dan pelatihan pra-penempatan peserta di Jepang yang telah teruji sesuai dengan kebutuhan yang diperlukan oleh perusahaan-perusahaan di Jepang yang meliputi: Bahasa dan Budaya Jepang, Fisik, Mental, Disiplin dan Pembentukan Karakter (Character Building), Pendidikan Kerohanian, Kewirausahaan dan Pelatihan teknis menyesuaikan bidang pemagangan.\n\nDalam rancangan kerangka kerja sama internasional antara Jepang dan Indonesia, LPK COOP Indonesia telah membuka kantor perwakilan di Tokyo, Osaka dan Aichi guna memperlancar pelaksanaan program penempatan peserta pemagangan di Jepang. Dan saat ini kami telah menempatkan sekitar 2,500 peserta pemagangan ke beberapa Perusahaan di Jepang di berbagai bidang antara lain: Kontruksi, Keperawatan, Pengelasan, Pertanian, Perikanan, Peternakan, Manufaktur, Industri Olahan Makanan, Tata Operasi Darat (Ground Handling), dan lain sebagainya."
+          "content": "LPK COOP Indonesia melakukan proses rekrutmen calon peserta sampai pelaksanaan pendidikan dan pelatihan pra-penempatan peserta di Jepang yang telah teruji sesuai dengan kebutuhan yang diperlukan oleh perusahaan-perusahaan di Jepang yang meliputi: Bahasa dan Budaya Jepang, Fisik, Mental, Disiplin dan Pembentukan Karakter (Character Building), Pendidikan Kerohanian, Kewirausahaan dan Pelatihan teknis menyesuaikan bidang pemagangan.\n\nDalam rancangan kerangka kerja sama internasional antara Jepang dan Indonesia, LPK COOP Indonesia telah membuka kantor perwakilan di Tokyo, Osaka dan Aichi guna memperlancar pelaksanaan program penempatan peserta pemagangan di Jepang. Dan saat ini kami telah menempatkan sekitar 3,000 peserta pemagangan ke beberapa Perusahaan di Jepang di berbagai bidang antara lain: Kontruksi, Keperawatan, Pengelasan, Pertanian, Perikanan, Peternakan, Manufaktur, Industri Olahan Makanan, Tata Operasi Darat (Ground Handling), dan lain sebagainya."
         },
         {
           "image": {
@@ -1290,6 +1290,10 @@
           {
             "name": "Ristiawan Hidayat, S.Pd.",
             "additionalInfo": "Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, JLPT N2"
+          },
+          {
+            "name": "Yunanta Trisutrisno",
+            "additionalInfo": "Alumni Peserta Magang LPK COOP Indonesia Angkatan 25, JLPT N3"
           }
         ]
       },
@@ -1317,6 +1321,13 @@
           "label": "Corporate Secretary:",
           "members": ["Rizal Muhamad Dahlan, S.Ak"]
         },
+        "paramedic": {
+          "label": "Paramedic:",
+          "members": {
+            "name": "Amelia Ageng Astuti A.Md.,Keb",
+            "additionalInfo": "D3 Keperawatan, Politeknik Kesehatan TNI AU Ciumbuleuit Bandung"
+          }
+        },
         "disciplinInstructors": {
           "label": "Instruktur Fisik, Mental dan Kedisplinan:",
           "members": [
@@ -1343,20 +1354,32 @@
               "additionalInfo": "Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, Alumni Osaka Gaigo Gakuin, JLPT N2"
             },
             {
-              "name": "Devy Ramputy, S.Pd",
+              "name": "Devy Ramputy, S.Pd.",
               "additionalInfo": "Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, JLPT N3"
             },
             {
-              "name": "Nida Siti Hanifah, S.Pd.",
-              "additionalInfo": "Sarjana (S1) Sekolah Tinggi Bahasa Asing Yapari - ABA Bandung, JLPT N3"
-            },
-            {
-              "name": "Rifa Aulia Husni Fadilla, S. Pd",
+              "name": "Omar Hafiz Shirazi, S.Pd.",
               "additionalInfo": "Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, JLPT N3"
             },
             {
-              "name": "Omar Hafiz Shirazi, S.pd",
-              "additionalInfo": "Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, JLPT N4"
+              "name": "Veny Aprilia, S. Pd.",
+              "additionalInfo": "Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, JLPT N3"
+            },
+            {
+              "name": "Yuni Cahya Maulidiani, S.Pd.",
+              "additionalInfo": "Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, JLPT N2"
+            },
+            {
+              "name": "Annisa Thiana Putri, S.AB.",
+              "additionalInfo": "Sarjana (S1) Adm.Bisnis Universitas Katholik Parahyangan, Alumni Shizuoka University, Japan, JLPT N2"
+            },
+            {
+              "name": "Estu Mustika, S.Pd.",
+              "additionalInfo": "Sarjana (S1) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, JLPT N3"
+            },
+            {
+              "name": "Gestri Galuheana, S.Pd.",
+              "additionalInfo": "Magister (S2) Pendidikan Bahasa Jepang Universitas Pendidikan Indonesia, JLPT N3"
             }
           ]
         },
@@ -1383,15 +1406,6 @@
               "additionalInfo": "Alumni LPK COOP Indonesia Angkatan 1"
             }
           ]
-        },
-        "adminAgriculture": {
-          "title": "Administrasi Pertanian:",
-          "members": [
-            {
-              "name": "Yunanta Trisutrisno",
-              "additionalInfo": "Alumni peserta magang LPK COOP Indonesia Angk 25"
-            }
-          ]
         }
       },
       "MICE": {
@@ -1412,7 +1426,7 @@
     "aboutOrganization": {
       "info": "ABOUT US",
       "title": "Sejarah",
-      "subtitle": "Didirikan pada April 2012, LPK COOP Indonesia dibentuk atas dasar keprihatinan terhadap kondisi Pertanian Indonesia, menjadi pertanyaan ketika kita sebagai Negara yang subur akan hasil alam, namun Mengapa Petani kita hidup dibawah garis kemiskinan? Mengapa Hasil Pertanian kita jauh tertinggal dari Negara tetangga di Asia Tenggara.\n\n  Salah satu faktor penyebab yang perlu dibenahi adalah kualitas Sumber Daya Manusia atau Petani Indonesia. Karena itu perlu adanya pelatihan bagi para petani Indonesia, karena itu-lah LPK COOP Indonesia membuka jejaring ke Negara Jepang sebagai salah satu Negara Maju di bidang Pertanian.\n\n Salah satu program yang ditawarkan oleh Pemerintah Jepang Ketika itu Penempatan Peserta Pemagangan, Dimana akan ada transfer teknologi dan Ilmu pengetahuan tentang bidang Pertanian di Jepang yang tentu akan sangat bermanfaat bagi para petani Indonesia kelak.\n\n Karena itu LPK COOP Indonesia memulai dengan penempatan 3 orang peserta pemagnagan di daerah Gunma-ken, Jepang pada Agustus 2012. Hingga saat ini LPK COOP Indonesia telah menempatkan lebih dari 3,000 peserta di berbagai bidang pemagangan, tidak hanya bidang pertanian saja. Karena diharapkan, para peserta pemagangan tersebut yang merupakan generasi muda usia produktif (20 sd 30 tahun) diyakini dapat membangun daerah nya masing-masing ketika Kembali ke Tanah Air pasca program pemagangan yang diikuti.\n\n Tahun 2016, Bersama dengan Furusato Indonesia, kami bekerjasama dalam program pasca pemagangan dengan membantu pelatihan pasca pemagangan dari Jepang dan Pemasaran Produk ke pasar modern, antara lain: AEON Mall, Food Hall, Jakaichi Mart, dan lain-lain.\n\n Selain itu, untuk melayani kebutuhan ataupun permasalahan peserta selama penempatan di Jepang, LPK COOP Indonesia telah membuka Kantor Perwakilan di Tokyo, Aichi dan Osaka.\n\n Diharapkan upaya ini dapat berkontribusi bagi perekonomian Indonesia dan mendorong meningkatnya kualitas Sumber Daya Manusia Indonesia, baik disektor Pertanian, Peternakan, Perikanan dan usaha-usaha lainnya.",
+      "subtitle": "Didirikan pada April 2012, LPK COOP Indonesia dibentuk atas dasar keprihatinan terhadap kondisi Pertanian Indonesia, menjadi pertanyaan ketika kita sebagai Negara yang subur akan hasil alam, namun Mengapa Petani kita hidup dibawah garis kemiskinan? Mengapa Hasil Pertanian kita jauh tertinggal dari Negara tetangga di Asia Tenggara.\n\n  Salah satu faktor penyebab yang perlu dibenahi adalah kualitas Sumber Daya Manusia atau Petani Indonesia. Karena itu perlu adanya pelatihan bagi para petani Indonesia, karena itu-lah LPK COOP Indonesia membuka jejaring ke Negara Jepang sebagai salah satu Negara Maju di bidang Pertanian.\n\n Salah satu program yang ditawarkan oleh Pemerintah Jepang Ketika itu Penempatan Peserta Pemagangan, Dimana akan ada transfer teknologi dan Ilmu pengetahuan tentang bidang Pertanian di Jepang yang tentu akan sangat bermanfaat bagi para petani Indonesia kelak.\n\n Karena itu LPK COOP Indonesia memulai dengan penempatan 3 orang peserta pemagangan di daerah Gunma-ken, Jepang pada Agustus 2012. Hingga saat ini LPK COOP Indonesia telah menempatkan lebih dari 3,000 peserta di berbagai bidang pemagangan, tidak hanya bidang pertanian saja. Karena diharapkan, para peserta pemagangan tersebut yang merupakan generasi muda usia produktif (20 sd 30 tahun) diyakini dapat membangun daerah nya masing-masing ketika Kembali ke Tanah Air pasca program pemagangan yang diikuti.\n\n Tahun 2016, Bersama dengan Furusato Indonesia, kami bekerjasama dalam program pasca pemagangan dengan membantu pelatihan pasca pemagangan dari Jepang dan Pemasaran Produk ke pasar modern, antara lain: AEON Mall, Food Hall, Jakaichi Mart, dan lain-lain.\n\n Selain itu, untuk melayani kebutuhan ataupun permasalahan peserta selama penempatan di Jepang, LPK COOP Indonesia telah membuka Kantor Perwakilan di Tokyo, Aichi dan Osaka.\n\n Diharapkan upaya ini dapat berkontribusi bagi perekonomian Indonesia dan mendorong meningkatnya kualitas Sumber Daya Manusia Indonesia, baik disektor Pertanian, Peternakan, Perikanan dan usaha-usaha lainnya.",
       "addresses": [
         {
           "title": "Kantor Pusat",
