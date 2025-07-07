@@ -45,7 +45,7 @@ export default function Agriculture() {
                 ))}
             </Fields>
           </Flexbox>
-          <Flexbox flow="col" gap="sm" align="start">
+          {/* <Flexbox flow="col" gap="sm" align="start">
             <Fields
               label={t(
                 'aboutPage.aboutOrganizationStructure.agriculture.adminAgriculture.title'
@@ -64,7 +64,7 @@ export default function Agriculture() {
                   </Field>
                 ))}
             </Fields>
-          </Flexbox>
+          </Flexbox> */}
         </div>
       </Flexbox>
     </>

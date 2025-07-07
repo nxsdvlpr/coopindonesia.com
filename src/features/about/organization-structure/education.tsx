@@ -56,6 +56,22 @@ export default function Education() {
                   <Field key={index}>{item}</Field>
                 ))}
             </Fields>
+            <Fields
+              label={t(
+                'aboutPage.aboutOrganizationStructure.education.paramedic.label'
+              )}
+            >
+              <Field>
+                {t.raw(
+                  'aboutPage.aboutOrganizationStructure.education.paramedic.members.name'
+                )}
+                <p className="text-gray-500">
+                  {t.raw(
+                    'aboutPage.aboutOrganizationStructure.education.paramedic.members.additionalInfo'
+                  )}
+                </p>
+              </Field>
+            </Fields>
           </Flexbox>
           <div className="w-full">
             <Fields
