@@ -56,22 +56,35 @@ export default function HeadOffice() {
               </Field>
             ))}
         </Fields>
-        <div className="flex lg:col-span-2 lg:justify-center">
-          <Fields
-            label={t(
-              'aboutPage.aboutOrganizationStructure.headOffice.generalAffair.label'
-            )}
-          >
-            {t
-              .raw(
-                'aboutPage.aboutOrganizationStructure.headOffice.generalAffair'
-              )
-              .members.map((item: any, index: number) => (
-                <Field key={index}>{item}</Field>
-              ))}
-          </Fields>
-        </div>
+        {/* <div className="grid grid-cols-1 gap-x-6 gap-y-8 lg:col-span-2 lg:grid-cols-2"> */}
+        <Fields
+          label={t(
+            'aboutPage.aboutOrganizationStructure.headOffice.humanResourceDevelopment.label'
+          )}
+        >
+          {t
+            .raw(
+              'aboutPage.aboutOrganizationStructure.headOffice.humanResourceDevelopment'
+            )
+            .members.map((item: any, index: number) => (
+              <Field key={index}>{item}</Field>
+            ))}
+        </Fields>
+        <Fields
+          label={t(
+            'aboutPage.aboutOrganizationStructure.headOffice.generalAffair.label'
+          )}
+        >
+          {t
+            .raw(
+              'aboutPage.aboutOrganizationStructure.headOffice.generalAffair'
+            )
+            .members.map((item: any, index: number) => (
+              <Field key={index}>{item}</Field>
+            ))}
+        </Fields>
       </div>
+      {/* </div> */}
     </>
   )
 }

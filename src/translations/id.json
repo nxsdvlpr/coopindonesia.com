@@ -1233,11 +1233,6 @@
             "src": "/profile/leila-djawas.png"
           },
           {
-            "name": "Selvy Rahmika, A.Ma S.Kom",
-            "position": "Personalia (HRD)",
-            "src": "/profile/selvy-rahmika.png"
-          },
-          {
             "name": "Sandy B.Y Bangapadang, S.H.",
             "position": "Legal Advisor",
             "src": "/profile/sandy-b.png"
@@ -1273,6 +1268,13 @@
         "generalAffair": {
           "label": "General Affair:",
           "members": ["Slamet Raharjo", "Sugeng Riyadi", "Chafid"]
+        },
+        "humanResourceDevelopment": {
+          "label": "Human Resource Development (HRD):",
+          "members": [
+            "Selvy Rahmika, A.Ma S.Kom.",
+            "Richard Soelaiman B.A. CommSt."
+          ]
         }
       },
       "development": {
