@@ -25,6 +25,25 @@ export default function HeadOffice() {
             />
           ))}
       </div>
+      <div className="mt-4 flex flex-col gap-y-4">
+        <div className="text-center">
+          <Typo size="xl" color="gray-900" fontWeight="bold">
+            {t('aboutPage.aboutOrganizationStructure.headOffice.hrd.title')}
+          </Typo>
+        </div>
+        <div className="flex flex-col lg:flex-row">
+          {t
+            .raw('aboutPage.aboutOrganizationStructure.headOffice.hrd.members')
+            .map((member: any, index: number) => (
+              <ContactInfo
+                key={index}
+                name={member.name}
+                position={member.position}
+                src={member.src}
+              />
+            ))}
+        </div>
+      </div>
       <div className="grid gap-y-8 lg:grid-cols-2">
         <Fields
           label={t(
@@ -52,7 +71,7 @@ export default function HeadOffice() {
             .members.map((item: any, index: number) => (
               <Field key={index}>
                 {item.name}
-                <p className=" text-gray-500">{item.additionalInfo}</p>
+                <p className="text-gray-500">{item.additionalInfo}</p>
               </Field>
             ))}
         </Fields>
