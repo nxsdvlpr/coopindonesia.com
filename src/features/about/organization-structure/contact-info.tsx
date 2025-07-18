@@ -49,7 +49,7 @@ export default function ContactInfo({
             </Typo>
             <Typo color="gray-400">{position}</Typo>
             {children && (
-              <div className="max-w-[18.75rem]">
+              <div className="mx-auto max-w-[18.75rem]">
                 <Typo size="md" color="gray-500">
                   {children}
                 </Typo>
