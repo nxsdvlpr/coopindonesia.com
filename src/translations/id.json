@@ -1242,11 +1242,6 @@
           "title": "Human Resource Development",
           "members": [
             {
-              "name": "Selvy Rahmika, A.Ma S.Kom",
-              "position": "HRD",
-              "src": "/profile/selvy-rahmika.png"
-            },
-            {
               "name": "Richard Soelaiman B.A. CommSt.",
               "position": "HRD",
               "src": "/profile/richard-soelaiman.png"
@@ -1356,6 +1351,10 @@
             {
               "name": "Gun Gun Gunawan",
               "additionalInfo": "Alumni LPK COOP Indonesia Angkatan 15"
+            },
+            {
+              "name": "Gugun Gunawan",
+              "additionalInfo": "Alumni LPK COOP Indonesia Angkatan 29"
             }
           ]
         },

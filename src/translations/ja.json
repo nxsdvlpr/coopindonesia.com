@@ -1245,11 +1245,6 @@
           "title": "人材育成",
           "members": [
             {
-              "name": "Selvy Rahmika, A.Ma S.Kom",
-              "position": "HRD",
-              "src": "/profile/selvy-rahmika.png"
-            },
-            {
               "name": "Richard Soelaiman B.A. CommSt.",
               "position": "HRD",
               "src": "/profile/richard-soelaiman.png"
@@ -1373,6 +1368,10 @@
             {
               "name": "Gun gun Gunawan　（グングン　グナワン）",
               "additionalInfo": "（LPKコープインドネシア第15期卒業生）"
+            },
+            {
+              "name": "Gugun Gunawan",
+              "additionalInfo": "（LPKコープインドネシア第29期卒業生）"
             }
           ]
         },
