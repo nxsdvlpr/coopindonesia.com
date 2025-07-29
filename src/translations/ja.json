@@ -1231,7 +1231,7 @@
         "title": "本部",
         "members": [
           {
-            "name": "Leila Djawas（レイラ　ジャワス",
+            "name": "Leila Djawas（レイラ　ジャワス）",
             "position": "顧問",
             "src": "/profile/leila-djawas.png"
           },
@@ -1244,11 +1244,6 @@
         "hrd": {
           "title": "人材育成",
           "members": [
-            {
-              "name": "Selvy Rahmika, A.Ma S.Kom",
-              "position": "HRD",
-              "src": "/profile/selvy-rahmika.png"
-            },
             {
               "name": "Richard Soelaiman B.A. CommSt.",
               "position": "HRD",
@@ -1292,6 +1287,13 @@
             "Slamet Raharjo　（スラメット　ラハルジョ）",
             "Sugeng Riyadi　（スゲン　リヤディ）",
             "Chafid　（ハフィド）"
+          ]
+        },
+        "humanResourceDevelopment": {
+          "label": "Human Resource Development (HRD):",
+          "members": [
+            "Selvy Rahmika, A.Ma S.Kom.",
+            "Richard Soelaiman B.A. CommSt."
           ]
         }
       },
@@ -1366,6 +1368,10 @@
             {
               "name": "Gun gun Gunawan　（グングン　グナワン）",
               "additionalInfo": "（LPKコープインドネシア第15期卒業生）"
+            },
+            {
+              "name": "Gugun Gunawan",
+              "additionalInfo": "（LPKコープインドネシア第29期卒業生）"
             }
           ]
         },
